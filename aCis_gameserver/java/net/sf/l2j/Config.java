@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.EnumMap;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -14,7 +15,10 @@ import java.util.StringTokenizer;
 import net.sf.l2j.commons.config.ExProperties;
 import net.sf.l2j.commons.logging.CLogger;
 
+import net.sf.l2j.gameserver.enums.ChampionType;
 import net.sf.l2j.gameserver.enums.GeoType;
+import net.sf.l2j.gameserver.model.ChampionSettings;
+import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
 import net.sf.l2j.gameserver.model.holder.IntIntHolder;
 
 /**
@@ -23,6 +27,7 @@ import net.sf.l2j.gameserver.model.holder.IntIntHolder;
  */
 public final class Config
 {
+	public static final Map<ChampionType, ChampionSettings> CHAMPION_MOBS = new EnumMap<>(ChampionType.class);
 	private static final String MODS_OFFLINE_SHOP_FILE = "./config/mods/offlineshop.properties";
 	public static boolean OFFLINE_TRADE_ENABLE;
 	public static boolean OFFLINE_CRAFT_ENABLE;
@@ -87,6 +92,7 @@ public final class Config
 	
 	private static final CLogger LOGGER = new CLogger(Config.class.getName());
 	
+	private static final String CHAMPION_MOBS_FILE = "./config/mods/championmobs.properties";
 	private static final String CLANS_FILE = "./config/clans.properties";
 	private static final String EVENTS_FILE = "./config/events.properties";
 	public static final String GEOENGINE_FILE = "./config/geoengine.properties";
@@ -590,6 +596,43 @@ public final class Config
 		}
 		
 		return result;
+	}
+	
+	/**
+	 * Loads champion mobs settings.
+	 */
+	private static final void loadChampionMobs()
+	{
+		final ExProperties championMobs = initProperties(CHAMPION_MOBS_FILE);
+
+		CHAMPION_MOBS.clear();
+
+		// Both flavors are read out of the very same keys, only prefixed by their own name.
+		for (ChampionType type : ChampionType.values())
+		{
+			final String prefix = "ChampionMobs" + type.getPrefix();
+
+			final ChampionSettings settings = new ChampionSettings(type);
+
+			settings.setEnabled(championMobs.getProperty(prefix + "Enable", false));
+			settings.setPassive(championMobs.getProperty(prefix + "Passive", false));
+			settings.setFrequency(championMobs.getProperty(prefix + "Frequency", 0));
+			settings.setTitle(championMobs.getProperty(prefix + "Title", "Champion"));
+			// The title takes the name's color when the config names none of its own, which is what one single color used to mean.
+			final String nameColor = championMobs.getProperty(prefix + "NameColor", String.format("%06X", type.getDefaultNameColor()));
+			settings.setNameColor(NpcTemplate.parseNameColor(nameColor));
+			settings.setTitleColor(NpcTemplate.parseNameColor(championMobs.getProperty(prefix + "TitleColor", nameColor)));
+
+			settings.setLevelRange(championMobs.getProperty(prefix + "MinLevel", 1), championMobs.getProperty(prefix + "MaxLevel", 85));
+
+			settings.setStatMultipliers(championMobs.getProperty(prefix + "HpMultiplier", 1), championMobs.getProperty(prefix + "PAtkMultiplier", 1.), championMobs.getProperty(prefix + "PDefMultiplier", 1.), championMobs.getProperty(prefix + "MAtkMultiplier", 1.), championMobs.getProperty(prefix + "MDefMultiplier", 1.));
+			settings.setRewardMultipliers(championMobs.getProperty(prefix + "XpMultiplier", 1.), championMobs.getProperty(prefix + "SpMultiplier", 1.), championMobs.getProperty(prefix + "AdenaMultiplier", 1.), Math.max(0., championMobs.getProperty(prefix + "DropMultiplier", 2.)), Math.max(0., championMobs.getProperty(prefix + "SpoilMultiplier", 2.)));
+
+			settings.setDrops(ChampionSettings.parseDrops(prefix + "Drop", championMobs.getProperty(prefix + "Drop", "")));
+			settings.setSchedule(championMobs.getProperty(prefix + "Schedule", ""));
+
+			CHAMPION_MOBS.put(type, settings);
+		}
 	}
 	
 	/**
@@ -1151,6 +1194,7 @@ public final class Config
 	public static final void loadGameServer()
 	{
 		LOGGER.info("Loading gameserver configuration files.");
+		loadChampionMobs();
 		
 		// clans settings
 		loadGatekeeper();

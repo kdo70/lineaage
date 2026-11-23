@@ -2,6 +2,8 @@ package net.sf.l2j.gameserver.network.serverpackets;
 
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.data.sql.ClanTable;
+import net.sf.l2j.gameserver.enums.TeamType;
+import net.sf.l2j.gameserver.model.ChampionSettings;
 import net.sf.l2j.gameserver.model.actor.Creature;
 import net.sf.l2j.gameserver.model.actor.Npc;
 import net.sf.l2j.gameserver.model.actor.Player;
@@ -64,6 +66,9 @@ public abstract class AbstractNpcInfo extends L2GameServerPacket
 	public static class NpcInfo extends AbstractNpcInfo
 	{
 		private final Npc _npc;
+		private final int _team;
+		private int _nameColor = NpcTemplate.NO_NAME_COLOR;
+		private int _titleColor = NpcTemplate.NO_NAME_COLOR;
 		
 		public NpcInfo(Npc npc, Player attacker)
 		{
@@ -105,6 +110,22 @@ public abstract class AbstractNpcInfo extends L2GameServerPacket
 			if (Config.SHOW_NPC_LVL && _npc instanceof Monster monster)
 				_title = "Lv " + monster.getStatus().getLevel() + (monster.getTemplate().getAggroRange() > 0 ? "* " : " ") + _title;
 			
+			// A champion glows with the aura of its own flavor, and wears its colors : one single color paints both its name and its title. An empty title leaves the datapack one alone.
+			final ChampionSettings champion = _npc.getChampionSettings();
+			if (champion != null)
+			{
+				_team = champion.getType().getTeam().getId();
+
+				if (!champion.getTitle().isEmpty())
+					_title = champion.getTitle();
+
+				if (champion.getNameColor() != NpcTemplate.NO_NAME_COLOR)
+					_nameColor = champion.getNameColor();
+				_titleColor = champion.getTitleColor();
+			}
+			else
+				_team = TeamType.NONE.getId();
+
 			// NPC crest system
 			if (Config.SHOW_NPC_CREST)
 			{
@@ -185,13 +206,19 @@ public abstract class AbstractNpcInfo extends L2GameServerPacket
 			writeD(_allyCrest);
 			
 			writeC(_npc.getMove().getMoveType().getId());
-			writeC(0x00);
+			// Champion mobs glow with a team aura, like duel opponents : a red one for the red flavor, a blue one for the blue one.
+			writeC(_team);
 			
 			writeF(_collisionRadius);
 			writeF(_collisionHeight);
 			
 			writeD(_enchantEffect);
 			writeD(_npc.isFlying() ? 1 : 0);
+			if (_nameColor != NpcTemplate.NO_NAME_COLOR || _titleColor != NpcTemplate.NO_NAME_COLOR)
+			{
+				writeD(_nameColor == NpcTemplate.NO_NAME_COLOR ? 0 : 0xC0000000 | (_nameColor & 0xFFFFFF));
+				writeD(_titleColor == NpcTemplate.NO_NAME_COLOR ? 0 : 0xC1000000 | (_titleColor & 0xFFFFFF));
+			}
 		}
 	}
 	

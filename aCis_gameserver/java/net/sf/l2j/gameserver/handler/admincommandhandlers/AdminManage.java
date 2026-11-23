@@ -124,7 +124,9 @@ public class AdminManage implements IAdminCommandHandler
 			return;
 		
 		creature.stopAllEffects();
-		creature.reduceCurrentHp(creature.getStatus().getMaxHp() + creature.getStatus().getMaxCp() + 1d, player, null);
+		final double damage = creature.getStatus().getMaxHp() + creature.getStatus().getMaxCp() + 1d;
+		final double hpMultiplier = creature.isChampion() ? Math.max(1, creature.getChampionSettings().getHpMultiplier()) : 1;
+		creature.reduceCurrentHp(damage * hpMultiplier, player, null);
 	}
 	
 	private static void resurrect(Creature creature)

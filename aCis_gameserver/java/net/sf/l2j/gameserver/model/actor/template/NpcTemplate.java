@@ -27,6 +27,29 @@ import net.sf.l2j.gameserver.skills.L2Skill;
 
 public class NpcTemplate extends CreatureTemplate
 {
+	private static final net.sf.l2j.commons.logging.CLogger LOGGER = new net.sf.l2j.commons.logging.CLogger(NpcTemplate.class.getName());
+	public static final int NO_NAME_COLOR = -1;
+	public static int parseNameColor(String value)
+	{
+		if (value == null || value.isEmpty())
+			return NO_NAME_COLOR;
+
+		if (value.length() == 6)
+		{
+			try
+			{
+				return Integer.parseInt(value, 16);
+			}
+			catch (NumberFormatException e)
+			{
+				// Handled by the warn below.
+			}
+		}
+
+		LOGGER.warn("Invalid nameColor '{}' ; 6 hexadecimal digits (RRGGBB) were expected.", value);
+		return NO_NAME_COLOR;
+	}
+
 	private final int _npcId;
 	private final int _idTemplate;
 	

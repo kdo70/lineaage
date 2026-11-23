@@ -47,12 +47,17 @@ public class DropCategory extends ArrayList<DropData>
 	 */
 	public Map<Integer, Integer> calculateDrop(double levelMultiplier, boolean raid)
 	{
+		return calculateDrop(levelMultiplier, raid, 1.);
+	}
+
+	public Map<Integer, Integer> calculateDrop(double levelMultiplier, boolean raid, double multiplier)
+	{
 		// If base chance or multiplier is 0, return directly.
 		if (_chance == 0. || levelMultiplier == 0.)
 			return Collections.emptyMap();
 		
 		// Retrieve the Config rate. If rate is 0, return directly.
-		final double rate = getDropType().getDropRate(raid);
+		final double rate = getDropType().getDropRate(raid) * multiplier;
 		if (rate == 0.)
 			return Collections.emptyMap();
 		

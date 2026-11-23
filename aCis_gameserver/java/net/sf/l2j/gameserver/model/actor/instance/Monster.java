@@ -10,8 +10,11 @@ import java.util.concurrent.ScheduledFuture;
 
 import net.sf.l2j.commons.math.MathUtil;
 import net.sf.l2j.commons.pool.ThreadPool;
+import net.sf.l2j.commons.random.Rnd;
 
 import net.sf.l2j.Config;
+import net.sf.l2j.gameserver.enums.ChampionType;
+import net.sf.l2j.gameserver.model.ChampionSettings;
 import net.sf.l2j.gameserver.data.manager.CursedWeaponManager;
 import net.sf.l2j.gameserver.enums.BossInfoType;
 import net.sf.l2j.gameserver.enums.DropType;
@@ -30,6 +33,7 @@ import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
 import net.sf.l2j.gameserver.model.group.CommandChannel;
 import net.sf.l2j.gameserver.model.group.Party;
 import net.sf.l2j.gameserver.model.item.DropCategory;
+import net.sf.l2j.gameserver.model.item.DropData;
 import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
 import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
@@ -56,6 +60,8 @@ public class Monster extends Attackable
 	
 	private boolean _isRaidRelated;
 	
+	private ChampionType _championType;
+
 	public Monster(int objectId, NpcTemplate template)
 	{
 		super(objectId, template);
@@ -154,7 +160,15 @@ public class Monster extends Attackable
 					int sp = expSp[1];
 					
 					exp *= 1 - penalty;
-					
+
+					// Champion mobs give more XP/SP.
+					final ChampionSettings champion = getChampionSettings();
+					if (champion != null)
+					{
+						exp *= champion.getXpMultiplier();
+						sp *= champion.getSpMultiplier();
+					}
+
 					// Test over-hit.
 					if (_overhitState.isValidOverhit(attacker))
 					{
@@ -226,6 +240,14 @@ public class Monster extends Attackable
 				long exp = (long) (expSp[0] * partyMul);
 				int sp = (int) (expSp[1] * partyMul);
 				
+				// Champion mobs give more XP/SP.
+				final ChampionSettings champion = getChampionSettings();
+				if (champion != null)
+				{
+					exp *= champion.getXpMultiplier();
+					sp *= champion.getSpMultiplier();
+				}
+
 				// Test over-hit.
 				if (_overhitState.isValidOverhit(attacker))
 				{
@@ -243,6 +265,10 @@ public class Monster extends Attackable
 	@Override
 	public boolean isAggressive()
 	{
+		final ChampionSettings champion = getChampionSettings();
+		if (champion != null && champion.isPassive())
+			return false;
+
 		return getTemplate().getAggroRange() > 0;
 	}
 	
@@ -251,6 +277,9 @@ public class Monster extends Attackable
 	{
 		super.onSpawn();
 		
+		// Roll the champion status. Raid bosses, minions and summoned monsters are excluded.
+		setChampionType(rollChampionType());
+
 		// Clear over-hit state.
 		_overhitState.clear();
 		
@@ -322,6 +351,114 @@ public class Monster extends Attackable
 	public void setRaidRelated()
 	{
 		_isRaidRelated = true;
+	}
+	
+	@Override
+	public boolean isChampion()
+	{
+		return _championType != null;
+	}
+
+	@Override
+	public ChampionSettings getChampionSettings()
+	{
+		return (_championType == null) ? null : Config.CHAMPION_MOBS.get(_championType);
+	}
+
+	/**
+	 * @return The flavor of champion this {@link Monster} is, null when it isn't one.
+	 */
+	public ChampionType getChampionType()
+	{
+		return _championType;
+	}
+
+	/**
+	 * Set this {@link Monster} as a champion mob, which got boosted stats and rewards.
+	 * @param type : The flavor of champion to set, null making it a regular monster back.
+	 */
+	public void setChampionType(ChampionType type)
+	{
+		_championType = type;
+	}
+
+	/**
+	 * @return True if this {@link Monster} is allowed to become a champion at all, whatever the configs say. Overriden by the {@link Monster}s which aren't fought the regular way - a chest is opened,
+	 *         not hunted, so a champion one would only be a chest nobody can crack.
+	 */
+	public boolean canBeChampion()
+	{
+		return true;
+	}
+
+	/**
+	 * Roll the flavor of champion this {@link Monster} spawns as. Chests, raid bosses, minions and summoned monsters are excluded, and so is any flavor which isn't running right now - either because
+	 * it is disabled, or because the hour sits outside of its schedule.<br>
+	 * <br>
+	 * The flavors are rolled one after the other and the first hit wins, but the starting point is picked at random : rolling them in a fixed order would give the first one of the list every monster
+	 * both of them could have taken.
+	 * @return The flavor this {@link Monster} becomes a champion of, null when it stays a regular monster.
+	 */
+	private ChampionType rollChampionType()
+	{
+		if (!canBeChampion() || isRaidRelated() || hasMaster())
+			return null;
+
+		final ChampionType[] types = ChampionType.values();
+		final int offset = Rnd.get(types.length);
+		final int level = getStatus().getLevel();
+
+		for (int i = 0; i < types.length; i++)
+		{
+			final ChampionType type = types[(i + offset) % types.length];
+			final ChampionSettings settings = Config.CHAMPION_MOBS.get(type);
+
+			if (settings == null || !settings.isActive() || !settings.isAllowedLevel(level))
+				continue;
+
+			if (Rnd.get(100) < settings.getFrequency())
+				return type;
+		}
+
+		return null;
+	}
+
+	/**
+	 * The champion bonus applied on the drop rates, which are amounts of rolls of a category rather than chance multipliers - so a x2 is a category rolled twice as often, not a doubled chance.<br>
+	 * <br>
+	 * The currency categories are left alone, since the adena of a champion is already scaled by its own adena multiplier, and so are the herbs.
+	 * @param type : The {@link DropType} of the evaluated {@link DropCategory}.
+	 * @return The multiplier applied on the Config rate of the given {@link DropType}, 1 when this instance isn't a champion.
+	 */
+	public double getChampionRateMultiplier(DropType type)
+	{
+		final ChampionSettings champion = getChampionSettings();
+		if (champion == null)
+			return 1.;
+
+		switch (type)
+		{
+			case DROP:
+				return champion.getDropMultiplier();
+
+			case SPOIL:
+				return champion.getSpoilMultiplier();
+
+			default:
+				return 1.;
+		}
+	}
+
+	/**
+	 * A champion doesn't own a bigger HP pool ; it takes reduced damages instead (see {@link Creature#reduceCurrentHp}), which acts as one.
+	 * @return The amount of HP that has to be dealt to kill this {@link Monster}, the champion damage reduction folded in.
+	 */
+	public long getEffectiveMaxHp()
+	{
+		final long maxHp = getStatus().getMaxHp();
+		final ChampionSettings champion = getChampionSettings();
+
+		return (champion != null && champion.getHpMultiplier() > 1) ? maxHp * champion.getHpMultiplier() : maxHp;
 	}
 	
 	public OverhitState getOverhitState()
@@ -465,7 +602,9 @@ public class Monster extends Attackable
 		
 		// Calculate level multiplier.
 		final double levelMultiplier = calculateLevelMultiplier(player);
-		
+
+		final ChampionSettings champion = getChampionSettings();
+
 		// Evaluate all drop categories.
 		final boolean isSpoiled = getSpoilState().isSpoiled();
 		final boolean isBlockingDrops = getSeedState().isSeeded() && !getSeedState().getSeed().isAlternative();
@@ -483,15 +622,28 @@ public class Monster extends Attackable
 				continue;
 			
 			// Calculate drops of this category.
-			final Map<Integer, Integer> drops = category.calculateDrop(levelMultiplier, isRaid);
+			final Map<Integer, Integer> drops = category.calculateDrop(levelMultiplier, isRaid, getChampionRateMultiplier(type));
 			for (Entry<Integer, Integer> drop : drops.entrySet())
 			{
 				if (type == DropType.SPOIL)
 					getSpoilState().put(drop.getKey(), drop.getValue());
 				else if (type == DropType.HERB)
 					dropOrAutoLootHerb(player, drop.getKey(), drop.getValue());
+				// Champion mobs drop more adena.
+				else if (drop.getKey() == 57 && champion != null)
+					dropOrAutoLootItem(player, drop.getKey(), (int) (drop.getValue() * champion.getAdenaMultiplier()));
 				else
 					dropOrAutoLootItem(player, drop.getKey(), drop.getValue());
+			}
+		}
+
+		// Drop the extra rewards of the champion, on top of the table of its own template. Each one is rolled on its own, and carries the very same deep blue penalty as any other drop.
+		if (champion != null)
+		{
+			for (DropData drop : champion.getDrops())
+			{
+				if (Rnd.get(DropData.MAX_CHANCE) < drop.chance() * DropData.PERCENT_CHANCE * levelMultiplier)
+					dropOrAutoLootItem(player, drop.itemId(), drop.getRandomDrop());
 			}
 		}
 	}
