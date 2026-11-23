@@ -23,6 +23,37 @@ import net.sf.l2j.gameserver.model.holder.IntIntHolder;
  */
 public final class Config
 {
+	private static final String MODS_OFFLINE_SHOP_FILE = "./config/mods/offlineshop.properties";
+	public static boolean OFFLINE_TRADE_ENABLE;
+	public static boolean OFFLINE_CRAFT_ENABLE;
+	public static boolean OFFLINE_MODE_IN_PEACE_ZONE;
+	public static boolean OFFLINE_MODE_NO_DAMAGE;
+	
+	/** Display */
+	public static boolean OFFLINE_SET_NAME_COLOR;
+	public static int OFFLINE_NAME_COLOR;
+	
+	/** Restore */
+	public static boolean RESTORE_OFFLINERS;
+	public static int OFFLINE_MAX_DAYS;
+	public static boolean OFFLINE_DISCONNECT_FINISHED;
+	private static final void loadOfflineShop()
+	{
+		final ExProperties offlineShop = initProperties(MODS_OFFLINE_SHOP_FILE);
+		
+		OFFLINE_TRADE_ENABLE = offlineShop.getProperty("OfflineTradeEnable", false);
+		OFFLINE_CRAFT_ENABLE = offlineShop.getProperty("OfflineCraftEnable", false);
+		OFFLINE_MODE_IN_PEACE_ZONE = offlineShop.getProperty("OfflineModeInPeaceZone", false);
+		OFFLINE_MODE_NO_DAMAGE = offlineShop.getProperty("OfflineModeNoDamage", false);
+		
+		OFFLINE_SET_NAME_COLOR = offlineShop.getProperty("OfflineSetNameColor", false);
+		OFFLINE_NAME_COLOR = Integer.decode("0x" + offlineShop.getProperty("OfflineNameColor", "808080"));
+		
+		RESTORE_OFFLINERS = offlineShop.getProperty("RestoreOffliners", false);
+		OFFLINE_MAX_DAYS = offlineShop.getProperty("OfflineMaxDays", 10);
+		OFFLINE_DISCONNECT_FINISHED = offlineShop.getProperty("OfflineDisconnectFinished", true);
+	}
+
 	private static final String MODS_GATEKEEPER_FILE = "./config/mods/gatekeeper.properties";
 	public static int GATEKEEPER_ROWS_PER_PAGE;
 	public static int GATEKEEPER_POPULAR_LIMIT;
@@ -1132,6 +1163,7 @@ public final class Config
 		loadGeoengine();
 		
 		// hexID
+		loadOfflineShop();
 		loadHexID();
 		
 		// NPCs/monsters settings

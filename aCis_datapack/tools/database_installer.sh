@@ -90,6 +90,8 @@ $MYG < ../sql/castle_doorupgrade.sql &> /dev/null
 $MYG < ../sql/castle_manor_procure.sql &> /dev/null
 $MYG < ../sql/castle_manor_production.sql &> /dev/null
 $MYG < ../sql/castle_trapupgrade.sql &> /dev/null
+$MYG < ../sql/character_offline_trade.sql &> /dev/null
+$MYG < ../sql/character_offline_trade_items.sql &> /dev/null
 $MYG < ../sql/character_hennas.sql &> /dev/null
 $MYG < ../sql/character_macroses.sql &> /dev/null
 $MYG < ../sql/character_memo.sql &> /dev/null

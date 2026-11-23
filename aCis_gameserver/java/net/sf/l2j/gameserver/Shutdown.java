@@ -22,6 +22,7 @@ import net.sf.l2j.gameserver.data.manager.SevenSignsManager;
 import net.sf.l2j.gameserver.data.manager.SpawnManager;
 import net.sf.l2j.gameserver.data.manager.ZoneManager;
 import net.sf.l2j.gameserver.data.sql.ServerMemoTable;
+import net.sf.l2j.gameserver.data.sql.OfflineTradersTable;
 import net.sf.l2j.gameserver.data.xml.ScriptData;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.actor.Player;
@@ -83,6 +84,17 @@ public class Shutdown extends Thread
 		if (this == SingletonHolder.INSTANCE)
 		{
 			StringUtil.printSection("Under " + MODE_TEXT[_shutdownMode] + " process");
+			
+			// Save offline shops.
+			try
+			{
+				if ((Config.OFFLINE_TRADE_ENABLE || Config.OFFLINE_CRAFT_ENABLE) && Config.RESTORE_OFFLINERS)
+					OfflineTradersTable.getInstance().storeOffliners();
+			}
+			catch (Exception e)
+			{
+				LOGGER.error("Error while saving offline shops.", e);
+			}
 			
 			// Disconnect players.
 			try

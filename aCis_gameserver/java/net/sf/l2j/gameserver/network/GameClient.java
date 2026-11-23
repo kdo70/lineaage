@@ -22,9 +22,12 @@ import net.sf.l2j.gameserver.LoginServerThread;
 import net.sf.l2j.gameserver.data.sql.ClanTable;
 import net.sf.l2j.gameserver.data.sql.PlayerInfoTable;
 import net.sf.l2j.gameserver.enums.FloodProtector;
+import net.sf.l2j.gameserver.enums.MessageType;
+import net.sf.l2j.gameserver.enums.ZoneId;
 import net.sf.l2j.gameserver.model.CharSelectSlot;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.actor.Player;
+import net.sf.l2j.gameserver.model.olympiad.OlympiadManager;
 import net.sf.l2j.gameserver.model.pledge.Clan;
 import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
 import net.sf.l2j.gameserver.network.serverpackets.L2GameServerPacket;
@@ -208,6 +211,43 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> imple
 				if (getPlayer() != null && !isDetached())
 				{
 					setDetached(true);
+					
+					// The Player keeps his shop opened and remains in the world.
+					if (offlineMode(getPlayer()))
+					{
+						// Remove the Player from his Party and from any PartyMatchRoom, if any.
+						if (getPlayer().isInParty())
+							getPlayer().getParty().removePartyMember(getPlayer(), MessageType.DISCONNECTED);
+						
+						getPlayer().removeMeFromPartyMatch();
+						
+						// Unregister the Player from the Olympiad waiting list, if any.
+						if (OlympiadManager.getInstance().isRegistered(getPlayer()))
+							OlympiadManager.getInstance().unRegisterNoble(getPlayer());
+						
+						// Unsummon any Summon and TamedBeast.
+						if (getPlayer().getSummon() != null)
+							getPlayer().getSummon().unSummon(getPlayer());
+						
+						if (getPlayer().getTamedBeast() != null)
+							getPlayer().getTamedBeast().deleteMe();
+						
+						if (Config.OFFLINE_SET_NAME_COLOR)
+						{
+							getPlayer().getAppearance().setNameColor(Config.OFFLINE_NAME_COLOR);
+							getPlayer().broadcastUserInfo();
+						}
+						
+						if (getPlayer().getOfflineStartTime() == 0)
+							getPlayer().setOfflineStartTime(System.currentTimeMillis());
+						
+						// The session isn't active anymore ; release the account on both this GameServer and the LoginServer.
+						LoginServerThread.getInstance().sendLogout(GameClient.this);
+						
+						LOGGER.info("{} has entered offline shop mode.", getPlayer().getName());
+						return;
+					}
+					
 					fast = !getPlayer().isInCombat() && !getPlayer().isLocked();
 				}
 				cleanMe(fast);
@@ -540,9 +580,26 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> imple
 		if (player == null)
 			return Player.restore(objectId);
 		
-		// We found an existing Player ; abort the connection if a GameClient is found, otherwise delete the object.
+		// We found an existing Player ; abort the connection if an active GameClient is found.
 		if (player.getClient() != null)
+		{
+			// The Player holds an offline shop ; close the shop, then take over the character.
+			if (player.getClient().isDetached())
+			{
+				final GameClient offlineClient = player.getClient();
+				
+				player.setClient(null);
+				player.deleteMe();
+				
+				// Clean the offline client (auto save task notably), it doesn't hold any Player anymore.
+				offlineClient.setPlayer(null);
+				offlineClient.cleanMe(true);
+				
+				return Player.restore(objectId);
+			}
+			
 			player.getClient().closeNow();
+		}
 		else
 			player.deleteMe();
 		
@@ -573,7 +630,41 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> imple
 	
 	public void close(L2GameServerPacket gsp)
 	{
+		if (getConnection() == null)
+			return;
+		
 		getConnection().close(gsp);
+	}
+	
+	/**
+	 * @param player : The {@link Player} to test.
+	 * @return True if the {@link Player} is allowed to remain in the world as an offline shop, false otherwise.
+	 */
+	public static boolean offlineMode(Player player)
+	{
+		if (player.isInOlympiadMode() || player.isFestivalParticipant() || player.isInJail() || player.isInBoat())
+			return false;
+		
+		boolean canSetShop;
+		switch (player.getOperateType())
+		{
+			case BUY, SELL, PACKAGE_SELL:
+				canSetShop = Config.OFFLINE_TRADE_ENABLE;
+				break;
+			
+			case MANUFACTURE:
+				canSetShop = Config.OFFLINE_CRAFT_ENABLE;
+				break;
+			
+			default:
+				canSetShop = false;
+				break;
+		}
+		
+		if (canSetShop && Config.OFFLINE_MODE_IN_PEACE_ZONE && !player.isInsideZone(ZoneId.PEACE))
+			canSetShop = false;
+		
+		return canSetShop;
 	}
 	
 	/**
@@ -634,7 +725,7 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> imple
 			setPlayer(null);
 			
 			// Send logout packet, remove the client from connected clients.
-			LoginServerThread.getInstance().sendLogout(getAccountName());
+			LoginServerThread.getInstance().sendLogout(GameClient.this);
 		}
 	}
 	

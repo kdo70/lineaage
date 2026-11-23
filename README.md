@@ -16,3 +16,5 @@ docker compose up -d --build
 ```
 
 Local client endpoints: `127.0.0.1:2106` and `127.0.0.1:7777`. Database credentials are generated in `.env`, which must remain untracked. The local `geodata/` directory must be supplied separately. Build outputs, logs, credentials, database volumes and editor runtimes are excluded from Git.
+
+Feature documentation: [Offline trade](docs/offline-trade.md), [Gatekeeper](docs/gatekeeper.md).
