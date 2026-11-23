@@ -27,6 +27,28 @@ import net.sf.l2j.gameserver.model.holder.IntIntHolder;
  */
 public final class Config
 {
+	public static boolean DROPLIST_ENABLED;
+	public static int DROPLIST_SKILL_ID;
+	public static int DROPLIST_ROWS_PER_PAGE;
+	public static boolean DROPLIST_SHOW_SPOIL;
+	public static boolean DROPLIST_SHOW_HEADER;
+	public static boolean DROPLIST_APPLY_RATES;
+	public static boolean DROPLIST_APPLY_LEVEL_PENALTY;
+	private static final String MODS_DROPLIST_FILE = "./config/mods/droplist.properties";
+	private static final void loadDropList()
+	{
+		final ExProperties droplist = initProperties(MODS_DROPLIST_FILE);
+
+		DROPLIST_ENABLED = droplist.getProperty("DropListEnabled", true);
+		DROPLIST_SKILL_ID = Math.max(0, droplist.getProperty("DropListSkillId", 0));
+		DROPLIST_ROWS_PER_PAGE = Math.max(1, droplist.getProperty("DropListRowsPerPage", 9));
+		DROPLIST_SHOW_SPOIL = droplist.getProperty("DropListShowSpoil", true);
+		DROPLIST_SHOW_HEADER = droplist.getProperty("DropListShowHeader", true);
+		DROPLIST_APPLY_RATES = droplist.getProperty("DropListApplyRates", true);
+		DROPLIST_APPLY_LEVEL_PENALTY = droplist.getProperty("DropListApplyLevelPenalty", true);
+	}
+
+
 	public static final Map<ChampionType, ChampionSettings> CHAMPION_MOBS = new EnumMap<>(ChampionType.class);
 	private static final String MODS_OFFLINE_SHOP_FILE = "./config/mods/offlineshop.properties";
 	public static boolean OFFLINE_TRADE_ENABLE;
@@ -1198,6 +1220,7 @@ public final class Config
 		
 		// clans settings
 		loadGatekeeper();
+		loadDropList();
 		loadClans();
 		
 		// events settings

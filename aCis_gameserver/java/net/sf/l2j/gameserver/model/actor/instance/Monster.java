@@ -13,6 +13,7 @@ import net.sf.l2j.commons.pool.ThreadPool;
 import net.sf.l2j.commons.random.Rnd;
 
 import net.sf.l2j.Config;
+import net.sf.l2j.gameserver.data.manager.DropListManager;
 import net.sf.l2j.gameserver.enums.ChampionType;
 import net.sf.l2j.gameserver.model.ChampionSettings;
 import net.sf.l2j.gameserver.data.manager.CursedWeaponManager;
@@ -67,6 +68,16 @@ public class Monster extends Attackable
 		super(objectId, template);
 	}
 	
+	@Override
+	public void onAction(Player player, boolean isCtrlPressed, boolean isShiftPressed)
+	{
+		// A shift click shows the drop list, but only to the Players allowed to see it ; the others keep the regular "attack without moving" behavior.
+		if (isShiftPressed && DropListManager.getInstance().onShiftClick(player, this))
+			return;
+
+		super.onAction(player, isCtrlPressed, isShiftPressed);
+	}
+
 	@Override
 	protected void calculateRewards(Creature creature)
 	{
@@ -715,5 +726,37 @@ public class Monster extends Attackable
 		
 		// Broadcast message.
 		broadcastOnScreen(10000, BossInfoType.getBossInfo(getNpcId()).getCcNoRightsMsg());
+	}
+	public long[] getExpSpFor(int attackerLevel)
+	{
+		final int[] expSp = calculateExpAndSp(attackerLevel - getStatus().getLevel(), 1., 1.);
+
+		long exp = expSp[0];
+		long sp = expSp[1];
+
+		// Champion mobs give more XP/SP.
+		final ChampionSettings champion = getChampionSettings();
+		if (champion != null)
+		{
+			exp *= champion.getXpMultiplier();
+			sp *= champion.getSpMultiplier();
+		}
+
+		return new long[]
+		{
+			exp,
+			sp
+		};
+	}
+	public double getLevelMultiplier(int attackerLevel)
+	{
+		if (!Config.DEEPBLUE_DROP_RULES)
+			return 1.;
+
+		// Level gap between the attacker and this instance, minus a level limit (3 levels for raids, 6 for monsters).
+		final int levelDiff = attackerLevel - getStatus().getLevel() - (isRaidBoss() ? 2 : 5);
+
+		// Calculate the level multiplier based on the level difference. If the level difference is neutral or negative, there is no penalty.
+		return (levelDiff <= 0) ? 1. : Math.max(0.1, 1 - 0.18 * levelDiff);
 	}
 }

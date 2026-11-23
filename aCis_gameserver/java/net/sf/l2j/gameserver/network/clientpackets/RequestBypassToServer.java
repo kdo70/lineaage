@@ -3,6 +3,7 @@ package net.sf.l2j.gameserver.network.clientpackets;
 import java.util.StringTokenizer;
 import java.util.logging.Logger;
 
+import net.sf.l2j.gameserver.data.manager.DropListManager;
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.communitybbs.CommunityBoard;
 import net.sf.l2j.gameserver.data.manager.HeroManager;
@@ -70,6 +71,12 @@ public final class RequestBypassToServer extends L2GameClientPacket
 				GMAUDIT_LOG.info(player.getName() + " [" + player.getObjectId() + "] used '" + _command + "' command on: " + ((player.getTarget() != null) ? player.getTarget().getName() : "none"));
 			
 			ach.useAdminCommand(_command, player);
+		}
+		else if (_command.startsWith(DropListManager.BYPASS))
+		{
+			if (!player.validateBypass(_command))
+				return;
+			DropListManager.getInstance().handleBypass(player, _command.substring(DropListManager.BYPASS.length()));
 		}
 		else if (_command.startsWith("player_help "))
 		{
