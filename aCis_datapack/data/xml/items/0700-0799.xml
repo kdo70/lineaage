@@ -334,6 +334,7 @@
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
 	<item id="729" type="EtcItem" name="Scroll: Enchant Weapon (Grade A)">
+		<set name="is_stackable" val="true" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
 		<set name="material" val="PAPER" />
@@ -344,6 +345,7 @@
 		<set name="item_skill" val="2006-1" />
 	</item>
 	<item id="730" type="EtcItem" name="Scroll: Enchant Armor (Grade A)">
+		<set name="is_stackable" val="true" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
 		<set name="material" val="PAPER" />
@@ -354,6 +356,7 @@
 		<set name="item_skill" val="2007-1" />
 	</item>
 	<item id="731" type="EtcItem" name="Crystal Scroll: Enchant Weapon (Grade A)">
+		<set name="is_stackable" val="true" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
@@ -363,6 +366,7 @@
 		<set name="handler" val="EnchantScrolls" />
 	</item>
 	<item id="732" type="EtcItem" name="Crystal Scroll: Enchant Armor (Grade A)">
+		<set name="is_stackable" val="true" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
