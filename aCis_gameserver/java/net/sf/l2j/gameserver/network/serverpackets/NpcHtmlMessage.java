@@ -1,5 +1,8 @@
 package net.sf.l2j.gameserver.network.serverpackets;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.sf.l2j.gameserver.data.cache.HtmCache;
 import net.sf.l2j.gameserver.enums.SayType;
 import net.sf.l2j.gameserver.model.actor.Player;
@@ -8,6 +11,8 @@ public final class NpcHtmlMessage extends L2GameServerPacket
 {
 	// Shared "config" used by Players GMs to see file directory.
 	public static boolean SHOW_FILE;
+	private static final Pattern DIALOG_SIZE = Pattern.compile("<!--\\s*dialog-size\\s*:\\s*(.*?)-->", Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
+	private static final Pattern DIALOG_DIMENSIONS = Pattern.compile("([0-9]{1,5})\\s*[xX]\\s*([0-9]{1,5})");
 	
 	private final int _objectId;
 	
@@ -15,6 +20,10 @@ public final class NpcHtmlMessage extends L2GameServerPacket
 	private String _file;
 	
 	private int _itemId = 0;
+	private int _windowWidth;
+	private int _windowHeight;
+	private int _htmlWindowWidth;
+	private int _htmlWindowHeight;
 	private boolean _validate = true;
 	
 	public NpcHtmlMessage(int objectId)
@@ -63,7 +72,9 @@ public final class NpcHtmlMessage extends L2GameServerPacket
 		writeC(0x0f);
 		
 		writeD(_objectId);
-		writeS(_html);
+		final int width = _windowWidth == 0 ? _htmlWindowWidth : _windowWidth;
+		final int height = _windowWidth == 0 ? _htmlWindowHeight : _windowHeight;
+		writeS(width == 0 ? _html : String.format(java.util.Locale.ROOT, "<!--L2SIZE:%04X%04X-->", width, height) + _html);
 		writeD(_itemId);
 	}
 	
@@ -76,11 +87,42 @@ public final class NpcHtmlMessage extends L2GameServerPacket
 	{
 		_itemId = itemId;
 	}
+
+	/** Sets the outer NPC dialog size in client UI pixels. Requires the sizing client patch. */
+	public void setWindowSize(int width, int height)
+	{
+		if (width < 200 || width > 1920 || height < 120 || height > 1080)
+			throw new IllegalArgumentException("NPC dialog size must be 200..1920 by 120..1080");
+		_windowWidth = width;
+		_windowHeight = height;
+	}
 	
 	public void setHtml(String text)
 	{
+		_htmlWindowWidth = 0;
+		_htmlWindowHeight = 0;
+		final Matcher directive = DIALOG_SIZE.matcher(text);
+		if (directive.find())
+		{
+			final Matcher dimensions = DIALOG_DIMENSIONS.matcher(directive.group(1).trim());
+			if (dimensions.matches())
+			{
+				final int width = Integer.parseInt(dimensions.group(1));
+				final int height = Integer.parseInt(dimensions.group(2));
+				if (width >= 200 && width <= 1920 && height >= 120 && height <= 1080)
+				{
+					_htmlWindowWidth = width;
+					_htmlWindowHeight = height;
+				}
+			}
+			if (_htmlWindowWidth == 0)
+				LOGGER.warn("Invalid dialog-size HTML directive: {}", directive.group(1));
+			text = directive.replaceAll("");
+		}
 		if (text.length() > 8192)
 		{
+			_htmlWindowWidth = 0;
+			_htmlWindowHeight = 0;
 			_html = "<html><body>Html was too long.</body></html>";
 			LOGGER.warn("An html content was too long.");
 			return;
