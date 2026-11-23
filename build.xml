@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Lineage-workspace" default="package" basedir=".">
+    <target name="package" description="Compile server and assemble datapack in dist (offline).">
+        <ant antfile="build.xml" dir="aCis_gameserver" inheritAll="false">
+            <property name="build.dist" location="dist" />
+        </ant>
+        <ant antfile="build.xml" dir="aCis_datapack" inheritAll="false">
+            <property name="build" location="dist" />
+        </ant>
+    </target>
+</project>

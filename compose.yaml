@@ -1,0 +1,76 @@
+name: lineage-dev
+services:
+  db:
+    image: mariadb:11.4
+    environment:
+      MARIADB_DATABASE: acis
+      MARIADB_USER: acis
+      MARIADB_PASSWORD: ${DB_PASSWORD:?Run init-env.ps1}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?Run init-env.ps1}
+      GAME_HEX_ID: ${GAME_HEX_ID:?Run init-env.ps1}
+    ports:
+      - "127.0.0.1:3306:3306"
+    volumes:
+      - db-data:/var/lib/mysql
+      - ./aCis_datapack/sql:/seed:ro
+      - ./docker/init-db.sh:/docker-entrypoint-initdb.d/99-acis.sh:ro
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 30s
+  login:
+    image: lineage-dev-server:local
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    environment:
+      SERVER_ROLE: login
+      DB_PASSWORD: ${DB_PASSWORD:?Run init-env.ps1}
+      GAME_HEX_ID: ${GAME_HEX_ID:?Run init-env.ps1}
+      JAVA_TOOL_OPTIONS: -Xms128m -Xmx512m
+    ports:
+      - "127.0.0.1:2106:2106"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - login-log:/server/login/log
+    healthcheck:
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/127.0.0.1/9014"]
+      interval: 10s
+      timeout: 3s
+      retries: 20
+      start_period: 30s
+  game:
+    image: lineage-dev-server:local
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    environment:
+      SERVER_ROLE: gameserver
+      DB_PASSWORD: ${DB_PASSWORD:?Run init-env.ps1}
+      GAME_HEX_ID: ${GAME_HEX_ID:?Run init-env.ps1}
+      JAVA_TOOL_OPTIONS: -Xms512m -Xmx2g
+    ports:
+      - "127.0.0.1:7777:7777"
+    depends_on:
+      login:
+        condition: service_healthy
+    volumes:
+      - game-log:/server/gameserver/log
+      - game-crests:/server/gameserver/data/crests
+      - ./geodata:/server/gameserver/data/geodata
+      - ./geodata:/server/gameserver/data/geodata
+    healthcheck:
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/127.0.0.1/7777"]
+      interval: 15s
+      timeout: 3s
+      retries: 30
+      start_period: 90s
+volumes:
+  db-data:
+  login-log:
+  game-log:
+  game-crests:

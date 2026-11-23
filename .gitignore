@@ -1,0 +1,11 @@
+.env
+geodata/
+dist/
+aCis_gameserver/build/
+aCis_datapack/build/
+**/__pycache__/
+*.bak
+*.log
+tools/vendor/
+tools/python/
+tools/client/nwindow-sized.dll

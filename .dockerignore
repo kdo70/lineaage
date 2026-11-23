@@ -1,0 +1,10 @@
+*
+!dist/
+!dist/**
+!docker/
+!docker/Dockerfile
+!docker/entrypoint.sh
+**/build/
+**/.git/
+**/.idea/
+**/bin/
