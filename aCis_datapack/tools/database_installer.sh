@@ -134,6 +134,7 @@ $MYG < ../sql/pets.sql &> /dev/null
 $MYG < ../sql/rainbowsprings_attacker_list.sql &> /dev/null
 $MYG < ../sql/server_memo.sql &> /dev/null
 $MYG < ../sql/seven_signs.sql &> /dev/null
+$MYG < ../sql/gatekeeper_stats.sql &> /dev/null
 $MYG < ../sql/seven_signs_festival.sql &> /dev/null
 $MYG < ../sql/seven_signs_status.sql &> /dev/null
 $MYG < ../sql/siege_clans.sql &> /dev/null

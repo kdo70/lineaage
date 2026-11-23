@@ -23,6 +23,32 @@ import net.sf.l2j.gameserver.model.holder.IntIntHolder;
  */
 public final class Config
 {
+	private static final String MODS_GATEKEEPER_FILE = "./config/mods/gatekeeper.properties";
+	public static int GATEKEEPER_ROWS_PER_PAGE;
+	public static int GATEKEEPER_POPULAR_LIMIT;
+	public static int GATEKEEPER_POPULAR_MIN_COUNT;
+	public static int GATEKEEPER_TELEPORT_DELAY;
+	public static int GATEKEEPER_DEFAULT_PRICE_ID;
+	public static int GATEKEEPER_DEFAULT_PRICE;
+	public static int GATEKEEPER_DEFAULT_NOBLE_PRICE;
+	public static boolean GATEKEEPER_PRICING_ENABLED;
+	public static int GATEKEEPER_PRICE_ROUNDING;
+	public static boolean GATEKEEPER_DISTANCE_PRICE_ENABLED;
+	public static int GATEKEEPER_NEAR_PRICE;
+	public static int GATEKEEPER_FAR_PRICE;
+	public static int GATEKEEPER_CAP_PRICE;
+	public static double GATEKEEPER_REF_DISTANCE;
+	public static double GATEKEEPER_DISTANCE_CURVE;
+	public static boolean GATEKEEPER_LEVEL_PRICE_ENABLED;
+	public static int GATEKEEPER_LEVEL_PRICE_FROM;
+	public static int GATEKEEPER_LEVEL_PRICE_TO;
+	public static double GATEKEEPER_LEVEL_PRICE_MIN_RATE;
+	public static boolean GATEKEEPER_KARMA_PRICE_ENABLED;
+	public static int GATEKEEPER_KARMA_PRICE_CAP;
+	public static double GATEKEEPER_KARMA_PRICE_RATE;
+	public static boolean GATEKEEPER_NIGHT_PRICE_ENABLED;
+	public static double GATEKEEPER_NIGHT_PRICE_RATE;
+
 	private Config()
 	{
 		throw new IllegalStateException("Utility class");
@@ -1055,11 +1081,48 @@ public final class Config
 		MAX_CONNECTION_PER_IP = server.getProperty("MaxConnectionPerIP", 50);
 	}
 	
+	private static final void loadGatekeeper()
+	{
+		final ExProperties gatekeeper = initProperties(MODS_GATEKEEPER_FILE);
+		
+		GATEKEEPER_ROWS_PER_PAGE = Math.max(1, gatekeeper.getProperty("RowsPerPage", 12));
+		GATEKEEPER_POPULAR_LIMIT = Math.max(1, gatekeeper.getProperty("PopularLimit", 20));
+		GATEKEEPER_POPULAR_MIN_COUNT = Math.max(1, gatekeeper.getProperty("PopularMinCount", 1));
+		GATEKEEPER_TELEPORT_DELAY = Math.min(60000, Math.max(0, gatekeeper.getProperty("TeleportDelay", 5000)));
+		
+		GATEKEEPER_DEFAULT_PRICE_ID = gatekeeper.getProperty("DefaultPriceId", 57);
+		GATEKEEPER_DEFAULT_PRICE = Math.max(-1, gatekeeper.getProperty("DefaultPrice", -1));
+		GATEKEEPER_DEFAULT_NOBLE_PRICE = Math.max(-1, gatekeeper.getProperty("DefaultNoblePrice", -1));
+		
+		GATEKEEPER_PRICING_ENABLED = gatekeeper.getProperty("PricingEnabled", true);
+		GATEKEEPER_PRICE_ROUNDING = Math.max(1, gatekeeper.getProperty("PriceRounding", 100));
+		
+		GATEKEEPER_DISTANCE_PRICE_ENABLED = gatekeeper.getProperty("DistancePriceEnabled", true);
+		GATEKEEPER_NEAR_PRICE = Math.max(0, gatekeeper.getProperty("NearPrice", 15000));
+		GATEKEEPER_FAR_PRICE = Math.max(GATEKEEPER_NEAR_PRICE, gatekeeper.getProperty("FarPrice", 100000));
+		GATEKEEPER_REF_DISTANCE = Math.max(1, gatekeeper.getProperty("RefDistance", 240000.));
+		GATEKEEPER_DISTANCE_CURVE = Math.max(0.1, gatekeeper.getProperty("DistanceCurve", 1.35));
+		GATEKEEPER_CAP_PRICE = Math.max(0, gatekeeper.getProperty("CapPrice", 200000));
+		
+		GATEKEEPER_LEVEL_PRICE_ENABLED = gatekeeper.getProperty("LevelPriceEnabled", true);
+		GATEKEEPER_LEVEL_PRICE_FROM = Math.max(1, gatekeeper.getProperty("LevelPriceFrom", 1));
+		GATEKEEPER_LEVEL_PRICE_TO = Math.max(GATEKEEPER_LEVEL_PRICE_FROM, gatekeeper.getProperty("LevelPriceTo", 80));
+		GATEKEEPER_LEVEL_PRICE_MIN_RATE = Math.min(1, Math.max(0, gatekeeper.getProperty("LevelPriceMinRate", 0.4)));
+		
+		GATEKEEPER_KARMA_PRICE_ENABLED = gatekeeper.getProperty("KarmaPriceEnabled", true);
+		GATEKEEPER_KARMA_PRICE_CAP = Math.max(1, gatekeeper.getProperty("KarmaPriceCap", 10000));
+		GATEKEEPER_KARMA_PRICE_RATE = Math.max(0, gatekeeper.getProperty("KarmaPriceRate", 1.));
+		
+		GATEKEEPER_NIGHT_PRICE_ENABLED = gatekeeper.getProperty("NightPriceEnabled", true);
+		GATEKEEPER_NIGHT_PRICE_RATE = Math.max(0, gatekeeper.getProperty("NightPriceRate", 1.25));
+	}
+
 	public static final void loadGameServer()
 	{
 		LOGGER.info("Loading gameserver configuration files.");
 		
 		// clans settings
+		loadGatekeeper();
 		loadClans();
 		
 		// events settings

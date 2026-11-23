@@ -1,5 +1,7 @@
 package net.sf.l2j.gameserver.handler.admincommandhandlers;
 
+import net.sf.l2j.gameserver.data.xml.GatekeeperData;
+
 import java.util.StringTokenizer;
 
 import net.sf.l2j.Config;
@@ -121,6 +123,8 @@ public class AdminReload implements IAdminCommandHandler
 				{
 					InstantTeleportData.getInstance().reload();
 					TeleportData.getInstance().reload();
+					GatekeeperData.getInstance().reload();
+					player.sendMessage("Use //reload script to register new gatekeeper npc ids.");
 					player.sendMessage("Teleport locations have been reloaded.");
 				}
 				else if (type.startsWith("zone"))

@@ -1056,4 +1056,5 @@ HOW TO SCHEDULE SCRIPT?
  3)	When server starts and detects scheduled script in running period (current time
 	between start and end condition), onStart() action is performed
 -->
+	<script path="script.teleport.GlobalGatekeeper" />
 </list>

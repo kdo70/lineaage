@@ -9,3 +9,5 @@ aCis_datapack/build/
 tools/vendor/
 tools/python/
 tools/client/nwindow-sized.dll
+
+tools/gatekeeper/*.class

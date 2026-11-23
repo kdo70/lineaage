@@ -1,5 +1,7 @@
 package net.sf.l2j.gameserver;
 
+import net.sf.l2j.gameserver.data.manager.GatekeeperStatsManager;
+
 import net.sf.l2j.commons.lang.StringUtil;
 import net.sf.l2j.commons.logging.CLogger;
 import net.sf.l2j.commons.network.ServerType;
@@ -145,6 +147,7 @@ public class Shutdown extends Thread
 			
 			// Save schemes.
 			BufferManager.getInstance().saveSchemes();
+			GatekeeperStatsManager.getInstance().store();
 			LOGGER.info("BufferManager has been saved.");
 			
 			// Save Petitions.

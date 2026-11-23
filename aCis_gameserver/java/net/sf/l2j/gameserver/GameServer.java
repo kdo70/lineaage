@@ -1,5 +1,8 @@
 package net.sf.l2j.gameserver;
 
+import net.sf.l2j.gameserver.data.xml.GatekeeperData;
+import net.sf.l2j.gameserver.data.manager.GatekeeperStatsManager;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -233,6 +236,8 @@ public class GameServer
 		NewbieBuffData.getInstance();
 		InstantTeleportData.getInstance();
 		TeleportData.getInstance();
+		GatekeeperData.getInstance();
+		GatekeeperStatsManager.getInstance();
 		ObserverGroupData.getInstance();
 		
 		CastleManager.getInstance().spawnEntities();
