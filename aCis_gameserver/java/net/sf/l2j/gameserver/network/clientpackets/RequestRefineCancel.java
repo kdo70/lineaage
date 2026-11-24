@@ -42,45 +42,9 @@ public final class RequestRefineCancel extends L2GameClientPacket
 			return;
 		}
 		
-		// get the price
-		int price = 0;
-		switch (item.getItem().getCrystalType())
-		{
-			case C:
-				if (item.getCrystalCount() < 1720)
-					price = 95000;
-				else if (item.getCrystalCount() < 2452)
-					price = 150000;
-				else
-					price = 210000;
-				break;
-			
-			case B:
-				if (item.getCrystalCount() < 1746)
-					price = 240000;
-				else
-					price = 270000;
-				break;
-			
-			case A:
-				if (item.getCrystalCount() < 2160)
-					price = 330000;
-				else if (item.getCrystalCount() < 2824)
-					price = 390000;
-				else
-					price = 420000;
-				break;
-			
-			case S:
-				price = 480000;
-				break;
-			
-			// any other item type is not augmentable
-			default:
-				player.sendPacket(new ExVariationCancelResult(0));
-				return;
-		}
-		
+		int price = getRemovalPrice(item);
+		if (price <= 0) return;
+
 		// try to reduce the players adena
 		if (!player.reduceAdena(price, true))
 		{
@@ -104,4 +68,17 @@ public final class RequestRefineCancel extends L2GameClientPacket
 		// send system message
 		player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.AUGMENTATION_HAS_BEEN_SUCCESSFULLY_REMOVED_FROM_YOUR_S1).addItemName(item));
 	}
+	public static int getRemovalPrice(ItemInstance item)
+	{
+		int crystals = item.getCrystalCount();
+		return switch (item.getItem().getCrystalType())
+		{
+			case C -> crystals < 1720 ? 95000 : crystals < 2452 ? 150000 : 210000;
+			case B -> crystals < 1746 ? 240000 : 270000;
+			case A -> crystals < 2160 ? 330000 : crystals < 2824 ? 390000 : 420000;
+			case S -> 480000;
+			default -> 0;
+		};
+	}
+
 }

@@ -47,7 +47,9 @@ public final class RequestBypassToServer extends L2GameClientPacket
 		if (player == null)
 			return;
 		
-		if (_command.startsWith("ls_page "))
+		if (_command.startsWith("ls_remove "))
+			LifeStoneWindow.remove(player, _command);
+		else if (_command.startsWith("ls_page "))
 			LifeStoneWindow.page(player, _command);
 		else if (_command.startsWith("ls_select "))
 			LifeStoneWindow.select(player, _command);

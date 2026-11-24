@@ -15,7 +15,10 @@ import net.sf.l2j.gameserver.enums.ShortcutType;
 
 public final class LifeStoneWindow
 {
-	private record Request(int stone, int weapon, int token, long expires, int page) {}
+	private record Request(int stone, int weapon, int token, long expires, int page, int augmentation)
+	{
+		Request(int stone, int weapon, int token, long expires, int page) { this(stone, weapon, token, expires, page, 0); }
+	}
 	private static final int PAGE_ROWS = 8;
 	private static final Map<Player, Request> REQUESTS = java.util.Collections.synchronizedMap(new WeakHashMap<>());
 	private static final Map<Player, Long> LAST_OPEN = java.util.Collections.synchronizedMap(new WeakHashMap<>());
@@ -43,7 +46,7 @@ public final class LifeStoneWindow
 		int page = Math.max(0, Math.min(requestedPage, pages - 1));
 		Request current = REQUESTS.get(player);
 		if (current != null)
-			REQUESTS.put(player, new Request(current.stone(), current.weapon(), current.token(), current.expires(), page));
+			REQUESTS.put(player, new Request(current.stone(), current.weapon(), current.token(), current.expires(), page, current.augmentation()));
 		StringBuilder html = new StringBuilder("<html><title>" + escape(stone.getItem().getName()) + "</title><body><table width=280><tr><td height=24 align=center><font color=808080>Выберите оружие из списка для инкрустации</font></td></tr></table><img src=L2UI.SquareGray width=280 height=1><br1>");
 		int row = 0;
 		for (ItemInstance weapon : weapons.subList(page * PAGE_ROWS, Math.min(weapons.size(), (page + 1) * PAGE_ROWS)))
@@ -51,7 +54,7 @@ public final class LifeStoneWindow
 			if (!AbstractRefinePacket.isValid(player, weapon, true))
 				continue;
 			String icon = ItemIconData.getInstance().getIcon(weapon.getItemId());
-			html.append("<table width=280").append(row++ % 2 == 0 ? " bgcolor=000000" : "").append("><tr><td width=36 height=40 valign=middle><table cellpadding=0 cellspacing=0><tr><td height=4></td></tr><tr><td><button value=\"\" action=\"bypass -h ls_select ").append(weapon.getObjectId()).append("\" width=32 height=32 back=\"").append(icon).append("\" fore=\"").append(icon).append("\"></td></tr><tr><td height=4></td></tr></table></td><td width=244 valign=middle>").append(displayName(weapon)).append("<br1><font color=B09878>Стоимость: ").append(escape(costText(weapon))).append("</font></td></tr></table>");
+			html.append("<table width=280").append(row++ % 2 == 0 ? " bgcolor=000000" : "").append("><tr><td width=36 height=40 valign=middle><table cellpadding=0 cellspacing=0><tr><td height=4></td></tr><tr><td><button value=\"\" action=\"bypass -h ls_select ").append(weapon.getObjectId()).append("\" width=32 height=32 back=\"").append(icon).append("\" fore=\"").append(icon).append("\"></td></tr><tr><td height=4></td></tr></table></td><td width=228 valign=middle>").append(displayName(weapon)).append("<br1><font color=B09878>Стоимость: ").append(escape(costText(weapon))).append("</font></td><td width=16 valign=top>").append(weapon.isAugmented() ? "<button value=\"\" action=\"bypass -h ls_remove " + weapon.getObjectId() + "\" width=16 height=16 back=\"L2UI_CH3.FRAMECTRL.FrameCloseOnBtn\" fore=\"L2UI_CH3.FRAMECTRL.FrameCloseBtn\">" : "").append("</td></tr></table>");
 		}
 		if (row == 0) html.append("<br>Нет подходящего оружия C–S ранга.");
 		html.append("<img src=L2UI.SquareGray width=280 height=1>").append(navigation(page, pages));
@@ -116,7 +119,7 @@ public final class LifeStoneWindow
 		REQUESTS.put(player, new Request(request.stone(), id, token, System.currentTimeMillis() + 15000, request.page()));
 		ItemInstance stone = player.getInventory().getItemByObjectId(request.stone());
 		if (stone == null) { player.sendMessage("Инкрустация невозможна: выбранный предмет отсутствует в инвентаре."); return; }
-		player.sendPacket(new ConfirmDlg(614).addString("Подтвердить инкрустацию " + stone.getItem().getName() + " в " + weapon.getItem().getName() + "? Стоимость: " + costText(weapon) + (weapon.isAugmented() ? ". Текущая инкрустация будет заменена" : "")).addTime(15000).addRequesterId(token));
+		player.sendPacket(new ConfirmDlg(614).addString("Подтвердить инкрустацию " + stone.getItem().getName() + " в " + messageName(weapon) + "? Стоимость: " + costText(weapon) + (weapon.isAugmented() ? ". Текущая инкрустация будет заменена" : "")).addTime(15000).addRequesterId(token));
 
 		}
 	}
@@ -133,6 +136,11 @@ public final class LifeStoneWindow
 		if (!Config.LIFE_STONE_WINDOW || request.expires() < System.currentTimeMillis())
 		{
 			player.sendMessage("Инкрустация отменена: время подтверждения истекло или функция отключена.");
+			return;
+		}
+		if (request.weapon() < 0)
+		{
+			removeConfirmed(player, request);
 			return;
 		}
 		synchronized (player.getInventory())
@@ -179,7 +187,7 @@ public final class LifeStoneWindow
 			player.getShortcutList().refreshShortcuts(s -> s.getId() == weapon.getObjectId() && s.getType() == ShortcutType.ITEM);
 			player.sendIU();
 			player.broadcastUserInfo();
-			player.sendMessage("Инкрустация выполнена: " + stone.getItem().getName() + " инкрустирован в " + weapon.getItem().getName() + ".");
+			player.sendMessage("Инкрустация выполнена: " + stone.getItem().getName() + " инкрустирован в " + messageName(weapon) + ".");
 			ItemInstance nextStone = player.getInventory().getItemByItemId(stone.getItemId());
 			if (nextStone != null && nextStone.getCount() > 0 && player.getInventory().getItemCount(grade.getGemstoneId()) >= grade.getGemstoneCount())
 				{
@@ -191,12 +199,68 @@ public final class LifeStoneWindow
 		}
 	}
 
+	public static void remove(Player player, String command)
+	{
+		synchronized (player)
+		{
+			Request request = REQUESTS.get(player);
+			if (!Config.LIFE_STONE_WINDOW || request == null || request.token() != 0 || request.expires() < System.currentTimeMillis()) return;
+			int id;
+			try { id = Integer.parseInt(command.substring(10)); }
+			catch (NumberFormatException e) { return; }
+			ItemInstance weapon = player.getInventory().getItemByObjectId(id);
+			if (!AbstractRefinePacket.isValid(player, weapon, true) || !weapon.isAugmented() || player.isItemDisabled(weapon)) return;
+			int price = RequestRefineCancel.getRemovalPrice(weapon);
+			if (price <= 0) return;
+			int token = ThreadLocalRandom.current().nextInt(1, Integer.MAX_VALUE);
+			REQUESTS.put(player, new Request(request.stone(), -id, token, System.currentTimeMillis() + 15000, request.page(), weapon.getAugmentation().getId()));
+			player.sendPacket(new ConfirmDlg(614).addString("Подтвердить удаление инкрустации из " + messageName(weapon) + "? Стоимость: " + price + " Adena").addTime(15000).addRequesterId(token));
+		}
+	}
+
+	private static void removeConfirmed(Player player, Request request)
+	{
+		synchronized (player.getInventory())
+		{
+			ItemInstance weapon = player.getInventory().getItemByObjectId(-request.weapon());
+			if (!AbstractRefinePacket.isValid(player, weapon, true) || !weapon.isAugmented() || player.isItemDisabled(weapon)
+				|| weapon.getAugmentation().getId() != request.augmentation())
+			{
+				player.sendMessage("Удаление инкрустации невозможно: оружие недоступно или инкрустация изменилась.");
+				return;
+			}
+			int price = RequestRefineCancel.getRemovalPrice(weapon);
+			if (price <= 0 || !player.reduceAdena(price, true))
+			{
+				player.sendMessage("Удаление инкрустации невозможно: требуется " + price + " Adena.");
+				return;
+			}
+			if (weapon.isEquipped()) weapon.getAugmentation().removeBonus(player);
+			weapon.removeAugmentation(player);
+			player.getShortcutList().refreshShortcuts(s -> s.getId() == weapon.getObjectId() && s.getType() == ShortcutType.ITEM);
+			player.sendIU();
+			player.broadcastUserInfo();
+			player.sendMessage("Инкрустация удалена из " + messageName(weapon) + ".");
+			ItemInstance stone = player.getInventory().getItemByObjectId(request.stone());
+			if (validStone(player, stone))
+			{
+				REQUESTS.put(player, new Request(stone.getObjectId(), 0, 0, System.currentTimeMillis() + 120000, request.page()));
+				showPage(player, stone, request.page());
+			}
+		}
+	}
+
 	private static boolean validStone(Player player, ItemInstance stone)
 	{
 		return stone != null && stone.getOwnerId() == player.getObjectId()
 			&& stone.getLocation() == net.sf.l2j.gameserver.enums.items.ItemLocation.INVENTORY
 			&& stone.getCount() > 0 && AbstractRefinePacket.getLifeStone(stone.getItemId()) != null
 			&& !player.isItemDisabled(stone);
+	}
+
+	private static String messageName(ItemInstance weapon)
+	{
+		return "+" + weapon.getEnchantLevel() + " " + weapon.getItem().getName();
 	}
 
 	private static String displayName(ItemInstance weapon)
