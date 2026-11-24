@@ -1,0 +1,5 @@
+services:
+  game:
+    volumes:
+      - ./geodata-test/19_21.l2j:/server/gameserver/data/geodata/19_21.l2j:ro
+      - ./dist/gameserver/libs/l2jserver.jar:/server/gameserver/libs/l2jserver.jar:ro
