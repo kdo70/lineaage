@@ -1,5 +1,7 @@
 package net.sf.l2j.gameserver;
 
+import net.sf.l2j.gameserver.data.xml.RaidHuntData;
+import net.sf.l2j.gameserver.data.manager.RaidHuntManager;
 import net.sf.l2j.gameserver.data.xml.GatekeeperData;
 import net.sf.l2j.gameserver.data.manager.GatekeeperStatsManager;
 
@@ -184,6 +186,8 @@ public class GameServer
 		PlayerLevelData.getInstance();
 		PartyMatchRoomManager.getInstance();
 		RaidPointManager.getInstance();
+		RaidHuntData.getInstance();
+		RaidHuntManager.getInstance();
 		HealSpsData.getInstance();
 		RestartPointData.getInstance();
 		

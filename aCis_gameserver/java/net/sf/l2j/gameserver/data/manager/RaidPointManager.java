@@ -42,7 +42,7 @@ public class RaidPointManager
 				final int bossId = rs.getInt("boss_id");
 				final int points = rs.getInt("points");
 				
-				final Map<Integer, Integer> playerData = _entries.computeIfAbsent(objectId, m -> new HashMap<>());
+				final Map<Integer, Integer> playerData = _entries.computeIfAbsent(objectId, m -> new ConcurrentHashMap<>());
 				playerData.put(bossId, points);
 			}
 		}
@@ -64,13 +64,13 @@ public class RaidPointManager
 	 * @param bossId : The boss npcId to register.
 	 * @param points : The points to add.
 	 */
-	public final void addPoints(Player player, int bossId, int points)
+	public final synchronized void addPoints(Player player, int bossId, int points)
 	{
 		if (points < 0)
 			return;
 		
 		final int objectId = player.getObjectId();
-		final Map<Integer, Integer> playerData = _entries.computeIfAbsent(objectId, m -> new HashMap<>());
+		final Map<Integer, Integer> playerData = _entries.computeIfAbsent(objectId, m -> new ConcurrentHashMap<>());
 		
 		points = playerData.merge(bossId, points, Integer::sum);
 		
@@ -104,14 +104,14 @@ public class RaidPointManager
 	/**
 	 * Clean both database and memory from content.
 	 */
-	public final void cleanUp()
+	public final synchronized void cleanUp()
 	{
-		_entries.clear();
 		
 		try (Connection con = ConnectionPool.getConnection();
 			PreparedStatement ps = con.prepareStatement(TRUNCATE_DATA))
 		{
 			ps.executeUpdate();
+			_entries.clear();
 		}
 		catch (Exception e)
 		{

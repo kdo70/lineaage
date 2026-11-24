@@ -1,9 +1,8 @@
 package net.sf.l2j.gameserver.model.actor.instance;
 
-import net.sf.l2j.commons.random.Rnd;
 
 import net.sf.l2j.gameserver.data.manager.HeroManager;
-import net.sf.l2j.gameserver.data.manager.RaidPointManager;
+import net.sf.l2j.gameserver.data.manager.RaidHuntManager;
 import net.sf.l2j.gameserver.model.actor.Creature;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
@@ -12,6 +11,7 @@ import net.sf.l2j.gameserver.model.group.Party;
 import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.PlaySound;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
+import net.sf.l2j.gameserver.skills.L2Skill;
 
 /**
  * This class manages all classic raid bosses.<br>
@@ -43,12 +43,28 @@ public class RaidBoss extends Monster
 		return true;
 	}
 	
+	/**
+	 * The hunting levels of the raid boss book scale the damage a {@link Player} deals to the very boss he hunted, so they are folded in here rather than into the damage formulas : this is the one
+	 * spot every single damage source goes through - hits, skills and damage over time alike.
+	 */
+	@Override
+	public void reduceCurrentHp(double damage, Creature attacker, boolean awake, boolean isDOT, L2Skill skill)
+	{
+		// The very first hit a character lands on a raid boss is what writes it into his book - and what hands him the book itself, when he owns none yet.
+		RaidHuntManager.getInstance().onRaidBossAttacked(attacker, getNpcId());
+
+		super.reduceCurrentHp(damage * RaidHuntManager.getInstance().getDamageMultiplier(attacker, getNpcId()), attacker, awake, isDOT, skill);
+	}
+
 	@Override
 	public boolean doDie(Creature killer)
 	{
 		if (!super.doDie(killer))
 			return false;
-		
+
+		// The book credits the kill by damage dealt rather than by killing blow, so it doesn't care who landed the last hit - the aggro list survives the death and holds everything it needs.
+		RaidHuntManager.getInstance().onRaidBossKill(this);
+
 		if (killer != null)
 		{
 			final Player player = killer.getActingPlayer();
@@ -62,14 +78,12 @@ public class RaidBoss extends Monster
 				{
 					for (Player member : party.getMembers())
 					{
-						RaidPointManager.getInstance().addPoints(member, getNpcId(), (getStatus().getLevel() / 2) + Rnd.get(-5, 5));
 						if (member.isNoble())
 							HeroManager.getInstance().setRBkilled(member.getObjectId(), getNpcId());
 					}
 				}
 				else
 				{
-					RaidPointManager.getInstance().addPoints(player, getNpcId(), (getStatus().getLevel() / 2) + Rnd.get(-5, 5));
 					if (player.isNoble())
 						HeroManager.getInstance().setRBkilled(player.getObjectId(), getNpcId());
 				}

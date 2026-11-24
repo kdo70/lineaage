@@ -1,5 +1,7 @@
 package net.sf.l2j.gameserver.handler.admincommandhandlers;
 
+import net.sf.l2j.gameserver.data.xml.RaidHuntData;
+import net.sf.l2j.gameserver.data.manager.RaidHuntManager;
 import net.sf.l2j.gameserver.data.xml.GatekeeperData;
 
 import java.util.StringTokenizer;
@@ -108,6 +110,11 @@ public class AdminReload implements IAdminCommandHandler
 				{
 					WalkerRouteData.getInstance().reload();
 					player.sendMessage("Walking routes have been reloaded.");
+				}
+				else if (type.equals("raid_hunt"))
+				{
+					RaidHuntData.getInstance().reload();
+					RaidHuntManager.getInstance().reload();
 				}
 				else if (type.equals("script"))
 				{

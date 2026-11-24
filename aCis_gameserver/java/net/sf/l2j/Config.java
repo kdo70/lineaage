@@ -27,6 +27,30 @@ import net.sf.l2j.gameserver.model.holder.IntIntHolder;
  */
 public final class Config
 {
+	private static final String MODS_RAID_HUNT_FILE = "./config/mods/raid_hunt.properties";
+	public static boolean RAID_HUNT_ENABLED;
+	public static int RAID_HUNT_ROWS_PER_PAGE;
+	public static int RAID_HUNT_TAB_ROWS_PER_PAGE;
+	public static int RAID_HUNT_KILLS_PER_LEVEL;
+	public static int RAID_HUNT_MAX_LEVEL;
+	public static double RAID_HUNT_DAMAGE_PER_LEVEL;
+	public static double RAID_HUNT_MAX_DAMAGE_BONUS;
+	public static int RAID_HUNT_POINTS_PER_KILL;
+	public static double RAID_HUNT_POINTS_PER_BOSS_LEVEL;
+	public static boolean RAID_HUNT_SCREEN_MESSAGES;
+	public static boolean RAID_HUNT_DAILY_ENABLED;
+	public static Map<Integer, List<IntIntHolder>> RAID_HUNT_DAILY_REWARDS;
+	public static boolean RAID_HUNT_MONTHLY_ENABLED;
+	public static Map<Integer, List<IntIntHolder>> RAID_HUNT_MONTHLY_REWARDS;
+	public static int RAID_HUNT_SEARCH_CHARS;
+	public static int RAID_HUNT_HISTORY_SIZE;
+	public static int RAID_HUNT_RANKING_SIZE;
+	public static int RAID_HUNT_SHOWN_REWARDS;
+	public static boolean RAID_HUNT_APPLY_RATES;
+	public static boolean RAID_HUNT_APPLY_LEVEL_PENALTY;
+	public static Map<Integer, List<IntIntHolder>> RAID_HUNT_LEVEL_REWARDS;
+	public static List<IntIntHolder> RAID_HUNT_DEFAULT_REWARD;
+
 	public static boolean LIFE_STONE_WINDOW;
 	public static boolean DROPLIST_ENABLED;
 	public static int DROPLIST_SKILL_ID;
@@ -1180,6 +1204,127 @@ public final class Config
 		MAX_CONNECTION_PER_IP = server.getProperty("MaxConnectionPerIP", 50);
 	}
 	
+	private static final void loadRaidHunt()
+	{
+		final ExProperties raid_hunt = initProperties(MODS_RAID_HUNT_FILE);
+
+		RAID_HUNT_ENABLED = raid_hunt.getProperty("RaidHuntEnabled", true);
+		RAID_HUNT_ROWS_PER_PAGE = Math.max(1, raid_hunt.getProperty("RaidHuntRowsPerPage", 8));
+		RAID_HUNT_TAB_ROWS_PER_PAGE = Math.max(1, raid_hunt.getProperty("RaidHuntTabRowsPerPage", 4));
+
+		// A single kill per level would make the very first level - which is reached on the first kill - as long as any other one, and leave the progress bar of a fresh level already full.
+		RAID_HUNT_KILLS_PER_LEVEL = Math.max(2, raid_hunt.getProperty("RaidHuntKillsPerLevel", 5));
+		RAID_HUNT_MAX_LEVEL = Math.max(0, raid_hunt.getProperty("RaidHuntMaxLevel", 0));
+
+		RAID_HUNT_DAMAGE_PER_LEVEL = Math.max(0, raid_hunt.getProperty("RaidHuntDamagePerLevel", 1.));
+		RAID_HUNT_MAX_DAMAGE_BONUS = Math.max(0, raid_hunt.getProperty("RaidHuntMaxDamageBonus", 0.));
+
+		RAID_HUNT_POINTS_PER_KILL = Math.max(0, raid_hunt.getProperty("RaidHuntPointsPerKill", 10));
+		RAID_HUNT_POINTS_PER_BOSS_LEVEL = Math.max(0, raid_hunt.getProperty("RaidHuntPointsPerBossLevel", 1.));
+
+		RAID_HUNT_SCREEN_MESSAGES = raid_hunt.getProperty("RaidHuntScreenMessages", true);
+		RAID_HUNT_HISTORY_SIZE = Math.max(1, raid_hunt.getProperty("RaidHuntHistorySize", 20));
+		RAID_HUNT_RANKING_SIZE = Math.max(1, raid_hunt.getProperty("RaidHuntRankingSize", 100));
+		RAID_HUNT_SHOWN_REWARDS = Math.max(1, raid_hunt.getProperty("RaidHuntShownRewards", 5));
+
+		RAID_HUNT_APPLY_RATES = raid_hunt.getProperty("RaidHuntApplyRates", true);
+		RAID_HUNT_APPLY_LEVEL_PENALTY = raid_hunt.getProperty("RaidHuntApplyLevelPenalty", true);
+
+		RAID_HUNT_DEFAULT_REWARD = parseRewardItems(raid_hunt.getProperty("RaidHuntDefaultReward", ""));
+		RAID_HUNT_LEVEL_REWARDS = parseRewardMap(raid_hunt.getProperty("RaidHuntLevelRewards", ""));
+
+		RAID_HUNT_DAILY_ENABLED = raid_hunt.getProperty("RaidHuntDailyRewardEnabled", true);
+		RAID_HUNT_DAILY_REWARDS = parseRewardMap(raid_hunt.getProperty("RaidHuntDailyRewards", ""));
+
+		RAID_HUNT_MONTHLY_ENABLED = raid_hunt.getProperty("RaidHuntMonthlyRewardEnabled", true);
+		RAID_HUNT_MONTHLY_REWARDS = parseRewardMap(raid_hunt.getProperty("RaidHuntMonthlyRewards", ""));
+
+		RAID_HUNT_SEARCH_CHARS = Math.max(1, raid_hunt.getProperty("RaidHuntSearchChars", 24));
+	}
+
+	/**
+	 * @param value : A "key:itemId,count[,itemId,count...];key:..." list, the key being a hunting level or a ranking position.
+	 * @return The parsed entries, an empty {@link Map} when the value is blank.
+	 */
+	private static final Map<Integer, List<IntIntHolder>> parseRewardMap(String value)
+	{
+		final Map<Integer, List<IntIntHolder>> entries = new HashMap<>();
+
+		if (value == null)
+			return entries;
+
+		for (String entry : value.split(";"))
+		{
+			if (entry.isBlank())
+				continue;
+
+			final String[] parts = entry.split(":", 2);
+			if (parts.length != 2)
+			{
+				LOGGER.warn("The raid book reward '{}' isn't written as 'key:itemId,count' ; it is dropped.", entry);
+				continue;
+			}
+
+			try
+			{
+				final int key = Integer.parseInt(parts[0].trim());
+				final List<IntIntHolder> items = parseRewardItems(parts[1]);
+
+				if (key > 0 && !items.isEmpty())
+					entries.put(key, items);
+			}
+			catch (NumberFormatException e)
+			{
+				LOGGER.warn("The raid book reward '{}' holds a key which isn't a number ; it is dropped.", entry);
+			}
+		}
+
+		return entries;
+	}
+
+	/**
+	 * @param value : A flat "itemId,count[,itemId,count...]" list.
+	 * @return The parsed items, an empty {@link List} when the value is blank or malformed.
+	 */
+	private static final List<IntIntHolder> parseRewardItems(String value)
+	{
+		final List<IntIntHolder> items = new ArrayList<>();
+
+		if (value == null || value.isBlank())
+			return items;
+
+		final String[] tokens = value.trim().split(",");
+		if (tokens.length % 2 != 0)
+		{
+			LOGGER.warn("The raid book reward '{}' doesn't hold a count for every item ; it is dropped.", value);
+			return items;
+		}
+
+		try
+		{
+			for (int i = 0; i < tokens.length; i += 2)
+			{
+				final int itemId = Integer.parseInt(tokens[i].trim());
+				final int count = Integer.parseInt(tokens[i + 1].trim());
+
+				if (itemId > 0 && count > 0)
+					items.add(new IntIntHolder(itemId, count));
+			}
+		}
+		catch (NumberFormatException e)
+		{
+			LOGGER.warn("The raid book reward '{}' holds something which isn't a number ; it is dropped.", value);
+			items.clear();
+		}
+
+		return items;
+	}
+
+	/**
+	 * Loads global gatekeeper settings.<br>
+	 * <br>
+	 * Only the behavior and the economy live here ; the content and the whole appearance are datapack driven, on data/xml/gatekeeper.xml.
+	 */
 	private static final void loadGatekeeper()
 	{
 		final ExProperties gatekeeper = initProperties(MODS_GATEKEEPER_FILE);
@@ -1224,6 +1369,7 @@ public final class Config
 		// clans settings
 		loadGatekeeper();
 		loadDropList();
+		loadRaidHunt();
 		loadClans();
 		
 		// events settings

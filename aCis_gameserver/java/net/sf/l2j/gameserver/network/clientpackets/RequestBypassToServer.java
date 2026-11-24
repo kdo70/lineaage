@@ -1,5 +1,6 @@
 package net.sf.l2j.gameserver.network.clientpackets;
 
+import net.sf.l2j.gameserver.data.manager.RaidHuntManager;
 import java.util.StringTokenizer;
 import java.util.logging.Logger;
 
@@ -136,6 +137,12 @@ public final class RequestBypassToServer extends L2GameClientPacket
 			}
 		}
 		// Navigate throught Manor windows
+		else if (_command.startsWith(RaidHuntManager.BYPASS))
+		{
+			if (!player.validateBypass(_command))
+				return;
+			RaidHuntManager.getInstance().handleBypass(player, _command.substring(RaidHuntManager.BYPASS.length()));
+		}
 		else if (_command.startsWith("manor_menu_select?"))
 		{
 			WorldObject object = player.getTarget();

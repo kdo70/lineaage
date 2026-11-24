@@ -1,5 +1,6 @@
 package net.sf.l2j.gameserver.network.clientpackets;
 
+import net.sf.l2j.gameserver.data.manager.RaidHuntManager;
 import java.util.Map.Entry;
 
 import net.sf.l2j.Config;
@@ -268,6 +269,7 @@ public class EnterWorld extends L2GameClientPacket
 		if (player.isInsideZone(ZoneId.SIEGE) && player.getSiegeState() < 2)
 			player.teleportTo(RestartType.TOWN);
 		
+		RaidHuntManager.getInstance().onEnterWorld(player);
 		// Tutorial
 		final QuestState qs = player.getQuestList().getQuestState("Tutorial");
 		if (qs != null)
