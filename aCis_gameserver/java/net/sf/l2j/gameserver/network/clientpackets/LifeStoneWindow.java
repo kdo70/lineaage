@@ -15,7 +15,7 @@ import net.sf.l2j.gameserver.enums.ShortcutType;
 
 public final class LifeStoneWindow
 {
-	private record Request(int stone, int weapon, int token, long expires) {}
+	private record Request(int stone, int weapon, int token, long expires, int page) {}
 	private static final int PAGE_ROWS = 8;
 	private static final Map<Player, Request> REQUESTS = new WeakHashMap<>();
 	private LifeStoneWindow() {}
@@ -24,7 +24,7 @@ public final class LifeStoneWindow
 	{
 		if (!Config.LIFE_STONE_WINDOW || !AbstractRefinePacket.isValid(player) || player.isItemDisabled(stone))
 			return;
-		REQUESTS.put(player, new Request(stone.getObjectId(), 0, 0, System.currentTimeMillis() + 120000));
+		REQUESTS.put(player, new Request(stone.getObjectId(), 0, 0, System.currentTimeMillis() + 120000, 0));
 		showPage(player, stone, 0);
 	}
 
@@ -33,6 +33,9 @@ public final class LifeStoneWindow
 		var weapons = player.getInventory().getItems().stream().filter(w -> AbstractRefinePacket.isValid(player, w, true)).sorted(java.util.Comparator.comparingInt(ItemInstance::getObjectId)).toList();
 		int pages = Math.max(1, (weapons.size() + PAGE_ROWS - 1) / PAGE_ROWS);
 		int page = Math.max(0, Math.min(requestedPage, pages - 1));
+		Request current = REQUESTS.get(player);
+		if (current != null)
+			REQUESTS.put(player, new Request(current.stone(), current.weapon(), current.token(), current.expires(), page));
 		StringBuilder html = new StringBuilder("<html><title>" + escape(stone.getItem().getName()) + "</title><body><table width=280><tr><td height=24 align=center><font color=808080>Выберите оружие из списка для инкрустации</font></td></tr></table><img src=L2UI.SquareGray width=280 height=1><br1>");
 		int row = 0;
 		for (ItemInstance weapon : weapons.subList(page * PAGE_ROWS, Math.min(weapons.size(), (page + 1) * PAGE_ROWS)))
@@ -96,7 +99,7 @@ public final class LifeStoneWindow
 		if (!AbstractRefinePacket.isValid(player, weapon, true))
 			return;
 		int token = ThreadLocalRandom.current().nextInt(1, Integer.MAX_VALUE);
-		REQUESTS.put(player, new Request(request.stone(), id, token, System.currentTimeMillis() + 15000));
+		REQUESTS.put(player, new Request(request.stone(), id, token, System.currentTimeMillis() + 15000, request.page()));
 		ItemInstance stone = player.getInventory().getItemByObjectId(request.stone());
 		if (stone == null) { player.sendMessage("Инкрустация невозможна: выбранный предмет отсутствует в инвентаре."); return; }
 		player.sendPacket(new ConfirmDlg(614).addString("Подтвердить инкрустацию " + stone.getItem().getName() + " в " + weapon.getItem().getName() + "? Стоимость: " + costText(weapon) + (weapon.isAugmented() ? ". Текущая инкрустация будет заменена" : "")).addTime(15000).addRequesterId(token));
@@ -159,6 +162,12 @@ public final class LifeStoneWindow
 			player.sendIU();
 			player.broadcastUserInfo();
 			player.sendMessage("Инкрустация выполнена: " + stone.getItem().getName() + " инкрустирован в " + weapon.getItem().getName() + ".");
+			ItemInstance nextStone = player.getInventory().getItemByItemId(stone.getItemId());
+			if (nextStone != null && nextStone.getCount() > 0 && player.getInventory().getItemCount(grade.getGemstoneId()) >= grade.getGemstoneCount())
+				{
+				REQUESTS.put(player, new Request(nextStone.getObjectId(), 0, 0, System.currentTimeMillis() + 120000, request.page()));
+				showPage(player, nextStone, request.page());
+			}
 		}
 	}
 
