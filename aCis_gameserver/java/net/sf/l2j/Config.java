@@ -27,6 +27,7 @@ import net.sf.l2j.gameserver.model.holder.IntIntHolder;
  */
 public final class Config
 {
+	public static boolean LIFE_STONE_WINDOW;
 	public static boolean DROPLIST_ENABLED;
 	public static int DROPLIST_SKILL_ID;
 	public static int DROPLIST_ROWS_PER_PAGE;
@@ -1231,6 +1232,7 @@ public final class Config
 		
 		// hexID
 		loadOfflineShop();
+		LIFE_STONE_WINDOW = initProperties("./config/mods/augmentation.properties").getProperty("LifeStoneWindow", true);
 		loadHexID();
 		
 		// NPCs/monsters settings

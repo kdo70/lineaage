@@ -47,7 +47,11 @@ public final class RequestBypassToServer extends L2GameClientPacket
 		if (player == null)
 			return;
 		
-		if (_command.startsWith("admin_"))
+		if (_command.startsWith("ls_page "))
+			LifeStoneWindow.page(player, _command);
+		else if (_command.startsWith("ls_select "))
+			LifeStoneWindow.select(player, _command);
+		else if (_command.startsWith("admin_"))
 		{
 			String command = _command.split(" ")[0];
 			

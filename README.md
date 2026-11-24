@@ -20,3 +20,5 @@ Local client endpoints: `127.0.0.1:2106` and `127.0.0.1:7777`. Database credenti
 Feature documentation: [Offline trade](docs/offline-trade.md), [Gatekeeper](docs/gatekeeper.md).
 
 Fix documentation: [Soulshot and Spiritshot charges](docs/shots.md).
+
+Feature documentation: [Инкрустация из инвентаря](docs/augmentation.md).

@@ -54,6 +54,12 @@ public final class UseItem extends L2GameClientPacket
 		if (item == null)
 			return;
 		
+		if (Config.LIFE_STONE_WINDOW && AbstractRefinePacket.getLifeStone(item.getItemId()) != null)
+		{
+			LifeStoneWindow.open(player, item);
+			return;
+		}
+
 		if (player.isItemDisabled(item))
 			return;
 		
