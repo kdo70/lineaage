@@ -11,3 +11,10 @@ tools/python/
 tools/client/nwindow-sized.dll
 
 tools/gatekeeper/*.class
+
+# Local IDE settings
+.idea/
+*.iml
+
+# Local Docker CLI configuration
+/tools/docker-local/
