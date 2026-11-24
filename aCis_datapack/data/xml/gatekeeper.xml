@@ -11,7 +11,7 @@
 		same <column> nodes, which is what keeps them aligned - never describe a header on a HTM.
 
 		width       : width, in pixels, of every generated table (tab bar, header, rows, page selector).
-		              Fed to the HTMs as %width%. Keep it below 290, so the scrollbar doesn't eat the
+		              Fed to the HTMs as %width%. Leave room inside the resized NPC dialog for the scrollbar and the
 		              last column.
 		rowHeight   : height, in pixels, of a single row of a list. Rows never wrap (see maxChars), so
 		              every row of every page owns that exact height.
@@ -160,26 +160,34 @@
 		price    : optional. -1 (default) lets the pricing formula compute it, 0 makes it free, any other value is a fixed base price.
 -->
 <list>
-	<layout width="280" rowHeight="18" headerHeight="18" tabHeight="18" tabColumns="4" maxPages="10" pageHeight="390" ellipsis="...">
-		<table id="areas" overhead="104">
-			<column id="name" header="Destination" width="160" maxChars="22" align="left" />
-			<column id="price" header="Price" width="60" maxChars="0" align="left" />
-			<column id="capital" header="Capital" width="60" maxChars="14" align="left" />
+	<layout width="450" rowHeight="22" headerHeight="22" tabHeight="22" tabColumns="6" maxPages="10" pageHeight="390" ellipsis="...">
+		<table id="areas" overhead="100">
+			<column id="name" header="Location" width="150" maxChars="0" align="left" />
+			<column id="capital" header="Capital" width="90" maxChars="0" align="left" />
+			<column id="price" header="Price" width="90" maxChars="0" align="left" />
+			<column id="item" header="Item" width="80" maxChars="0" align="left" />
+			<column id="lvl" header="Level" width="40" maxChars="0" align="left" />
 		</table>
-		<table id="mixed" overhead="104">
-			<column id="name" header="Destination" width="175" maxChars="25" align="left" />
-			<column id="price" header="Price" width="60" maxChars="0" align="left" />
-			<column id="lvl" header="Level" width="50" maxChars="0" align="center" />
+		<table id="mixed" overhead="100">
+			<column id="name" header="Location" width="150" maxChars="0" align="left" />
+			<column id="point" header="Point" width="90" maxChars="0" align="left" />
+			<column id="price" header="Price" width="90" maxChars="0" align="left" />
+			<column id="item" header="Item" width="80" maxChars="0" align="left" />
+			<column id="lvl" header="Level" width="40" maxChars="0" align="left" />
 		</table>
-		<table id="points" overhead="96">
-			<column id="name" header="Location" width="175" maxChars="35" align="left" />
-			<column id="price" header="Price" width="60" maxChars="0" align="left" />
-			<column id="lvl" header="Level" width="50" maxChars="0" align="center" />
+		<table id="points" overhead="100">
+			<column id="name" header="Location" width="150" maxChars="0" align="left" />
+			<column id="point" header="Point" width="90" maxChars="0" align="left" />
+			<column id="price" header="Price" width="90" maxChars="0" align="left" />
+			<column id="item" header="Item" width="80" maxChars="0" align="left" />
+			<column id="lvl" header="Level" width="40" maxChars="0" align="left" />
 		</table>
-		<table id="popular" overhead="96">
-			<column id="name" header="Location" width="175" maxChars="25" align="left" />
-			<column id="price" header="Price" width="60" maxChars="0" align="left" />
-			<column id="lvl" header="Level" width="50" maxChars="0" align="center" />
+		<table id="popular" overhead="100">
+			<column id="name" header="Location" width="150" maxChars="0" align="left" />
+			<column id="point" header="Point" width="90" maxChars="0" align="left" />
+			<column id="price" header="Price" width="90" maxChars="0" align="left" />
+			<column id="item" header="Item" width="80" maxChars="0" align="left" />
+			<column id="lvl" header="Level" width="40" maxChars="0" align="left" />
 		</table>
 	</layout>
 
@@ -371,7 +379,7 @@
 				<loc id="134" lvl="53-55" name="Forest of Mirrors" point="Center" type="NOBLE" x="166080" y="75574" z="-2992" />
 				<loc id="135" lvl="40-45" name="Hunters Valley" point="" type="NOBLE" x="114306" y="86573" z="-3112" />
 			</area>
-			<area name="Talking Island Village" capital="Talking I...">
+			<area name="Talking Island Village" capital="Talking Island">
 				<loc id="136" lvl="1-3" name="Talking Island Village" point="" type="STANDARD" x="-84153" y="244542" z="-3728" />
 				<loc id="137" lvl="9-17" name="Elven Ruins" point="" type="STANDARD" x="-112367" y="234703" z="-3688" />
 				<loc id="138" lvl="9-10" name="Elven Ruins" point="Center" type="NOBLE" x="49315" y="248452" z="-5960" />

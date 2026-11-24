@@ -509,6 +509,12 @@ public class GlobalGatekeeper extends Quest
 				// A direct row teleports right away ; a regular one leads to the points list of its area.
 				return (area.isDirect()) ? getFullNameLink(main, player, tabIndex, FROM_AREAS, page, column.getMaxChars()) : "<a action=\"bypass -h Quest " + getName() + " Area " + tabIndex + " " + areaIndex + " 0\">" + colorize(data.getNameColor(), escape(truncate(area.getName(), column.getMaxChars()))) + "</a>";
 
+			case "item":
+				return getItemText(main);
+
+			case "point":
+				return (area.isDirect() && main != null) ? escape(main.getPoint()) : "-";
+
 			case "price":
 				return getPriceText(main, player);
 
@@ -540,6 +546,12 @@ public class GlobalGatekeeper extends Quest
 		{
 			case "name":
 				return getFullNameLink(point, player, tabIndex, areaIndex, page, column.getMaxChars());
+
+			case "item":
+				return getItemText(point);
+
+			case "point":
+				return escape(point.getPoint().isEmpty() ? "-" : point.getPoint());
 
 			case "price":
 				return getPriceText(point, player);
@@ -763,13 +775,21 @@ public class GlobalGatekeeper extends Quest
 		if (price <= 0)
 			return colorize(data.getFreeColor(), escape(data.getFreeLabel()));
 
-		return colorize(data.getPriceColor(), StringUtil.formatNumber(price)) + " " + getCurrencyText(point.getPriceId());
+		return colorize(data.getPriceColor(), StringUtil.formatNumber(price));
 	}
 
 	/**
 	 * @param priceId : The currency item id to render.
 	 * @return The currency shown next to a price - either its whole name, localized by the client, or the first "currencyChars" characters of its server side name.
 	 */
+	private static String getItemText(GatekeeperPoint point)
+	{
+		if (point == null)
+			return "-";
+		final Item item = ItemData.getInstance().getTemplate(point.getPriceId());
+		return item == null ? "Item #" + point.getPriceId() : escape(item.getName());
+	}
+
 	private static String getCurrencyText(int priceId)
 	{
 		final GatekeeperData data = GatekeeperData.getInstance();
@@ -815,7 +835,7 @@ public class GlobalGatekeeper extends Quest
 	private static String getFullNameText(GatekeeperPoint point, Player player, int maxChars)
 	{
 		final GatekeeperData data = GatekeeperData.getInstance();
-		final String text = truncate(point.getFullName(), maxChars);
+		final String text = truncate(point.getName(), maxChars);
 
 		if (!point.isAvailableFor(player))
 			return colorize(data.getDisabledColor(), escape(text));
@@ -835,7 +855,7 @@ public class GlobalGatekeeper extends Quest
 	private static String getFullNameLink(GatekeeperPoint point, Player player, int tabIndex, int areaIndex, int page, int maxChars)
 	{
 		final GatekeeperData data = GatekeeperData.getInstance();
-		final String text = truncate(point.getFullName(), maxChars);
+		final String text = truncate(point.getName(), maxChars);
 
 		if (!point.isAvailableFor(player))
 			return colorize(data.getDisabledColor(), escape(text));
@@ -962,6 +982,7 @@ public class GlobalGatekeeper extends Quest
 
 		final NpcHtmlMessage html = new NpcHtmlMessage(npc.getObjectId());
 		html.setHtml(content);
+		html.setWindowSize(480, 400);
 
 		player.sendPacket(html);
 		player.sendPacket(ActionFailed.STATIC_PACKET);
