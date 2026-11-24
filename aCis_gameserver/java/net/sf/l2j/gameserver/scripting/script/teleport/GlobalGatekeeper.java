@@ -389,12 +389,6 @@ public class GlobalGatekeeper extends Quest
 		if (point == null)
 			return false;
 
-		// A teleport animation is already running ; don't take the price twice.
-		if (_pendingTeleports.contains(player.getObjectId()))
-		{
-			player.sendPacket(ActionFailed.STATIC_PACKET);
-			return true;
-		}
 
 		if (player.isDead() || player.isOperating() || player.isInOlympiadMode() || player.isInObserverMode() || player.isFestivalParticipant() || player.isCursedWeaponEquipped())
 		{
@@ -425,54 +419,70 @@ public class GlobalGatekeeper extends Quest
 			}
 		}
 
-		final int price = point.getCalculatedPrice(player);
-		if (price > 0 && !player.destroyItemByItemId(point.getPriceId(), price, true))
+		final int objectId = player.getObjectId();
+		if (!_pendingTeleports.add(objectId))
 		{
-			player.sendPacket(SystemMessageId.YOU_NOT_ENOUGH_ADENA);
-			return false;
-		}
-
-		final int delay = GatekeeperData.getInstance().getTeleportDelay();
-		if (delay <= 0)
-		{
-			doTeleport(player, point);
+			player.sendPacket(ActionFailed.STATIC_PACKET);
 			return true;
 		}
 
-		final int objectId = player.getObjectId();
-
-		_pendingTeleports.add(objectId);
-
-		// Mimic the /unstuck cast, without actually casting the skill (which owns its own teleport effect).
-		final boolean wasImmobilized = player.isImmobilized();
-
-		player.abortAll(false);
-		player.setIsImmobilized(true);
-		player.broadcastPacket(new MagicSkillUse(player, player, ESCAPE_SKILL_ID, 1, delay, 0));
-		player.sendPacket(new SetupGauge(GaugeColor.BLUE, delay));
-
-		ThreadPool.schedule(() ->
+		boolean scheduled = false;
+		try
 		{
-			_pendingTeleports.remove(objectId);
-
-			if (!wasImmobilized)
-				player.setIsImmobilized(false);
-
-			// The Player died or left the world meanwhile ; cancel the animation and refund the price.
-			if (player.isDead() || !player.isOnline())
+			final int price = point.getCalculatedPrice(player);
+			final int delay = GatekeeperData.getInstance().getTeleportDelay();
+			if (delay <= 0)
 			{
-				player.broadcastPacket(new MagicSkillCanceled(objectId));
-
-				if (price > 0 && player.isOnline())
-					giveItems(player, point.getPriceId(), price);
-
-				return;
+				completeTeleport(player, point, price);
+				return true;
 			}
 
-			doTeleport(player, point);
-		}, delay);
+			player.abortAll(false);
+			player.setGatekeeperMovementBlocked(true);
+			player.broadcastPacket(new MagicSkillUse(player, player, ESCAPE_SKILL_ID, 1, delay, 0));
+			player.sendPacket(new SetupGauge(GaugeColor.BLUE, delay));
+			ThreadPool.schedule(() ->
+			{
+				try
+				{
+					completeTeleport(player, point, price);
+				}
+				finally
+				{
+					player.setGatekeeperMovementBlocked(false);
+					_pendingTeleports.remove(objectId);
+				}
+			}, delay);
+			scheduled = true;
+			return true;
+		}
+		finally
+		{
+			if (!scheduled)
+			{
+				player.setGatekeeperMovementBlocked(false);
+				_pendingTeleports.remove(objectId);
+			}
+		}
+	}
 
-		return true;
+	private static void completeTeleport(Player player, GatekeeperPoint point, int price)
+	{
+		final Castle castle = point.getCastleId() > 0 ? CastleManager.getInstance().getCastleById(point.getCastleId()) : null;
+		if (!player.isOnline() || player.isDead() || player.isOperating() || player.isInOlympiadMode() || player.isInObserverMode() || player.isFestivalParticipant() || player.isCursedWeaponEquipped() || !point.isAvailableFor(player) || (castle != null && castle.getSiege().isInProgress()))
+		{
+			player.broadcastPacket(new MagicSkillCanceled(player.getObjectId()));
+			return;
+		}
+
+		// Charge only after the delay: cancellation and disconnect never require an offline refund.
+		if (price > 0 && !player.destroyItemByItemId(point.getPriceId(), price, true))
+		{
+			player.broadcastPacket(new MagicSkillCanceled(player.getObjectId()));
+			player.sendPacket(SystemMessageId.YOU_NOT_ENOUGH_ADENA);
+			return;
+		}
+		doTeleport(player, point);
 	}
 
 	/**

@@ -99,6 +99,7 @@ public abstract class Creature extends WorldObject
 	private WorldObject _target;
 	
 	private boolean _isImmobilized;
+	private volatile boolean _gatekeeperMovementBlocked;
 	private boolean _isParalyzed;
 	private boolean _isDead;
 	private boolean _isRunning;
@@ -678,9 +679,14 @@ public abstract class Creature extends WorldObject
 	
 	public boolean isImmobilized()
 	{
-		return _isImmobilized;
+		return _isImmobilized || _gatekeeperMovementBlocked;
 	}
 	
+	public void setGatekeeperMovementBlocked(boolean value)
+	{
+		_gatekeeperMovementBlocked = value;
+	}
+
 	public void setIsImmobilized(boolean value)
 	{
 		_isImmobilized = value;
