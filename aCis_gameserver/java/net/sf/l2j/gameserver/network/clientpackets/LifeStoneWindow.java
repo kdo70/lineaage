@@ -17,15 +17,23 @@ public final class LifeStoneWindow
 {
 	private record Request(int stone, int weapon, int token, long expires, int page) {}
 	private static final int PAGE_ROWS = 8;
-	private static final Map<Player, Request> REQUESTS = new WeakHashMap<>();
+	private static final Map<Player, Request> REQUESTS = java.util.Collections.synchronizedMap(new WeakHashMap<>());
+	private static final Map<Player, Long> LAST_OPEN = java.util.Collections.synchronizedMap(new WeakHashMap<>());
 	private LifeStoneWindow() {}
 
-	public static synchronized void open(Player player, ItemInstance stone)
+	public static void open(Player player, ItemInstance stone)
 	{
-		if (!Config.LIFE_STONE_WINDOW || !AbstractRefinePacket.isValid(player) || player.isItemDisabled(stone))
+		synchronized (player)
+		{
+		long now = System.currentTimeMillis();
+		if (now - LAST_OPEN.getOrDefault(player, 0L) < 500) return;
+		LAST_OPEN.put(player, now);
+		if (!Config.LIFE_STONE_WINDOW || !AbstractRefinePacket.isValid(player) || !validStone(player, stone))
 			return;
 		REQUESTS.put(player, new Request(stone.getObjectId(), 0, 0, System.currentTimeMillis() + 120000, 0));
 		showPage(player, stone, 0);
+
+		}
 	}
 
 	private static void showPage(Player player, ItemInstance stone, int requestedPage)
@@ -55,8 +63,10 @@ public final class LifeStoneWindow
 		player.sendPacket(packet);
 	}
 
-	public static synchronized void page(Player player, String command)
+	public static void page(Player player, String command)
 	{
+		synchronized (player)
+		{
 		Request request = REQUESTS.get(player);
 		if (!Config.LIFE_STONE_WINDOW || request == null || request.expires() < System.currentTimeMillis())
 		{
@@ -67,6 +77,8 @@ public final class LifeStoneWindow
 		if (stone == null) { player.sendMessage("Инкрустация невозможна: выбранный предмет отсутствует в инвентаре."); return; }
 		try { showPage(player, stone, Integer.parseInt(command.substring(8))); }
 		catch (NumberFormatException e) { return; }
+
+		}
 	}
 
 	private static String navigation(int page, int pages)
@@ -87,8 +99,10 @@ public final class LifeStoneWindow
 		return "<td width=28 height=22 align=center><a action=\"bypass -h ls_page " + page + "\">" + label + "</a></td>";
 	}
 
-	public static synchronized void select(Player player, String command)
+	public static void select(Player player, String command)
 	{
+		synchronized (player)
+		{
 		Request request = REQUESTS.get(player);
 		if (!Config.LIFE_STONE_WINDOW || request == null || request.expires() < System.currentTimeMillis())
 			return;
@@ -96,17 +110,21 @@ public final class LifeStoneWindow
 		try { id = Integer.parseInt(command.substring(10)); }
 		catch (NumberFormatException e) { return; }
 		ItemInstance weapon = player.getInventory().getItemByObjectId(id);
-		if (!AbstractRefinePacket.isValid(player, weapon, true))
+		if (request.token() != 0 || !AbstractRefinePacket.isValid(player, weapon, true))
 			return;
 		int token = ThreadLocalRandom.current().nextInt(1, Integer.MAX_VALUE);
 		REQUESTS.put(player, new Request(request.stone(), id, token, System.currentTimeMillis() + 15000, request.page()));
 		ItemInstance stone = player.getInventory().getItemByObjectId(request.stone());
 		if (stone == null) { player.sendMessage("Инкрустация невозможна: выбранный предмет отсутствует в инвентаре."); return; }
 		player.sendPacket(new ConfirmDlg(614).addString("Подтвердить инкрустацию " + stone.getItem().getName() + " в " + weapon.getItem().getName() + "? Стоимость: " + costText(weapon) + (weapon.isAugmented() ? ". Текущая инкрустация будет заменена" : "")).addTime(15000).addRequesterId(token));
+
+		}
 	}
 
-	public static synchronized void answer(Player player, int answer, int token)
+	public static void answer(Player player, int answer, int token)
 	{
+		synchronized (player)
+		{
 		Request request = REQUESTS.get(player);
 		if (request == null || request.token() == 0 || (token != 0 && request.token() != token))
 			return;
@@ -121,7 +139,7 @@ public final class LifeStoneWindow
 		{
 			ItemInstance stone = player.getInventory().getItemByObjectId(request.stone());
 			ItemInstance weapon = player.getInventory().getItemByObjectId(request.weapon());
-			if (stone == null || !AbstractRefinePacket.isValid(player, weapon, true) || player.isItemDisabled(stone) || player.isItemDisabled(weapon))
+			if (!validStone(player, stone) || !AbstractRefinePacket.isValid(player, weapon, true) || player.isItemDisabled(stone) || player.isItemDisabled(weapon))
 			{
 				player.sendMessage("Инкрустация невозможна: выбранный предмет или оружие недоступны. Откройте окно заново.");
 				return;
@@ -169,6 +187,16 @@ public final class LifeStoneWindow
 				showPage(player, nextStone, request.page());
 			}
 		}
+
+		}
+	}
+
+	private static boolean validStone(Player player, ItemInstance stone)
+	{
+		return stone != null && stone.getOwnerId() == player.getObjectId()
+			&& stone.getLocation() == net.sf.l2j.gameserver.enums.items.ItemLocation.INVENTORY
+			&& stone.getCount() > 0 && AbstractRefinePacket.getLifeStone(stone.getItemId()) != null
+			&& !player.isItemDisabled(stone);
 	}
 
 	private static String displayName(ItemInstance weapon)
