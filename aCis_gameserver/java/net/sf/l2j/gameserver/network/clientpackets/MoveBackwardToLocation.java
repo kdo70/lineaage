@@ -62,6 +62,9 @@ public class MoveBackwardToLocation extends L2GameClientPacket
 		if (player == null)
 			return;
 		
+		if (player.getMove().traceClick())
+			LOGGER.info("Ground click packet from {} to {}, {}, {} mode {}", player.getPosition(), _targetX, _targetY, _targetZ, _moveMovement);
+
 		final BoatInfo info = player.getBoatInfo();
 		
 		// Deny movement from arrow keys.
@@ -121,6 +124,13 @@ public class MoveBackwardToLocation extends L2GameClientPacket
 			if (player.tryToPassBoatEntrance(targetLoc))
 				return;
 			
+			// Bound ground path searches using the server position as well as the packet origin.
+			if (!targetLoc.isIn3DRadius(player.getPosition(), 9900))
+			{
+				player.sendPacket(ActionFailed.STATIC_PACKET);
+				return;
+			}
+
 			info.setCanBoard(false);
 			player.getAI().tryToMoveTo(targetLoc, null);
 		}

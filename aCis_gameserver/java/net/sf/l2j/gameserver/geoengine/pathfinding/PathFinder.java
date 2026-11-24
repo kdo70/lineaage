@@ -48,7 +48,7 @@ public class PathFinder
 	 * @param debug : The {@link ExServerPrimitive} packet to add debug informations in.
 	 * @return A {@link List} of {@link Location}s for the path or an empty {@link List}, if path not found or too complex.
 	 */
-	public final List<Location> findPath(int gox, int goy, int goz, int gtx, int gty, int gtz, ExServerPrimitive debug)
+	public final List<Location> findPath(int gox, int goy, int goz, int gtx, int gty, int gtz, int maxIterations, ExServerPrimitive debug)
 	{
 		// Set target coordinates.
 		_gtx = gtx;
@@ -65,7 +65,7 @@ public class PathFinder
 		_opened.add(_current);
 		
 		int count = 0;
-		while (!_opened.isEmpty() && count < Config.MAX_ITERATIONS)
+		while (!_opened.isEmpty() && count < maxIterations)
 		{
 			// Get the Node with the lowest F cost from the open list.
 			_current = _opened.poll();

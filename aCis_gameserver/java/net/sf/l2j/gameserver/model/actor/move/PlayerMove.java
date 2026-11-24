@@ -8,6 +8,7 @@ import java.util.List;
 import net.sf.l2j.commons.math.MathUtil;
 
 import net.sf.l2j.gameserver.data.manager.ZoneManager;
+import net.sf.l2j.gameserver.enums.IntentionType;
 import net.sf.l2j.gameserver.enums.actors.MoveType;
 import net.sf.l2j.gameserver.geoengine.GeoEngine;
 import net.sf.l2j.gameserver.geoengine.geodata.GeoStructure;
@@ -27,6 +28,14 @@ import net.sf.l2j.gameserver.network.serverpackets.MoveToPawn;
  */
 public class PlayerMove extends CreatureMove<Player>
 {
+	private static final net.sf.l2j.commons.logging.CLogger CLICK_LOG = new net.sf.l2j.commons.logging.CLogger(PlayerMove.class.getName());
+	private static final boolean TRACE_GM_CLICKS = Boolean.parseBoolean(System.getenv("TRACE_GM_CLICKS"));
+
+	public boolean traceClick()
+	{
+		return TRACE_GM_CLICKS && _actor.isGM();
+	}
+
 	private volatile Instant _instant;
 	
 	private int _moveTimeStamp;
@@ -130,6 +139,8 @@ public class PlayerMove extends CreatureMove<Player>
 		{
 			// Calculate the path.
 			final Location loc = calculatePath(position.getX(), position.getY(), position.getZ(), destination.getX(), destination.getY(), destination.getZ());
+			if (traceClick())
+				CLICK_LOG.info("Ground click route from {} toward {}, first {}, queued {}", position, destination, loc == null ? destination : loc, _geoPath.size());
 			if (loc != null)
 				destination.set(loc);
 		}
@@ -284,6 +295,8 @@ public class PlayerMove extends CreatureMove<Player>
 		// Check if location can be reached (case of dynamic objects, such as opening doors/fences).
 		if (type == MoveType.GROUND && !GeoEngine.getInstance().canMoveToTarget(curX, curY, curZ, nextX, nextY, nextZ))
 		{
+			if (traceClick())
+				CLICK_LOG.info("Ground click blocked from {} toward {} at {}, {}, {}", _actor.getPosition(), _destination, nextX, nextY, nextZ);
 			_blocked = true;
 			return true;
 		}
@@ -415,6 +428,112 @@ public class PlayerMove extends CreatureMove<Player>
 		}
 	}
 	
+
+	private Location groundClickRoute(int ox, int oy, int oz, int tx, int ty, int tz)
+	{
+		final GeoEngine geo = GeoEngine.getInstance();
+		final Location start = new Location(ox, oy, oz);
+		final Location target = new Location(tx, ty, tz);
+		final double direct = start.distance2D(target);
+
+		// A click on a nearby floor can require stepping away from a pillar first.
+		if (direct <= 1024 && !World.isOutOfWorld(tx, ty) && Math.abs((long) geo.getHeight(tx, ty, tz) - tz) <= GeoStructure.CELL_IGNORE_HEIGHT)
+		{
+			target.setZ(geo.getHeight(tx, ty, tz));
+			final List<Location> path = geo.findPath(ox, oy, oz, tx, ty, tz, Math.min(2048, net.sf.l2j.Config.MAX_ITERATIONS), null);
+			Location previous = start;
+			double length = 0;
+			for (Location point : path)
+			{
+				length += previous.distance2D(point);
+				if (length > direct + 512 || !geo.canMoveToTarget(previous, point))
+					break;
+				previous = point;
+			}
+			if (!path.isEmpty() && previous == path.get(path.size() - 1) && geo.canMoveToTarget(previous, target))
+			{
+				_geoPath.addAll(path);
+				if (previous.distance2D(target) > 0)
+					_geoPath.add(target);
+				return _geoPath.poll();
+			}
+		}
+		return nearestGroundClick(ox, oy, oz, tx, ty);
+	}
+
+	private Location nearestGroundClick(int ox, int oy, int oz, int tx, int ty)
+	{
+		final GeoEngine geo = GeoEngine.getInstance();
+		final Location click = new Location(tx, ty, oz);
+		Location best = new Location(ox, oy, oz);
+		double distance = best.distance2D(click);
+		final double lateralLimit = 2 * GeoStructure.CELL_SIZE * distance;
+
+		// Try the click, both wall-parallel projections and nearby cells on the player's side.
+		final int insetX = Integer.signum(ox - tx) * GeoStructure.CELL_SIZE;
+		final int insetY = Integer.signum(oy - ty) * GeoStructure.CELL_SIZE;
+		final int[][] targets = {{tx, ty}, {tx + insetX, ty}, {tx, ty + insetY},
+			{tx + 2 * insetX, ty}, {tx, ty + 2 * insetY}, {ox, ty}, {tx, oy}};
+		for (int[] target : targets)
+		{
+			final Location point = geo.traceGroundClick(ox, oy, oz, target[0], target[1]);
+			// Allow sliding along a wall, but keep the endpoint near the click ray.
+			final double lateralArea = (double) (tx - ox) * (point.getY() - oy) - (double) (ty - oy) * (point.getX() - ox);
+			if (Math.abs(lateralArea) > lateralLimit)
+				continue;
+
+			final double remaining = point.distance2D(click);
+			if (remaining < distance && geo.canMoveToTarget(ox, oy, oz, point.getX(), point.getY(), point.getZ()))
+			{
+				best = point;
+				distance = remaining;
+				if (distance == 0)
+					break;
+			}
+		}
+		// At a wall the first cell border can block every ray aimed at the click.
+		// Try a short step along either grid axis, followed by a trace on that floor.
+		if (Math.hypot(best.getX() - ox, best.getY() - oy) >= GeoStructure.CELL_SIZE || distance == 0)
+			return best;
+
+		Location corner = null;
+		final int dx = tx - ox;
+		final int dy = ty - oy;
+		for (int step = GeoStructure.CELL_SIZE; step <= 4 * GeoStructure.CELL_SIZE; step += GeoStructure.CELL_SIZE)
+		{
+			final int[][] offsets = {{step, 0}, {-step, 0}, {0, step}, {0, -step}};
+			for (int[] offset : offsets)
+			{
+				if ((double) dx * offset[0] + (double) dy * offset[1] < 0 ||
+					Math.abs((double) dx * offset[1] - (double) dy * offset[0]) > lateralLimit)
+					continue;
+
+				final Location via = geo.traceGroundClick(ox, oy, oz, ox + offset[0], oy + offset[1]);
+				if (via.getX() != ox + offset[0] || via.getY() != oy + offset[1] ||
+					!geo.canMoveToTarget(ox, oy, oz, via.getX(), via.getY(), via.getZ()))
+					continue;
+
+				final Location end = geo.traceGroundClick(via.getX(), via.getY(), via.getZ(), tx, ty);
+				final double remaining = end.distance2D(click);
+				if (remaining < distance && geo.canMoveToTarget(via, end))
+				{
+					distance = remaining;
+					corner = via;
+					best = end;
+				}
+			}
+			if (distance == 0)
+				break;
+		}
+		if (corner != null)
+		{
+			if (corner.distance2D(best) > 0)
+				_geoPath.add(best);
+			return corner;
+		}
+		return best;
+	}
+
 	@Override
 	protected Location calculatePath(int ox, int oy, int oz, int tx, int ty, int tz)
 	{
@@ -436,11 +555,16 @@ public class PlayerMove extends CreatureMove<Player>
 		if (moveType != MoveType.GROUND)
 			return GeoEngine.getInstance().getValidFlyLocation(ox, oy, oz, 32, tx, ty, tz, dummy);
 		
-		// Calculate the path. If no path or too short, calculate the first valid location.
+		// A ground click asks for progress toward the cursor, even when another layer
+		// or the far side of an obstacle can be reached by a long detour.
+		final var intention = _actor.getAI().getCurrentIntention();
+		if (intention.getType() == IntentionType.MOVE_TO && intention.getBoat() == null)
+			return groundClickRoute(ox, oy, oz, tx, ty, tz);
+
 		final List<Location> path = GeoEngine.getInstance().findPath(ox, oy, oz, tx, ty, tz, true, dummy);
 		if (path.size() < 2)
 			return GeoEngine.getInstance().getValidLocation(ox, oy, oz, tx, ty, tz, null);
-		
+
 		// Draw a debug of this movement if activated.
 		if (_isDebugPath)
 		{

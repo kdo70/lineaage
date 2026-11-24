@@ -1036,6 +1036,20 @@ public class GeoEngine
 	 */
 	public final Location getValidLocation(int ox, int oy, int oz, int tx, int ty, int tz, ExServerPrimitive debug)
 	{
+		return traceGround(ox, oy, oz, tx, ty, tz, debug, true);
+	}
+
+	/** Trace a ground click on the walkable layer reached from the player. */
+	public Location traceGroundClick(int ox, int oy, int oz, int tx, int ty)
+	{
+		if (World.isOutOfWorld(tx, ty))
+			return new Location(ox, oy, oz);
+
+		return traceGround(ox, oy, oz, tx, ty, oz, null, false);
+	}
+
+	private Location traceGround(int ox, int oy, int oz, int tx, int ty, int tz, ExServerPrimitive debug, boolean matchTargetLayer)
+	{
 		// Get geodata coordinates.
 		int gox = getGeoX(ox);
 		int goy = getGeoY(oy);
@@ -1145,7 +1159,7 @@ public class GeoEngine
 		// Compare Z coordinates:
 		// If same, path is okay, return target point and fix its Z geodata coordinate.
 		// If not same, path is does not exist, return origin point.
-		return goz == gtz ? new Location(tx, ty, gtz) : new Location(ox, oy, oz);
+		return !matchTargetLayer || goz == gtz ? new Location(tx, ty, goz) : new Location(ox, oy, oz);
 	}
 	
 	/**
@@ -1750,6 +1764,11 @@ public class GeoEngine
 	 */
 	public List<Location> findPath(int ox, int oy, int oz, int tx, int ty, int tz, boolean playable, ExServerPrimitive debug)
 	{
+		return findPath(ox, oy, oz, tx, ty, tz, Config.MAX_ITERATIONS, debug);
+	}
+
+	public List<Location> findPath(int ox, int oy, int oz, int tx, int ty, int tz, int maxIterations, ExServerPrimitive debug)
+	{
 		// Check target coordinates.
 		if (World.isOutOfWorld(tx, ty))
 			return Collections.emptyList();
@@ -1775,7 +1794,7 @@ public class GeoEngine
 		final PathFinder pf = new PathFinder();
 		
 		// find path
-		final List<Location> path = pf.findPath(gox, goy, goz, gtx, gty, gtz, debug);
+		final List<Location> path = pf.findPath(gox, goy, goz, gtx, gty, gtz, maxIterations, debug);
 		if (path.isEmpty())
 			return Collections.emptyList();
 		
