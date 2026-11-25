@@ -71,6 +71,12 @@ public class AdminItem implements IAdminCommandHandler
 			{
 				switch (param)
 				{
+					case "inventory":
+						AdminInventoryCleanup.handle(player, st, false);
+						break;
+					case "clear":
+						AdminInventoryCleanup.handle(player, st, true);
+						break;
 					case "coin":
 						try
 						{
