@@ -1,0 +1,854 @@
+﻿ID	Название	Операция	Из прежних 164	Предложенная ранее замена	Рекомендация	Различия шаблонов с заменой	DAT позиции	Java прямые	Java кандидаты	Java массивы	Конфиги	БД таблица:строк
+104	Shield of Victory	Кандидат на объединение		19	До выбора поведения сохранить оба: 104, 19	crystal_count, crystal_type, material, price, stat.sDef, weight	3	0	0	0	0	
+121	Sword of Watershadow	Кандидат на объединение		120	До выбора поведения сохранить оба: 121, 120	weight	3	0	0	0	0	
+137	Mist Sword	Кандидат на объединение		84	До выбора поведения сохранить оба: 137, 84	crystal_count, crystal_type, is_magical, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+138	Sword of Desert	Кандидат на объединение		69	До выбора поведения сохранить оба: 138, 69	crystal_count, crystal_type, damage_range, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+140	Eminence Sword	Кандидат на объединение		76	До выбора поведения сохранить оба: 140, 76	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+141	Hazard Sword	Кандидат на объединение		129	До выбора поведения сохранить оба: 141, 129	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+145	Sword of Whispering Death	Кандидат на объединение		139	До выбора поведения сохранить оба: 145, 139	crystal_count, crystal_type, is_magical, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+146	Ghoulbane	Кандидат на объединение		68	До выбора поведения сохранить оба: 146, 68	crystal_count, crystal_type, is_magical, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+147	Tear of Darkness	Кандидат на объединение		73	До выбора поведения сохранить оба: 147, 73	crystal_count, crystal_type, is_magical, material, price, soulshots, spiritshots, weight	3	0	0	0	0	
+163	_	Кандидат на объединение		162	До выбора поведения сохранить оба: 163, 162	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+170	_	Кандидат на объединение		162	До выбора поведения сохранить оба: 170, 162	crystal_count, crystal_type, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+177	Mage Staff	Кандидат на объединение		176	До выбора поведения сохранить оба: 177, 176	price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+178	Bone Staff	Кандидат на объединение		176	До выбора поведения сохранить оба: 178, 176	crystal_count, crystal_type, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+207	Staff of Phantom	Кандидат на объединение		176	До выбора поведения сохранить оба: 207, 176	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+208	Staff of Seal	Кандидат на объединение		176	До выбора поведения сохранить оба: 208, 176	crystal_count, crystal_type, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+209	Divine Staff	Кандидат на объединение		176	До выбора поведения сохранить оба: 209, 176	crystal_count, crystal_type, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+211	Staff of Nobility	Кандидат на объединение		176	До выбора поведения сохранить оба: 211, 176	crystal_count, crystal_type, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+222	Poniard Dagger	Кандидат на объединение		216	До выбора поведения сохранить оба: 222, 216	crystal_count, crystal_type, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+230	Wolverine Needle	Кандидат на объединение		149	До выбора поведения сохранить оба: 230, 149	crystal_count, crystal_type, is_magical, material, price, random_damage, soulshots, spiritshots, stat.accCombat, stat.pAtkSpd, stat.rCrit, weapon_type, weight	4	0	0	0	0	
+257	Viper's Fang	Кандидат на объединение		256	До выбора поведения сохранить оба: 257, 256	price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+264	Pata	Кандидат на объединение		263	До выбора поведения сохранить оба: 264, 263	crystal_count, crystal_type, damage_range, price, soulshots, spiritshots, weight	6	0	0	0	0	
+310	Relic of The Saints	Кандидат на объединение		99	До выбора поведения сохранить оба: 310, 99	material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+319	Eye of Infinity	Кандидат на объединение		99	До выбора поведения сохранить оба: 319, 99	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+320	Blue Crystal Skull	Кандидат на объединение		99	До выбора поведения сохранить оба: 320, 99	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+322	Vajra Wands	Кандидат на объединение		99	До выбора поведения сохранить оба: 322, 99	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+323	Ancient Reagent	Кандидат на объединение		99	До выбора поведения сохранить оба: 323, 99	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+324	Tears of Fairy	Кандидат на объединение		99	До выбора поведения сохранить оба: 324, 99	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+327	Hex Doll	Кандидат на объединение		99	До выбора поведения сохранить оба: 327, 99	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+328	Candle of Wisdom	Кандидат на объединение		99	До выбора поведения сохранить оба: 328, 99	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+329	Blessed Branch	Кандидат на объединение		99	До выбора поведения сохранить оба: 329, 99	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+330	Phoenix Feather	Кандидат на объединение		99	До выбора поведения сохранить оба: 330, 99	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+331	Cerberus Eye	Кандидат на объединение		99	До выбора поведения сохранить оба: 331, 99	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+332	Scroll of Destruction	Кандидат на объединение		99	До выбора поведения сохранить оба: 332, 99	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+333	Claws of Black Dragon	Кандидат на объединение		99	До выбора поведения сохранить оба: 333, 99	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+334	Three Eyed Crow's Feather	Кандидат на объединение		99	До выбора поведения сохранить оба: 334, 99	crystal_count, crystal_type, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+335	Soul Crystal	Кандидат на объединение		99	До выбора поведения сохранить оба: 335, 99	crystal_count, crystal_type, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+336	Scroll of Mana	Кандидат на объединение		99	До выбора поведения сохранить оба: 336, 99	crystal_count, crystal_type, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+337	Scroll of Massacre	Кандидат на объединение		99	До выбора поведения сохранить оба: 337, 99	crystal_count, crystal_type, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+338	Wyvern's Skull	Кандидат на объединение		99	До выбора поведения сохранить оба: 338, 99	crystal_count, crystal_type, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+339	Blood Crystal	Кандидат на объединение		99	До выбора поведения сохранить оба: 339, 99	crystal_count, crystal_type, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+340	Unicorn's Horn	Кандидат на объединение		99	До выбора поведения сохранить оба: 340, 99	crystal_count, crystal_type, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+341	Forgotten Tome	Кандидат на объединение		99	До выбора поведения сохранить оба: 341, 99	crystal_count, crystal_type, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+342	Enchanted Flute	Кандидат на объединение		99	До выбора поведения сохранить оба: 342, 99	crystal_count, crystal_type, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+343	Headless Arrow	Кандидат на объединение		99	До выбора поведения сохранить оба: 343, 99	crystal_count, crystal_type, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+344	Proof of Overlord	Кандидат на объединение		99	До выбора поведения сохранить оба: 344, 99	crystal_count, crystal_type, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+345	Deathbringer Sword	Кандидат на объединение		99	До выбора поведения сохранить оба: 345, 99	crystal_count, crystal_type, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+346	Tears of Fallen Angel	Кандидат на объединение		99	До выбора поведения сохранить оба: 346, 99	crystal_count, crystal_type, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+635	Wolf Shield	Кандидат на объединение		19	До выбора поведения сохранить оба: 635, 19	crystal_count, crystal_type, material, price, stat.sDef, weight	3	0	0	0	0	
+636	Shining Dragon Shield	Кандидат на объединение		110	До выбора поведения сохранить оба: 636, 110	material, weight	3	0	0	0	0	
+637	Shield of Valor	Кандидат на объединение		19	До выбора поведения сохранить оба: 637, 19	crystal_count, crystal_type, material, price, stat.sDef, weight	3	0	0	0	0	
+639	Red Flame Shield	Кандидат на объединение		103	До выбора поведения сохранить оба: 639, 103	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+640	Elven Crystal Shield	Кандидат на объединение		108	До выбора поведения сохранить оба: 640, 108	crystal_count, material, price, weight	3	0	0	0	0	
+643	Dark Vagian Shield	Кандидат на объединение		642	До выбора поведения сохранить оба: 643, 642	crystal_count, price	3	0	0	0	0	
+645	Art of Shield	Кандидат на объединение		632	До выбора поведения сохранить оба: 645, 632	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+647	Gust Shield	Кандидат на объединение		644	До выбора поведения сохранить оба: 647, 644	weight	3	0	0	0	0	
+648	Prairie Shield	Кандидат на объединение		632	До выбора поведения сохранить оба: 648, 632	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+649	Shield of The Underworld	Кандидат на объединение		632	До выбора поведения сохранить оба: 649, 632	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+650	Shield of Concentration	Кандидат на объединение		644	До выбора поведения сохранить оба: 650, 644	crystal_count, material, price, weight	3	0	0	0	0	
+651	Ace's Shield	Кандидат на объединение		646	До выбора поведения сохранить оба: 651, 646	crystal_count, material, price, weight	3	0	0	0	0	
+652	Guardian's Shield	Кандидат на объединение		632	До выбора поведения сохранить оба: 652, 632	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+653	Marksman Shield	Кандидат на объединение		110	До выбора поведения сохранить оба: 653, 110	material	3	0	0	0	0	
+654	Shield of Mana	Кандидат на объединение		111	До выбора поведения сохранить оба: 654, 111	material, weight	3	0	0	0	0	
+656	Paradia Shield	Кандидат на объединение		632	До выбора поведения сохранить оба: 656, 632	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+657	Inferno Shield	Кандидат на объединение		642	До выбора поведения сохранить оба: 657, 642	crystal_count, material, price	3	0	0	0	0	
+658	Shield of Black Ore	Кандидат на объединение		107	До выбора поведения сохранить оба: 658, 107	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+659	Shield of Summoning	Кандидат на объединение		109	До выбора поведения сохранить оба: 659, 109	material, weight	3	0	0	0	0	
+660	Otherworldly Shield	Кандидат на объединение		102	До выбора поведения сохранить оба: 660, 102	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+661	Elemental Shield	Кандидат на объединение		632	До выбора поведения сохранить оба: 661, 632	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+662	Shield of Phantom	Кандидат на объединение		646	До выбора поведения сохранить оба: 662, 646	crystal_count, material, price, weight	3	0	0	0	0	
+663	Shield of Grace	Кандидат на объединение		18	До выбора поведения сохранить оба: 663, 18	crystal_count, crystal_type, material, price, stat.sDef, weight	3	0	0	0	0	
+664	Shield of Holy Spirit	Кандидат на объединение		107	До выбора поведения сохранить оба: 664, 107	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+665	Phoenix Shield	Кандидат на объединение		632	До выбора поведения сохранить оба: 665, 632	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+666	Cerberus Shield	Кандидат на объединение		110	До выбора поведения сохранить оба: 666, 110	material, weight	3	0	0	0	0	
+667	Shield of Aid	Кандидат на объединение		646	До выбора поведения сохранить оба: 667, 646	material, weight	3	0	0	0	0	
+668	Shield of Blessing	Кандидат на объединение		111	До выбора поведения сохранить оба: 668, 111	crystal_count, material, price, weight	3	0	0	0	0	
+669	Flame Shield	Кандидат на объединение		107	До выбора поведения сохранить оба: 669, 107	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+670	Shield of Bravery	Кандидат на объединение		646	До выбора поведения сохранить оба: 670, 646	crystal_count, material, price, weight	3	0	0	0	0	
+671	Blood Shield	Кандидат на объединение		632	До выбора поведения сохранить оба: 671, 632	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+672	Absolute Shield	Кандидат на объединение		632	До выбора поведения сохранить оба: 672, 632	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+674	Divine Shield	Кандидат на объединение		632	До выбора поведения сохранить оба: 674, 632	crystal_count, crystal_type, material, price, weight	3	0	0	0	0	
+738	Sword of Solidarity	Кандидат на объединение		2	Для квеста оставить 738; обычный предмет не должен заменять квестовую выдачу или условие	material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	2	0	0	0	
+743	Sword of Sentinel	Кандидат на объединение		3	Для квеста оставить 743; обычный предмет не должен заменять квестовую выдачу или условие	price, stat.mAtk, stat.pAtk, weight	3	2	0	0	0	
+744	Staff of Sentinel	Кандидат на объединение		9	Для квеста оставить 744; обычный предмет не должен заменять квестовую выдачу или условие	price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	2	0	0	0	
+747	Wand of Adept	Кандидат на объединение		6	Для квеста оставить 747; обычный предмет не должен заменять квестовую выдачу или условие	is_dropable, is_sellable, is_tradable, material, price, stat.mAtk, stat.pAtk, weight	3	2	0	0	0	
+748	Gallint's Oak Wand	Кандидат на объединение		4	Для квеста оставить 748; обычный предмет не должен заменять квестовую выдачу или условие	bodypart, damage_range, is_dropable, is_magical, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, stat.pAtkSpd, weight	3	9	0	0	0	
+749	0	Кандидат на объединение		176	До выбора поведения сохранить оба: 749, 176	crystal_count, crystal_type, is_dropable, is_magical, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+754	Red Sunset Staff	Кандидат на объединение		9	Для квеста оставить 754; обычный предмет не должен заменять квестовую выдачу или условие	price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	2	0	0	0	
+975	Blood Saber	Кандидат на объединение		3	Для квеста оставить 975; обычный предмет не должен заменять квестовую выдачу или условие	material, price, stat.mAtk, stat.pAtk, weight	3	2	0	0	0	
+989	Eldritch Dagger	Кандидат на объединение		12	Для квеста оставить 989; обычный предмет не должен заменять квестовую выдачу или условие	material, price, stat.mAtk, stat.pAtk, weight	3	2	0	0	0	
+1142	Rusted Bronze Sword	Кандидат на объединение		3	Для квеста оставить 1142; обычный предмет не должен заменять квестовую выдачу или условие	is_dropable, is_sellable, is_tradable, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	5	0	0	0	
+1181	Neti's Bow	Кандидат на объединение		14	Для квеста оставить 1181; обычный предмет не должен заменять квестовую выдачу или условие	is_dropable, is_sellable, is_tradable, mp_consume, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	5	0	0	0	
+1182	Neti's Dagger	Кандидат на объединение		12	Для квеста оставить 1182; обычный предмет не должен заменять квестовую выдачу или условие	is_dropable, is_sellable, is_tradable, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	5	0	0	0	
+1213	Guard's Bow	Кандидат на объединение		14	До выбора поведения сохранить оба: 1213, 14	is_dropable, is_sellable, is_tradable, material, mp_consume, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+1295	Long Sword	Кандидат на объединение		2	До выбора поведения сохранить оба: 1295, 2	is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+1296	Gladius	Кандидат на объединение		66	До выбора поведения сохранить оба: 1296, 66	is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+1297	Bastard Sword	Кандидат на объединение		69	До выбора поведения сохранить оба: 1297, 69	crystal_count, crystal_type, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+1298	Caliburs	Кандидат на объединение		75	До выбора поведения сохранить оба: 1298, 75	crystal_count, crystal_type, is_sellable, is_tradable, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+1300	Apprentice's Rod	Кандидат на объединение		7	До выбора поведения сохранить оба: 1300, 7	damage_range, is_magical, is_sellable, is_tradable, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+1301	Big Hammer	Кандидат на объединение		89	До выбора поведения сохранить оба: 1301, 89	crystal_count, crystal_type, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+1302	Bec de Corbin	Кандидат на объединение		94	До выбора поведения сохранить оба: 1302, 94	crystal_count, crystal_type, damage_range, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+1303	Lance	Кандидат на объединение		97	До выбора поведения сохранить оба: 1303, 97	crystal_count, crystal_type, damage_range, is_sellable, is_tradable, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+1304	Conjuror's Staff	Кандидат на объединение		176	До выбора поведения сохранить оба: 1304, 176	is_magical, is_sellable, is_tradable, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+1305	Knife	Кандидат на объединение		12	До выбора поведения сохранить оба: 1305, 12	damage_range, is_sellable, is_tradable, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+1306	Crafted Dagger	Кандидат на объединение		12	До выбора поведения сохранить оба: 1306, 12	damage_range, is_sellable, is_tradable, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+1307	Bow	Кандидат на объединение		14	До выбора поведения сохранить оба: 1307, 14	attack_range, damage_range, is_sellable, is_tradable, mp_consume, price, reuse_delay, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+1329	Shield of Victory	Кандидат на объединение		19	До выбора поведения сохранить оба: 1329, 19	is_sellable, is_tradable, material, price, stat.sDef, weight	3	0	0	0	0	
+1330	Zubei's Shield	Кандидат на объединение		20	До выбора поведения сохранить оба: 1330, 20	is_sellable, is_tradable, material, price, stat.sDef, weight	3	0	0	0	0	
+1332	Knight's Shield	Кандидат на объединение		103	До выбора поведения сохранить оба: 1332, 103	crystal_count, crystal_type, is_sellable, is_tradable, price, weight	3	0	0	0	0	
+1333	Brandish	Кандидат на объединение		981	До выбора поведения сохранить оба: 1333, 981	damage_range, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	4	0	0	0	0	
+1510	Butcher's Sword	Кандидат на объединение		67	Для квеста оставить 1510; обычный предмет не должен заменять квестовую выдачу или условие	price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	2	0	0	0	
+1511	Silversmith Hammer	Кандидат на объединение		87	Для квеста оставить 1511; обычный предмет не должен заменять квестовую выдачу или условие	price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	2	0	0	0	
+1660	Cursed Maingauche	Кандидат на объединение		224	До выбора поведения сохранить оба: 1660, 224	oncrit_chance, oncrit_skill	4	0	0	0	0	
+2370	Guild Member's Club	Кандидат на объединение		4	Оставить 2370 для стартовой защиты от PK; 4 отдельно для обычной дубины	is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	1	
+2371	Fist of Butcher	Кандидат на объединение		254	До выбора поведения сохранить оба: 2371, 254	price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+2372	Dagger of Adept	Кандидат на объединение		215	До выбора поведения сохранить оба: 2372, 215	price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+2373	Eldritch Staff	Кандидат на объединение		176	До выбора поведения сохранить оба: 2373, 176	price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+2374	Red Sunset Dagger	Кандидат на объединение		215	До выбора поведения сохранить оба: 2374, 215	price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+2498	Shield of Nightmare	Кандидат на объединение		634	Для комплекта оставить 2498; 634 сохранить отдельно при сохранении его текущих свойств	crystal_count, crystal_type, is_dropable, material, price, weight	5	0	0	0	0	
+2501	Bone Club	Кандидат на объединение		4	До выбора поведения сохранить оба: 2501, 4	material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+2915	Old Knight Sword	Кандидат на объединение		2	До выбора поведения сохранить оба: 2915, 2	is_depositable, is_destroyable, is_dropable, is_sellable, is_tradable, weight	3	0	0	0	0	
+3026	Talins Spear	Кандидат на объединение		15	Для квеста оставить 3026; обычный предмет не должен заменять квестовую выдачу или условие	is_dropable, is_sellable, is_tradable, price, weight	3	5	0	0	0	
+3027	Old Knight's Sword	Кандидат на объединение		981	Для квеста оставить 3027; обычный предмет не должен заменять квестовую выдачу или условие	damage_range, is_dropable, is_sellable, is_tradable, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	5	0	0	0	
+3028	Crescent Moon Bow	Кандидат на объединение		13	Для квеста оставить 3028; обычный предмет не должен заменять квестовую выдачу или условие	is_dropable, is_sellable, is_tradable, mp_consume, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	5	0	0	0	
+3029	Sword of Binding	Кандидат на объединение		66	Для квеста оставить 3029; обычный предмет не должен заменять квестовую выдачу или условие	is_dropable, is_sellable, is_tradable, price, weight	4	6	0	0	0	
+3439	Shining Canine	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3439, 2505	price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3471	Cybellin's Dagger	Кандидат на объединение		215	Для квеста оставить 3471; обычный предмет не должен заменять квестовую выдачу или условие	is_depositable, is_destroyable, is_dropable, is_sellable, is_tradable, price, weight	3	6	0	0	0	
+3902	Ghost Canine	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3902, 2505	price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3903	Mithril Canine	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3903, 2505	price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3904	Sylvan Canine	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3904, 2505	price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3905	Orikarukon Canine	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3905, 2505	price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3906	Fang of Saltydog	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3906, 2505	price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3907	Fang of Cerberus	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3907, 2505	price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3908	Fang of Coyote	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3908, 2505	price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3909	Crystalized Ice Canine	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3909, 2505	price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3910	Fang of The Blue Wolf	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3910, 2505	price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3911	Fang of Fenril	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3911, 2505	price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3919	Serpent Fang	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3919, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3920	Viperbite	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3920, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3921	Shadow Fang	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3921, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3922	Alya Fang	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3922, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3923	Torturer	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3923, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3924	Unuk Alhay Fang	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3924, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+3925	Antiplague	Кандидат на объединение		2505	До выбора поведения сохранить оба: 3925, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+4219	Dream Sword	Кандидат на объединение		128	До выбора поведения сохранить оба: 4219, 128	crystal_count, crystal_type, is_depositable, is_destroyable, is_dropable, is_sellable, is_tradable, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+4220	Dream Knife	Кандидат на объединение		221	До выбора поведения сохранить оба: 4220, 221	crystal_count, crystal_type, is_depositable, is_destroyable, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+4221	Ubiquitous Axe	Кандидат на объединение		86	До выбора поведения сохранить оба: 4221, 86	crystal_count, crystal_type, is_depositable, is_destroyable, is_dropable, is_sellable, is_tradable, material, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+4222	Dream Shield	Кандидат на объединение		628	До выбора поведения сохранить оба: 4222, 628	crystal_count, crystal_type, is_depositable, is_destroyable, is_dropable, is_sellable, is_tradable, material, price, weight	3	0	0	0	0	
+4223	Ubiquitous Shield	Кандидат на объединение		2496	До выбора поведения сохранить оба: 4223, 2496	crystal_count, crystal_type, is_depositable, is_destroyable, is_dropable, is_sellable, is_tradable, material, price, weight	3	0	0	0	0	
+4237	Hatchling's Level 65 Weapon	Кандидат на объединение		2505	До выбора поведения сохранить оба: 4237, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+4238	Hatchling's Level 75 Weapon	Кандидат на объединение		2505	До выбора поведения сохранить оба: 4238, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+4665	Pipette Knife	Кандидат на объединение		12	Для квеста оставить 4665; обычный предмет не должен заменять квестовую выдачу или условие	is_depositable, is_destroyable, is_dropable, is_sellable, is_tradable, price	3	6	0	0	0	
+4681	Stormbringer - Critical Anger	Удалить СА		72	Сохранить 72	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+4682	Stormbringer - Focus	Удалить СА		72	Сохранить 72	item_skill	3	0	0	0	0	
+4683	Stormbringer - Light	Удалить СА		72	Сохранить 72	item_skill, weight	3	0	0	0	0	
+4684	Shamshir - Guidance	Удалить СА		73	Сохранить 73	item_skill	3	0	0	0	0	
+4685	Shamshir - Back Blow	Удалить СА		73	Сохранить 73	item_skill	3	0	0	0	0	
+4686	Shamshir - Rsk. Evasion	Удалить СА		73	Сохранить 73	item_skill	3	0	0	0	0	
+4687	Katana - Focus	Удалить СА		74	Сохранить 74	item_skill	3	0	0	0	0	
+4688	Katana - Critical Damage	Удалить СА		74	Сохранить 74	item_skill	3	0	0	0	0	
+4689	Katana - Haste	Удалить СА		74	Сохранить 74	item_skill	3	0	0	0	0	
+4690	Spirit Sword - Critical Damage	Удалить СА		131	Сохранить 131	item_skill	3	0	0	0	0	
+4691	Spirit Sword - Critical Poison	Удалить СА		131	Сохранить 131	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4692	Spirit Sword - Haste	Удалить СА		131	Сохранить 131	item_skill	3	0	0	0	0	
+4693	Raid Sword - Focus	Удалить СА		133	Сохранить 133	item_skill	3	0	0	0	0	
+4694	Raid Sword - Critical Drain	Удалить СА		133	Сохранить 133	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4695	Raid Sword - Critical Poison	Удалить СА		133	Сохранить 133	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4696	Caliburs - Guidance	Удалить СА		75	Сохранить 75	item_skill	3	0	0	0	0	
+4697	Caliburs - Focus	Удалить СА		75	Сохранить 75	item_skill	3	0	0	0	0	
+4698	Caliburs - Critical Damage	Удалить СА		75	Сохранить 75	item_skill	3	0	0	0	0	
+4699	Sword of Delusion - Focus	Удалить СА		76	Сохранить 76	item_skill	3	0	0	0	0	
+4700	Sword of Delusion - Health	Удалить СА		76	Сохранить 76	item_skill	3	0	0	0	0	
+4701	Sword of Delusion - Rsk. Haste	Удалить СА		76	Сохранить 76	item_skill	3	0	0	0	0	
+4702	Tsurugi - Focus	Удалить СА		77	Сохранить 77	item_skill	3	0	0	0	0	
+4703	Tsurugi - Critical Damage	Удалить СА		77	Сохранить 77	item_skill	3	0	0	0	0	
+4704	Tsurugi - Haste	Удалить СА		77	Сохранить 77	item_skill	3	0	0	0	0	
+4705	Sword of Nightmare - Health	Удалить СА		134	Сохранить 134	item_skill	3	0	0	0	0	
+4706	Sword of Nightmare - Focus	Удалить СА		134	Сохранить 134	item_skill	3	0	0	0	0	
+4707	Sword of Nightmare - Light	Удалить СА		134	Сохранить 134	item_skill, weight	3	0	0	0	0	
+4708	Samurai Longsword - Focus	Удалить СА		135	Сохранить 135	item_skill	3	0	0	0	0	
+4709	Samurai Longsword - Critical Damage	Удалить СА		135	Сохранить 135	item_skill	3	0	0	0	0	
+4710	Samurai Longsword - Haste	Удалить СА		135	Сохранить 135	item_skill	3	0	0	0	0	
+4711	Flamberge - Critical Damage	Удалить СА		71	Сохранить 71	item_skill	3	0	0	0	0	
+4712	Flamberge - Focus	Удалить СА		71	Сохранить 71	item_skill	3	0	0	0	0	
+4713	Flamberge - Light	Удалить СА		71	Сохранить 71	item_skill, weight	3	0	0	0	0	
+4714	Keshanberk - Guidance	Удалить СА		142	Сохранить 142	item_skill	3	0	0	0	0	
+4715	Keshanberk - Focus	Удалить СА		142	Сохранить 142	item_skill	3	0	0	0	0	
+4716	Keshanberk - Back Blow	Удалить СА		142	Сохранить 142	item_skill	3	0	0	0	0	
+4717	Sword of Damascus - Focus	Удалить СА		79	Сохранить 79	item_skill	3	0	0	0	0	
+4718	Sword of Damascus - Critical Damage	Удалить СА		79	Сохранить 79	item_skill	3	0	0	0	0	
+4719	Sword of Damascus - Haste	Удалить СА		79	Сохранить 79	item_skill	3	0	0	0	0	
+4720	Tallum Blade - Health	Кандидат на объединение		80	До выбора поведения сохранить оба: 4720, 80	item_skill	3	0	0	0	0	
+4721	Tallum Blade - Rsk. Evasion	Кандидат на объединение		80	До выбора поведения сохранить оба: 4721, 80	item_skill	3	0	0	0	0	
+4722	Tallum Blade - Rsk. Haste	Кандидат на объединение		80	До выбора поведения сохранить оба: 4722, 80	item_skill	3	0	0	0	0	
+4723	Great Sword - Health	Удалить СА		78	Сохранить 78	item_skill	3	0	0	0	0	
+4724	Great Sword - Critical Damage	Удалить СА		78	Сохранить 78	item_skill	3	0	0	0	0	
+4725	Great Sword - Focus	Удалить СА		78	Сохранить 78	item_skill	3	0	0	0	0	
+4726	Big Hammer - Health	Удалить СА		89	Сохранить 89	item_skill	3	0	0	0	0	
+4727	Big Hammer - Rsk.Focus	Удалить СА		89	Сохранить 89	item_skill	3	0	0	0	0	
+4728	Big Hammer - Haste	Удалить СА		89	Сохранить 89	item_skill	3	0	0	0	0	
+4729	Battle Axe - Anger	Удалить СА		160	Сохранить 160	item_skill	3	0	0	0	0	
+4730	Battle Axe - Rsk.Focus	Удалить СА		160	Сохранить 160	item_skill	3	0	0	0	0	
+4731	Battle Axe - Haste	Удалить СА		160	Сохранить 160	item_skill	3	0	0	0	0	
+4732	Silver Axe - Anger	Удалить СА		161	Сохранить 161	item_skill	3	0	0	0	0	
+4733	Silver Axe - Rsk.Focus	Удалить СА		161	Сохранить 161	item_skill	3	0	0	0	0	
+4734	Silver Axe - Haste	Удалить СА		161	Сохранить 161	item_skill	3	0	0	0	0	
+4735	Skull Graver - Anger	Удалить СА		173	Сохранить 173	item_skill	3	0	0	0	0	
+4736	Skull Graver - Health	Удалить СА		173	Сохранить 173	item_skill	3	0	0	0	0	
+4737	Skull Graver - Rsk.Focus	Удалить СА		173	Сохранить 173	item_skill	3	0	0	0	0	
+4738	Dwarven War Hammer - Anger	Удалить СА		2502	Сохранить 2502	item_skill	3	0	0	0	0	
+4739	Dwarven War Hammer - Health	Удалить СА		2502	Сохранить 2502	item_skill	3	0	0	0	0	
+4740	Dwarven War Hammer - Haste	Удалить СА		2502	Сохранить 2502	item_skill	3	0	0	0	0	
+4741	War Axe - Anger	Удалить СА		162	Сохранить 162	item_skill	3	0	0	0	0	
+4742	War Axe - Health	Удалить СА		162	Сохранить 162	item_skill	3	0	0	0	0	
+4743	War Axe - Haste	Удалить СА		162	Сохранить 162	item_skill	3	0	0	0	0	
+4744	Yaksa Mace - Anger	Удалить СА		2503	Сохранить 2503	item_skill	3	0	0	0	0	
+4745	Yaksa Mace - Health	Удалить СА		2503	Сохранить 2503	item_skill	3	0	0	0	0	
+4746	Yaksa Mace - Rsk. Focus	Удалить СА		2503	Сохранить 2503	item_skill	3	0	0	0	0	
+4747	Heavy War Axe - Anger	Удалить СА		91	Сохранить 91	item_skill	3	0	0	0	0	
+4748	Heavy War Axe - Health	Удалить СА		91	Сохранить 91	item_skill	3	0	0	0	0	
+4749	Heavy War Axe - Rsk. Focus	Удалить СА		91	Сохранить 91	item_skill	3	0	0	0	0	
+4750	Deadman's Glory - Anger	Удалить СА		171	Сохранить 171	item_skill	3	0	0	0	0	
+4751	Deadman's Glory - Health	Удалить СА		171	Сохранить 171	item_skill	3	0	0	0	0	
+4752	Deadman's Glory - Haste	Удалить СА		171	Сохранить 171	item_skill	3	0	0	0	0	
+4753	Art of Battle Axe - Health	Удалить СА		175	Сохранить 175	item_skill	3	0	0	0	0	
+4754	Art of Battle Axe - Rsk. Focus	Удалить СА		175	Сохранить 175	item_skill	3	0	0	0	0	
+4755	Art of Battle Axe - Haste	Удалить СА		175	Сохранить 175	item_skill	3	0	0	0	0	
+4756	Meteor Shower - Health	Кандидат на объединение		2504	До выбора поведения сохранить оба: 4756, 2504	item_skill	3	0	0	0	0	
+4757	Meteor Shower - Focus	Кандидат на объединение		2504	До выбора поведения сохранить оба: 4757, 2504	item_skill	3	0	0	0	0	
+4758	Meteor Shower - P.Focus	Кандидат на объединение		2504	До выбора поведения сохранить оба: 4758, 2504	item_skill	3	0	0	0	0	
+4759	Cursed Dagger - Critical Bleed	Удалить СА		226	Сохранить 226	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4760	Cursed Dagger - Critical Poison	Удалить СА		226	Сохранить 226	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4761	Cursed Dagger - Rsk. Haste	Удалить СА		226	Сохранить 226	item_skill	3	0	0	0	0	
+4762	Dark Elven Dagger - Focus	Удалить СА		232	Сохранить 232	item_skill	3	0	0	0	0	
+4763	Dark Elven Dagger - Back Blow	Удалить СА		232	Сохранить 232	item_skill	3	0	0	0	0	
+4764	Dark Elven Dagger - Mortal Strike	Кандидат на объединение		232	До выбора поведения сохранить оба: 4764, 232	item_skill	3	0	0	0	0	
+4765	Stiletto - Critical Bleed	Удалить СА		227	Сохранить 227	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4766	Stiletto - Critical Poison	Удалить СА		227	Сохранить 227	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4767	Stiletto - Mortal Strike	Кандидат на объединение		227	До выбора поведения сохранить оба: 4767, 227	item_skill	3	0	0	0	0	
+4768	Grace Dagger - Evasion	Удалить СА		231	Сохранить 231	item_skill	3	0	0	0	0	
+4769	Grace Dagger - Focus	Удалить СА		231	Сохранить 231	item_skill	3	0	0	0	0	
+4770	Grace Dagger - Back Blow	Удалить СА		231	Сохранить 231	item_skill	3	0	0	0	0	
+4771	Dark Screamer - Evasion	Удалить СА		233	Сохранить 233	item_skill	3	0	0	0	0	
+4772	Dark Screamer - Focus	Удалить СА		233	Сохранить 233	item_skill	3	0	0	0	0	
+4773	Dark Screamer - Critical Bleed	Удалить СА		233	Сохранить 233	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4774	Crystal Dagger - Critical Bleed	Удалить СА		228	Сохранить 228	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4775	Crystal Dagger - Critical Poison	Удалить СА		228	Сохранить 228	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4776	Crystal Dagger - Mortal Strike	Кандидат на объединение		228	До выбора поведения сохранить оба: 4776, 228	item_skill	3	0	0	0	0	
+4777	Kris - Evasion	Удалить СА		229	Сохранить 229	item_skill	3	0	0	0	0	
+4778	Kris - Focus	Удалить СА		229	Сохранить 229	item_skill	3	0	0	0	0	
+4779	Kris - Back Blow	Удалить СА		229	Сохранить 229	item_skill	3	0	0	0	0	
+4780	Demon Dagger - Critical Bleed	Удалить СА		234	Сохранить 234	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4781	Demon Dagger - Critical Poison	Удалить СА		234	Сохранить 234	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4782	Demon Dagger - Mortal Strike	Кандидат на объединение		234	До выбора поведения сохранить оба: 4782, 234	item_skill	3	0	0	0	0	
+4783	Bloody Orchid - Evasion	Кандидат на объединение		235	До выбора поведения сохранить оба: 4783, 235	item_skill	3	0	0	0	0	
+4784	Bloody Orchid - Focus	Кандидат на объединение		235	До выбора поведения сохранить оба: 4784, 235	item_skill	3	0	0	0	0	
+4785	Bloody Orchid - Back Blow	Кандидат на объединение		235	До выбора поведения сохранить оба: 4785, 235	item_skill	3	0	0	0	0	
+4786	Hell Knife - Focus	Кандидат на объединение		243	До выбора поведения сохранить оба: 4786, 243	item_skill	3	0	0	0	0	
+4787	Hell Knife - Back Blow	Кандидат на объединение		243	До выбора поведения сохранить оба: 4787, 243	item_skill	3	0	0	0	0	
+4788	Hell Knife - Mortal Strike	Кандидат на объединение		243	До выбора поведения сохранить оба: 4788, 243	item_skill	3	0	0	0	0	
+4789	Chakram - Critical Drain	Удалить СА		263	Сохранить 263	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4790	Chakram - Critical Poison	Удалить СА		263	Сохранить 263	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4791	Chakram - Rsk. Haste	Удалить СА		263	Сохранить 263	item_skill	3	0	0	0	0	
+4792	Fisted Blade - Rsk. Evasion	Удалить СА		265	Сохранить 265	item_skill	3	0	0	0	0	
+4793	Fisted Blade - Rsk. Haste	Удалить СА		265	Сохранить 265	item_skill	3	0	0	0	0	
+4794	Fisted Blade - Haste	Удалить СА		265	Сохранить 265	item_skill	3	0	0	0	0	
+4795	Great Pata - Critical Drain	Удалить СА		266	Сохранить 266	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4796	Great Pata - Critical Poison	Удалить СА		266	Сохранить 266	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4797	Great Pata - Rsk. Haste	Удалить СА		266	Сохранить 266	item_skill	3	0	0	0	0	
+4798	Knuckle Duster - Rsk. Evasion	Удалить СА		4233	Сохранить 4233	item_skill	3	0	0	0	0	
+4799	Knuckle Duster - Rsk. Haste	Удалить СА		4233	Сохранить 4233	item_skill	3	0	0	0	0	
+4800	Knuckle Duster - Haste	Удалить СА		4233	Сохранить 4233	item_skill	3	0	0	0	0	
+4801	Arthro Nail - Critical Poison	Удалить СА		267	Сохранить 267	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4802	Arthro Nail - Rsk. Evasion	Удалить СА		267	Сохранить 267	item_skill	3	0	0	0	0	
+4803	Arthro Nail - Rsk. Haste	Удалить СА		267	Сохранить 267	item_skill	3	0	0	0	0	
+4804	Bellion Cestus - Critical Drain	Удалить СА		268	Сохранить 268	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4805	Bellion Cestus - Critical Poison	Удалить СА		268	Сохранить 268	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4806	Bellion Cestus - Rsk. Haste	Удалить СА		268	Сохранить 268	item_skill	3	0	0	0	0	
+4807	Blood Tornado - Critical Drain	Кандидат на объединение		269	До выбора поведения сохранить оба: 4807, 269	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4808	Blood Tornado - Rsk. Evasion	Кандидат на объединение		269	До выбора поведения сохранить оба: 4808, 269	item_skill	3	0	0	0	0	
+4809	Blood Tornado - Haste	Кандидат на объединение		269	До выбора поведения сохранить оба: 4809, 269	item_skill	3	0	0	0	0	
+4810	Crystallized Ice Bow - Guidance	Удалить СА		281	Сохранить 281	item_skill	3	0	0	0	0	
+4811	Crystallized Ice Bow - Evasion	Удалить СА		281	Сохранить 281	item_skill	3	0	0	0	0	
+4812	Crystallized Ice Bow - Quick Recovery	Удалить СА		281	Сохранить 281	reuse_delay	3	0	0	0	0	
+4813	Elemental Bow - Guidance	Удалить СА		282	Сохранить 282	item_skill	3	0	0	0	0	
+4814	Elemental Bow - Miser	Удалить СА		282	Сохранить 282	reduced_soulshot	3	0	0	0	0	
+4815	Elemental Bow - Quick Recovery	Удалить СА		282	Сохранить 282	reuse_delay	3	0	0	0	0	
+4816	Elven Bow of Nobility - Evasion	Удалить СА		285	Сохранить 285	item_skill	3	0	0	0	0	
+4817	Elven Bow of Nobility - Miser	Удалить СА		285	Сохранить 285	reduced_soulshot	3	0	0	0	0	
+4818	Elven Bow of Nobility - Cheap Shot	Удалить СА		285	Сохранить 285	mp_consume_reduce	3	0	0	0	0	
+4819	Akat Long Bow - Guidance	Удалить СА		283	Сохранить 283	item_skill	3	0	0	0	0	
+4820	Akat Long Bow - Evasion	Удалить СА		283	Сохранить 283	item_skill	3	0	0	0	0	
+4821	Akat Long Bow - Miser	Удалить СА		283	Сохранить 283	reduced_soulshot	3	0	0	0	0	
+4822	Eminence Bow - Guidance	Удалить СА		286	Сохранить 286	item_skill	3	0	0	0	0	
+4823	Eminence Bow - Miser	Удалить СА		286	Сохранить 286	reduced_soulshot	3	0	0	0	0	
+4824	Eminence Bow - Cheap Shot	Удалить СА		286	Сохранить 286	mp_consume_reduce	3	0	0	0	0	
+4825	Dark Elven Long Bow - Evasion	Удалить СА		284	Сохранить 284	item_skill	3	0	0	0	0	
+4826	Dark Elven Long Bow - Critical Bleed	Удалить СА		284	Сохранить 284	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4827	Dark Elven Long Bow - Miser	Удалить СА		284	Сохранить 284	reduced_soulshot	3	0	0	0	0	
+4828	Bow of Peril - Guidance	Удалить СА		287	Сохранить 287	item_skill	3	0	0	0	0	
+4829	Bow of Peril - Quick Recovery	Удалить СА		287	Сохранить 287	reuse_delay	3	0	0	0	0	
+4830	Bow of Peril - Cheap Shot	Удалить СА		287	Сохранить 287	mp_consume_reduce	3	0	0	0	0	
+4831	Carnage Bow - Critical Bleed	Кандидат на объединение		288	До выбора поведения сохранить оба: 4831, 288	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4832	Carnage Bow - Mana Up	Кандидат на объединение		288	До выбора поведения сохранить оба: 4832, 288	item_skill	3	0	0	0	0	
+4833	Carnage Bow - Quick Recovery	Кандидат на объединение		288	До выбора поведения сохранить оба: 4833, 288	reuse_delay	3	0	0	0	0	
+4834	Scythe - Anger	Удалить СА		96	Сохранить 96	item_skill	3	0	0	0	0	
+4835	Scythe - Critical Stun	Удалить СА		96	Сохранить 96	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4836	Scythe - Light	Удалить СА		96	Сохранить 96	item_skill, weight	3	0	0	0	0	
+4837	Orcish Glaive - Anger	Удалить СА		298	Сохранить 298	item_skill	3	0	0	0	0	
+4838	Orcish Glaive - Critical Stun	Удалить СА		298	Сохранить 298	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4839	Orcish Glaive - Towering Blow	Удалить СА		298	Сохранить 298	damage_range, stat.pAtkRange	3	0	0	0	0	
+4840	Body Slasher - Critical Stun	Удалить СА		302	Сохранить 302	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4841	Body Slasher - Towering Blow	Удалить СА		302	Сохранить 302	damage_range, stat.pAtkRange	3	0	0	0	0	
+4842	Body Slasher - Wide Blow	Удалить СА		302	Сохранить 302	damage_range, stat.pAtkAngle	3	0	0	0	0	
+4843	Bec de Corbin - Critical Stun	Удалить СА		94	Сохранить 94	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4844	Bec de Corbin - Towering Blow	Удалить СА		94	Сохранить 94	damage_range, stat.pAtkRange	3	0	0	0	0	
+4845	Bec de Corbin - Light	Удалить СА		94	Сохранить 94	item_skill, weight	3	0	0	0	0	
+4846	Scorpion - Anger	Удалить СА		301	Сохранить 301	item_skill	3	0	0	0	0	
+4847	Scorpion - Critical Stun	Удалить СА		301	Сохранить 301	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4848	Scorpion - Towering Blow	Удалить СА		301	Сохранить 301	damage_range, stat.pAtkRange	3	0	0	0	0	
+4849	Widow Maker - Critical Stun	Удалить СА		303	Сохранить 303	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4850	Widow Maker - Towering Blow	Удалить СА		303	Сохранить 303	damage_range, stat.pAtkRange	3	0	0	0	0	
+4851	Widow Maker - Wide Blow	Удалить СА		303	Сохранить 303	damage_range, stat.pAtkAngle	3	0	0	0	0	
+4852	Orcish Poleaxe - Critical Stun	Удалить СА		299	Сохранить 299	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4853	Orcish Poleaxe - Towering Blow	Удалить СА		299	Сохранить 299	damage_range, stat.pAtkRange	3	0	0	0	0	
+4854	Orcish Poleaxe - Wide Blow	Удалить СА		299	Сохранить 299	damage_range, stat.pAtkAngle	3	0	0	0	0	
+4855	Great Axe - Anger	Удалить СА		300	Сохранить 300	item_skill	3	0	0	0	0	
+4856	Great Axe - Critical Stun	Удалить СА		300	Сохранить 300	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4857	Great Axe - Light	Удалить СА		300	Сохранить 300	item_skill, weight	3	0	0	0	0	
+4858	Lance - Anger	Удалить СА		97	Сохранить 97	item_skill	3	0	0	0	0	
+4859	Lance - Critical Stun	Удалить СА		97	Сохранить 97	oncrit_chance, oncrit_skill	3	0	0	0	0	
+4860	Lance - Towering Blow	Удалить СА		97	Сохранить 97	damage_range, stat.pAtkRange	3	0	0	0	0	
+4861	Halberd - Critical Stun	Кандидат на объединение		98	Сохранить 98		3	0	0	0	0	
+4862	Halberd - Towering Blow	Кандидат на объединение		98	До выбора поведения сохранить оба: 4862, 98	damage_range, stat.pAtkRange	3	0	0	0	0	
+4863	Halberd - Wide Blow	Кандидат на объединение		98	До выбора поведения сохранить оба: 4863, 98	damage_range, stat.pAtkAngle	3	0	0	0	0	
+4864	Heavy Doom Hammer - Magic Regeneration	Удалить СА		191	Сохранить 191	oncast_chance, oncast_skill	3	0	0	0	0	
+4865	Heavy Doom Hammer - Mental Shield	Удалить СА		191	Сохранить 191	oncast_chance, oncast_skill	3	0	0	0	0	
+4866	Heavy Doom Hammer - Magic Hold	Удалить СА		191	Сохранить 191	oncast_chance, oncast_skill	3	0	0	0	0	
+4867	Crystal Staff - Rsk. Evasion	Удалить СА		192	Сохранить 192	item_skill	3	0	0	0	0	
+4868	Crystal Staff - Mana Up	Удалить СА		192	Сохранить 192	item_skill	3	0	0	0	0	
+4869	Crystal Staff - Bodily Blessing	Удалить СА		192	Сохранить 192	oncast_chance, oncast_skill	3	0	0	0	0	
+4870	Heavy Doom Axe - Magic Poison	Удалить СА		194	Сохранить 194	oncast_chance, oncast_skill	3	0	0	0	0	
+4871	Heavy Doom Axe - Magic Weakness	Удалить СА		194	Сохранить 194	oncast_chance, oncast_skill	3	0	0	0	0	
+4872	Heavy Doom Axe - Magic Chaos	Удалить СА		194	Сохранить 194	oncast_chance, oncast_skill	3	0	0	0	0	
+4873	Cursed Staff - Magic Hold	Удалить СА		195	Сохранить 195	oncast_chance, oncast_skill	3	0	0	0	0	
+4874	Cursed Staff - Magic Poison	Удалить СА		195	Сохранить 195	oncast_chance, oncast_skill	3	0	0	0	0	
+4875	Cursed Staff - Magic Weakness	Удалить СА		195	Сохранить 195	oncast_chance, oncast_skill	3	0	0	0	0	
+4876	Paradia Staff - Magic Regeneration	Удалить СА		197	Сохранить 197	oncast_chance, oncast_skill	3	0	0	0	0	
+4877	Paradia Staff - Mental Shield	Удалить СА		197	Сохранить 197	oncast_chance, oncast_skill	3	0	0	0	0	
+4878	Paradia Staff - Magic Hold	Удалить СА		197	Сохранить 197	oncast_chance, oncast_skill	3	0	0	0	0	
+4879	Pa'agrian Hammer - Rsk. Evasion	Удалить СА		199	Сохранить 199	item_skill	3	0	0	0	0	
+4880	Pa'agrian Hammer - Magic Poison	Удалить СА		199	Сохранить 199	oncast_chance, oncast_skill	3	0	0	0	0	
+4881	Pa'agrian Hammer - Magic Weakness	Удалить СА		199	Сохранить 199	oncast_chance, oncast_skill	3	0	0	0	0	
+4882	Sage's Staff - Magic Hold	Удалить СА		200	Сохранить 200	oncast_chance, oncast_skill	3	0	0	0	0	
+4883	Sage's Staff - Magic Poison	Удалить СА		200	Сохранить 200	oncast_chance, oncast_skill	3	0	0	0	0	
+4884	Sage's Staff - Magic Weakness	Удалить СА		200	Сохранить 200	oncast_chance, oncast_skill	3	0	0	0	0	
+4885	Pa'agrian Axe - Mana Up	Удалить СА		203	Сохранить 203	item_skill	3	0	0	0	0	
+4886	Pa'agrian Axe - Magic Weakness	Удалить СА		203	Сохранить 203	oncast_chance, oncast_skill	3	0	0	0	0	
+4887	Pa'agrian Axe - Magic Chaos	Удалить СА		203	Сохранить 203	oncast_chance, oncast_skill	3	0	0	0	0	
+4888	Deadman's Staff - Magic Regeneration	Удалить СА		204	Сохранить 204	oncast_chance, oncast_skill	3	0	0	0	0	
+4889	Deadman's Staff - Mental Shield	Удалить СА		204	Сохранить 204	oncast_chance, oncast_skill	3	0	0	0	0	
+4890	Deadman's Staff - Magic Hold	Удалить СА		204	Сохранить 204	oncast_chance, oncast_skill	3	0	0	0	0	
+4891	Ghoul's Staff - Rsk. Evasion	Удалить СА		205	Сохранить 205	item_skill	3	0	0	0	0	
+4892	Ghoul's Staff - Mana Up	Удалить СА		205	Сохранить 205	item_skill	3	0	0	0	0	
+4893	Ghoul's Staff - Bodily Blessing	Удалить СА		205	Сохранить 205	oncast_chance, oncast_skill	3	0	0	0	0	
+4894	Demon's Staff - Magic Poison	Удалить СА		206	Сохранить 206	oncast_chance, oncast_skill	3	0	0	0	0	
+4895	Demon's Staff - Magic Weakness	Удалить СА		206	Сохранить 206	oncast_chance, oncast_skill	3	0	0	0	0	
+4896	Demon's Staff - Magic Chaos	Удалить СА		206	Сохранить 206	oncast_chance, oncast_skill	3	0	0	0	0	
+4897	Sprite's Staff - Magic Regeneration	Удалить СА		92	Сохранить 92	oncast_chance, oncast_skill	3	0	0	0	0	
+4898	Sprite's Staff - Mental Shield	Удалить СА		92	Сохранить 92	oncast_chance, oncast_skill	3	0	0	0	0	
+4899	Sprite's Staff - Magic Hold	Удалить СА		92	Сохранить 92	oncast_chance, oncast_skill	3	0	0	0	0	
+4900	Staff of Evil Spirits - Magic Focus	Удалить СА		210	Сохранить 210	oncast_chance, oncast_skill	3	0	0	0	0	
+4901	Staff of Evil Spirits - Bodily Blessing	Удалить СА		210	Сохранить 210	oncast_chance, oncast_skill	3	0	0	0	0	
+4902	Staff of Evil Spirits - Magic Poison	Удалить СА		210	Сохранить 210	oncast_chance, oncast_skill	3	0	0	0	0	
+4903	Dasparion's Staff	Кандидат на объединение		212	Сохранить 212		3	0	0	0	0	
+4904	Dasparion's Staff	Кандидат на объединение		212	До выбора поведения сохранить оба: 4904, 212	oncast_chance, oncast_skill	3	0	0	0	0	
+4905	Dasparion's Staff	Кандидат на объединение		212	До выбора поведения сохранить оба: 4905, 212	oncast_chance, oncast_skill	3	0	0	0	0	
+5176	Serpentine Spike	Кандидат на объединение		2505	До выбора поведения сохранить оба: 5176, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+5177	Drake Horn	Кандидат на объединение		2505	До выбора поведения сохранить оба: 5177, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+5178	Assult Alicorn	Кандидат на объединение		2505	До выбора поведения сохранить оба: 5178, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+5179	Draconic Slicer	Кандидат на объединение		2505	До выбора поведения сохранить оба: 5179, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+5180	Ohpdian Lance	Кандидат на объединение		2505	До выбора поведения сохранить оба: 5180, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+5181	Diamond Drill	Кандидат на объединение		2505	До выбора поведения сохранить оба: 5181, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+5187	Serpentine Grinder	Кандидат на объединение		2505	До выбора поведения сохранить оба: 5187, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+5188	Fang of Dahak	Кандидат на объединение		2505	До выбора поведения сохранить оба: 5188, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+5189	Crimson Blood Fang	Кандидат на объединение		2505	До выбора поведения сохранить оба: 5189, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+5190	Draconic Chopper	Кандидат на объединение		2505	До выбора поведения сохранить оба: 5190, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+5191	Diabolic Grinder	Кандидат на объединение		2505	До выбора поведения сохранить оба: 5191, 2505	bodypart, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+5217	Wolf Level 75 Weapon	Кандидат на объединение		2505	До выбора поведения сохранить оба: 5217, 2505	price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+5292	Sealed Dark Crystal Shield	Кандидат на объединение		641	Сохранить 641		5	0	0	0	0	
+5315	Sealed Shield of Nightmare	Кандидат на объединение		634	До выбора поведения сохранить оба: 5315, 634	crystal_count, crystal_type, is_dropable, material, price, weight	5	0	0	0	0	
+5596	Dasparion's Staff - Mana Up	Удалить СА		212	Сохранить 212	item_skill	3	0	0	0	0	
+5597	Dasparion's Staff - Conversion	Удалить СА		212	Сохранить 212	item_skill	3	0	0	0	0	
+5598	Dasparion's Staff - Acumen	Удалить СА		212	Сохранить 212	item_skill	3	0	0	0	0	
+5599	Meteor Shower - Focus	Удалить СА		2504	Сохранить 2504	item_skill	3	0	0	0	0	
+5600	Meteor Shower - Critical Bleed	Удалить СА		2504	Сохранить 2504	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+5601	Meteor Shower - Rsk. Haste	Удалить СА		2504	Сохранить 2504	item_skill	3	0	0	0	0	
+5602	Elysian - Health	Удалить СА		164	Сохранить 164	item_skill	3	0	0	0	0	
+5603	Elysian - Anger	Удалить СА		164	Сохранить 164	item_skill	3	0	0	0	0	
+5604	Elysian - Critical Drain	Удалить СА		164	Сохранить 164	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+5605	Branch of The Mother Tree - Conversion	Удалить СА		213	Сохранить 213	item_skill	3	0	0	0	0	
+5606	Branch of The Mother Tree - Magic Damage	Удалить СА		213	Сохранить 213	item_skill, oncast_chance, oncast_skill	3	0	0	0	0	
+5607	Branch of The Mother Tree - Acumen	Удалить СА		213	Сохранить 213	item_skill	3	0	0	0	0	
+5608	Carnage Bow - Light	Удалить СА		288	Сохранить 288	item_skill, weight	3	0	0	0	0	
+5609	Carnage Bow - Critical Bleed	Удалить СА		288	Сохранить 288	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+5610	Carnage Bow - Mana Up	Удалить СА		288	Сохранить 288	item_skill	3	0	0	0	0	
+5611	Soul Bow - Cheap Shot	Удалить СА		289	Сохранить 289	item_skill, mp_consume_reduce	3	0	0	0	0	
+5612	Soul Bow - Quick Recovery	Удалить СА		289	Сохранить 289	item_skill, reuse_delay	3	0	0	0	0	
+5613	Soul Bow - Critical Poison	Удалить СА		289	Сохранить 289	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+5614	Bloody Orchid - Focus	Удалить СА		235	Сохранить 235	item_skill	3	0	0	0	0	
+5615	Bloody Orchid - Back Blow	Удалить СА		235	Сохранить 235	item_skill	3	0	0	0	0	
+5616	Bloody Orchid - Critical Bleed	Удалить СА		235	Сохранить 235	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+5617	Soul Separator - Guidance	Удалить СА		236	Сохранить 236	item_skill	3	0	0	0	0	
+5618	Soul Separator - Critical Damage	Удалить СА		236	Сохранить 236	item_skill	3	0	0	0	0	
+5619	Soul Separator - Rsk. Haste	Удалить СА		236	Сохранить 236	item_skill	3	0	0	0	0	
+5620	Blood Tornado - Haste	Удалить СА		269	Сохранить 269	item_skill	3	0	0	0	0	
+5621	Blood Tornado - Focus	Удалить СА		269	Сохранить 269	item_skill	3	0	0	0	0	
+5622	Blood Tornado - Anger	Удалить СА		269	Сохранить 269	item_skill	3	0	0	0	0	
+5623	Dragon Grinder - Rsk. Evasion	Удалить СА		270	Сохранить 270	item_skill	3	0	0	0	0	
+5624	Dragon Grinder - Guidance	Удалить СА		270	Сохранить 270	item_skill	3	0	0	0	0	
+5625	Dragon Grinder - Health	Удалить СА		270	Сохранить 270	item_skill	3	0	0	0	0	
+5626	Halberd - Haste	Удалить СА		98	Сохранить 98	item_skill	3	0	0	0	0	
+5627	Halberd - Critical Stun	Удалить СА		98	Сохранить 98	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+5628	Halberd - Wide Blow	Удалить СА		98	Сохранить 98	damage_range, item_skill, stat.pAtkAngle	3	0	0	0	0	
+5629	Orcish Halberd	Кандидат на объединение		304	Сохранить 304		3	0	0	0	0	
+5630	Orcish Halberd	Кандидат на объединение		304	Сохранить 304		3	0	0	0	0	
+5631	Orcish Halberd	Кандидат на объединение		304	Сохранить 304		3	0	0	0	0	
+5632	Tallum Glaive - Guidance	Удалить СА		305	Сохранить 305	item_skill	3	0	0	0	0	
+5633	Tallum Glaive - Health	Удалить СА		305	Сохранить 305	item_skill	3	0	0	0	0	
+5634	Tallum Glaive - Wide Blow	Удалить СА		305	Сохранить 305	damage_range, item_skill, stat.pAtkAngle	3	0	0	0	0	
+5635	Tallum Blade - Critical Poison	Удалить СА		80	Сохранить 80	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+5636	Tallum Blade - Haste	Удалить СА		80	Сохранить 80	item_skill	3	0	0	0	0	
+5637	Tallum Blade - Anger	Удалить СА		80	Сохранить 80	item_skill	3	0	0	0	0	
+5638	Elemental Sword - Magic Power	Удалить СА		150	Сохранить 150	item_skill	3	0	0	0	0	
+5639	Elemental Sword - Magic Paralyze	Удалить СА		150	Сохранить 150	item_skill, oncast_chance, oncast_skill	3	0	0	0	0	
+5640	Elemental Sword - Empower	Удалить СА		150	Сохранить 150	item_skill	3	0	0	0	0	
+5641	Sword of Miracles - Magic Power	Удалить СА		151	Сохранить 151	item_skill	3	0	0	0	0	
+5642	Sword of Miracles - Magic Silence	Удалить СА		151	Сохранить 151	item_skill, oncast_chance, oncast_skill	3	0	0	0	0	
+5643	Sword of Miracles - Acumen	Удалить СА		151	Сохранить 151	item_skill	3	0	0	0	0	
+5644	Dragon Slayer - Health	Удалить СА		81	Сохранить 81	item_skill	3	0	0	0	0	
+5645	Dragon Slayer - Critical Bleed	Удалить СА		81	Сохранить 81	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+5646	Dragon Slayer - Critical Drain	Удалить СА		81	Сохранить 81	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+5647	Dark Legion's Edge - Critical Damage	Удалить СА		2500	Сохранить 2500	item_skill	3	0	0	0	0	
+5648	Dark Legion's Edge - Health	Удалить СА		2500	Сохранить 2500	item_skill	3	0	0	0	0	
+5649	Dark Legion's Edge - Rsk. Focus	Удалить СА		2500	Сохранить 2500	item_skill	3	0	0	0	0	
+5704	Keshanberk*Keshanberk	Кандидат на объединение		5233	До выбора поведения сохранить оба: 5704, 5233	enchant4_skill	3	0	0	0	0	
+6307	Sword of Limit - Guidance	Удалить СА		132	Сохранить 132	item_skill	3	0	0	0	0	
+6308	Sword of Limit - Critical Drain	Удалить СА		132	Сохранить 132	oncrit_chance, oncrit_skill	3	0	0	0	0	
+6309	Sword of Limit - Health	Удалить СА		132	Сохранить 132	item_skill	3	0	0	0	0	
+6310	Sword of Whispering Death - Empower	Удалить СА		145	Сохранить 145	item_skill	3	0	0	0	0	
+6311	Sword of Whispering Death - Magic Power	Удалить СА		145	Сохранить 145	item_skill	3	0	0	0	0	
+6312	Sword of Whispering Death - Magic Silence	Удалить СА		145	Сохранить 145	oncast_chance, oncast_skill	3	0	0	0	0	
+6313	Homunkulus's Sword - Acumen	Удалить СА		84	Сохранить 84	item_skill	3	0	0	0	0	
+6314	Homunkulus's Sword - Conversion	Удалить СА		84	Сохранить 84	item_skill	3	0	0	0	0	
+6315	Homunkulus's Sword - Magic Paralyze	Удалить СА		84	Сохранить 84	oncast_chance, oncast_skill	3	0	0	0	0	
+6347	Berserker Blade - Focus	Удалить СА		5286	Сохранить 5286	item_skill	3	0	0	0	0	
+6348	Berserker Blade - Critical Damage	Удалить СА		5286	Сохранить 5286	item_skill	3	0	0	0	0	
+6349	Berserker Blade - Haste	Удалить СА		5286	Сохранить 5286	item_skill	3	0	0	0	0	
+6354	Falchion - for Beginners	Кандидат на объединение		68	До выбора поведения сохранить оба: 6354, 68	is_destroyable, is_dropable, is_sellable, is_tradable, price	3	0	0	0	0	
+6355	Mage Staff - for Beginners	Кандидат на объединение		176	До выбора поведения сохранить оба: 6355, 176	is_destroyable, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+6356	Dark Elven Dagger - Rsk. Haste	Удалить СА		232	Сохранить 232	item_skill	3	0	0	0	0	
+6357	Stiletto - Rsk. Haste	Удалить СА		227	Сохранить 227	item_skill	3	0	0	0	0	
+6358	Crystal Dagger - Critical Damage	Удалить СА		228	Сохранить 228	item_skill	3	0	0	0	0	
+6359	Demon Dagger - Critical Damage	Удалить СА		234	Сохранить 234	item_skill	3	0	0	0	0	
+6364	Forgotten Blade	Кандидат на объединение		82	До выбора поведения сохранить оба: 6364, 82	crystal_count, is_dropable, is_sellable, is_tradable, price	5	0	0	0	0	
+6365	Basalt Battlehammer	Кандидат на объединение		165	До выбора поведения сохранить оба: 6365, 165	crystal_count, price	5	0	0	0	0	
+6366	Imperial Staff	Кандидат на объединение		214	До выбора поведения сохранить оба: 6366, 214	crystal_count, material, price	5	0	0	0	0	
+6367	Angel Slayer	Кандидат на объединение		237	Оставить 6367 как конечную базу Angel Slayer для СА и действующих экземпляров	crystal_count, material, price	5	0	0	0	0	
+6368	Shining Bow	Кандидат на объединение		290	До выбора поведения сохранить оба: 6368, 290	crystal_count, mp_consume, price	5	0	0	0	0	
+6369	Dragon Hunter Axe	Кандидат на объединение		306	До выбора поведения сохранить оба: 6369, 306	attack_range, crystal_count, damage_range, item_skill, material, price, random_damage, stat.accCombat, stat.rCrit, weapon_type	5	0	0	0	0	
+6370	Saint Spear	Кандидат на объединение		307	До выбора поведения сохранить оба: 6370, 307	crystal_count, is_dropable, is_sellable, is_tradable, price	5	0	0	0	0	
+6530	Albatross Rod	Кандидат на объединение		6529	До выбора поведения сохранить оба: 6530, 6529	crystal_type, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+6532	KingFisher Rod	Кандидат на объединение		6531	До выбора поведения сохранить оба: 6532, 6531	crystal_type, price	3	0	0	0	0	
+6534	Triton Pole	Кандидат на объединение		6533	До выбора поведения сохранить оба: 6534, 6533	crystal_type, price	3	0	0	0	0	
+6581	Forgotten Blade - Haste	Удалить СА		6364	Сохранить 6364	item_skill	3	0	0	0	0	
+6582	Forgotten Blade - Health	Удалить СА		6364	Сохранить 6364	item_skill	3	0	0	0	0	
+6583	Forgotten Blade - Focus	Удалить СА		6364	Сохранить 6364	item_skill	3	0	0	0	0	
+6584	Basalt Battlehammer - HP Drain	Удалить СА		6365	Сохранить 6365	item_skill	3	0	0	0	0	
+6585	Basalt Battlehammer - Health	Удалить СА		6365	Сохранить 6365	item_skill	3	0	0	0	0	
+6586	Basalt Battlehammer - HP Regeneration	Удалить СА		6365	Сохранить 6365	item_skill	3	0	0	0	0	
+6587	Imperial Staff - Empower	Удалить СА		6366	Сохранить 6366	item_skill	3	0	0	0	0	
+6588	Imperial Staff - MP Regeneration	Удалить СА		6366	Сохранить 6366	item_skill	3	0	0	0	0	
+6589	Imperial Staff - Magic Hold	Удалить СА		6366	Сохранить 6366	item_skill, oncast_chance, oncast_skill	3	0	0	0	0	
+6590	Angel Slayer - Crt. Damage	Удалить СА		6367	Сохранить 6367	item_skill	3	0	0	0	0	augmentation:5; items:17
+6591	Angel Slayer - HP Drain	Удалить СА		6367	Сохранить 6367	item_skill	3	0	0	0	0	
+6592	Angel Slayer - Haste	Удалить СА		6367	Сохранить 6367	item_skill	3	0	0	0	0	augmentation:1; items:1
+6593	Shining Bow - Cheap Shot	Удалить СА		6368	Сохранить 6368	item_skill, mp_consume_reduce	3	0	0	0	0	
+6594	Shining Bow - Focus	Удалить СА		6368	Сохранить 6368	item_skill	3	0	0	0	0	
+6595	Shining Bow - Crt. Slow	Удалить СА		6368	Сохранить 6368	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+6596	Dragon Hunter Axe - HP Regeneration	Удалить СА		6369	Сохранить 6369	item_skill	3	0	0	0	0	
+6597	Dragon Hunter Axe - Health	Удалить СА		6369	Сохранить 6369	item_skill	3	0	0	0	0	
+6598	Dragon Hunter Axe - HP Drain	Удалить СА		6369	Сохранить 6369	item_skill	3	0	0	0	0	
+6599	Saint Spear - Health	Удалить СА		6370	Сохранить 6370	item_skill	3	0	0	0	0	
+6600	Saint Spear - Guidance	Удалить СА		6370	Сохранить 6370	item_skill	3	0	0	0	0	
+6601	Saint Spear - Haste	Удалить СА		6370	Сохранить 6370	item_skill	3	0	0	0	0	
+6602	Demon Splinter - Focus	Удалить СА		6371	Сохранить 6371	item_skill	3	0	0	0	0	
+6603	Demon Splinter - Health	Удалить СА		6371	Сохранить 6371	item_skill	3	0	0	0	0	
+6604	Demon Splinter - Crt. Stun	Удалить СА		6371	Сохранить 6371	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+6605	Heavens Divider - Haste	Удалить СА		6372	Сохранить 6372	item_skill	3	0	0	0	0	
+6606	Heavens Divider - Health	Удалить СА		6372	Сохранить 6372	item_skill	3	0	0	0	0	
+6607	Heavens Divider - Focus	Удалить СА		6372	Сохранить 6372	item_skill	3	0	0	0	0	
+6608	Arcana Mace - Acumen	Удалить СА		6579	Сохранить 6579	item_skill	3	0	0	0	0	
+6609	Arcana Mace - MP Regeneration	Удалить СА		6579	Сохранить 6579	item_skill	3	0	0	0	0	
+6610	Arcana Mace - Mana Up	Удалить СА		6579	Сохранить 6579	item_skill	3	0	0	0	0	
+6678	Sealed Imperial Crusader Shield	Кандидат на объединение		6377	Сохранить 6377		5	0	0	0	0	
+7014	Monster Only (Shield of Dark Dragon)	Кандидат на объединение		106	До выбора поведения сохранить оба: 7014, 106	crystal_count, crystal_type, stat.sDef	3	0	0	0	0	
+7015	Shield of Castle Pledge	Кандидат на объединение		6902	Сохранить 6902		3	0	0	0	0	
+7560	Monster Only (Fishing Rod)	Кандидат на объединение		6529	До выбора поведения сохранить оба: 7560, 6529	is_dropable, is_sellable, is_tradable	3	0	0	0	0	
+7576	Draconic Bow - Cheap Shot	Удалить СА		7575	Сохранить 7575	item_skill, mp_consume_reduce	3	0	0	0	0	
+7577	Draconic Bow - Focus	Удалить СА		7575	Сохранить 7575	item_skill	3	0	0	0	0	
+7578	Draconic Bow - Critical Slow	Удалить СА		7575	Сохранить 7575	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+7701	Stick of Faith - Mana Up	Удалить СА		193	Сохранить 193	item_skill	3	0	0	0	0	
+7702	Stick of Faith - Magic Hold	Удалить СА		193	Сохранить 193	oncast_chance, oncast_skill	3	0	0	0	0	
+7703	Stick of Faith - Magic Shield	Удалить СА		193	Сохранить 193	oncast_chance, oncast_skill	3	0	0	0	0	
+7704	Stick of Eternity - Empower	Удалить СА		196	Сохранить 196	item_skill	3	0	0	0	0	
+7705	Stick of Eternity - Rsk., Evasion	Удалить СА		196	Сохранить 196	item_skill	3	0	0	0	0	
+7706	Stick of Eternity - Blessed Body	Удалить СА		196	Сохранить 196	oncast_chance, oncast_skill	3	0	0	0	0	
+7707	Nirvana Axe - Magic Power	Удалить СА		174	Сохранить 174	item_skill	3	0	0	0	0	
+7708	Nirvana Axe - Magic Poison	Удалить СА		174	Сохранить 174	oncast_chance, oncast_skill	3	0	0	0	0	
+7709	Nirvana Axe - Magic Weakness	Удалить СА		174	Сохранить 174	oncast_chance, oncast_skill	3	0	0	0	0	
+7710	Club of Nature - Acumen	Удалить СА		201	Сохранить 201	item_skill	3	0	0	0	0	
+7711	Club of Nature - Magic Mental Shield	Удалить СА		201	Сохранить 201	oncast_chance, oncast_skill	3	0	0	0	0	
+7712	Club of Nature - Magic Hold	Удалить СА		201	Сохранить 201	oncast_chance, oncast_skill	3	0	0	0	0	
+7713	Mace of The Underworld - Mana Up	Удалить СА		202	Сохранить 202	item_skill	3	0	0	0	0	
+7714	Mace of The Underworld - Magic Silence	Удалить СА		202	Сохранить 202	oncast_chance, oncast_skill	3	0	0	0	0	
+7715	Mace of The Underworld - Conversion	Удалить СА		202	Сохранить 202	item_skill	3	0	0	0	0	
+7716	Inferno Staff - Acumen	Удалить СА		198	Сохранить 198	item_skill	3	0	0	0	0	
+7717	Inferno Staff - Magic Silence	Удалить СА		198	Сохранить 198	oncast_chance, oncast_skill	3	0	0	0	0	
+7718	Inferno Staff - Magic Paralyze	Удалить СА		198	Сохранить 198	oncast_chance, oncast_skill	3	0	0	0	0	
+7719	Poleaxe - Critical Stun	Удалить СА		95	Сохранить 95	oncrit_chance, oncrit_skill	3	0	0	0	0	
+7720	Poleaxe - Towering Blow	Удалить СА		95	Сохранить 95	damage_range, stat.pAtkRange	3	0	0	0	0	
+7721	Poleaxe - Wide Blow	Удалить СА		95	Сохранить 95	damage_range, stat.pAtkAngle	3	0	0	0	0	
+7722	Sword of Valhalla - Acumen	Удалить СА		148	Сохранить 148	item_skill	3	0	0	0	0	
+7723	Sword of Valhalla - Magic Weakness	Удалить СА		148	Сохранить 148	oncast_chance, oncast_skill	3	0	0	0	0	
+7724	Sword of Valhalla - Magic Regeneration	Удалить СА		148	Сохранить 148	oncast_chance, oncast_skill	3	0	0	0	0	
+7810	Soulfire Dirk - Mana Up	Удалить СА		242	Сохранить 242	item_skill	3	0	0	0	0	
+7811	Soulfire Dirk - Magic Hold	Удалить СА		242	Сохранить 242	oncast_chance, oncast_skill	3	0	0	0	0	
+7812	Soulfire Dirk - Magic Silence	Удалить СА		242	Сохранить 242	oncast_chance, oncast_skill	3	0	0	0	0	
+7813	Hell Knife - Magic Regeneration	Удалить СА		243	Сохранить 243	oncast_chance, oncast_skill	3	0	0	0	0	
+7814	Hell Knife - Mental Shield	Удалить СА		243	Сохранить 243	oncast_chance, oncast_skill	3	0	0	0	0	
+7815	Hell Knife - Magic Weakness	Удалить СА		243	Сохранить 243	oncast_chance, oncast_skill	3	0	0	0	0	
+7816	Apprentice Adventurer's Staff	Кандидат на объединение		176	Оставить 7816 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	is_dropable, is_sellable, is_tradable, price	3	1	0	0	0	
+7817	Apprentice Adventurer's Bone Club	Кандидат на объединение		4	Оставить 7817 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	is_dropable, is_sellable, is_tradable, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	1	0	0	0	
+7818	Apprentice Adventurer's Knife	Кандидат на объединение		217	Оставить 7818 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	is_dropable, is_sellable, is_tradable, price	3	1	0	0	0	
+7819	Apprentice Adventurer's Cestus	Кандидат на объединение		256	Оставить 7819 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	is_dropable, is_sellable, is_tradable, price	3	1	0	0	0	
+7820	Apprentice Adventurer's Bow	Кандидат на объединение		272	Оставить 7820 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	is_dropable, is_sellable, is_tradable, price	3	1	0	0	0	
+7821	Apprentice Adventurer's Long Sword	Кандидат на объединение		2	Оставить 7821 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	is_dropable, is_sellable, is_tradable, price	3	1	0	0	0	
+7822	Traveler's Mace	Кандидат на объединение		179	Оставить 7822 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	crystal_count, is_dropable, is_sellable, is_tradable, price	3	1	0	0	0	
+7823	Traveler's Dark Elven Bow	Кандидат на объединение		277	Оставить 7823 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	crystal_count, is_dropable, is_sellable, is_tradable, price	3	1	0	0	0	
+7824	Traveler's Long Bow	Кандидат на объединение		274	Оставить 7824 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	crystal_count, is_dropable, is_sellable, is_tradable, mp_consume, price, reuse_delay, weight	3	1	0	0	0	
+7825	Traveler's Staff	Кандидат на объединение		185	Оставить 7825 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	crystal_count, is_dropable, is_sellable, is_tradable, price	3	1	0	0	0	
+7826	Traveler's Bastard Sword	Кандидат на объединение		69	Оставить 7826 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	crystal_count, is_dropable, is_sellable, is_tradable, price	3	1	0	0	0	
+7827	Traveler's Wand	Кандидат на объединение		315	Оставить 7827 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	crystal_count, is_dropable, is_sellable, is_tradable, price	3	1	0	0	0	
+7828	Traveler's Jamadhr	Кандидат на объединение		258	Оставить 7828 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	crystal_count, is_dropable, is_sellable, is_tradable, price, weight	3	1	0	0	0	
+7829	Traveler's Tomahawk	Кандидат на объединение		86	Оставить 7829 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	crystal_count, is_dropable, is_sellable, is_tradable, price	3	1	0	0	0	
+7830	Traveler's Poniard Dagger	Кандидат на объединение		216	Оставить 7830 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	crystal_type, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	1	0	0	0	
+7831	Traveler's Pike	Кандидат на объединение		292	Оставить 7831 до переноса правил Apprentice/Traveler с диапазона ID на явный признак	crystal_count, is_dropable, is_sellable, is_tradable, price	3	1	0	0	0	
+7834	Art of Battle Axe	Кандидат на объединение		175	Сохранить 175		3	0	0	0	0	
+8102	Pa'agrian Sword - Focus	Удалить СА		7882	Сохранить 7882	item_skill	3	0	0	0	0	
+8103	Pa'agrian Sword - Health	Удалить СА		7882	Сохранить 7882	item_skill	3	0	0	0	0	
+8104	Pa'agrian Sword - Critical Drain	Удалить СА		7882	Сохранить 7882	oncrit_chance, oncrit_skill	3	0	0	0	0	
+8105	Guardian Sword - Critical Drain	Удалить СА		7883	Сохранить 7883	oncrit_chance, oncrit_skill	3	0	0	0	0	
+8106	Guardian Sword - Health	Удалить СА		7883	Сохранить 7883	item_skill	3	0	0	0	0	
+8107	Guardian Sword - Critical Bleed	Удалить СА		7883	Сохранить 7883	oncrit_chance, oncrit_skill	3	0	0	0	0	
+8108	Infernal Master - Haste	Удалить СА		7884	Сохранить 7884	item_skill	3	0	0	0	0	
+8109	Infernal Master - Critical Damage	Удалить СА		7884	Сохранить 7884	item_skill	3	0	0	0	0	
+8110	Infernal Master - Focus	Удалить СА		7884	Сохранить 7884	item_skill	3	0	0	0	0	
+8111	Mysterious Sword - Acumen	Удалить СА		7887	Сохранить 7887	item_skill	3	0	0	0	0	
+8112	Mysterious Sword - Magic Power	Удалить СА		7887	Сохранить 7887	item_skill	3	0	0	0	0	
+8113	Mysterious Sword - Magic Weakness	Удалить СА		7887	Сохранить 7887	oncast_chance, oncast_skill	3	0	0	0	0	
+8114	Ecliptic Sword - Empower	Удалить СА		7888	Сохранить 7888	item_skill	3	0	0	0	0	
+8115	Ecliptic Sword - Magic Power	Удалить СА		7888	Сохранить 7888	item_skill	3	0	0	0	0	
+8116	Ecliptic Sword - Magic Silence	Удалить СА		7888	Сохранить 7888	oncast_chance, oncast_skill	3	0	0	0	0	
+8117	Wizard's Tear - Acumen	Удалить СА		7889	Сохранить 7889	item_skill	3	0	0	0	0	
+8118	Wizard's Tear - Magic Power	Удалить СА		7889	Сохранить 7889	item_skill	3	0	0	0	0	
+8119	Wizard's Tear - Conversion	Удалить СА		7889	Сохранить 7889	item_skill	3	0	0	0	0	
+8120	Dwarven Hammer - Health	Удалить СА		7897	Сохранить 7897	item_skill	3	0	0	0	0	
+8121	Dwarven Hammer - Anger	Удалить СА		7897	Сохранить 7897	item_skill	3	0	0	0	0	
+8122	Dwarven Hammer - Critical Bleed	Удалить СА		7897	Сохранить 7897	oncrit_chance, oncrit_skill	3	0	0	0	0	
+8123	Karik Horn - Focus	Удалить СА		7898	Сохранить 7898	item_skill	3	0	0	0	0	
+8124	Karik Horn - Haste	Удалить СА		7898	Сохранить 7898	item_skill	3	0	0	0	0	
+8125	Karik Horn - Critical Drain	Удалить СА		7898	Сохранить 7898	oncrit_chance, oncrit_skill	3	0	0	0	0	
+8126	Destroyer Hammer - Health	Удалить СА		7899	Сохранить 7899	item_skill	3	0	0	0	0	
+8127	Destroyer Hammer - Haste	Удалить СА		7899	Сохранить 7899	item_skill	3	0	0	0	0	
+8128	Destroyer Hammer - Critical Drain	Удалить СА		7899	Сохранить 7899	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+8129	Ice Storm Hammer - Focus	Удалить СА		7900	Сохранить 7900	item_skill	3	0	0	0	0	
+8130	Ice Storm Hammer - Anger	Удалить СА		7900	Сохранить 7900	item_skill	3	0	0	0	0	
+8131	Ice Storm Hammer - Critical Bleed	Удалить СА		7900	Сохранить 7900	oncrit_chance, oncrit_skill	3	0	0	0	0	
+8132	Star Buster - Health	Удалить СА		7901	Сохранить 7901	item_skill	3	0	0	0	0	
+8133	Star Buster - Haste	Удалить СА		7901	Сохранить 7901	item_skill	3	0	0	0	0	
+8134	Star Buster - Rsk. Focus	Удалить СА		7901	Сохранить 7901	item_skill	3	0	0	0	0	
+8135	Doom Crusher - Health	Удалить СА		7902	Сохранить 7902	item_skill	3	0	0	0	0	
+8136	Doom Crusher - Anger	Удалить СА		7902	Сохранить 7902	item_skill	3	0	0	0	0	
+8137	Doom Crusher - Rsk. Haste	Удалить СА		7902	Сохранить 7902	item_skill	3	0	0	0	0	
+8138	Ecliptic Axe - Conversion	Удалить СА		7891	Сохранить 7891	item_skill	3	0	0	0	0	
+8139	Ecliptic Axe - Magic Power	Удалить СА		7891	Сохранить 7891	item_skill	3	0	0	0	0	
+8140	Ecliptic Axe - Magic Hold	Удалить СА		7891	Сохранить 7891	oncast_chance, oncast_skill	3	0	0	0	0	
+8141	Spell Breaker - Acumen	Удалить СА		7892	Сохранить 7892	item_skill	3	0	0	0	0	
+8142	Spell Breaker - Magic Mental Shield	Удалить СА		7892	Сохранить 7892	oncast_chance, oncast_skill	3	0	0	0	0	
+8143	Spell Breaker - Magic Hold	Удалить СА		7892	Сохранить 7892	oncast_chance, oncast_skill	3	0	0	0	0	
+8144	Kaim Vanul's Bones - Mana Up	Удалить СА		7893	Сохранить 7893	item_skill	3	0	0	0	0	
+8145	Kaim Vanul's Bones - Magic Silence	Удалить СА		7893	Сохранить 7893	oncast_chance, oncast_skill	3	0	0	0	0	
+8146	Kaim Vanul's Bones - Conversion	Удалить СА		7893	Сохранить 7893	item_skill	3	0	0	0	0	
+8147	Spiritual Eye - Mana Up	Удалить СА		7894	Сохранить 7894	item_skill	3	0	0	0	0	
+8148	Spiritual Eye - Magic Poison	Удалить СА		7894	Сохранить 7894	item_skill, oncast_chance, oncast_skill	3	0	0	0	0	
+8149	Spiritual Eye - Acumen	Удалить СА		7894	Сохранить 7894	item_skill	3	0	0	0	0	
+8150	Flaming Dragon Skull - Acumen	Удалить СА		7895	Сохранить 7895	item_skill	3	0	0	0	0	
+8151	Flaming Dragon Skull - Magic Power	Удалить СА		7895	Сохранить 7895	item_skill	3	0	0	0	0	
+8152	Flaming Dragon Skull - Magic Silence	Удалить СА		7895	Сохранить 7895	item_skill, oncast_chance, oncast_skill	3	0	0	0	0	
+8204	Monster Only (Follower of Frintezza Calibur)	Кандидат на объединение		7903	Для первой фазы оставить 8204, для следующей 7903	bodypart, damage_range, stat.mAtk, stat.pAtk, stat.pAtkSpd, weapon_type, weight	3	2	0	0	0	
+8219	Monster Only (Zombie Laborer Sword)	Кандидат на объединение		8218	До выбора поведения сохранить оба: 8219, 8218	material, random_damage, soulshots, spiritshots, stat.accCombat, stat.rCrit, weapon_type, weight	3	0	0	0	0	
+8576	Apprentice's Staff (Event)	Кандидат на объединение	да	176	Для событийной выдачи оставить 8576; торговый режим обычного 176 отличается	is_destroyable, is_dropable, is_sellable, is_tradable, price	3	0	0	0	0	
+8577	Bone Club (Event)	Кандидат на объединение	да	4	Для событийной выдачи оставить 8577; торговый режим обычного 4 отличается	is_destroyable, is_dropable, is_sellable, is_tradable, material, price, soulshots, spiritshots, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8578	Shining Knife (Event)	Кандидат на объединение	да	217	Для событийной выдачи оставить 8578; торговый режим обычного 217 отличается	is_destroyable, is_dropable, is_sellable, is_tradable, price	3	0	0	0	0	
+8579	Cestus (Event)	Кандидат на объединение	да	256	Для событийной выдачи оставить 8579; торговый режим обычного 256 отличается	is_destroyable, is_dropable, is_sellable, is_tradable, price	3	0	0	0	0	
+8580	Forest Bow (Event)	Кандидат на объединение	да	272	Для событийной выдачи оставить 8580; торговый режим обычного 272 отличается	is_destroyable, is_dropable, is_sellable, is_tradable, price	3	0	0	0	0	
+8581	Long Sword (Event)	Кандидат на объединение	да	2	Для событийной выдачи оставить 8581; торговый режим обычного 2 отличается	is_destroyable, is_dropable, is_sellable, is_tradable, price	3	0	0	0	0	
+8582	Mace of Prayer (Event)	Кандидат на объединение	да	179	Для событийной выдачи оставить 8582; торговый режим обычного 179 отличается	crystal_count, is_destroyable, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+8583	Dark Elven Bow (Event)	Кандидат на объединение	да	277	Для событийной выдачи оставить 8583; торговый режим обычного 277 отличается	crystal_count, is_destroyable, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+8584	Long Bow (Event)	Кандидат на объединение	да	274	Для событийной выдачи оставить 8584; торговый режим обычного 274 отличается	crystal_count, is_destroyable, is_dropable, is_sellable, is_tradable, mp_consume, price, reuse_delay, stat.mAtk, stat.pAtk, stat.pAtkSpd, weight	3	0	0	0	0	
+8585	Staff of Mana (Event)	Кандидат на объединение	да	185	Для событийной выдачи оставить 8585; торговый режим обычного 185 отличается	crystal_count, is_destroyable, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+8586	Bastard Sword (Event)	Кандидат на объединение	да	69	Для событийной выдачи оставить 8586; торговый режим обычного 69 отличается	crystal_count, is_destroyable, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+8587	Divine Tomb (Event)	Кандидат на объединение	да	315	Для событийной выдачи оставить 8587; торговый режим обычного 315 отличается	crystal_count, is_destroyable, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+8588	Single-Edged Jamadhr (Event)	Кандидат на объединение	да	258	Для событийной выдачи оставить 8588; торговый режим обычного 258 отличается	crystal_count, is_destroyable, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8589	Tomahawk (Event)	Кандидат на объединение	да	86	Для событийной выдачи оставить 8589; торговый режим обычного 86 отличается	crystal_count, is_destroyable, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+8590	Poniard Daggar (Event)	Кандидат на объединение	да	216	Для событийной выдачи оставить 8590; торговый режим обычного 216 отличается	crystal_type, is_destroyable, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8591	Pike (Event)	Кандидат на объединение	да	292	Для событийной выдачи оставить 8591; торговый режим обычного 292 отличается	crystal_count, is_destroyable, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk	3	0	0	0	0	
+8788	Sirra's Blade - Haste	Удалить СА		8678	Сохранить 8678	item_skill	3	0	0	0	0	
+8789	Sirra's Blade - Health	Удалить СА		8678	Сохранить 8678	item_skill	3	0	0	0	0	
+8790	Sirra's Blade - Critical Poison	Удалить СА		8678	Сохранить 8678	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+8791	Sword of Ipos - Focus	Удалить СА		8679	Сохранить 8679	item_skill	3	0	0	0	0	
+8792	Sword of Ipos - Haste	Удалить СА		8679	Сохранить 8679	item_skill	3	0	0	0	0	
+8793	Sword of Ipos - Health	Удалить СА		8679	Сохранить 8679	item_skill	3	0	0	0	0	
+8794	Barakiel's Axe - Health	Удалить СА		8680	Сохранить 8680	item_skill	3	0	0	0	0	
+8795	Barakiel's Axe - Haste	Удалить СА		8680	Сохранить 8680	item_skill	3	0	0	0	0	
+8796	Barakiel's Axe - Focus	Удалить СА		8680	Сохранить 8680	item_skill	3	0	0	0	0	
+8797	Behemoth's Tuning Fork - Focus	Удалить СА		8681	Сохранить 8681	item_skill	3	0	0	0	0	
+8798	Behemoth's Tuning Fork - Health	Удалить СА		8681	Сохранить 8681	item_skill	3	0	0	0	0	
+8799	Behemoth's Tuning Fork - Anger	Удалить СА		8681	Сохранить 8681	item_skill	3	0	0	0	0	
+8800	Naga Storm - Focus	Удалить СА		8682	Сохранить 8682	item_skill	3	0	0	0	0	
+8801	Naga Storm - Critical Damage	Удалить СА		8682	Сохранить 8682	item_skill	3	0	0	0	0	
+8802	Naga Storm - Back Blow	Удалить СА		8682	Сохранить 8682	item_skill	3	0	0	0	0	
+8803	Tiphon's Spear - Critical Stun	Удалить СА		8683	Сохранить 8683	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+8804	Tiphon's Spear - Towering Blow	Удалить СА		8683	Сохранить 8683	damage_range, item_skill, stat.pAtkRange	3	0	0	0	0	
+8805	Tiphon's Spear - Wild Blow	Удалить СА		8683	Сохранить 8683	damage_range, item_skill, stat.pAtkAngle	3	0	0	0	0	
+8806	Shyeed's Bow - Cheap Shot	Удалить СА		8684	Сохранить 8684	item_skill, mp_consume_reduce	3	0	0	0	0	
+8807	Shyeed's Bow - Focus	Удалить СА		8684	Сохранить 8684	item_skill	3	0	0	0	0	
+8808	Shyeed's Bow - Quick Recovery	Удалить СА		8684	Сохранить 8684	item_skill, reuse_delay	3	0	0	0	0	
+8809	Sobekk's Hurricane - Rsk. Haste	Удалить СА		8685	Сохранить 8685	item_skill	3	0	0	0	0	
+8810	Sobekk's Hurricane - Haste	Удалить СА		8685	Сохранить 8685	item_skill	3	0	0	0	0	
+8811	Sobekk's Hurricane - Critical Drain	Удалить СА		8685	Сохранить 8685	item_skill, oncrit_chance, oncrit_skill	3	0	0	0	0	
+8812	Themis' Tongue - Mana Up	Удалить СА		8686	Сохранить 8686	item_skill	3	0	0	0	0	
+8813	Themis' Tongue - Magic Mental Shield	Удалить СА		8686	Сохранить 8686	item_skill, oncast_chance, oncast_skill	3	0	0	0	0	
+8814	Themis' Tongue - Magic Focus	Удалить СА		8686	Сохранить 8686	item_skill, oncast_chance, oncast_skill	3	0	0	0	0	
+8815	Cabrio's Hand - Conversion	Удалить СА		8687	Сохранить 8687	item_skill	3	0	0	0	0	
+8816	Cabrio's Hand - Mana Up	Удалить СА		8687	Сохранить 8687	item_skill	3	0	0	0	0	
+8817	Cabrio's Hand - Magic Silence	Удалить СА		8687	Сохранить 8687	item_skill, oncast_chance, oncast_skill	3	0	0	0	0	
+8818	Daimon Crystal - Mana Up	Удалить СА		8688	Сохранить 8688	item_skill	3	0	0	0	0	
+8819	Daimon Crystal - Acumen	Удалить СА		8688	Сохранить 8688	item_skill	3	0	0	0	0	
+8820	Daimon Crystal - Magic Mental Shield	Удалить СА		8688	Сохранить 8688	item_skill, oncast_chance, oncast_skill	3	0	0	0	0	
+8821	Shadow Item: Two Handed Sword	Кандидат на объединение		124	Для временной выдачи оставить 8821; постоянный вариант 124 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8822	Shadow Item: Crimson Sword	Кандидат на объединение		127	Для временной выдачи оставить 8822; постоянный вариант 127 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8823	Shadow Item: Spiked Club	Кандидат на объединение		157	Для временной выдачи оставить 8823; постоянный вариант 157 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8824	Shadow Item: Staff of Magic	Кандидат на объединение		186	Для временной выдачи оставить 8824; постоянный вариант 186 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8825	Shadow Item: Kukuri	Кандидат на объединение		223	Для временной выдачи оставить 8825; постоянный вариант 223 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8826	Shadow Item: Dagger of Mana	Кандидат на объединение		238	Для временной выдачи оставить 8826; постоянный вариант 238 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8827	Shadow Item: Triple-Edged Jamadhr	Кандидат на объединение		260	Для временной выдачи оставить 8827; постоянный вариант 260 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8828	Shadow Item: Gastraphetes	Кандидат на объединение		278	Для временной выдачи оставить 8828; постоянный вариант 278 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8829	Shadow Item: War Hammer	Кандидат на объединение		293	Для временной выдачи оставить 8829; постоянный вариант 293 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8830	Shadow Item: Katana	Кандидат на объединение		74	Для временной выдачи оставить 8830; постоянный вариант 74 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8831	Shadow Item: Bec de Corbin	Кандидат на объединение		94	Для временной выдачи оставить 8831; постоянный вариант 94 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8832	Shadow Item: Cursed Staff	Кандидат на объединение		195	Для временной выдачи оставить 8832; постоянный вариант 195 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8833	Shadow Item: Stiletto	Кандидат на объединение		227	Для временной выдачи оставить 8833; постоянный вариант 227 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8834	Shadow Item: Soulfire Dirk	Кандидат на объединение		242	Для временной выдачи оставить 8834; постоянный вариант 242 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8835	Shadow Item: Elemental Bow	Кандидат на объединение		282	Для временной выдачи оставить 8835; постоянный вариант 282 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8836	Shadow Item: Dwarven War Hammer	Кандидат на объединение		2502	Для временной выдачи оставить 8836; постоянный вариант 2502 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8837	Shadow Item: Sword of Revolution	Кандидат на объединение		2558	Для временной выдачи оставить 8837; постоянный вариант 2558 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8838	Shadow Item: Knuckle Duster	Кандидат на объединение		4233	Для временной выдачи оставить 8838; постоянный вариант 4233 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8839	Shadow Item: Sword of Delusion	Кандидат на объединение		76	Для временной выдачи оставить 8839; постоянный вариант 76 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8840	Shadow Item: Poleaxe	Кандидат на объединение		95	Для временной выдачи оставить 8840; постоянный вариант 95 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8841	Shadow Item: Stick of Eternity	Кандидат на объединение		196	Для временной выдачи оставить 8841; постоянный вариант 196 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8842	Shadow Item: Inferno Staff	Кандидат на объединение		198	Для временной выдачи оставить 8842; постоянный вариант 198 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8843	Shadow Item: Pa'agrian Hammer	Кандидат на объединение		199	Для временной выдачи оставить 8843; постоянный вариант 199 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8844	Shadow Item: Dark Screamer	Кандидат на объединение		233	Для временной выдачи оставить 8844; постоянный вариант 233 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8845	Shadow Item: Akat Long Bow	Кандидат на объединение		283	Для временной выдачи оставить 8845; постоянный вариант 283 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8846	Shadow Item: Pa'agrian Sword	Кандидат на объединение		7882	Для временной выдачи оставить 8846; постоянный вариант 7882 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8847	Shadow Item: Fisted Blade	Кандидат на объединение		265	Для временной выдачи оставить 8847; постоянный вариант 265 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8848	Shadow Item: Stormbringer	Кандидат на объединение		2561	Для временной выдачи оставить 8848; постоянный вариант 2561 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8849	Shadow Item: Great Sword	Кандидат на объединение		78	Для временной выдачи оставить 8849; постоянный вариант 78 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8850	Shadow Item: Heavy War Axe	Кандидат на объединение		91	Для временной выдачи оставить 8850; постоянный вариант 91 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8851	Shadow Item: Sprite's Staff	Кандидат на объединение		92	Для временной выдачи оставить 8851; постоянный вариант 92 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8852	Shadow Item: Keshanberk	Кандидат на объединение		142	Для временной выдачи оставить 8852; постоянный вариант 142 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8853	Shadow Item: Sword of Valhalla	Кандидат на объединение		148	Для временной выдачи оставить 8853; постоянный вариант 148 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8854	Shadow Item: Kris	Кандидат на объединение		229	Для временной выдачи оставить 8854; постоянный вариант 229 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8855	Shadow Item: Arthro Nail	Кандидат на объединение		267	Для временной выдачи оставить 8855; постоянный вариант 267 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8856	Shadow Item: Dark Elven Long Bow	Кандидат на объединение		284	Для временной выдачи оставить 8856; постоянный вариант 284 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8857	Shadow Item: Swords of Delusion	Кандидат на объединение		2617	Для временной выдачи оставить 8857; постоянный вариант 2617 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8858	Shadow Item: Great Axe	Кандидат на объединение		300	Для временной выдачи оставить 8858; постоянный вариант 300 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8859	Shadow Item: Tallum Blade	Кандидат на объединение	да	80	Для временной выдачи оставить 8859; постоянный вариант 80 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8860	Shadow Item: Halberd	Кандидат на объединение	да	98	Для временной выдачи оставить 8860; постоянный вариант 98 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8861	Shadow Item: Dasparion's Staff	Кандидат на объединение	да	212	Для временной выдачи оставить 8861; постоянный вариант 212 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8862	Shadow Item: Bloody Orchid	Кандидат на объединение	да	235	Для временной выдачи оставить 8862; постоянный вариант 235 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8863	Shadow Item: Blood Tornado	Кандидат на объединение	да	269	Для временной выдачи оставить 8863; постоянный вариант 269 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8864	Shadow Item: Carnage Bow	Кандидат на объединение	да	288	Для временной выдачи оставить 8864; постоянный вариант 288 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8865	Shadow Item: Dual Keshanberk	Кандидат на объединение	да	5233	Для временной выдачи оставить 8865; постоянный вариант 5233 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8866	Shadow Item: Meteor Shower	Кандидат на объединение	да	2504	Для временной выдачи оставить 8866; постоянный вариант 2504 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8867	Shadow Item: Inferno Master	Кандидат на объединение	да	7884	Для временной выдачи оставить 8867; постоянный вариант 7884 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8926	Shadow Item: Sword of Delusion	Кандидат на объединение	да	76	Для временной выдачи оставить 8926; постоянный вариант 76 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8927	Shadow Item: Poleaxe	Кандидат на объединение	да	95	Для временной выдачи оставить 8927; постоянный вариант 95 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8928	Shadow Item: Stick of Eternity	Кандидат на объединение	да	196	Для временной выдачи оставить 8928; постоянный вариант 196 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8929	Shadow Item: Inferno Staff	Кандидат на объединение	да	198	Для временной выдачи оставить 8929; постоянный вариант 198 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8930	Shadow Item: Pa'agrian Hammer	Кандидат на объединение	да	199	Для временной выдачи оставить 8930; постоянный вариант 199 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8931	Shadow Item: Dark Screamer	Кандидат на объединение	да	233	Для временной выдачи оставить 8931; постоянный вариант 233 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8932	Shadow Item: Akat Long Bow	Кандидат на объединение	да	283	Для временной выдачи оставить 8932; постоянный вариант 283 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8933	Shadow Item: Pa'agrian Sword	Кандидат на объединение	да	7882	Для временной выдачи оставить 8933; постоянный вариант 7882 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8934	Shadow Item: Fisted Blade	Кандидат на объединение	да	265	Для временной выдачи оставить 8934; постоянный вариант 265 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8937	Shadow Item: Stormbringer	Кандидат на объединение	да	2561	Для временной выдачи оставить 8937; постоянный вариант 2561 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8972	Shadow Item: Long Spear	Кандидат на объединение	да	16	Для временной выдачи оставить 8972; постоянный вариант 16 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
+8973	Shadow Item: Falchion	Кандидат на объединение	да	68	Для временной выдачи оставить 8973; постоянный вариант 68 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
+8974	Shadow Item: Iron Hammer	Кандидат на объединение	да	87	Для временной выдачи оставить 8974; постоянный вариант 87 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
+8975	Shadow Item: Voodoo Doll	Кандидат на объединение	да	100	Для временной выдачи оставить 8975; постоянный вариант 100 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
+8976	Shadow Item: Buzdygan	Кандидат на объединение	да	155	Для временной выдачи оставить 8976; постоянный вариант 155 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
+8977	Shadow Item: Mage Staff	Кандидат на объединение	да	176	Для временной выдачи оставить 8977; постоянный вариант 176 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8978	Shadow Item: Sword Breaker	Кандидат на объединение	да	219	Для временной выдачи оставить 8978; постоянный вариант 219 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
+8979	Shadow Item: Viper's Fang	Кандидат на объединение	да	256	Для временной выдачи оставить 8979; постоянный вариант 256 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8980	Shadow Item: Composition Bow	Кандидат на объединение	да	273	Для временной выдачи оставить 8980; постоянный вариант 273 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
+8981	Shadow Item: Crucifix of Blessing	Кандидат на объединение	да	311	Для временной выдачи оставить 8981; постоянный вариант 311 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
+8982	Shadow Item: Two Handed Sword	Кандидат на объединение	да	124	Для временной выдачи оставить 8982; постоянный вариант 124 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8983	Shadow Item: Crimson Sword	Кандидат на объединение	да	127	Для временной выдачи оставить 8983; постоянный вариант 127 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8984	Shadow Item: Spiked Club	Кандидат на объединение	да	157	Для временной выдачи оставить 8984; постоянный вариант 157 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8985	Shadow Item: Staff of Magic	Кандидат на объединение	да	186	Для временной выдачи оставить 8985; постоянный вариант 186 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8986	Shadow Item: Kukuri	Кандидат на объединение	да	223	Для временной выдачи оставить 8986; постоянный вариант 223 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8987	Shadow Item: Dagger of Mana	Кандидат на объединение	да	238	Для временной выдачи оставить 8987; постоянный вариант 238 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8988	Shadow Item: Triple-Edged Jamadhr	Кандидат на объединение	да	260	Для временной выдачи оставить 8988; постоянный вариант 260 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8989	Shadow Item: Gastraphetes	Кандидат на объединение	да	278	Для временной выдачи оставить 8989; постоянный вариант 278 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8990	Shadow Item: War Hammer	Кандидат на объединение	да	293	Для временной выдачи оставить 8990; постоянный вариант 293 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8991	Shadow Item: Sword of Delusion	Кандидат на объединение	да	76	Для временной выдачи оставить 8991; постоянный вариант 76 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8992	Shadow Item: Poleaxe	Кандидат на объединение	да	95	Для временной выдачи оставить 8992; постоянный вариант 95 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8993	Shadow Item: Stick of Eternity	Кандидат на объединение	да	196	Для временной выдачи оставить 8993; постоянный вариант 196 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8994	Shadow Item: Inferno Staff	Кандидат на объединение	да	198	Для временной выдачи оставить 8994; постоянный вариант 198 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8995	Shadow Item: Pa'agrian Hammer	Кандидат на объединение	да	199	Для временной выдачи оставить 8995; постоянный вариант 199 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8996	Shadow Item: Dark Screamer	Кандидат на объединение	да	233	Для временной выдачи оставить 8996; постоянный вариант 233 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8997	Shadow Item: Akat Long Bow	Кандидат на объединение	да	283	Для временной выдачи оставить 8997; постоянный вариант 283 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8998	Shadow Item: Pa'agrian Sword	Кандидат на объединение	да	7882	Для временной выдачи оставить 8998; постоянный вариант 7882 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+8999	Shadow Item: Fisted Blade	Кандидат на объединение	да	265	Для временной выдачи оставить 8999; постоянный вариант 265 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9000	Shadow Item: Stormbringer*Stormbringer	Кандидат на объединение	да	2561	Для временной выдачи оставить 9000; постоянный вариант 2561 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9001	Shadow Item: Great Sword	Кандидат на объединение	да	78	Для временной выдачи оставить 9001; постоянный вариант 78 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9002	Shadow Item: Heavy War Axe	Кандидат на объединение	да	91	Для временной выдачи оставить 9002; постоянный вариант 91 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9003	Shadow Item: Sprite's Staff	Кандидат на объединение	да	92	Для временной выдачи оставить 9003; постоянный вариант 92 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9004	Shadow Item: Keshanberk	Кандидат на объединение	да	142	Для временной выдачи оставить 9004; постоянный вариант 142 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9005	Shadow Item: Sword of Valhalla	Кандидат на объединение	да	148	Для временной выдачи оставить 9005; постоянный вариант 148 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9006	Shadow Item: Kris	Кандидат на объединение	да	229	Для временной выдачи оставить 9006; постоянный вариант 229 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9007	Shadow Item: Arthro Nail	Кандидат на объединение	да	267	Для временной выдачи оставить 9007; постоянный вариант 267 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9008	Shadow Item: Dark Elven Long Bow	Кандидат на объединение	да	284	Для временной выдачи оставить 9008; постоянный вариант 284 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9009	Shadow Item: Sword of Delusion*Sword of Delusion	Кандидат на объединение	да	2617	Для временной выдачи оставить 9009; постоянный вариант 2617 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9010	Shadow Item: Great Axe	Кандидат на объединение	да	300	Для временной выдачи оставить 9010; постоянный вариант 300 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9011	Shadow Item: Tallum Blade	Кандидат на объединение	да	80	Для временной выдачи оставить 9011; постоянный вариант 80 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9012	Shadow Item: Halberd	Кандидат на объединение	да	98	Для временной выдачи оставить 9012; постоянный вариант 98 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9013	Shadow Item: Dasparion's Staff	Кандидат на объединение	да	212	Для временной выдачи оставить 9013; постоянный вариант 212 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9014	Shadow Item: Bloody Orchid	Кандидат на объединение	да	235	Для временной выдачи оставить 9014; постоянный вариант 235 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9015	Shadow Item: Blood Tornado	Кандидат на объединение	да	269	Для временной выдачи оставить 9015; постоянный вариант 269 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9016	Shadow Item: Carnage Bow	Кандидат на объединение	да	288	Для временной выдачи оставить 9016; постоянный вариант 288 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9017	Shadow Item: Keshanberk*Keshanberk	Кандидат на объединение	да	5233	Для временной выдачи оставить 9017; постоянный вариант 5233 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9018	Shadow Item: Meteor Shower	Кандидат на объединение	да	2504	Для временной выдачи оставить 9018; постоянный вариант 2504 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9019	Shadow Item: Inferno Master	Кандидат на объединение	да	7884	Для временной выдачи оставить 9019; постоянный вариант 7884 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9020	Shadow Item: Keshanberk*Damascus	Кандидат на объединение	да	5705	Для временной выдачи оставить 9020; постоянный вариант 5705 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9021	Shadow Item: Dragon Slayer	Кандидат на объединение	да	81	Для временной выдачи оставить 9021; постоянный вариант 81 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9022	Shadow Item: Sword of Miracles	Кандидат на объединение	да	151	Для временной выдачи оставить 9022; постоянный вариант 151 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9023	Shadow Item: Elysian	Кандидат на объединение	да	164	Для временной выдачи оставить 9023; постоянный вариант 164 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9024	Shadow Item: Branch of the Mother Tree	Кандидат на объединение	да	213	Для временной выдачи оставить 9024; постоянный вариант 213 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9025	Shadow Item: Soul Separator	Кандидат на объединение	да	236	Для временной выдачи оставить 9025; постоянный вариант 236 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9026	Shadow Item: Dragon Grinder	Кандидат на объединение	да	270	Для временной выдачи оставить 9026; постоянный вариант 270 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9027	Shadow Item: Soul Bow	Кандидат на объединение	да	289	Для временной выдачи оставить 9027; постоянный вариант 289 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9028	Shadow Item: Tallum Glaive	Кандидат на объединение	да	305	Для временной выдачи оставить 9028; постоянный вариант 305 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9029	Shadow Item: Dark Legion	Кандидат на объединение	да	2500	Для временной выдачи оставить 9029; постоянный вариант 2500 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
+9036	Shadow Item: Bone Shield	Кандидат на объединение		625	Для временной выдачи оставить 9036; постоянный вариант 625 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, stat.sDef, weight	3	0	0	0	0	
+9044	Shadow Item: Hoplon	Кандидат на объединение		628	Для временной выдачи оставить 9044; постоянный вариант 628 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.sDef, weight	3	0	0	0	0	
+9056	Shadow Item: Composite Shield	Кандидат на объединение		107	Для временной выдачи оставить 9056; постоянный вариант 107 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.sDef, weight	3	0	0	0	0	
+9070	Shadow Item: Zubei's Shield	Кандидат на объединение		633	Для временной выдачи оставить 9070; постоянный вариант 633 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.sDef, weight	3	0	0	0	0	
+9084	Shadow Item: Dark Crystal Shield	Кандидат на объединение		641	Для временной выдачи оставить 9084; постоянный вариант 641 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.sDef, weight	3	0	0	0	0	
+9129	Shadow Item: Shield of Nightmare	Кандидат на объединение		634	Для временной выдачи оставить 9129; постоянный вариант 634 не воспроизводит срок	crystal_count, crystal_type, duration, is_sellable, is_tradable, material, price, stat.sDef, weight	3	0	0	0	0	
+9137	Sword of Valakas (2-Handed)	Кандидат на объединение		9136	До выбора поведения сохранить оба: 9137, 9136	bodypart, crystal_type, damage_range, material, soulshots, spiritshots, stat.mAtk, stat.pAtk, stat.pAtkSpd, weapon_type, weight	3	0	0	0	0	
+9141	Redemption Bow - Event Use	Кандидат на объединение		9140	До выбора поведения сохранить оба: 9141, 9140	duration, equip_reuse_delay, item_skill, weight	3	0	0	0	0	
+9376		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9377		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9378		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9379		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9380		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9381		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9382		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9383		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9384		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9385		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9386		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9387		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9441		Удалить из клиента	да		Удалить клиентский 9441 вместе с привязкой комплекта 9416 в обеих локализациях		5	0	0	0	0	
+9442		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9443		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9444		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9445		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9446		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9447		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9448		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9449		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9450		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9529		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9700		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9701		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9702		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9703		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9704		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9705		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9706		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9707		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9708		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9709		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9800		Удалить из клиента	да		Серверного шаблона нет		1	0	0	0	0	
+9801		Удалить из клиента	да		Серверного шаблона нет		1	0	0	0	0	
+9802		Удалить из клиента	да		Серверного шаблона нет		1	0	0	0	0	
+9854		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9855		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9856		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9857		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9858		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9859		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9860		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9861		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9862		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9863		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9864		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9865		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9866		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9867		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9868		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9869		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9870		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9871		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9872		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9873		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9874		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9875		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9876		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9877		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9878		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9879		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+9880		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
+18001		Удалить из клиента	да		Серверного шаблона нет		2	0	0	0	0	
+18002		Удалить из клиента	да		Серверного шаблона нет		2	0	0	0	0	
+18003		Удалить из клиента	да		Серверного шаблона нет		2	0	0	0	0	
+18004		Удалить из клиента	да		Серверного шаблона нет		2	0	0	0	0	
+18005		Удалить из клиента	да		Серверного шаблона нет		2	0	0	0	0	
+18006		Удалить из клиента	да		Серверного шаблона нет		2	0	0	0	0	
+666666		Удалить из клиента	да		Серверного шаблона нет		1	0	0	0	0	
+666667		Удалить из клиента	да		Серверного шаблона нет		1	0	0	0	0	
