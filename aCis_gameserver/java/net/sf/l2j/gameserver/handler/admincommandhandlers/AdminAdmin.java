@@ -93,6 +93,15 @@ public class AdminAdmin implements IAdminCommandHandler
 				try
 				{
 					final String listName = st.nextToken();
+					if (listName.equals("all"))
+					{
+						if (st.countTokens() != 1)
+							player.sendMessage("Usage: //buy all gm_weapon_list");
+						else
+							AdminWeaponGrant.give(player, st.nextToken());
+						sendFile(player, "gmshop/Weapons.htm");
+						return;
+					}
 					if (listName.startsWith("gm_weapon_"))
 					{
 						MultisellData.getInstance().separateAndSend(listName, player, null, false);
