@@ -37,7 +37,6 @@ public class SecondClassChange extends Quest
 	private static final int MARK_OF_LIFE = 3140;
 	
 	// Reward Item
-	private static final int C_GRADE_COUPON = 8870;
 	
 	private static final Map<String, int[]> CLASSES = HashMap.newHashMap(31);
 	
@@ -582,7 +581,6 @@ public class SecondClassChange extends Quest
 						takeItems(player, array[7], -1);
 						takeItems(player, array[8], -1);
 						takeItems(player, array[9], -1);
-						giveItems(player, C_GRADE_COUPON, 15);
 						playSound(player, SOUND_FANFARE);
 						
 						player.setClassId(array[0]);

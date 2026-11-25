@@ -361,7 +361,7 @@
 1296	Gladius	Предметы/SWORD/rhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 1296, 66; пара для сравнения 66	lineageweaponstex.gladius_t00_wp	66	
 1297	Bastard Sword	Предметы/SWORD/rhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 1297, 69; пара для сравнения 69	lineageweaponstex.bastard_sword_t00_wp	69	
 1298	Caliburs	Предметы/SWORD/rhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 1298, 75; пара для сравнения 75	lineageweaponstex.caliburs_t00_wp	75	
-1299	Great Sword	Предметы/DUAL/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.sword_of_delusion_t00_wp|lineageweaponstex.sword_of_magic_t00_wp	1299	
+1299	Great Sword	NPC/DUAL/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.sword_of_delusion_t00_wp|lineageweaponstex.sword_of_magic_t00_wp	1299	
 1300	Apprentice's Rod	Предметы/BLUNT/rhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 1300, 7; пара для сравнения 7	lineageweaponstex.apprentices_rod_t00_wp	7	
 1301	Big Hammer	Предметы/BLUNT/rhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 1301, 89; пара для сравнения 89	lineageweaponstex.big_hammer_t00_wp	89	
 1302	Bec de Corbin	Предметы/POLE/lrhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 1302, 94; пара для сравнения 94	lineageweaponstex.bech_de_corbin_t00_wp	94	
@@ -402,7 +402,7 @@
 2503	Yaksa Mace	Предметы/BLUNT/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.yaksa_mace_t00_wp	2503	
 2504	Meteor Shower	Предметы/BLUNT/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.meteor_shower_t00_wp	2504	
 2505	Iron Canine	Предметы/PET/wolf/физ.	Оставить			Представитель текстуры	dropitemstex.drop_sack_t00	2505	
-2507	Lizardspear	Предметы/BOW/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.lizardspear_t00_wp	2507	
+2507	Lizardspear	NPC/POLE/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.lizardspear_t00_wp	2507	
 2516	Saber*Saber	Предметы/DUAL/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.saber_t00_wp|lineageweaponstex.saber_t00_wp	2516	
 2517	Saber*Bastard Sword	Предметы/DUAL/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.saber_t00_wp|lineageweaponstex.bastard_sword_t00_wp	2517	
 2518	Saber*Spinebone Sword	Предметы/DUAL/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.saber_t00_wp|lineageweaponstex.spinebone_sword_t00_wp	2518	
@@ -519,263 +519,263 @@
 3027	Old Knight's Sword	Предметы/BIGSWORD/lrhand/физ.	Сохранить отдельный ID			Для квеста оставить 3027; обычный предмет не должен заменять квестовую выдачу или условие; пара для сравнения 981	lineageweaponstex.brandish_t00_wp	981	
 3028	Crescent Moon Bow	Предметы/BOW/lrhand/физ.	Сохранить отдельный ID			Для квеста оставить 3028; обычный предмет не должен заменять квестовую выдачу или условие; пара для сравнения 13	lineageweaponstex.short_bow_t00_wp	13	
 3029	Sword of Binding	Предметы/SWORD/rhand/физ.	Сохранить отдельный ID			Для квеста оставить 3029; обычный предмет не должен заменять квестовую выдачу или условие; пара для сравнения 66	lineageweaponstex.gladius_t00_wp	66	
-3439	Shining Canine	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3439, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
+3439	Shining Canine	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3439, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3439	
 3471	Cybellin's Dagger	Предметы/DAGGER/rhand/физ.	Сохранить отдельный ID			Для квеста оставить 3471; обычный предмет не должен заменять квестовую выдачу или условие; пара для сравнения 215	lineageweaponstex.doomed_dagger_t00_wp	215	
-3902	Ghost Canine	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3902, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3903	Mithril Canine	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3903, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3904	Sylvan Canine	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3904, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3905	Orikarukon Canine	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3905, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3906	Fang of Saltydog	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3906, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3907	Fang of Cerberus	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3907, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3908	Fang of Coyote	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3908, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3909	Crystalized Ice Canine	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3909, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3910	Fang of The Blue Wolf	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3910, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3911	Fang of Fenril	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3911, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3919	Serpent Fang	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3919, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3920	Viperbite	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3920, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3921	Shadow Fang	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3921, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3922	Alya Fang	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3922, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3923	Torturer	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3923, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3924	Unuk Alhay Fang	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3924, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-3925	Antiplague	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3925, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
+3902	Ghost Canine	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3902, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3902	
+3903	Mithril Canine	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3903, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3903	
+3904	Sylvan Canine	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3904, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3904	
+3905	Orikarukon Canine	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3905, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3905	
+3906	Fang of Saltydog	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3906, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3906	
+3907	Fang of Cerberus	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3907, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3907	
+3908	Fang of Coyote	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3908, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3908	
+3909	Crystalized Ice Canine	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3909, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3909	
+3910	Fang of The Blue Wolf	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3910, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3910	
+3911	Fang of Fenril	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3911, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3911	
+3919	Serpent Fang	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3919, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3919	
+3920	Viperbite	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3920, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3920	
+3921	Shadow Fang	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3921, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3921	
+3922	Alya Fang	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3922, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3922	
+3923	Torturer	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3923, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3923	
+3924	Unuk Alhay Fang	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3924, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3924	
+3925	Antiplague	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 3925, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	3925	
 3937	Giant Bar	NPC-кандидат/POLE/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.giant_bar_t00_wp	3937	
 3938	Giant Rod	NPC-кандидат/POLE/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.giant_rod_t00_wp	3938	
 3939	Lady's Fan	NPC-кандидат/POLE/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.ladys_fan_t00_wp	3939	
 4027	Bouquet	Предметы/SWORD/rhand/физ.	Проверить пустую текстуру			Проверить отображение и служебную роль			
 4028	Giant Cannon	NPC-кандидат/DAGGER/rhand/физ.	Проверить пустую текстуру			Проверить отображение и служебную роль			
-4202	Chrono Cithara	Предметы/SWORD/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.chrono_cithara_t00_wp	4202	
+4202	Chrono Cithara	Event	Оставить			Представитель текстуры	lineageweaponstex.chrono_cithara_t00_wp	4202	
 4219	Dream Sword	Предметы/SWORD/rhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 4219, 128; пара для сравнения 128	lineageweaponstex.knights_sword_t00_wp	128	
 4220	Dream Knife	Предметы/DAGGER/rhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 4220, 221; пара для сравнения 221	lineageweaponstex.assassin_knife_t00_wp	221	
 4221	Ubiquitous Axe	Предметы/BLUNT/rhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 4221, 86; пара для сравнения 86	lineageweaponstex.tomahawk_t00_wp	86	
 4222	Dream Shield	Предметы/Щит/lhand/	Сохранить отдельный ID			До выбора поведения сохранить оба: 4222, 628; пара для сравнения 628	lineageweaponstex.hoplon_t00_sh|lineageweaponstex.kite_shield_t01_sh	628	
 4223	Ubiquitous Shield	Предметы/Щит/lhand/	Сохранить отдельный ID			До выбора поведения сохранить оба: 4223, 2496; пара для сравнения 2496	lineageweaponstex.dwarven_chain_shield_t00_sh|lineageweaponstex.small_shield_t01_sh	2496	
 4233	Knuckle Duster	Предметы/DUALFIST/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.knuckle_dust_t00_wp|lineageweaponstex.knuckle_dust_t00_wp	4233	
-4237	Hatchling's Level 65 Weapon	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 4237, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-4238	Hatchling's Level 75 Weapon	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 4238, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
+4237	Hatchling's Level 65 Weapon	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 4237, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	4237	
+4238	Hatchling's Level 75 Weapon	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 4238, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	4238	
 4665	Pipette Knife	Предметы/DAGGER/rhand/физ.	Сохранить отдельный ID			Для квеста оставить 4665; обычный предмет не должен заменять квестовую выдачу или условие; пара для сравнения 12	lineageweaponstex.knife_t00_wp	12	
-4681	Stormbringer - Critical Anger	Предметы/SWORD/rhand/физ.	Удалить СА	72	Stormbringer	База из рецепта 1005	lineageweaponstex.stormbringer_t00_wp	72	
-4682	Stormbringer - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	72	Stormbringer	База из рецепта 1005	lineageweaponstex.stormbringer_t00_wp	72	
-4683	Stormbringer - Light	Предметы/SWORD/rhand/физ.	Удалить СА	72	Stormbringer	База из рецепта 1005	lineageweaponstex.stormbringer_t00_wp	72	
-4684	Shamshir - Guidance	Предметы/SWORD/rhand/физ.	Удалить СА	73	Shamshir	База из рецепта 1005	lineageweaponstex.shamshir_t00_wp	73	
-4685	Shamshir - Back Blow	Предметы/SWORD/rhand/физ.	Удалить СА	73	Shamshir	База из рецепта 1005	lineageweaponstex.shamshir_t00_wp	73	
-4686	Shamshir - Rsk. Evasion	Предметы/SWORD/rhand/физ.	Удалить СА	73	Shamshir	База из рецепта 1005	lineageweaponstex.shamshir_t00_wp	73	
-4687	Katana - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	74	Katana	База из рецепта 1005	lineageweaponstex.katana_t00_wp	74	
-4688	Katana - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	74	Katana	База из рецепта 1005	lineageweaponstex.katana_t00_wp	74	
-4689	Katana - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	74	Katana	База из рецепта 1005	lineageweaponstex.katana_t00_wp	74	
-4690	Spirit Sword - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	131	Spirit Sword	База из рецепта 1005	lineageweaponstex.spirits_sword_t00_wp	131	
-4691	Spirit Sword - Critical Poison	Предметы/SWORD/rhand/физ.	Удалить СА	131	Spirit Sword	База из рецепта 1005	lineageweaponstex.spirits_sword_t00_wp	131	
-4692	Spirit Sword - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	131	Spirit Sword	База из рецепта 1005	lineageweaponstex.spirits_sword_t00_wp	131	
-4693	Raid Sword - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	133	Raid Sword	База из рецепта 1005	lineageweaponstex.raid_sword_t00_wp	133	
-4694	Raid Sword - Critical Drain	Предметы/SWORD/rhand/физ.	Удалить СА	133	Raid Sword	База из рецепта 1005	lineageweaponstex.raid_sword_t00_wp	133	
-4695	Raid Sword - Critical Poison	Предметы/SWORD/rhand/физ.	Удалить СА	133	Raid Sword	База из рецепта 1005	lineageweaponstex.raid_sword_t00_wp	133	
-4696	Caliburs - Guidance	Предметы/SWORD/rhand/физ.	Удалить СА	75	Caliburs	База из рецепта 1005	lineageweaponstex.caliburs_t00_wp	75	
-4697	Caliburs - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	75	Caliburs	База из рецепта 1005	lineageweaponstex.caliburs_t00_wp	75	
-4698	Caliburs - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	75	Caliburs	База из рецепта 1005	lineageweaponstex.caliburs_t00_wp	75	
-4699	Sword of Delusion - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	76	Sword of Delusion	База из рецепта 1005	lineageweaponstex.sword_of_delusion_t00_wp	76	
-4700	Sword of Delusion - Health	Предметы/SWORD/rhand/физ.	Удалить СА	76	Sword of Delusion	База из рецепта 1005	lineageweaponstex.sword_of_delusion_t00_wp	76	
-4701	Sword of Delusion - Rsk. Haste	Предметы/SWORD/rhand/физ.	Удалить СА	76	Sword of Delusion	База из рецепта 1005	lineageweaponstex.sword_of_delusion_t00_wp	76	
-4702	Tsurugi - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	77	Tsurugi	База из рецепта 1005	lineageweaponstex.tsurugi_t00_wp	77	
-4703	Tsurugi - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	77	Tsurugi	База из рецепта 1005	lineageweaponstex.tsurugi_t00_wp	77	
-4704	Tsurugi - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	77	Tsurugi	База из рецепта 1005	lineageweaponstex.tsurugi_t00_wp	77	
-4705	Sword of Nightmare - Health	Предметы/SWORD/rhand/физ.	Удалить СА	134	Sword of Nightmare	База из рецепта 1005	lineageweaponstex.sword_of_nightmare_t00_wp	134	
-4706	Sword of Nightmare - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	134	Sword of Nightmare	База из рецепта 1005	lineageweaponstex.sword_of_nightmare_t00_wp	134	
-4707	Sword of Nightmare - Light	Предметы/SWORD/rhand/физ.	Удалить СА	134	Sword of Nightmare	База из рецепта 1005	lineageweaponstex.sword_of_nightmare_t00_wp	134	
-4708	Samurai Longsword - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	135	Samurai Longsword	База из рецепта 1005	lineageweaponstex.samurai_longsword_t00_wp	135	
-4709	Samurai Longsword - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	135	Samurai Longsword	База из рецепта 1005	lineageweaponstex.samurai_longsword_t00_wp	135	
-4710	Samurai Longsword - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	135	Samurai Longsword	База из рецепта 1005	lineageweaponstex.samurai_longsword_t00_wp	135	
-4711	Flamberge - Critical Damage	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	71	Flamberge	База из рецепта 1005	lineageweaponstex.flamberge_t00_wp	71	
-4712	Flamberge - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	71	Flamberge	База из рецепта 1005	lineageweaponstex.flamberge_t00_wp	71	
-4713	Flamberge - Light	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	71	Flamberge	База из рецепта 1005	lineageweaponstex.flamberge_t00_wp	71	
-4714	Keshanberk - Guidance	Предметы/SWORD/rhand/физ.	Удалить СА	142	Keshanberk	База из рецепта 1005	lineageweaponstex.kshanberk_t00_wp	142	
-4715	Keshanberk - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	142	Keshanberk	База из рецепта 1005	lineageweaponstex.kshanberk_t00_wp	142	
-4716	Keshanberk - Back Blow	Предметы/SWORD/rhand/физ.	Удалить СА	142	Keshanberk	База из рецепта 1005	lineageweaponstex.kshanberk_t00_wp	142	
-4717	Sword of Damascus - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	79	Sword of Damascus	База из рецепта 1005	lineageweaponstex.sword_of_damascus_t00_wp	79	
-4718	Sword of Damascus - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	79	Sword of Damascus	База из рецепта 1005	lineageweaponstex.sword_of_damascus_t00_wp	79	
-4719	Sword of Damascus - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	79	Sword of Damascus	База из рецепта 1005	lineageweaponstex.sword_of_damascus_t00_wp	79	
-4720	Tallum Blade - Health	Предметы/SWORD/rhand/физ.	Удалить СА	80	Tallum Blade	Клиентское имя СА: Health; база по названию оружия	lineageweaponstex.tallum_blade_t00_wp	80	
-4721	Tallum Blade - Rsk. Evasion	Предметы/SWORD/rhand/физ.	Удалить СА	80	Tallum Blade	Клиентское имя СА: Rsk. Evasion; база по названию оружия	lineageweaponstex.tallum_blade_t00_wp	80	
-4722	Tallum Blade - Rsk. Haste	Предметы/SWORD/rhand/физ.	Удалить СА	80	Tallum Blade	Клиентское имя СА: Rsk. Haste; база по названию оружия	lineageweaponstex.tallum_blade_t00_wp	80	
-4723	Great Sword - Health	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	78	Great Sword	База из рецепта 1005	lineageweaponstex.great_sword_t00_wp	78	
-4724	Great Sword - Critical Damage	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	78	Great Sword	База из рецепта 1005	lineageweaponstex.great_sword_t00_wp	78	
-4725	Great Sword - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	78	Great Sword	База из рецепта 1005	lineageweaponstex.great_sword_t00_wp	78	
-4726	Big Hammer - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	89	Big Hammer	База из рецепта 1005	lineageweaponstex.big_hammer_t00_wp	89	
-4727	Big Hammer - Rsk.Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	89	Big Hammer	База из рецепта 1005	lineageweaponstex.big_hammer_t00_wp	89	
-4728	Big Hammer - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	89	Big Hammer	База из рецепта 1005	lineageweaponstex.big_hammer_t00_wp	89	
-4729	Battle Axe - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	160	Battle Axe	База из рецепта 1005	lineageweaponstex.battle_axe_t00_wp	160	
-4730	Battle Axe - Rsk.Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	160	Battle Axe	База из рецепта 1005	lineageweaponstex.battle_axe_t00_wp	160	
-4731	Battle Axe - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	160	Battle Axe	База из рецепта 1005	lineageweaponstex.battle_axe_t00_wp	160	
-4732	Silver Axe - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	161	Silver Axe	База из рецепта 1005	lineageweaponstex.war_pick_t00_wp	161	
-4733	Silver Axe - Rsk.Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	161	Silver Axe	База из рецепта 1005	lineageweaponstex.war_pick_t00_wp	161	
-4734	Silver Axe - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	161	Silver Axe	База из рецепта 1005	lineageweaponstex.war_pick_t00_wp	161	
-4735	Skull Graver - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	173	Skull Graver	База из рецепта 1005	lineageweaponstex.skull_graver_t00_wp	173	
-4736	Skull Graver - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	173	Skull Graver	База из рецепта 1005	lineageweaponstex.skull_graver_t00_wp	173	
-4737	Skull Graver - Rsk.Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	173	Skull Graver	База из рецепта 1005	lineageweaponstex.skull_graver_t00_wp	173	
-4738	Dwarven War Hammer - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	2502	Dwarven War Hammer	База из рецепта 1005	lineageweaponstex.dwarven_warhammer_t00_wp	2502	
-4739	Dwarven War Hammer - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	2502	Dwarven War Hammer	База из рецепта 1005	lineageweaponstex.dwarven_warhammer_t00_wp	2502	
-4740	Dwarven War Hammer - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	2502	Dwarven War Hammer	База из рецепта 1005	lineageweaponstex.dwarven_warhammer_t00_wp	2502	
-4741	War Axe - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	162	War Axe	База из рецепта 1005	lineageweaponstex.war_axe_t00_wp	162	
-4742	War Axe - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	162	War Axe	База из рецепта 1005	lineageweaponstex.war_axe_t00_wp	162	
-4743	War Axe - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	162	War Axe	База из рецепта 1005	lineageweaponstex.war_axe_t00_wp	162	
-4744	Yaksa Mace - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	2503	Yaksa Mace	База из рецепта 1005	lineageweaponstex.yaksa_mace_t00_wp	2503	
-4745	Yaksa Mace - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	2503	Yaksa Mace	База из рецепта 1005	lineageweaponstex.yaksa_mace_t00_wp	2503	
-4746	Yaksa Mace - Rsk. Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	2503	Yaksa Mace	База из рецепта 1005	lineageweaponstex.yaksa_mace_t00_wp	2503	
-4747	Heavy War Axe - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	91	Heavy War Axe	База из рецепта 1005	lineageweaponstex.heavy_war_axe_t00_wp	91	
-4748	Heavy War Axe - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	91	Heavy War Axe	База из рецепта 1005	lineageweaponstex.heavy_war_axe_t00_wp	91	
-4749	Heavy War Axe - Rsk. Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	91	Heavy War Axe	База из рецепта 1005	lineageweaponstex.heavy_war_axe_t00_wp	91	
-4750	Deadman's Glory - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	171	Deadman's Glory	База из рецепта 1005	lineageweaponstex.deadmans_glory_t00_wp	171	
-4751	Deadman's Glory - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	171	Deadman's Glory	База из рецепта 1005	lineageweaponstex.deadmans_glory_t00_wp	171	
-4752	Deadman's Glory - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	171	Deadman's Glory	База из рецепта 1005	lineageweaponstex.deadmans_glory_t00_wp	171	
-4753	Art of Battle Axe - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	175	Art of Battle Axe	База из рецепта 1005	lineageweaponstex.art_of_battle_axe_t00_wp	175	
-4754	Art of Battle Axe - Rsk. Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	175	Art of Battle Axe	База из рецепта 1005	lineageweaponstex.art_of_battle_axe_t00_wp	175	
-4755	Art of Battle Axe - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	175	Art of Battle Axe	База из рецепта 1005	lineageweaponstex.art_of_battle_axe_t00_wp	175	
-4756	Meteor Shower - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	2504	Meteor Shower	Клиентское имя СА: Health; база по названию оружия	lineageweaponstex.meteor_shower_t00_wp	2504	
-4757	Meteor Shower - Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	2504	Meteor Shower	Клиентское имя СА: Focus; база по названию оружия	lineageweaponstex.meteor_shower_t00_wp	2504	
-4758	Meteor Shower - P.Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	2504	Meteor Shower	Клиентское имя СА: P.Focus; база по названию оружия	lineageweaponstex.meteor_shower_t00_wp	2504	
-4759	Cursed Dagger - Critical Bleed	Предметы/DAGGER/rhand/физ.	Удалить СА	226	Cursed Dagger	База из рецепта 1005	lineageweaponstex.cursed_dagger_t00_wp	226	
-4760	Cursed Dagger - Critical Poison	Предметы/DAGGER/rhand/физ.	Удалить СА	226	Cursed Dagger	База из рецепта 1005	lineageweaponstex.cursed_dagger_t00_wp	226	
-4761	Cursed Dagger - Rsk. Haste	Предметы/DAGGER/rhand/физ.	Удалить СА	226	Cursed Dagger	База из рецепта 1005	lineageweaponstex.cursed_dagger_t00_wp	226	
-4762	Dark Elven Dagger - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	232	Dark Elven Dagger	База из рецепта 1005	lineageweaponstex.darkelven_dagger_t00_wp	232	
-4763	Dark Elven Dagger - Back Blow	Предметы/DAGGER/rhand/физ.	Удалить СА	232	Dark Elven Dagger	База из рецепта 1005	lineageweaponstex.darkelven_dagger_t00_wp	232	
-4764	Dark Elven Dagger - Mortal Strike	Предметы/DAGGER/rhand/физ.	Удалить СА	232	Dark Elven Dagger	Клиентское имя СА: Mortal Strike; база по названию оружия	lineageweaponstex.darkelven_dagger_t00_wp	232	
-4765	Stiletto - Critical Bleed	Предметы/DAGGER/rhand/физ.	Удалить СА	227	Stiletto	База из рецепта 1005	lineageweaponstex.stiletto_t00_wp	227	
-4766	Stiletto - Critical Poison	Предметы/DAGGER/rhand/физ.	Удалить СА	227	Stiletto	База из рецепта 1005	lineageweaponstex.stiletto_t00_wp	227	
-4767	Stiletto - Mortal Strike	Предметы/DAGGER/rhand/физ.	Удалить СА	227	Stiletto	Клиентское имя СА: Mortal Strike; база по названию оружия	lineageweaponstex.stiletto_t00_wp	227	
-4768	Grace Dagger - Evasion	Предметы/DAGGER/rhand/физ.	Удалить СА	231	Grace Dagger	База из рецепта 1005	lineageweaponstex.grace_dagger_t00_wp	231	
-4769	Grace Dagger - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	231	Grace Dagger	База из рецепта 1005	lineageweaponstex.grace_dagger_t00_wp	231	
-4770	Grace Dagger - Back Blow	Предметы/DAGGER/rhand/физ.	Удалить СА	231	Grace Dagger	База из рецепта 1005	lineageweaponstex.grace_dagger_t00_wp	231	
-4771	Dark Screamer - Evasion	Предметы/DAGGER/rhand/физ.	Удалить СА	233	Dark Screamer	База из рецепта 1005	lineageweaponstex.dark_screamer_t00_wp	233	
-4772	Dark Screamer - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	233	Dark Screamer	База из рецепта 1005	lineageweaponstex.dark_screamer_t00_wp	233	
-4773	Dark Screamer - Critical Bleed	Предметы/DAGGER/rhand/физ.	Удалить СА	233	Dark Screamer	База из рецепта 1005	lineageweaponstex.dark_screamer_t00_wp	233	
-4774	Crystal Dagger - Critical Bleed	Предметы/DAGGER/rhand/физ.	Удалить СА	228	Crystal Dagger	База из рецепта 1005	lineageweaponstex.crystal_dagger_t00_wp	228	
-4775	Crystal Dagger - Critical Poison	Предметы/DAGGER/rhand/физ.	Удалить СА	228	Crystal Dagger	База из рецепта 1005	lineageweaponstex.crystal_dagger_t00_wp	228	
-4776	Crystal Dagger - Mortal Strike	Предметы/DAGGER/rhand/физ.	Удалить СА	228	Crystal Dagger	Клиентское имя СА: Mortal Strike; база по названию оружия	lineageweaponstex.crystal_dagger_t00_wp	228	
-4777	Kris - Evasion	Предметы/DAGGER/rhand/физ.	Удалить СА	229	Kris	База из рецепта 1005	lineageweaponstex.kris_t00_wp	229	
-4778	Kris - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	229	Kris	База из рецепта 1005	lineageweaponstex.kris_t00_wp	229	
-4779	Kris - Back Blow	Предметы/DAGGER/rhand/физ.	Удалить СА	229	Kris	База из рецепта 1005	lineageweaponstex.kris_t00_wp	229	
-4780	Demon Dagger - Critical Bleed	Предметы/DAGGER/rhand/физ.	Удалить СА	234	Demon Dagger	База из рецепта 1005	lineageweaponstex.demons_sword_t00_wp	234	
-4781	Demon Dagger - Critical Poison	Предметы/DAGGER/rhand/физ.	Удалить СА	234	Demon Dagger	База из рецепта 1005	lineageweaponstex.demons_sword_t00_wp	234	
-4782	Demon Dagger - Mortal Strike	Предметы/DAGGER/rhand/физ.	Удалить СА	234	Demon Dagger	Клиентское имя СА: Mortal Strike; база по названию оружия	lineageweaponstex.demons_sword_t00_wp	234	
-4783	Bloody Orchid - Evasion	Предметы/DAGGER/rhand/физ.	Удалить СА	235	Bloody Orchid	Клиентское имя СА: Evasion; база по названию оружия	lineageweaponstex.bloody_orchid_t00_wp	235	
-4784	Bloody Orchid - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	235	Bloody Orchid	Клиентское имя СА: Focus; база по названию оружия	lineageweaponstex.bloody_orchid_t00_wp	235	
-4785	Bloody Orchid - Back Blow	Предметы/DAGGER/rhand/физ.	Удалить СА	235	Bloody Orchid	Клиентское имя СА: Back Blow; база по названию оружия	lineageweaponstex.bloody_orchid_t00_wp	235	
-4786	Hell Knife - Focus	Предметы/DAGGER/rhand/маг.	Удалить СА	243	Hell Knife	Клиентское имя СА: Focus; база по названию оружия	lineageweaponstex.hell_knife_t00_wp	243	
-4787	Hell Knife - Back Blow	Предметы/DAGGER/rhand/маг.	Удалить СА	243	Hell Knife	Клиентское имя СА: Back Blow; база по названию оружия	lineageweaponstex.hell_knife_t00_wp	243	
-4788	Hell Knife - Mortal Strike	Предметы/DAGGER/rhand/маг.	Удалить СА	243	Hell Knife	Клиентское имя СА: Mortal Strike; база по названию оружия	lineageweaponstex.hell_knife_t00_wp	243	
-4789	Chakram - Critical Drain	Предметы/DUALFIST/lrhand/физ.	Удалить СА	263	Chakram	База из рецепта 1005	lineageweaponstex.chakram_t00_wp|lineageweaponstex.chakram_t00_wp	263	
-4790	Chakram - Critical Poison	Предметы/DUALFIST/lrhand/физ.	Удалить СА	263	Chakram	База из рецепта 1005	lineageweaponstex.chakram_t00_wp|lineageweaponstex.chakram_t00_wp	263	
-4791	Chakram - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	263	Chakram	База из рецепта 1005	lineageweaponstex.chakram_t00_wp|lineageweaponstex.chakram_t00_wp	263	
-4792	Fisted Blade - Rsk. Evasion	Предметы/DUALFIST/lrhand/физ.	Удалить СА	265	Fisted Blade	База из рецепта 1005	lineageweaponstex.fist_blade_t00_wp|lineageweaponstex.fist_blade_t00_wp	265	
-4793	Fisted Blade - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	265	Fisted Blade	База из рецепта 1005	lineageweaponstex.fist_blade_t00_wp|lineageweaponstex.fist_blade_t00_wp	265	
-4794	Fisted Blade - Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	265	Fisted Blade	База из рецепта 1005	lineageweaponstex.fist_blade_t00_wp|lineageweaponstex.fist_blade_t00_wp	265	
-4795	Great Pata - Critical Drain	Предметы/DUALFIST/lrhand/физ.	Удалить СА	266	Great Pata	База из рецепта 1005	lineageweaponstex.great_pata_t00_wp|lineageweaponstex.great_pata_t00_wp	266	
-4796	Great Pata - Critical Poison	Предметы/DUALFIST/lrhand/физ.	Удалить СА	266	Great Pata	База из рецепта 1005	lineageweaponstex.great_pata_t00_wp|lineageweaponstex.great_pata_t00_wp	266	
-4797	Great Pata - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	266	Great Pata	База из рецепта 1005	lineageweaponstex.great_pata_t00_wp|lineageweaponstex.great_pata_t00_wp	266	
-4798	Knuckle Duster - Rsk. Evasion	Предметы/DUALFIST/lrhand/физ.	Удалить СА	4233	Knuckle Duster	База из рецепта 1005	lineageweaponstex.knuckle_dust_t00_wp|lineageweaponstex.knuckle_dust_t00_wp	4233	
-4799	Knuckle Duster - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	4233	Knuckle Duster	База из рецепта 1005	lineageweaponstex.knuckle_dust_t00_wp|lineageweaponstex.knuckle_dust_t00_wp	4233	
-4800	Knuckle Duster - Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	4233	Knuckle Duster	База из рецепта 1005	lineageweaponstex.knuckle_dust_t00_wp|lineageweaponstex.knuckle_dust_t00_wp	4233	
-4801	Arthro Nail - Critical Poison	Предметы/DUALFIST/lrhand/физ.	Удалить СА	267	Arthro Nail	База из рецепта 1005	lineageweaponstex.arthro_nail_t00_wp|lineageweaponstex.arthro_nail_t00_wp	267	
-4802	Arthro Nail - Rsk. Evasion	Предметы/DUALFIST/lrhand/физ.	Удалить СА	267	Arthro Nail	База из рецепта 1005	lineageweaponstex.arthro_nail_t00_wp|lineageweaponstex.arthro_nail_t00_wp	267	
-4803	Arthro Nail - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	267	Arthro Nail	База из рецепта 1005	lineageweaponstex.arthro_nail_t00_wp|lineageweaponstex.arthro_nail_t00_wp	267	
-4804	Bellion Cestus - Critical Drain	Предметы/DUALFIST/lrhand/физ.	Удалить СА	268	Bellion Cestus	База из рецепта 1005	lineageweaponstex.bellion_cestus_t00_wp|lineageweaponstex.bellion_cestus_t00_wp	268	
-4805	Bellion Cestus - Critical Poison	Предметы/DUALFIST/lrhand/физ.	Удалить СА	268	Bellion Cestus	База из рецепта 1005	lineageweaponstex.bellion_cestus_t00_wp|lineageweaponstex.bellion_cestus_t00_wp	268	
-4806	Bellion Cestus - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	268	Bellion Cestus	База из рецепта 1005	lineageweaponstex.bellion_cestus_t00_wp|lineageweaponstex.bellion_cestus_t00_wp	268	
-4807	Blood Tornado - Critical Drain	Предметы/DUALFIST/lrhand/физ.	Удалить СА	269	Blood Tornado	Клиентское имя СА: Critical Drain; база по названию оружия	lineageweaponstex.blood_tornado_t00_wp|lineageweaponstex.blood_tornado_t00_wp	269	
-4808	Blood Tornado - Rsk. Evasion	Предметы/DUALFIST/lrhand/физ.	Удалить СА	269	Blood Tornado	Клиентское имя СА: Rsk. Evasion; база по названию оружия	lineageweaponstex.blood_tornado_t00_wp|lineageweaponstex.blood_tornado_t00_wp	269	
-4809	Blood Tornado - Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	269	Blood Tornado	Клиентское имя СА: Haste; база по названию оружия	lineageweaponstex.blood_tornado_t00_wp|lineageweaponstex.blood_tornado_t00_wp	269	
-4810	Crystallized Ice Bow - Guidance	Предметы/BOW/lrhand/физ.	Удалить СА	281	Crystallized Ice Bow	База из рецепта 1005	lineageweaponstex.crystallized_ice_bow_t00_wp	281	
-4811	Crystallized Ice Bow - Evasion	Предметы/BOW/lrhand/физ.	Удалить СА	281	Crystallized Ice Bow	База из рецепта 1005	lineageweaponstex.crystallized_ice_bow_t00_wp	281	
-4812	Crystallized Ice Bow - Quick Recovery	Предметы/BOW/lrhand/физ.	Удалить СА	281	Crystallized Ice Bow	База из рецепта 1005	lineageweaponstex.crystallized_ice_bow_t00_wp	281	
-4813	Elemental Bow - Guidance	Предметы/BOW/lrhand/физ.	Удалить СА	282	Elemental Bow	База из рецепта 1005	lineageweaponstex.elemental_bow_t00_wp	282	
-4814	Elemental Bow - Miser	Предметы/BOW/lrhand/физ.	Удалить СА	282	Elemental Bow	База из рецепта 1005	lineageweaponstex.elemental_bow_t00_wp	282	
-4815	Elemental Bow - Quick Recovery	Предметы/BOW/lrhand/физ.	Удалить СА	282	Elemental Bow	База из рецепта 1005	lineageweaponstex.elemental_bow_t00_wp	282	
-4816	Elven Bow of Nobility - Evasion	Предметы/BOW/lrhand/физ.	Удалить СА	285	Noble Elven Bow	База из рецепта 1005	lineageweaponstex.noble_elven_bow_t00_wp	285	
-4817	Elven Bow of Nobility - Miser	Предметы/BOW/lrhand/физ.	Удалить СА	285	Noble Elven Bow	База из рецепта 1005	lineageweaponstex.noble_elven_bow_t00_wp	285	
-4818	Elven Bow of Nobility - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	285	Noble Elven Bow	База из рецепта 1005	lineageweaponstex.noble_elven_bow_t00_wp	285	
-4819	Akat Long Bow - Guidance	Предметы/BOW/lrhand/физ.	Удалить СА	283	Akat Long Bow	База из рецепта 1005	lineageweaponstex.akat_long_bow_t00_wp	283	
-4820	Akat Long Bow - Evasion	Предметы/BOW/lrhand/физ.	Удалить СА	283	Akat Long Bow	База из рецепта 1005	lineageweaponstex.akat_long_bow_t00_wp	283	
-4821	Akat Long Bow - Miser	Предметы/BOW/lrhand/физ.	Удалить СА	283	Akat Long Bow	База из рецепта 1005	lineageweaponstex.akat_long_bow_t00_wp	283	
-4822	Eminence Bow - Guidance	Предметы/BOW/lrhand/физ.	Удалить СА	286	Eminence Bow	База из рецепта 1005	lineageweaponstex.eminence_bow_t00_wp	286	
-4823	Eminence Bow - Miser	Предметы/BOW/lrhand/физ.	Удалить СА	286	Eminence Bow	База из рецепта 1005	lineageweaponstex.eminence_bow_t00_wp	286	
-4824	Eminence Bow - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	286	Eminence Bow	База из рецепта 1005	lineageweaponstex.eminence_bow_t00_wp	286	
-4825	Dark Elven Long Bow - Evasion	Предметы/BOW/lrhand/физ.	Удалить СА	284	Dark Elven Long Bow	База из рецепта 1005	lineageweaponstex.dark_elven_long_bow_t00_wp	284	
-4826	Dark Elven Long Bow - Critical Bleed	Предметы/BOW/lrhand/физ.	Удалить СА	284	Dark Elven Long Bow	База из рецепта 1005	lineageweaponstex.dark_elven_long_bow_t00_wp	284	
-4827	Dark Elven Long Bow - Miser	Предметы/BOW/lrhand/физ.	Удалить СА	284	Dark Elven Long Bow	База из рецепта 1005	lineageweaponstex.dark_elven_long_bow_t00_wp	284	
-4828	Bow of Peril - Guidance	Предметы/BOW/lrhand/физ.	Удалить СА	287	Bow of Peril	База из рецепта 1005	lineageweaponstex.hazard_bow_t00_wp	287	
-4829	Bow of Peril - Quick Recovery	Предметы/BOW/lrhand/физ.	Удалить СА	287	Bow of Peril	База из рецепта 1005	lineageweaponstex.hazard_bow_t00_wp	287	
-4830	Bow of Peril - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	287	Bow of Peril	База из рецепта 1005	lineageweaponstex.hazard_bow_t00_wp	287	
-4831	Carnage Bow - Critical Bleed	Предметы/BOW/lrhand/физ.	Удалить СА	288	Carnage Bow	Клиентское имя СА: Critical Bleed; база по названию оружия	lineageweaponstex.carnium_bow_t00_wp	288	
-4832	Carnage Bow - Mana Up	Предметы/BOW/lrhand/физ.	Удалить СА	288	Carnage Bow	Клиентское имя СА: Mana Up; база по названию оружия	lineageweaponstex.carnium_bow_t00_wp	288	
-4833	Carnage Bow - Quick Recovery	Предметы/BOW/lrhand/физ.	Удалить СА	288	Carnage Bow	Клиентское имя СА: Quick Recovery; база по названию оружия	lineageweaponstex.carnium_bow_t00_wp	288	
-4834	Scythe - Anger	Предметы/POLE/lrhand/физ.	Удалить СА	96	Scythe	База из рецепта 1005	lineageweaponstex.scythe_t00_wp	96	
-4835	Scythe - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	96	Scythe	База из рецепта 1005	lineageweaponstex.scythe_t00_wp	96	
-4836	Scythe - Light	Предметы/POLE/lrhand/физ.	Удалить СА	96	Scythe	База из рецепта 1005	lineageweaponstex.scythe_t00_wp	96	
-4837	Orcish Glaive - Anger	Предметы/POLE/lrhand/физ.	Удалить СА	298	Orcish Glaive	База из рецепта 1005	lineageweaponstex.orcish_glaive_t00_wp	298	
-4838	Orcish Glaive - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	298	Orcish Glaive	База из рецепта 1005	lineageweaponstex.orcish_glaive_t00_wp	298	
-4839	Orcish Glaive - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	298	Orcish Glaive	База из рецепта 1005	lineageweaponstex.orcish_glaive_t00_wp	298	
-4840	Body Slasher - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	302	Body Slasher	База из рецепта 1005	lineageweaponstex.body_slasher_t00_wp	302	
-4841	Body Slasher - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	302	Body Slasher	База из рецепта 1005	lineageweaponstex.body_slasher_t00_wp	302	
-4842	Body Slasher - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	302	Body Slasher	База из рецепта 1005	lineageweaponstex.body_slasher_t00_wp	302	
-4843	Bec de Corbin - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	94	Bec de Corbin	База из рецепта 1005	lineageweaponstex.bech_de_corbin_t00_wp	94	
-4844	Bec de Corbin - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	94	Bec de Corbin	База из рецепта 1005	lineageweaponstex.bech_de_corbin_t00_wp	94	
-4845	Bec de Corbin - Light	Предметы/POLE/lrhand/физ.	Удалить СА	94	Bec de Corbin	База из рецепта 1005	lineageweaponstex.bech_de_corbin_t00_wp	94	
-4846	Scorpion - Anger	Предметы/POLE/lrhand/физ.	Удалить СА	301	Scorpion	База из рецепта 1005	lineageweaponstex.scorpion_t00_wp	301	
-4847	Scorpion - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	301	Scorpion	База из рецепта 1005	lineageweaponstex.scorpion_t00_wp	301	
-4848	Scorpion - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	301	Scorpion	База из рецепта 1005	lineageweaponstex.scorpion_t00_wp	301	
-4849	Widow Maker - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	303	Widow Maker	База из рецепта 1005	lineageweaponstex.widow_maker_t00_wp	303	
-4850	Widow Maker - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	303	Widow Maker	База из рецепта 1005	lineageweaponstex.widow_maker_t00_wp	303	
-4851	Widow Maker - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	303	Widow Maker	База из рецепта 1005	lineageweaponstex.widow_maker_t00_wp	303	
-4852	Orcish Poleaxe - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	299	Orcish Poleaxe	База из рецепта 1005	lineageweaponstex.orcish_poleaxe_t00_wp	299	
-4853	Orcish Poleaxe - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	299	Orcish Poleaxe	База из рецепта 1005	lineageweaponstex.orcish_poleaxe_t00_wp	299	
-4854	Orcish Poleaxe - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	299	Orcish Poleaxe	База из рецепта 1005	lineageweaponstex.orcish_poleaxe_t00_wp	299	
-4855	Great Axe - Anger	Предметы/POLE/lrhand/физ.	Удалить СА	300	Great Axe	База из рецепта 1005	lineageweaponstex.great_axe_t00_wp	300	
-4856	Great Axe - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	300	Great Axe	База из рецепта 1005	lineageweaponstex.great_axe_t00_wp	300	
-4857	Great Axe - Light	Предметы/POLE/lrhand/физ.	Удалить СА	300	Great Axe	База из рецепта 1005	lineageweaponstex.great_axe_t00_wp	300	
-4858	Lance - Anger	Предметы/POLE/lrhand/физ.	Удалить СА	97	Lance	База из рецепта 1005	lineageweaponstex.lancia_t00_wp	97	
-4859	Lance - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	97	Lance	База из рецепта 1005	lineageweaponstex.lancia_t00_wp	97	
-4860	Lance - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	97	Lance	База из рецепта 1005	lineageweaponstex.lancia_t00_wp	97	
-4861	Halberd - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	98	Halberd	Клиентское имя СА: Critical Stun; база по названию оружия	lineageweaponstex.halbard_t00_wp	98	
-4862	Halberd - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	98	Halberd	Клиентское имя СА: Towering Blow; база по названию оружия	lineageweaponstex.halbard_t00_wp	98	
-4863	Halberd - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	98	Halberd	Клиентское имя СА: Wide Blow; база по названию оружия	lineageweaponstex.halbard_t00_wp	98	
-4864	Heavy Doom Hammer - Magic Regeneration	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	191	Heavy Doom Hammer	База из рецепта 1005	lineageweaponstex.heavy_doom_hammer_t00_wp	191	
-4865	Heavy Doom Hammer - Mental Shield	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	191	Heavy Doom Hammer	База из рецепта 1005	lineageweaponstex.heavy_doom_hammer_t00_wp	191	
-4866	Heavy Doom Hammer - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	191	Heavy Doom Hammer	База из рецепта 1005	lineageweaponstex.heavy_doom_hammer_t00_wp	191	
-4867	Crystal Staff - Rsk. Evasion	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	192	Crystal Staff	База из рецепта 1005	lineageweaponstex.crystal_staff_t00_wp	192	
-4868	Crystal Staff - Mana Up	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	192	Crystal Staff	База из рецепта 1005	lineageweaponstex.crystal_staff_t00_wp	192	
-4869	Crystal Staff - Bodily Blessing	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	192	Crystal Staff	База из рецепта 1005	lineageweaponstex.crystal_staff_t00_wp	192	
-4870	Heavy Doom Axe - Magic Poison	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	194	Heavy Doom Axe	База из рецепта 1005	lineageweaponstex.heavy_doom_axe_t00_wp	194	
-4871	Heavy Doom Axe - Magic Weakness	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	194	Heavy Doom Axe	База из рецепта 1005	lineageweaponstex.heavy_doom_axe_t00_wp	194	
-4872	Heavy Doom Axe - Magic Chaos	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	194	Heavy Doom Axe	База из рецепта 1005	lineageweaponstex.heavy_doom_axe_t00_wp	194	
-4873	Cursed Staff - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	195	Cursed Staff	База из рецепта 1005	lineageweaponstex.cursed_staff_t00_wp	195	
-4874	Cursed Staff - Magic Poison	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	195	Cursed Staff	База из рецепта 1005	lineageweaponstex.cursed_staff_t00_wp	195	
-4875	Cursed Staff - Magic Weakness	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	195	Cursed Staff	База из рецепта 1005	lineageweaponstex.cursed_staff_t00_wp	195	
-4876	Paradia Staff - Magic Regeneration	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	197	Paradia Staff	База из рецепта 1005	lineageweaponstex.paradia_staff_t00_wp	197	
-4877	Paradia Staff - Mental Shield	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	197	Paradia Staff	База из рецепта 1005	lineageweaponstex.paradia_staff_t00_wp	197	
-4878	Paradia Staff - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	197	Paradia Staff	База из рецепта 1005	lineageweaponstex.paradia_staff_t00_wp	197	
-4879	Pa'agrian Hammer - Rsk. Evasion	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	199	Pa'agrian Hammer	База из рецепта 1005	lineageweaponstex.paagrio_hammer_t00_wp	199	
-4880	Pa'agrian Hammer - Magic Poison	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	199	Pa'agrian Hammer	База из рецепта 1005	lineageweaponstex.paagrio_hammer_t00_wp	199	
-4881	Pa'agrian Hammer - Magic Weakness	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	199	Pa'agrian Hammer	База из рецепта 1005	lineageweaponstex.paagrio_hammer_t00_wp	199	
-4882	Sage's Staff - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	200	Sage's Staff	База из рецепта 1005	lineageweaponstex.sages_staff_t00_wp	200	
-4883	Sage's Staff - Magic Poison	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	200	Sage's Staff	База из рецепта 1005	lineageweaponstex.sages_staff_t00_wp	200	
-4884	Sage's Staff - Magic Weakness	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	200	Sage's Staff	База из рецепта 1005	lineageweaponstex.sages_staff_t00_wp	200	
-4885	Pa'agrian Axe - Mana Up	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	203	Pa'agrian Axe	База из рецепта 1005	lineageweaponstex.paagrio_axe_t00_wp	203	
-4886	Pa'agrian Axe - Magic Weakness	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	203	Pa'agrian Axe	База из рецепта 1005	lineageweaponstex.paagrio_axe_t00_wp	203	
-4887	Pa'agrian Axe - Magic Chaos	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	203	Pa'agrian Axe	База из рецепта 1005	lineageweaponstex.paagrio_axe_t00_wp	203	
-4888	Deadman's Staff - Magic Regeneration	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	204	Deadman's Staff	База из рецепта 1005	lineageweaponstex.deadmans_staff_t00_wp	204	
-4889	Deadman's Staff - Mental Shield	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	204	Deadman's Staff	База из рецепта 1005	lineageweaponstex.deadmans_staff_t00_wp	204	
-4890	Deadman's Staff - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	204	Deadman's Staff	База из рецепта 1005	lineageweaponstex.deadmans_staff_t00_wp	204	
-4891	Ghoul's Staff - Rsk. Evasion	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	205	Ghoul's Staff	База из рецепта 1005	lineageweaponstex.ghouls_staff_t00_wp	205	
-4892	Ghoul's Staff - Mana Up	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	205	Ghoul's Staff	База из рецепта 1005	lineageweaponstex.ghouls_staff_t00_wp	205	
-4893	Ghoul's Staff - Bodily Blessing	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	205	Ghoul's Staff	База из рецепта 1005	lineageweaponstex.ghouls_staff_t00_wp	205	
-4894	Demon's Staff - Magic Poison	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	206	Demon's Staff	База из рецепта 1005	lineageweaponstex.demons_staff_t00_wp	206	
-4895	Demon's Staff - Magic Weakness	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	206	Demon's Staff	База из рецепта 1005	lineageweaponstex.demons_staff_t00_wp	206	
-4896	Demon's Staff - Magic Chaos	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	206	Demon's Staff	База из рецепта 1005	lineageweaponstex.demons_staff_t00_wp	206	
-4897	Sprite's Staff - Magic Regeneration	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	92	Sprite's Staff	База из рецепта 1005	lineageweaponstex.sprites_staff_t00_wp	92	
-4898	Sprite's Staff - Mental Shield	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	92	Sprite's Staff	База из рецепта 1005	lineageweaponstex.sprites_staff_t00_wp	92	
-4899	Sprite's Staff - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	92	Sprite's Staff	База из рецепта 1005	lineageweaponstex.sprites_staff_t00_wp	92	
-4900	Staff of Evil Spirits - Magic Focus	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	210	Staff of Evil Spirits	База из рецепта 1005	lineageweaponstex.staff_of_evil_sprit_t00_wp	210	
-4901	Staff of Evil Spirits - Bodily Blessing	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	210	Staff of Evil Spirits	База из рецепта 1005	lineageweaponstex.staff_of_evil_sprit_t00_wp	210	
-4902	Staff of Evil Spirits - Magic Poison	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	210	Staff of Evil Spirits	База из рецепта 1005	lineageweaponstex.staff_of_evil_sprit_t00_wp	210	
-4903	Dasparion's Staff	Предметы/BIGBLUNT/lrhand/маг.	Объединить	212	Dasparion's Staff	Совпадают серверный шаблон без ID, модель и текстуры	lineageweaponstex.dasparions_staff_t00_wp	212	
+4681	Stormbringer - Critical Anger	Предметы/SWORD/rhand/физ.	Удалить СА	72	Stormbringer	База из рецепта 1005	lineageweaponstex.stormbringer_t00_wp		
+4682	Stormbringer - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	72	Stormbringer	База из рецепта 1005	lineageweaponstex.stormbringer_t00_wp		
+4683	Stormbringer - Light	Предметы/SWORD/rhand/физ.	Удалить СА	72	Stormbringer	База из рецепта 1005	lineageweaponstex.stormbringer_t00_wp		
+4684	Shamshir - Guidance	Предметы/SWORD/rhand/физ.	Удалить СА	73	Shamshir	База из рецепта 1005	lineageweaponstex.shamshir_t00_wp		
+4685	Shamshir - Back Blow	Предметы/SWORD/rhand/физ.	Удалить СА	73	Shamshir	База из рецепта 1005	lineageweaponstex.shamshir_t00_wp		
+4686	Shamshir - Rsk. Evasion	Предметы/SWORD/rhand/физ.	Удалить СА	73	Shamshir	База из рецепта 1005	lineageweaponstex.shamshir_t00_wp		
+4687	Katana - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	74	Katana	База из рецепта 1005	lineageweaponstex.katana_t00_wp		
+4688	Katana - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	74	Katana	База из рецепта 1005	lineageweaponstex.katana_t00_wp		
+4689	Katana - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	74	Katana	База из рецепта 1005	lineageweaponstex.katana_t00_wp		
+4690	Spirit Sword - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	131	Spirit Sword	База из рецепта 1005	lineageweaponstex.spirits_sword_t00_wp		
+4691	Spirit Sword - Critical Poison	Предметы/SWORD/rhand/физ.	Удалить СА	131	Spirit Sword	База из рецепта 1005	lineageweaponstex.spirits_sword_t00_wp		
+4692	Spirit Sword - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	131	Spirit Sword	База из рецепта 1005	lineageweaponstex.spirits_sword_t00_wp		
+4693	Raid Sword - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	133	Raid Sword	База из рецепта 1005	lineageweaponstex.raid_sword_t00_wp		
+4694	Raid Sword - Critical Drain	Предметы/SWORD/rhand/физ.	Удалить СА	133	Raid Sword	База из рецепта 1005	lineageweaponstex.raid_sword_t00_wp		
+4695	Raid Sword - Critical Poison	Предметы/SWORD/rhand/физ.	Удалить СА	133	Raid Sword	База из рецепта 1005	lineageweaponstex.raid_sword_t00_wp		
+4696	Caliburs - Guidance	Предметы/SWORD/rhand/физ.	Удалить СА	75	Caliburs	База из рецепта 1005	lineageweaponstex.caliburs_t00_wp		
+4697	Caliburs - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	75	Caliburs	База из рецепта 1005	lineageweaponstex.caliburs_t00_wp		
+4698	Caliburs - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	75	Caliburs	База из рецепта 1005	lineageweaponstex.caliburs_t00_wp		
+4699	Sword of Delusion - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	76	Sword of Delusion	База из рецепта 1005	lineageweaponstex.sword_of_delusion_t00_wp		
+4700	Sword of Delusion - Health	Предметы/SWORD/rhand/физ.	Удалить СА	76	Sword of Delusion	База из рецепта 1005	lineageweaponstex.sword_of_delusion_t00_wp		
+4701	Sword of Delusion - Rsk. Haste	Предметы/SWORD/rhand/физ.	Удалить СА	76	Sword of Delusion	База из рецепта 1005	lineageweaponstex.sword_of_delusion_t00_wp		
+4702	Tsurugi - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	77	Tsurugi	База из рецепта 1005	lineageweaponstex.tsurugi_t00_wp		
+4703	Tsurugi - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	77	Tsurugi	База из рецепта 1005	lineageweaponstex.tsurugi_t00_wp		
+4704	Tsurugi - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	77	Tsurugi	База из рецепта 1005	lineageweaponstex.tsurugi_t00_wp		
+4705	Sword of Nightmare - Health	Предметы/SWORD/rhand/физ.	Удалить СА	134	Sword of Nightmare	База из рецепта 1005	lineageweaponstex.sword_of_nightmare_t00_wp		
+4706	Sword of Nightmare - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	134	Sword of Nightmare	База из рецепта 1005	lineageweaponstex.sword_of_nightmare_t00_wp		
+4707	Sword of Nightmare - Light	Предметы/SWORD/rhand/физ.	Удалить СА	134	Sword of Nightmare	База из рецепта 1005	lineageweaponstex.sword_of_nightmare_t00_wp		
+4708	Samurai Longsword - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	135	Samurai Longsword	База из рецепта 1005	lineageweaponstex.samurai_longsword_t00_wp		
+4709	Samurai Longsword - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	135	Samurai Longsword	База из рецепта 1005	lineageweaponstex.samurai_longsword_t00_wp		
+4710	Samurai Longsword - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	135	Samurai Longsword	База из рецепта 1005	lineageweaponstex.samurai_longsword_t00_wp		
+4711	Flamberge - Critical Damage	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	71	Flamberge	База из рецепта 1005	lineageweaponstex.flamberge_t00_wp		
+4712	Flamberge - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	71	Flamberge	База из рецепта 1005	lineageweaponstex.flamberge_t00_wp		
+4713	Flamberge - Light	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	71	Flamberge	База из рецепта 1005	lineageweaponstex.flamberge_t00_wp		
+4714	Keshanberk - Guidance	Предметы/SWORD/rhand/физ.	Удалить СА	142	Keshanberk	База из рецепта 1005	lineageweaponstex.kshanberk_t00_wp		
+4715	Keshanberk - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	142	Keshanberk	База из рецепта 1005	lineageweaponstex.kshanberk_t00_wp		
+4716	Keshanberk - Back Blow	Предметы/SWORD/rhand/физ.	Удалить СА	142	Keshanberk	База из рецепта 1005	lineageweaponstex.kshanberk_t00_wp		
+4717	Sword of Damascus - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	79	Sword of Damascus	База из рецепта 1005	lineageweaponstex.sword_of_damascus_t00_wp		
+4718	Sword of Damascus - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	79	Sword of Damascus	База из рецепта 1005	lineageweaponstex.sword_of_damascus_t00_wp		
+4719	Sword of Damascus - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	79	Sword of Damascus	База из рецепта 1005	lineageweaponstex.sword_of_damascus_t00_wp		
+4720	Tallum Blade - Health	Предметы/SWORD/rhand/физ.	Удалить СА	80	Tallum Blade	Клиентское имя СА: Health; база по названию оружия	lineageweaponstex.tallum_blade_t00_wp		
+4721	Tallum Blade - Rsk. Evasion	Предметы/SWORD/rhand/физ.	Удалить СА	80	Tallum Blade	Клиентское имя СА: Rsk. Evasion; база по названию оружия	lineageweaponstex.tallum_blade_t00_wp		
+4722	Tallum Blade - Rsk. Haste	Предметы/SWORD/rhand/физ.	Удалить СА	80	Tallum Blade	Клиентское имя СА: Rsk. Haste; база по названию оружия	lineageweaponstex.tallum_blade_t00_wp		
+4723	Great Sword - Health	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	78	Great Sword	База из рецепта 1005	lineageweaponstex.great_sword_t00_wp		
+4724	Great Sword - Critical Damage	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	78	Great Sword	База из рецепта 1005	lineageweaponstex.great_sword_t00_wp		
+4725	Great Sword - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	78	Great Sword	База из рецепта 1005	lineageweaponstex.great_sword_t00_wp		
+4726	Big Hammer - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	89	Big Hammer	База из рецепта 1005	lineageweaponstex.big_hammer_t00_wp		
+4727	Big Hammer - Rsk.Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	89	Big Hammer	База из рецепта 1005	lineageweaponstex.big_hammer_t00_wp		
+4728	Big Hammer - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	89	Big Hammer	База из рецепта 1005	lineageweaponstex.big_hammer_t00_wp		
+4729	Battle Axe - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	160	Battle Axe	База из рецепта 1005	lineageweaponstex.battle_axe_t00_wp		
+4730	Battle Axe - Rsk.Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	160	Battle Axe	База из рецепта 1005	lineageweaponstex.battle_axe_t00_wp		
+4731	Battle Axe - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	160	Battle Axe	База из рецепта 1005	lineageweaponstex.battle_axe_t00_wp		
+4732	Silver Axe - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	161	Silver Axe	База из рецепта 1005	lineageweaponstex.war_pick_t00_wp		
+4733	Silver Axe - Rsk.Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	161	Silver Axe	База из рецепта 1005	lineageweaponstex.war_pick_t00_wp		
+4734	Silver Axe - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	161	Silver Axe	База из рецепта 1005	lineageweaponstex.war_pick_t00_wp		
+4735	Skull Graver - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	173	Skull Graver	База из рецепта 1005	lineageweaponstex.skull_graver_t00_wp		
+4736	Skull Graver - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	173	Skull Graver	База из рецепта 1005	lineageweaponstex.skull_graver_t00_wp		
+4737	Skull Graver - Rsk.Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	173	Skull Graver	База из рецепта 1005	lineageweaponstex.skull_graver_t00_wp		
+4738	Dwarven War Hammer - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	2502	Dwarven War Hammer	База из рецепта 1005	lineageweaponstex.dwarven_warhammer_t00_wp		
+4739	Dwarven War Hammer - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	2502	Dwarven War Hammer	База из рецепта 1005	lineageweaponstex.dwarven_warhammer_t00_wp		
+4740	Dwarven War Hammer - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	2502	Dwarven War Hammer	База из рецепта 1005	lineageweaponstex.dwarven_warhammer_t00_wp		
+4741	War Axe - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	162	War Axe	База из рецепта 1005	lineageweaponstex.war_axe_t00_wp		
+4742	War Axe - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	162	War Axe	База из рецепта 1005	lineageweaponstex.war_axe_t00_wp		
+4743	War Axe - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	162	War Axe	База из рецепта 1005	lineageweaponstex.war_axe_t00_wp		
+4744	Yaksa Mace - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	2503	Yaksa Mace	База из рецепта 1005	lineageweaponstex.yaksa_mace_t00_wp		
+4745	Yaksa Mace - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	2503	Yaksa Mace	База из рецепта 1005	lineageweaponstex.yaksa_mace_t00_wp		
+4746	Yaksa Mace - Rsk. Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	2503	Yaksa Mace	База из рецепта 1005	lineageweaponstex.yaksa_mace_t00_wp		
+4747	Heavy War Axe - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	91	Heavy War Axe	База из рецепта 1005	lineageweaponstex.heavy_war_axe_t00_wp		
+4748	Heavy War Axe - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	91	Heavy War Axe	База из рецепта 1005	lineageweaponstex.heavy_war_axe_t00_wp		
+4749	Heavy War Axe - Rsk. Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	91	Heavy War Axe	База из рецепта 1005	lineageweaponstex.heavy_war_axe_t00_wp		
+4750	Deadman's Glory - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	171	Deadman's Glory	База из рецепта 1005	lineageweaponstex.deadmans_glory_t00_wp		
+4751	Deadman's Glory - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	171	Deadman's Glory	База из рецепта 1005	lineageweaponstex.deadmans_glory_t00_wp		
+4752	Deadman's Glory - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	171	Deadman's Glory	База из рецепта 1005	lineageweaponstex.deadmans_glory_t00_wp		
+4753	Art of Battle Axe - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	175	Art of Battle Axe	База из рецепта 1005	lineageweaponstex.art_of_battle_axe_t00_wp		
+4754	Art of Battle Axe - Rsk. Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	175	Art of Battle Axe	База из рецепта 1005	lineageweaponstex.art_of_battle_axe_t00_wp		
+4755	Art of Battle Axe - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	175	Art of Battle Axe	База из рецепта 1005	lineageweaponstex.art_of_battle_axe_t00_wp		
+4756	Meteor Shower - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	2504	Meteor Shower	Клиентское имя СА: Health; база по названию оружия	lineageweaponstex.meteor_shower_t00_wp		
+4757	Meteor Shower - Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	2504	Meteor Shower	Клиентское имя СА: Focus; база по названию оружия	lineageweaponstex.meteor_shower_t00_wp		
+4758	Meteor Shower - P.Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	2504	Meteor Shower	Клиентское имя СА: P.Focus; база по названию оружия	lineageweaponstex.meteor_shower_t00_wp		
+4759	Cursed Dagger - Critical Bleed	Предметы/DAGGER/rhand/физ.	Удалить СА	226	Cursed Dagger	База из рецепта 1005	lineageweaponstex.cursed_dagger_t00_wp		
+4760	Cursed Dagger - Critical Poison	Предметы/DAGGER/rhand/физ.	Удалить СА	226	Cursed Dagger	База из рецепта 1005	lineageweaponstex.cursed_dagger_t00_wp		
+4761	Cursed Dagger - Rsk. Haste	Предметы/DAGGER/rhand/физ.	Удалить СА	226	Cursed Dagger	База из рецепта 1005	lineageweaponstex.cursed_dagger_t00_wp		
+4762	Dark Elven Dagger - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	232	Dark Elven Dagger	База из рецепта 1005	lineageweaponstex.darkelven_dagger_t00_wp		
+4763	Dark Elven Dagger - Back Blow	Предметы/DAGGER/rhand/физ.	Удалить СА	232	Dark Elven Dagger	База из рецепта 1005	lineageweaponstex.darkelven_dagger_t00_wp		
+4764	Dark Elven Dagger - Mortal Strike	Предметы/DAGGER/rhand/физ.	Удалить СА	232	Dark Elven Dagger	Клиентское имя СА: Mortal Strike; база по названию оружия	lineageweaponstex.darkelven_dagger_t00_wp		
+4765	Stiletto - Critical Bleed	Предметы/DAGGER/rhand/физ.	Удалить СА	227	Stiletto	База из рецепта 1005	lineageweaponstex.stiletto_t00_wp		
+4766	Stiletto - Critical Poison	Предметы/DAGGER/rhand/физ.	Удалить СА	227	Stiletto	База из рецепта 1005	lineageweaponstex.stiletto_t00_wp		
+4767	Stiletto - Mortal Strike	Предметы/DAGGER/rhand/физ.	Удалить СА	227	Stiletto	Клиентское имя СА: Mortal Strike; база по названию оружия	lineageweaponstex.stiletto_t00_wp		
+4768	Grace Dagger - Evasion	Предметы/DAGGER/rhand/физ.	Удалить СА	231	Grace Dagger	База из рецепта 1005	lineageweaponstex.grace_dagger_t00_wp		
+4769	Grace Dagger - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	231	Grace Dagger	База из рецепта 1005	lineageweaponstex.grace_dagger_t00_wp		
+4770	Grace Dagger - Back Blow	Предметы/DAGGER/rhand/физ.	Удалить СА	231	Grace Dagger	База из рецепта 1005	lineageweaponstex.grace_dagger_t00_wp		
+4771	Dark Screamer - Evasion	Предметы/DAGGER/rhand/физ.	Удалить СА	233	Dark Screamer	База из рецепта 1005	lineageweaponstex.dark_screamer_t00_wp		
+4772	Dark Screamer - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	233	Dark Screamer	База из рецепта 1005	lineageweaponstex.dark_screamer_t00_wp		
+4773	Dark Screamer - Critical Bleed	Предметы/DAGGER/rhand/физ.	Удалить СА	233	Dark Screamer	База из рецепта 1005	lineageweaponstex.dark_screamer_t00_wp		
+4774	Crystal Dagger - Critical Bleed	Предметы/DAGGER/rhand/физ.	Удалить СА	228	Crystal Dagger	База из рецепта 1005	lineageweaponstex.crystal_dagger_t00_wp		
+4775	Crystal Dagger - Critical Poison	Предметы/DAGGER/rhand/физ.	Удалить СА	228	Crystal Dagger	База из рецепта 1005	lineageweaponstex.crystal_dagger_t00_wp		
+4776	Crystal Dagger - Mortal Strike	Предметы/DAGGER/rhand/физ.	Удалить СА	228	Crystal Dagger	Клиентское имя СА: Mortal Strike; база по названию оружия	lineageweaponstex.crystal_dagger_t00_wp		
+4777	Kris - Evasion	Предметы/DAGGER/rhand/физ.	Удалить СА	229	Kris	База из рецепта 1005	lineageweaponstex.kris_t00_wp		
+4778	Kris - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	229	Kris	База из рецепта 1005	lineageweaponstex.kris_t00_wp		
+4779	Kris - Back Blow	Предметы/DAGGER/rhand/физ.	Удалить СА	229	Kris	База из рецепта 1005	lineageweaponstex.kris_t00_wp		
+4780	Demon Dagger - Critical Bleed	Предметы/DAGGER/rhand/физ.	Удалить СА	234	Demon Dagger	База из рецепта 1005	lineageweaponstex.demons_sword_t00_wp		
+4781	Demon Dagger - Critical Poison	Предметы/DAGGER/rhand/физ.	Удалить СА	234	Demon Dagger	База из рецепта 1005	lineageweaponstex.demons_sword_t00_wp		
+4782	Demon Dagger - Mortal Strike	Предметы/DAGGER/rhand/физ.	Удалить СА	234	Demon Dagger	Клиентское имя СА: Mortal Strike; база по названию оружия	lineageweaponstex.demons_sword_t00_wp		
+4783	Bloody Orchid - Evasion	Предметы/DAGGER/rhand/физ.	Удалить СА	235	Bloody Orchid	Клиентское имя СА: Evasion; база по названию оружия	lineageweaponstex.bloody_orchid_t00_wp		
+4784	Bloody Orchid - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	235	Bloody Orchid	Клиентское имя СА: Focus; база по названию оружия	lineageweaponstex.bloody_orchid_t00_wp		
+4785	Bloody Orchid - Back Blow	Предметы/DAGGER/rhand/физ.	Удалить СА	235	Bloody Orchid	Клиентское имя СА: Back Blow; база по названию оружия	lineageweaponstex.bloody_orchid_t00_wp		
+4786	Hell Knife - Focus	Предметы/DAGGER/rhand/маг.	Удалить СА	243	Hell Knife	Клиентское имя СА: Focus; база по названию оружия	lineageweaponstex.hell_knife_t00_wp		
+4787	Hell Knife - Back Blow	Предметы/DAGGER/rhand/маг.	Удалить СА	243	Hell Knife	Клиентское имя СА: Back Blow; база по названию оружия	lineageweaponstex.hell_knife_t00_wp		
+4788	Hell Knife - Mortal Strike	Предметы/DAGGER/rhand/маг.	Удалить СА	243	Hell Knife	Клиентское имя СА: Mortal Strike; база по названию оружия	lineageweaponstex.hell_knife_t00_wp		
+4789	Chakram - Critical Drain	Предметы/DUALFIST/lrhand/физ.	Удалить СА	263	Chakram	База из рецепта 1005	lineageweaponstex.chakram_t00_wp|lineageweaponstex.chakram_t00_wp		
+4790	Chakram - Critical Poison	Предметы/DUALFIST/lrhand/физ.	Удалить СА	263	Chakram	База из рецепта 1005	lineageweaponstex.chakram_t00_wp|lineageweaponstex.chakram_t00_wp		
+4791	Chakram - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	263	Chakram	База из рецепта 1005	lineageweaponstex.chakram_t00_wp|lineageweaponstex.chakram_t00_wp		
+4792	Fisted Blade - Rsk. Evasion	Предметы/DUALFIST/lrhand/физ.	Удалить СА	265	Fisted Blade	База из рецепта 1005	lineageweaponstex.fist_blade_t00_wp|lineageweaponstex.fist_blade_t00_wp		
+4793	Fisted Blade - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	265	Fisted Blade	База из рецепта 1005	lineageweaponstex.fist_blade_t00_wp|lineageweaponstex.fist_blade_t00_wp		
+4794	Fisted Blade - Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	265	Fisted Blade	База из рецепта 1005	lineageweaponstex.fist_blade_t00_wp|lineageweaponstex.fist_blade_t00_wp		
+4795	Great Pata - Critical Drain	Предметы/DUALFIST/lrhand/физ.	Удалить СА	266	Great Pata	База из рецепта 1005	lineageweaponstex.great_pata_t00_wp|lineageweaponstex.great_pata_t00_wp		
+4796	Great Pata - Critical Poison	Предметы/DUALFIST/lrhand/физ.	Удалить СА	266	Great Pata	База из рецепта 1005	lineageweaponstex.great_pata_t00_wp|lineageweaponstex.great_pata_t00_wp		
+4797	Great Pata - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	266	Great Pata	База из рецепта 1005	lineageweaponstex.great_pata_t00_wp|lineageweaponstex.great_pata_t00_wp		
+4798	Knuckle Duster - Rsk. Evasion	Предметы/DUALFIST/lrhand/физ.	Удалить СА	4233	Knuckle Duster	База из рецепта 1005	lineageweaponstex.knuckle_dust_t00_wp|lineageweaponstex.knuckle_dust_t00_wp		
+4799	Knuckle Duster - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	4233	Knuckle Duster	База из рецепта 1005	lineageweaponstex.knuckle_dust_t00_wp|lineageweaponstex.knuckle_dust_t00_wp		
+4800	Knuckle Duster - Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	4233	Knuckle Duster	База из рецепта 1005	lineageweaponstex.knuckle_dust_t00_wp|lineageweaponstex.knuckle_dust_t00_wp		
+4801	Arthro Nail - Critical Poison	Предметы/DUALFIST/lrhand/физ.	Удалить СА	267	Arthro Nail	База из рецепта 1005	lineageweaponstex.arthro_nail_t00_wp|lineageweaponstex.arthro_nail_t00_wp		
+4802	Arthro Nail - Rsk. Evasion	Предметы/DUALFIST/lrhand/физ.	Удалить СА	267	Arthro Nail	База из рецепта 1005	lineageweaponstex.arthro_nail_t00_wp|lineageweaponstex.arthro_nail_t00_wp		
+4803	Arthro Nail - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	267	Arthro Nail	База из рецепта 1005	lineageweaponstex.arthro_nail_t00_wp|lineageweaponstex.arthro_nail_t00_wp		
+4804	Bellion Cestus - Critical Drain	Предметы/DUALFIST/lrhand/физ.	Удалить СА	268	Bellion Cestus	База из рецепта 1005	lineageweaponstex.bellion_cestus_t00_wp|lineageweaponstex.bellion_cestus_t00_wp		
+4805	Bellion Cestus - Critical Poison	Предметы/DUALFIST/lrhand/физ.	Удалить СА	268	Bellion Cestus	База из рецепта 1005	lineageweaponstex.bellion_cestus_t00_wp|lineageweaponstex.bellion_cestus_t00_wp		
+4806	Bellion Cestus - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	268	Bellion Cestus	База из рецепта 1005	lineageweaponstex.bellion_cestus_t00_wp|lineageweaponstex.bellion_cestus_t00_wp		
+4807	Blood Tornado - Critical Drain	Предметы/DUALFIST/lrhand/физ.	Удалить СА	269	Blood Tornado	Клиентское имя СА: Critical Drain; база по названию оружия	lineageweaponstex.blood_tornado_t00_wp|lineageweaponstex.blood_tornado_t00_wp		
+4808	Blood Tornado - Rsk. Evasion	Предметы/DUALFIST/lrhand/физ.	Удалить СА	269	Blood Tornado	Клиентское имя СА: Rsk. Evasion; база по названию оружия	lineageweaponstex.blood_tornado_t00_wp|lineageweaponstex.blood_tornado_t00_wp		
+4809	Blood Tornado - Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	269	Blood Tornado	Клиентское имя СА: Haste; база по названию оружия	lineageweaponstex.blood_tornado_t00_wp|lineageweaponstex.blood_tornado_t00_wp		
+4810	Crystallized Ice Bow - Guidance	Предметы/BOW/lrhand/физ.	Удалить СА	281	Crystallized Ice Bow	База из рецепта 1005	lineageweaponstex.crystallized_ice_bow_t00_wp		
+4811	Crystallized Ice Bow - Evasion	Предметы/BOW/lrhand/физ.	Удалить СА	281	Crystallized Ice Bow	База из рецепта 1005	lineageweaponstex.crystallized_ice_bow_t00_wp		
+4812	Crystallized Ice Bow - Quick Recovery	Предметы/BOW/lrhand/физ.	Удалить СА	281	Crystallized Ice Bow	База из рецепта 1005	lineageweaponstex.crystallized_ice_bow_t00_wp		
+4813	Elemental Bow - Guidance	Предметы/BOW/lrhand/физ.	Удалить СА	282	Elemental Bow	База из рецепта 1005	lineageweaponstex.elemental_bow_t00_wp		
+4814	Elemental Bow - Miser	Предметы/BOW/lrhand/физ.	Удалить СА	282	Elemental Bow	База из рецепта 1005	lineageweaponstex.elemental_bow_t00_wp		
+4815	Elemental Bow - Quick Recovery	Предметы/BOW/lrhand/физ.	Удалить СА	282	Elemental Bow	База из рецепта 1005	lineageweaponstex.elemental_bow_t00_wp		
+4816	Elven Bow of Nobility - Evasion	Предметы/BOW/lrhand/физ.	Удалить СА	285	Noble Elven Bow	База из рецепта 1005	lineageweaponstex.noble_elven_bow_t00_wp		
+4817	Elven Bow of Nobility - Miser	Предметы/BOW/lrhand/физ.	Удалить СА	285	Noble Elven Bow	База из рецепта 1005	lineageweaponstex.noble_elven_bow_t00_wp		
+4818	Elven Bow of Nobility - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	285	Noble Elven Bow	База из рецепта 1005	lineageweaponstex.noble_elven_bow_t00_wp		
+4819	Akat Long Bow - Guidance	Предметы/BOW/lrhand/физ.	Удалить СА	283	Akat Long Bow	База из рецепта 1005	lineageweaponstex.akat_long_bow_t00_wp		
+4820	Akat Long Bow - Evasion	Предметы/BOW/lrhand/физ.	Удалить СА	283	Akat Long Bow	База из рецепта 1005	lineageweaponstex.akat_long_bow_t00_wp		
+4821	Akat Long Bow - Miser	Предметы/BOW/lrhand/физ.	Удалить СА	283	Akat Long Bow	База из рецепта 1005	lineageweaponstex.akat_long_bow_t00_wp		
+4822	Eminence Bow - Guidance	Предметы/BOW/lrhand/физ.	Удалить СА	286	Eminence Bow	База из рецепта 1005	lineageweaponstex.eminence_bow_t00_wp		
+4823	Eminence Bow - Miser	Предметы/BOW/lrhand/физ.	Удалить СА	286	Eminence Bow	База из рецепта 1005	lineageweaponstex.eminence_bow_t00_wp		
+4824	Eminence Bow - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	286	Eminence Bow	База из рецепта 1005	lineageweaponstex.eminence_bow_t00_wp		
+4825	Dark Elven Long Bow - Evasion	Предметы/BOW/lrhand/физ.	Удалить СА	284	Dark Elven Long Bow	База из рецепта 1005	lineageweaponstex.dark_elven_long_bow_t00_wp		
+4826	Dark Elven Long Bow - Critical Bleed	Предметы/BOW/lrhand/физ.	Удалить СА	284	Dark Elven Long Bow	База из рецепта 1005	lineageweaponstex.dark_elven_long_bow_t00_wp		
+4827	Dark Elven Long Bow - Miser	Предметы/BOW/lrhand/физ.	Удалить СА	284	Dark Elven Long Bow	База из рецепта 1005	lineageweaponstex.dark_elven_long_bow_t00_wp		
+4828	Bow of Peril - Guidance	Предметы/BOW/lrhand/физ.	Удалить СА	287	Bow of Peril	База из рецепта 1005	lineageweaponstex.hazard_bow_t00_wp		
+4829	Bow of Peril - Quick Recovery	Предметы/BOW/lrhand/физ.	Удалить СА	287	Bow of Peril	База из рецепта 1005	lineageweaponstex.hazard_bow_t00_wp		
+4830	Bow of Peril - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	287	Bow of Peril	База из рецепта 1005	lineageweaponstex.hazard_bow_t00_wp		
+4831	Carnage Bow - Critical Bleed	Предметы/BOW/lrhand/физ.	Удалить СА	288	Carnage Bow	Клиентское имя СА: Critical Bleed; база по названию оружия	lineageweaponstex.carnium_bow_t00_wp		
+4832	Carnage Bow - Mana Up	Предметы/BOW/lrhand/физ.	Удалить СА	288	Carnage Bow	Клиентское имя СА: Mana Up; база по названию оружия	lineageweaponstex.carnium_bow_t00_wp		
+4833	Carnage Bow - Quick Recovery	Предметы/BOW/lrhand/физ.	Удалить СА	288	Carnage Bow	Клиентское имя СА: Quick Recovery; база по названию оружия	lineageweaponstex.carnium_bow_t00_wp		
+4834	Scythe - Anger	Предметы/POLE/lrhand/физ.	Удалить СА	96	Scythe	База из рецепта 1005	lineageweaponstex.scythe_t00_wp		
+4835	Scythe - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	96	Scythe	База из рецепта 1005	lineageweaponstex.scythe_t00_wp		
+4836	Scythe - Light	Предметы/POLE/lrhand/физ.	Удалить СА	96	Scythe	База из рецепта 1005	lineageweaponstex.scythe_t00_wp		
+4837	Orcish Glaive - Anger	Предметы/POLE/lrhand/физ.	Удалить СА	298	Orcish Glaive	База из рецепта 1005	lineageweaponstex.orcish_glaive_t00_wp		
+4838	Orcish Glaive - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	298	Orcish Glaive	База из рецепта 1005	lineageweaponstex.orcish_glaive_t00_wp		
+4839	Orcish Glaive - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	298	Orcish Glaive	База из рецепта 1005	lineageweaponstex.orcish_glaive_t00_wp		
+4840	Body Slasher - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	302	Body Slasher	База из рецепта 1005	lineageweaponstex.body_slasher_t00_wp		
+4841	Body Slasher - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	302	Body Slasher	База из рецепта 1005	lineageweaponstex.body_slasher_t00_wp		
+4842	Body Slasher - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	302	Body Slasher	База из рецепта 1005	lineageweaponstex.body_slasher_t00_wp		
+4843	Bec de Corbin - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	94	Bec de Corbin	База из рецепта 1005	lineageweaponstex.bech_de_corbin_t00_wp		
+4844	Bec de Corbin - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	94	Bec de Corbin	База из рецепта 1005	lineageweaponstex.bech_de_corbin_t00_wp		
+4845	Bec de Corbin - Light	Предметы/POLE/lrhand/физ.	Удалить СА	94	Bec de Corbin	База из рецепта 1005	lineageweaponstex.bech_de_corbin_t00_wp		
+4846	Scorpion - Anger	Предметы/POLE/lrhand/физ.	Удалить СА	301	Scorpion	База из рецепта 1005	lineageweaponstex.scorpion_t00_wp		
+4847	Scorpion - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	301	Scorpion	База из рецепта 1005	lineageweaponstex.scorpion_t00_wp		
+4848	Scorpion - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	301	Scorpion	База из рецепта 1005	lineageweaponstex.scorpion_t00_wp		
+4849	Widow Maker - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	303	Widow Maker	База из рецепта 1005	lineageweaponstex.widow_maker_t00_wp		
+4850	Widow Maker - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	303	Widow Maker	База из рецепта 1005	lineageweaponstex.widow_maker_t00_wp		
+4851	Widow Maker - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	303	Widow Maker	База из рецепта 1005	lineageweaponstex.widow_maker_t00_wp		
+4852	Orcish Poleaxe - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	299	Orcish Poleaxe	База из рецепта 1005	lineageweaponstex.orcish_poleaxe_t00_wp		
+4853	Orcish Poleaxe - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	299	Orcish Poleaxe	База из рецепта 1005	lineageweaponstex.orcish_poleaxe_t00_wp		
+4854	Orcish Poleaxe - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	299	Orcish Poleaxe	База из рецепта 1005	lineageweaponstex.orcish_poleaxe_t00_wp		
+4855	Great Axe - Anger	Предметы/POLE/lrhand/физ.	Удалить СА	300	Great Axe	База из рецепта 1005	lineageweaponstex.great_axe_t00_wp		
+4856	Great Axe - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	300	Great Axe	База из рецепта 1005	lineageweaponstex.great_axe_t00_wp		
+4857	Great Axe - Light	Предметы/POLE/lrhand/физ.	Удалить СА	300	Great Axe	База из рецепта 1005	lineageweaponstex.great_axe_t00_wp		
+4858	Lance - Anger	Предметы/POLE/lrhand/физ.	Удалить СА	97	Lance	База из рецепта 1005	lineageweaponstex.lancia_t00_wp		
+4859	Lance - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	97	Lance	База из рецепта 1005	lineageweaponstex.lancia_t00_wp		
+4860	Lance - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	97	Lance	База из рецепта 1005	lineageweaponstex.lancia_t00_wp		
+4861	Halberd - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	98	Halberd	Клиентское имя СА: Critical Stun; база по названию оружия	lineageweaponstex.halbard_t00_wp		
+4862	Halberd - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	98	Halberd	Клиентское имя СА: Towering Blow; база по названию оружия	lineageweaponstex.halbard_t00_wp		
+4863	Halberd - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	98	Halberd	Клиентское имя СА: Wide Blow; база по названию оружия	lineageweaponstex.halbard_t00_wp		
+4864	Heavy Doom Hammer - Magic Regeneration	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	191	Heavy Doom Hammer	База из рецепта 1005	lineageweaponstex.heavy_doom_hammer_t00_wp		
+4865	Heavy Doom Hammer - Mental Shield	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	191	Heavy Doom Hammer	База из рецепта 1005	lineageweaponstex.heavy_doom_hammer_t00_wp		
+4866	Heavy Doom Hammer - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	191	Heavy Doom Hammer	База из рецепта 1005	lineageweaponstex.heavy_doom_hammer_t00_wp		
+4867	Crystal Staff - Rsk. Evasion	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	192	Crystal Staff	База из рецепта 1005	lineageweaponstex.crystal_staff_t00_wp		
+4868	Crystal Staff - Mana Up	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	192	Crystal Staff	База из рецепта 1005	lineageweaponstex.crystal_staff_t00_wp		
+4869	Crystal Staff - Bodily Blessing	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	192	Crystal Staff	База из рецепта 1005	lineageweaponstex.crystal_staff_t00_wp		
+4870	Heavy Doom Axe - Magic Poison	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	194	Heavy Doom Axe	База из рецепта 1005	lineageweaponstex.heavy_doom_axe_t00_wp		
+4871	Heavy Doom Axe - Magic Weakness	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	194	Heavy Doom Axe	База из рецепта 1005	lineageweaponstex.heavy_doom_axe_t00_wp		
+4872	Heavy Doom Axe - Magic Chaos	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	194	Heavy Doom Axe	База из рецепта 1005	lineageweaponstex.heavy_doom_axe_t00_wp		
+4873	Cursed Staff - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	195	Cursed Staff	База из рецепта 1005	lineageweaponstex.cursed_staff_t00_wp		
+4874	Cursed Staff - Magic Poison	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	195	Cursed Staff	База из рецепта 1005	lineageweaponstex.cursed_staff_t00_wp		
+4875	Cursed Staff - Magic Weakness	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	195	Cursed Staff	База из рецепта 1005	lineageweaponstex.cursed_staff_t00_wp		
+4876	Paradia Staff - Magic Regeneration	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	197	Paradia Staff	База из рецепта 1005	lineageweaponstex.paradia_staff_t00_wp		
+4877	Paradia Staff - Mental Shield	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	197	Paradia Staff	База из рецепта 1005	lineageweaponstex.paradia_staff_t00_wp		
+4878	Paradia Staff - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	197	Paradia Staff	База из рецепта 1005	lineageweaponstex.paradia_staff_t00_wp		
+4879	Pa'agrian Hammer - Rsk. Evasion	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	199	Pa'agrian Hammer	База из рецепта 1005	lineageweaponstex.paagrio_hammer_t00_wp		
+4880	Pa'agrian Hammer - Magic Poison	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	199	Pa'agrian Hammer	База из рецепта 1005	lineageweaponstex.paagrio_hammer_t00_wp		
+4881	Pa'agrian Hammer - Magic Weakness	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	199	Pa'agrian Hammer	База из рецепта 1005	lineageweaponstex.paagrio_hammer_t00_wp		
+4882	Sage's Staff - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	200	Sage's Staff	База из рецепта 1005	lineageweaponstex.sages_staff_t00_wp		
+4883	Sage's Staff - Magic Poison	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	200	Sage's Staff	База из рецепта 1005	lineageweaponstex.sages_staff_t00_wp		
+4884	Sage's Staff - Magic Weakness	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	200	Sage's Staff	База из рецепта 1005	lineageweaponstex.sages_staff_t00_wp		
+4885	Pa'agrian Axe - Mana Up	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	203	Pa'agrian Axe	База из рецепта 1005	lineageweaponstex.paagrio_axe_t00_wp		
+4886	Pa'agrian Axe - Magic Weakness	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	203	Pa'agrian Axe	База из рецепта 1005	lineageweaponstex.paagrio_axe_t00_wp		
+4887	Pa'agrian Axe - Magic Chaos	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	203	Pa'agrian Axe	База из рецепта 1005	lineageweaponstex.paagrio_axe_t00_wp		
+4888	Deadman's Staff - Magic Regeneration	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	204	Deadman's Staff	База из рецепта 1005	lineageweaponstex.deadmans_staff_t00_wp		
+4889	Deadman's Staff - Mental Shield	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	204	Deadman's Staff	База из рецепта 1005	lineageweaponstex.deadmans_staff_t00_wp		
+4890	Deadman's Staff - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	204	Deadman's Staff	База из рецепта 1005	lineageweaponstex.deadmans_staff_t00_wp		
+4891	Ghoul's Staff - Rsk. Evasion	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	205	Ghoul's Staff	База из рецепта 1005	lineageweaponstex.ghouls_staff_t00_wp		
+4892	Ghoul's Staff - Mana Up	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	205	Ghoul's Staff	База из рецепта 1005	lineageweaponstex.ghouls_staff_t00_wp		
+4893	Ghoul's Staff - Bodily Blessing	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	205	Ghoul's Staff	База из рецепта 1005	lineageweaponstex.ghouls_staff_t00_wp		
+4894	Demon's Staff - Magic Poison	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	206	Demon's Staff	База из рецепта 1005	lineageweaponstex.demons_staff_t00_wp		
+4895	Demon's Staff - Magic Weakness	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	206	Demon's Staff	База из рецепта 1005	lineageweaponstex.demons_staff_t00_wp		
+4896	Demon's Staff - Magic Chaos	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	206	Demon's Staff	База из рецепта 1005	lineageweaponstex.demons_staff_t00_wp		
+4897	Sprite's Staff - Magic Regeneration	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	92	Sprite's Staff	База из рецепта 1005	lineageweaponstex.sprites_staff_t00_wp		
+4898	Sprite's Staff - Mental Shield	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	92	Sprite's Staff	База из рецепта 1005	lineageweaponstex.sprites_staff_t00_wp		
+4899	Sprite's Staff - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	92	Sprite's Staff	База из рецепта 1005	lineageweaponstex.sprites_staff_t00_wp		
+4900	Staff of Evil Spirits - Magic Focus	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	210	Staff of Evil Spirits	База из рецепта 1005	lineageweaponstex.staff_of_evil_sprit_t00_wp		
+4901	Staff of Evil Spirits - Bodily Blessing	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	210	Staff of Evil Spirits	База из рецепта 1005	lineageweaponstex.staff_of_evil_sprit_t00_wp		
+4902	Staff of Evil Spirits - Magic Poison	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	210	Staff of Evil Spirits	База из рецепта 1005	lineageweaponstex.staff_of_evil_sprit_t00_wp		
+4903	Dasparion's Staff	Предметы/BIGBLUNT/lrhand/маг.	Объединить	212	Dasparion's Staff	Совпадают серверный шаблон без ID, модель и текстуры	lineageweaponstex.dasparions_staff_t00_wp		
 4904	Dasparion's Staff	Предметы/BIGBLUNT/lrhand/маг.	Сохранить отдельный ID			До выбора поведения сохранить оба: 4904, 212; пара для сравнения 212	lineageweaponstex.dasparions_staff_t00_wp	212	
 4905	Dasparion's Staff	Предметы/BIGBLUNT/lrhand/маг.	Сохранить отдельный ID			До выбора поведения сохранить оба: 4905, 212; пара для сравнения 212	lineageweaponstex.dasparions_staff_t00_wp	212	
 5127	Dailaon Knife	NPC-кандидат/DAGGER/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.dailaon_knife_t00_wp	5127	
@@ -784,79 +784,79 @@
 5130	Nos Sword	NPC-кандидат/DAGGER/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.nos_sword_t00_wp	5130	
 5131	Parhit Staff	NPC-кандидат/DAGGER/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.parhit_staff_t00_wp	5131	
 5132	Giant Trident	NPC-кандидат/DAGGER/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.wgiant_spear_t00_wp	5132	
-5133	Chrono Unitus	Предметы/DUALFIST/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.chrono_tambourine_t00_wp|lineageweaponstex.chrono_tambourine_t00_wp	5133	
-5176	Serpentine Spike	Предметы/PET/strider/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5176, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-5177	Drake Horn	Предметы/PET/strider/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5177, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-5178	Assult Alicorn	Предметы/PET/strider/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5178, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-5179	Draconic Slicer	Предметы/PET/strider/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5179, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-5180	Ohpdian Lance	Предметы/PET/strider/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5180, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-5181	Diamond Drill	Предметы/PET/strider/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5181, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-5187	Serpentine Grinder	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5187, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-5188	Fang of Dahak	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5188, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-5189	Crimson Blood Fang	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5189, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-5190	Draconic Chopper	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5190, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-5191	Diabolic Grinder	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5191, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
-5217	Wolf Level 75 Weapon	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5217, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	2505	
+5133	Chrono Unitus	Event	Оставить			Представитель текстуры	lineageweaponstex.chrono_tambourine_t00_wp|lineageweaponstex.chrono_tambourine_t00_wp	5133	
+5176	Serpentine Spike	Предметы/PET/strider/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5176, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	5176	
+5177	Drake Horn	Предметы/PET/strider/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5177, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	5177	
+5178	Assult Alicorn	Предметы/PET/strider/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5178, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	5178	
+5179	Draconic Slicer	Предметы/PET/strider/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5179, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	5179	
+5180	Ohpdian Lance	Предметы/PET/strider/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5180, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	5180	
+5181	Diamond Drill	Предметы/PET/strider/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5181, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	5181	
+5187	Serpentine Grinder	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5187, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	5187	
+5188	Fang of Dahak	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5188, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	5188	
+5189	Crimson Blood Fang	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5189, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	5189	
+5190	Draconic Chopper	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5190, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	5190	
+5191	Diabolic Grinder	Предметы/PET/hatchling/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5191, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	5191	
+5217	Wolf Level 75 Weapon	Предметы/PET/wolf/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5217, 2505; пара для сравнения 2505	dropitemstex.drop_sack_t00	5217	
 5233	Keshanberk*Keshanberk	Предметы/DUAL/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.kshanberk_t00_wp|lineageweaponstex.kshanberk_t00_wp	5233	
 5284	Zweihander	Предметы/BIGSWORD/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.zweihander_t00_wp	5284	
 5285	Heavy Sword	Предметы/BIGSWORD/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.heavy_sword_t00_wp	5285	
 5286	Berserker Blade	Предметы/BIGSWORD/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.berserker_blade_t00_wp	5286	
 5292	Sealed Dark Crystal Shield	Предметы/Щит/lhand/	Сохранить отдельный ID			Сохранить 641; пара для сравнения 641	lineageweaponstex.dark_crystal_shield_t00_sh|lineageweaponstex.dark_crystal_shield_t01_sh	641	
 5315	Sealed Shield of Nightmare	Предметы/Щит/lhand/	Сохранить отдельный ID			До выбора поведения сохранить оба: 5315, 634; пара для сравнения 634	lineageweaponstex.shield_of_nightmare_t00_sh|lineageweaponstex.shield_of_nightmare_t01_sh	2498	
-5596	Dasparion's Staff - Mana Up	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	212	Dasparion's Staff	База из рецепта 311262510	lineageweaponstex.dasparions_staff_t00_wp	212	
-5597	Dasparion's Staff - Conversion	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	212	Dasparion's Staff	База из рецепта 311262510	lineageweaponstex.dasparions_staff_t00_wp	212	
-5598	Dasparion's Staff - Acumen	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	212	Dasparion's Staff	База из рецепта 311262510	lineageweaponstex.dasparions_staff_t00_wp	212	
-5599	Meteor Shower - Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	2504	Meteor Shower	База из рецепта 311262510	lineageweaponstex.meteor_shower_t00_wp	2504	
-5600	Meteor Shower - Critical Bleed	Предметы/BLUNT/rhand/физ.	Удалить СА	2504	Meteor Shower	База из рецепта 311262510	lineageweaponstex.meteor_shower_t00_wp	2504	
-5601	Meteor Shower - Rsk. Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	2504	Meteor Shower	База из рецепта 311262510	lineageweaponstex.meteor_shower_t00_wp	2504	
-5602	Elysian - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	164	Elysian	База из рецепта 311262510	lineageweaponstex.elysian_t00_wp	164	
-5603	Elysian - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	164	Elysian	База из рецепта 311262510	lineageweaponstex.elysian_t00_wp	164	
-5604	Elysian - Critical Drain	Предметы/BLUNT/rhand/физ.	Удалить СА	164	Elysian	База из рецепта 311262510	lineageweaponstex.elysian_t00_wp	164	
-5605	Branch of The Mother Tree - Conversion	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	213	Branch of The Mother Tree	База из рецепта 311262510	lineageweaponstex.worldtrees_branch_t00_wp	213	
-5606	Branch of The Mother Tree - Magic Damage	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	213	Branch of The Mother Tree	База из рецепта 311262510	lineageweaponstex.worldtrees_branch_t00_wp	213	
-5607	Branch of The Mother Tree - Acumen	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	213	Branch of The Mother Tree	База из рецепта 311262510	lineageweaponstex.worldtrees_branch_t00_wp	213	
-5608	Carnage Bow - Light	Предметы/BOW/lrhand/физ.	Удалить СА	288	Carnage Bow	База из рецепта 311262510	lineageweaponstex.carnium_bow_t00_wp	288	
-5609	Carnage Bow - Critical Bleed	Предметы/BOW/lrhand/физ.	Удалить СА	288	Carnage Bow	База из рецепта 311262510	lineageweaponstex.carnium_bow_t00_wp	288	
-5610	Carnage Bow - Mana Up	Предметы/BOW/lrhand/физ.	Удалить СА	288	Carnage Bow	База из рецепта 311262510	lineageweaponstex.carnium_bow_t00_wp	288	
-5611	Soul Bow - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	289	Soul Bow	База из рецепта 311262510	lineageweaponstex.soul_bow_t00_wp	289	
-5612	Soul Bow - Quick Recovery	Предметы/BOW/lrhand/физ.	Удалить СА	289	Soul Bow	База из рецепта 311262510	lineageweaponstex.soul_bow_t00_wp	289	
-5613	Soul Bow - Critical Poison	Предметы/BOW/lrhand/физ.	Удалить СА	289	Soul Bow	База из рецепта 311262510	lineageweaponstex.soul_bow_t00_wp	289	
-5614	Bloody Orchid - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	235	Bloody Orchid	База из рецепта 311262510	lineageweaponstex.bloody_orchid_t00_wp	235	
-5615	Bloody Orchid - Back Blow	Предметы/DAGGER/rhand/физ.	Удалить СА	235	Bloody Orchid	База из рецепта 311262510	lineageweaponstex.bloody_orchid_t00_wp	235	
-5616	Bloody Orchid - Critical Bleed	Предметы/DAGGER/rhand/физ.	Удалить СА	235	Bloody Orchid	База из рецепта 311262510	lineageweaponstex.bloody_orchid_t00_wp	235	
-5617	Soul Separator - Guidance	Предметы/DAGGER/rhand/физ.	Удалить СА	236	Soul Separator	База из рецепта 311262510	lineageweaponstex.soul_separator_t00_wp	236	
-5618	Soul Separator - Critical Damage	Предметы/DAGGER/rhand/физ.	Удалить СА	236	Soul Separator	База из рецепта 311262510	lineageweaponstex.soul_separator_t00_wp	236	
-5619	Soul Separator - Rsk. Haste	Предметы/DAGGER/rhand/физ.	Удалить СА	236	Soul Separator	База из рецепта 311262510	lineageweaponstex.soul_separator_t00_wp	236	
-5620	Blood Tornado - Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	269	Blood Tornado	База из рецепта 311262510	lineageweaponstex.blood_tornado_t00_wp|lineageweaponstex.blood_tornado_t00_wp	269	
-5621	Blood Tornado - Focus	Предметы/DUALFIST/lrhand/физ.	Удалить СА	269	Blood Tornado	База из рецепта 311262510	lineageweaponstex.blood_tornado_t00_wp|lineageweaponstex.blood_tornado_t00_wp	269	
-5622	Blood Tornado - Anger	Предметы/DUALFIST/lrhand/физ.	Удалить СА	269	Blood Tornado	База из рецепта 311262510	lineageweaponstex.blood_tornado_t00_wp|lineageweaponstex.blood_tornado_t00_wp	269	
-5623	Dragon Grinder - Rsk. Evasion	Предметы/DUALFIST/lrhand/физ.	Удалить СА	270	Dragon Grinder	База из рецепта 311262510	lineageweaponstex.dragon_grinder_t00_wp|lineageweaponstex.dragon_grinder_t00_wp	270	
-5624	Dragon Grinder - Guidance	Предметы/DUALFIST/lrhand/физ.	Удалить СА	270	Dragon Grinder	База из рецепта 311262510	lineageweaponstex.dragon_grinder_t00_wp|lineageweaponstex.dragon_grinder_t00_wp	270	
-5625	Dragon Grinder - Health	Предметы/DUALFIST/lrhand/физ.	Удалить СА	270	Dragon Grinder	База из рецепта 311262510	lineageweaponstex.dragon_grinder_t00_wp|lineageweaponstex.dragon_grinder_t00_wp	270	
-5626	Halberd - Haste	Предметы/POLE/lrhand/физ.	Удалить СА	98	Halberd	База из рецепта 311262510	lineageweaponstex.halbard_t00_wp	98	
-5627	Halberd - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	98	Halberd	База из рецепта 311262510	lineageweaponstex.halbard_t00_wp	98	
-5628	Halberd - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	98	Halberd	База из рецепта 311262510	lineageweaponstex.halbard_t00_wp	98	
-5629	Orcish Halberd	Предметы/POLE/lrhand/физ.	Объединить	304	Orcish Halberd	Совпадают серверный шаблон без ID, модель и текстуры	lineageweaponstex.orcish_halbard_t00_wp	304	
-5630	Orcish Halberd	Предметы/POLE/lrhand/физ.	Объединить	304	Orcish Halberd	Совпадают серверный шаблон без ID, модель и текстуры	lineageweaponstex.orcish_halbard_t00_wp	304	
-5631	Orcish Halberd	Предметы/POLE/lrhand/физ.	Объединить	304	Orcish Halberd	Совпадают серверный шаблон без ID, модель и текстуры	lineageweaponstex.orcish_halbard_t00_wp	304	
-5632	Tallum Glaive - Guidance	Предметы/POLE/lrhand/физ.	Удалить СА	305	Tallum Glaive	База из рецепта 311262510	lineageweaponstex.tallum_glaive_t00_wp	305	
-5633	Tallum Glaive - Health	Предметы/POLE/lrhand/физ.	Удалить СА	305	Tallum Glaive	База из рецепта 311262510	lineageweaponstex.tallum_glaive_t00_wp	305	
-5634	Tallum Glaive - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	305	Tallum Glaive	База из рецепта 311262510	lineageweaponstex.tallum_glaive_t00_wp	305	
-5635	Tallum Blade - Critical Poison	Предметы/SWORD/rhand/физ.	Удалить СА	80	Tallum Blade	База из рецепта 311262510	lineageweaponstex.tallum_blade_t00_wp	80	
-5636	Tallum Blade - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	80	Tallum Blade	База из рецепта 311262510	lineageweaponstex.tallum_blade_t00_wp	80	
-5637	Tallum Blade - Anger	Предметы/SWORD/rhand/физ.	Удалить СА	80	Tallum Blade	База из рецепта 311262510	lineageweaponstex.tallum_blade_t00_wp	80	
-5638	Elemental Sword - Magic Power	Предметы/SWORD/rhand/маг.	Удалить СА	150	Elemental Sword	База из рецепта 311262510	lineageweaponstex.elemental_sword_t00_wp	150	
-5639	Elemental Sword - Magic Paralyze	Предметы/SWORD/rhand/маг.	Удалить СА	150	Elemental Sword	База из рецепта 311262510	lineageweaponstex.elemental_sword_t00_wp	150	
-5640	Elemental Sword - Empower	Предметы/SWORD/rhand/маг.	Удалить СА	150	Elemental Sword	База из рецепта 311262510	lineageweaponstex.elemental_sword_t00_wp	150	
-5641	Sword of Miracles - Magic Power	Предметы/SWORD/rhand/маг.	Удалить СА	151	Sword of Miracles	База из рецепта 311262510	lineageweaponstex.sword_of_miracle_t00_wp	151	
-5642	Sword of Miracles - Magic Silence	Предметы/SWORD/rhand/маг.	Удалить СА	151	Sword of Miracles	База из рецепта 311262510	lineageweaponstex.sword_of_miracle_t00_wp	151	
-5643	Sword of Miracles - Acumen	Предметы/SWORD/rhand/маг.	Удалить СА	151	Sword of Miracles	База из рецепта 311262510	lineageweaponstex.sword_of_miracle_t00_wp	151	
-5644	Dragon Slayer - Health	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	81	Dragon Slayer	База из рецепта 311262510	lineageweaponstex.dragon_slayer_t00_wp	81	
-5645	Dragon Slayer - Critical Bleed	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	81	Dragon Slayer	База из рецепта 311262510	lineageweaponstex.dragon_slayer_t00_wp	81	
-5646	Dragon Slayer - Critical Drain	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	81	Dragon Slayer	База из рецепта 311262510	lineageweaponstex.dragon_slayer_t00_wp	81	
-5647	Dark Legion's Edge - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	2500	Dark Legion's Edge	База из рецепта 311262510	lineageweaponstex.dark_legions_edge_t00_wp	2500	
-5648	Dark Legion's Edge - Health	Предметы/SWORD/rhand/физ.	Удалить СА	2500	Dark Legion's Edge	База из рецепта 311262510	lineageweaponstex.dark_legions_edge_t00_wp	2500	
-5649	Dark Legion's Edge - Rsk. Focus	Предметы/SWORD/rhand/физ.	Удалить СА	2500	Dark Legion's Edge	База из рецепта 311262510	lineageweaponstex.dark_legions_edge_t00_wp	2500	
+5596	Dasparion's Staff - Mana Up	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	212	Dasparion's Staff	База из рецепта 311262510	lineageweaponstex.dasparions_staff_t00_wp		
+5597	Dasparion's Staff - Conversion	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	212	Dasparion's Staff	База из рецепта 311262510	lineageweaponstex.dasparions_staff_t00_wp		
+5598	Dasparion's Staff - Acumen	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	212	Dasparion's Staff	База из рецепта 311262510	lineageweaponstex.dasparions_staff_t00_wp		
+5599	Meteor Shower - Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	2504	Meteor Shower	База из рецепта 311262510	lineageweaponstex.meteor_shower_t00_wp		
+5600	Meteor Shower - Critical Bleed	Предметы/BLUNT/rhand/физ.	Удалить СА	2504	Meteor Shower	База из рецепта 311262510	lineageweaponstex.meteor_shower_t00_wp		
+5601	Meteor Shower - Rsk. Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	2504	Meteor Shower	База из рецепта 311262510	lineageweaponstex.meteor_shower_t00_wp		
+5602	Elysian - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	164	Elysian	База из рецепта 311262510	lineageweaponstex.elysian_t00_wp		
+5603	Elysian - Anger	Предметы/BLUNT/rhand/физ.	Удалить СА	164	Elysian	База из рецепта 311262510	lineageweaponstex.elysian_t00_wp		
+5604	Elysian - Critical Drain	Предметы/BLUNT/rhand/физ.	Удалить СА	164	Elysian	База из рецепта 311262510	lineageweaponstex.elysian_t00_wp		
+5605	Branch of The Mother Tree - Conversion	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	213	Branch of The Mother Tree	База из рецепта 311262510	lineageweaponstex.worldtrees_branch_t00_wp		
+5606	Branch of The Mother Tree - Magic Damage	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	213	Branch of The Mother Tree	База из рецепта 311262510	lineageweaponstex.worldtrees_branch_t00_wp		
+5607	Branch of The Mother Tree - Acumen	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	213	Branch of The Mother Tree	База из рецепта 311262510	lineageweaponstex.worldtrees_branch_t00_wp		
+5608	Carnage Bow - Light	Предметы/BOW/lrhand/физ.	Удалить СА	288	Carnage Bow	База из рецепта 311262510	lineageweaponstex.carnium_bow_t00_wp		
+5609	Carnage Bow - Critical Bleed	Предметы/BOW/lrhand/физ.	Удалить СА	288	Carnage Bow	База из рецепта 311262510	lineageweaponstex.carnium_bow_t00_wp		
+5610	Carnage Bow - Mana Up	Предметы/BOW/lrhand/физ.	Удалить СА	288	Carnage Bow	База из рецепта 311262510	lineageweaponstex.carnium_bow_t00_wp		
+5611	Soul Bow - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	289	Soul Bow	База из рецепта 311262510	lineageweaponstex.soul_bow_t00_wp		
+5612	Soul Bow - Quick Recovery	Предметы/BOW/lrhand/физ.	Удалить СА	289	Soul Bow	База из рецепта 311262510	lineageweaponstex.soul_bow_t00_wp		
+5613	Soul Bow - Critical Poison	Предметы/BOW/lrhand/физ.	Удалить СА	289	Soul Bow	База из рецепта 311262510	lineageweaponstex.soul_bow_t00_wp		
+5614	Bloody Orchid - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	235	Bloody Orchid	База из рецепта 311262510	lineageweaponstex.bloody_orchid_t00_wp		
+5615	Bloody Orchid - Back Blow	Предметы/DAGGER/rhand/физ.	Удалить СА	235	Bloody Orchid	База из рецепта 311262510	lineageweaponstex.bloody_orchid_t00_wp		
+5616	Bloody Orchid - Critical Bleed	Предметы/DAGGER/rhand/физ.	Удалить СА	235	Bloody Orchid	База из рецепта 311262510	lineageweaponstex.bloody_orchid_t00_wp		
+5617	Soul Separator - Guidance	Предметы/DAGGER/rhand/физ.	Удалить СА	236	Soul Separator	База из рецепта 311262510	lineageweaponstex.soul_separator_t00_wp		
+5618	Soul Separator - Critical Damage	Предметы/DAGGER/rhand/физ.	Удалить СА	236	Soul Separator	База из рецепта 311262510	lineageweaponstex.soul_separator_t00_wp		
+5619	Soul Separator - Rsk. Haste	Предметы/DAGGER/rhand/физ.	Удалить СА	236	Soul Separator	База из рецепта 311262510	lineageweaponstex.soul_separator_t00_wp		
+5620	Blood Tornado - Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	269	Blood Tornado	База из рецепта 311262510	lineageweaponstex.blood_tornado_t00_wp|lineageweaponstex.blood_tornado_t00_wp		
+5621	Blood Tornado - Focus	Предметы/DUALFIST/lrhand/физ.	Удалить СА	269	Blood Tornado	База из рецепта 311262510	lineageweaponstex.blood_tornado_t00_wp|lineageweaponstex.blood_tornado_t00_wp		
+5622	Blood Tornado - Anger	Предметы/DUALFIST/lrhand/физ.	Удалить СА	269	Blood Tornado	База из рецепта 311262510	lineageweaponstex.blood_tornado_t00_wp|lineageweaponstex.blood_tornado_t00_wp		
+5623	Dragon Grinder - Rsk. Evasion	Предметы/DUALFIST/lrhand/физ.	Удалить СА	270	Dragon Grinder	База из рецепта 311262510	lineageweaponstex.dragon_grinder_t00_wp|lineageweaponstex.dragon_grinder_t00_wp		
+5624	Dragon Grinder - Guidance	Предметы/DUALFIST/lrhand/физ.	Удалить СА	270	Dragon Grinder	База из рецепта 311262510	lineageweaponstex.dragon_grinder_t00_wp|lineageweaponstex.dragon_grinder_t00_wp		
+5625	Dragon Grinder - Health	Предметы/DUALFIST/lrhand/физ.	Удалить СА	270	Dragon Grinder	База из рецепта 311262510	lineageweaponstex.dragon_grinder_t00_wp|lineageweaponstex.dragon_grinder_t00_wp		
+5626	Halberd - Haste	Предметы/POLE/lrhand/физ.	Удалить СА	98	Halberd	База из рецепта 311262510	lineageweaponstex.halbard_t00_wp		
+5627	Halberd - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	98	Halberd	База из рецепта 311262510	lineageweaponstex.halbard_t00_wp		
+5628	Halberd - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	98	Halberd	База из рецепта 311262510	lineageweaponstex.halbard_t00_wp		
+5629	Orcish Halberd	Предметы/POLE/lrhand/физ.	Объединить	304	Orcish Halberd	Совпадают серверный шаблон без ID, модель и текстуры	lineageweaponstex.orcish_halbard_t00_wp		
+5630	Orcish Halberd	Предметы/POLE/lrhand/физ.	Объединить	304	Orcish Halberd	Совпадают серверный шаблон без ID, модель и текстуры	lineageweaponstex.orcish_halbard_t00_wp		
+5631	Orcish Halberd	Предметы/POLE/lrhand/физ.	Объединить	304	Orcish Halberd	Совпадают серверный шаблон без ID, модель и текстуры	lineageweaponstex.orcish_halbard_t00_wp		
+5632	Tallum Glaive - Guidance	Предметы/POLE/lrhand/физ.	Удалить СА	305	Tallum Glaive	База из рецепта 311262510	lineageweaponstex.tallum_glaive_t00_wp		
+5633	Tallum Glaive - Health	Предметы/POLE/lrhand/физ.	Удалить СА	305	Tallum Glaive	База из рецепта 311262510	lineageweaponstex.tallum_glaive_t00_wp		
+5634	Tallum Glaive - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	305	Tallum Glaive	База из рецепта 311262510	lineageweaponstex.tallum_glaive_t00_wp		
+5635	Tallum Blade - Critical Poison	Предметы/SWORD/rhand/физ.	Удалить СА	80	Tallum Blade	База из рецепта 311262510	lineageweaponstex.tallum_blade_t00_wp		
+5636	Tallum Blade - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	80	Tallum Blade	База из рецепта 311262510	lineageweaponstex.tallum_blade_t00_wp		
+5637	Tallum Blade - Anger	Предметы/SWORD/rhand/физ.	Удалить СА	80	Tallum Blade	База из рецепта 311262510	lineageweaponstex.tallum_blade_t00_wp		
+5638	Elemental Sword - Magic Power	Предметы/SWORD/rhand/маг.	Удалить СА	150	Elemental Sword	База из рецепта 311262510	lineageweaponstex.elemental_sword_t00_wp		
+5639	Elemental Sword - Magic Paralyze	Предметы/SWORD/rhand/маг.	Удалить СА	150	Elemental Sword	База из рецепта 311262510	lineageweaponstex.elemental_sword_t00_wp		
+5640	Elemental Sword - Empower	Предметы/SWORD/rhand/маг.	Удалить СА	150	Elemental Sword	База из рецепта 311262510	lineageweaponstex.elemental_sword_t00_wp		
+5641	Sword of Miracles - Magic Power	Предметы/SWORD/rhand/маг.	Удалить СА	151	Sword of Miracles	База из рецепта 311262510	lineageweaponstex.sword_of_miracle_t00_wp		
+5642	Sword of Miracles - Magic Silence	Предметы/SWORD/rhand/маг.	Удалить СА	151	Sword of Miracles	База из рецепта 311262510	lineageweaponstex.sword_of_miracle_t00_wp		
+5643	Sword of Miracles - Acumen	Предметы/SWORD/rhand/маг.	Удалить СА	151	Sword of Miracles	База из рецепта 311262510	lineageweaponstex.sword_of_miracle_t00_wp		
+5644	Dragon Slayer - Health	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	81	Dragon Slayer	База из рецепта 311262510	lineageweaponstex.dragon_slayer_t00_wp		
+5645	Dragon Slayer - Critical Bleed	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	81	Dragon Slayer	База из рецепта 311262510	lineageweaponstex.dragon_slayer_t00_wp		
+5646	Dragon Slayer - Critical Drain	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	81	Dragon Slayer	База из рецепта 311262510	lineageweaponstex.dragon_slayer_t00_wp		
+5647	Dark Legion's Edge - Critical Damage	Предметы/SWORD/rhand/физ.	Удалить СА	2500	Dark Legion's Edge	База из рецепта 311262510	lineageweaponstex.dark_legions_edge_t00_wp		
+5648	Dark Legion's Edge - Health	Предметы/SWORD/rhand/физ.	Удалить СА	2500	Dark Legion's Edge	База из рецепта 311262510	lineageweaponstex.dark_legions_edge_t00_wp		
+5649	Dark Legion's Edge - Rsk. Focus	Предметы/SWORD/rhand/физ.	Удалить СА	2500	Dark Legion's Edge	База из рецепта 311262510	lineageweaponstex.dark_legions_edge_t00_wp		
 5704	Keshanberk*Keshanberk	Предметы/DUAL/lrhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 5704, 5233; пара для сравнения 5233	lineageweaponstex.kshanberk_t00_wp|lineageweaponstex.kshanberk_t00_wp	5233	
 5705	Keshanberk*Damascus	Предметы/DUAL/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.kshanberk_t00_wp|lineageweaponstex.sword_of_damascus_t00_wp	5705	
 5706	Damascus*Damascus	Предметы/DUAL/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.sword_of_damascus_t00_wp|lineageweaponstex.sword_of_damascus_t00_wp	5706	
@@ -872,25 +872,25 @@
 5800	Nephilim Lord	NPC-кандидат/SWORD/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.duskk_sword_t00_wp	5800	
 5801	Dusk	NPC-кандидат/SWORD/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.duskk_staff_t00_wp	5801	
 5802	Dawn	NPC-кандидат/SWORD/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.dawnn_book_t00_wp	5802	
-5817	Chrono Campana	Предметы/POLE/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.chrono_campana_t00_wp	5817	
-6307	Sword of Limit - Guidance	Предметы/SWORD/rhand/физ.	Удалить СА	132	Sword of Limit	База из рецепта 1005	lineageweaponstex.sword_of_limit_t00_wp	132	
-6308	Sword of Limit - Critical Drain	Предметы/SWORD/rhand/физ.	Удалить СА	132	Sword of Limit	База из рецепта 1005	lineageweaponstex.sword_of_limit_t00_wp	132	
-6309	Sword of Limit - Health	Предметы/SWORD/rhand/физ.	Удалить СА	132	Sword of Limit	База из рецепта 1005	lineageweaponstex.sword_of_limit_t00_wp	132	
-6310	Sword of Whispering Death - Empower	Предметы/SWORD/rhand/маг.	Удалить СА	145	Sword of Whispering Death	База из рецепта 1005	lineageweaponstex.deathbreath_sword_t00_wp	139	
-6311	Sword of Whispering Death - Magic Power	Предметы/SWORD/rhand/маг.	Удалить СА	145	Sword of Whispering Death	База из рецепта 1005	lineageweaponstex.deathbreath_sword_t00_wp	139	
-6312	Sword of Whispering Death - Magic Silence	Предметы/SWORD/rhand/маг.	Удалить СА	145	Sword of Whispering Death	База из рецепта 1005	lineageweaponstex.deathbreath_sword_t00_wp	139	
-6313	Homunkulus's Sword - Acumen	Предметы/SWORD/rhand/маг.	Удалить СА	84	Homunkulus's Sword	База из рецепта 1005	lineageweaponstex.homunkuluss_sword_t00_wp	84	
-6314	Homunkulus's Sword - Conversion	Предметы/SWORD/rhand/маг.	Удалить СА	84	Homunkulus's Sword	База из рецепта 1005	lineageweaponstex.homunkuluss_sword_t00_wp	84	
-6315	Homunkulus's Sword - Magic Paralyze	Предметы/SWORD/rhand/маг.	Удалить СА	84	Homunkulus's Sword	База из рецепта 1005	lineageweaponstex.homunkuluss_sword_t00_wp	84	
-6347	Berserker Blade - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	5286	Berserker Blade	База из рецепта 1005	lineageweaponstex.berserker_blade_t00_wp	5286	
-6348	Berserker Blade - Critical Damage	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	5286	Berserker Blade	База из рецепта 1005	lineageweaponstex.berserker_blade_t00_wp	5286	
-6349	Berserker Blade - Haste	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	5286	Berserker Blade	База из рецепта 1005	lineageweaponstex.berserker_blade_t00_wp	5286	
+5817	Chrono Campana	Event	Оставить			Представитель текстуры	lineageweaponstex.chrono_campana_t00_wp	5817	
+6307	Sword of Limit - Guidance	Предметы/SWORD/rhand/физ.	Удалить СА	132	Sword of Limit	База из рецепта 1005	lineageweaponstex.sword_of_limit_t00_wp		
+6308	Sword of Limit - Critical Drain	Предметы/SWORD/rhand/физ.	Удалить СА	132	Sword of Limit	База из рецепта 1005	lineageweaponstex.sword_of_limit_t00_wp		
+6309	Sword of Limit - Health	Предметы/SWORD/rhand/физ.	Удалить СА	132	Sword of Limit	База из рецепта 1005	lineageweaponstex.sword_of_limit_t00_wp		
+6310	Sword of Whispering Death - Empower	Предметы/SWORD/rhand/маг.	Удалить СА	145	Sword of Whispering Death	База из рецепта 1005	lineageweaponstex.deathbreath_sword_t00_wp		
+6311	Sword of Whispering Death - Magic Power	Предметы/SWORD/rhand/маг.	Удалить СА	145	Sword of Whispering Death	База из рецепта 1005	lineageweaponstex.deathbreath_sword_t00_wp		
+6312	Sword of Whispering Death - Magic Silence	Предметы/SWORD/rhand/маг.	Удалить СА	145	Sword of Whispering Death	База из рецепта 1005	lineageweaponstex.deathbreath_sword_t00_wp		
+6313	Homunkulus's Sword - Acumen	Предметы/SWORD/rhand/маг.	Удалить СА	84	Homunkulus's Sword	База из рецепта 1005	lineageweaponstex.homunkuluss_sword_t00_wp		
+6314	Homunkulus's Sword - Conversion	Предметы/SWORD/rhand/маг.	Удалить СА	84	Homunkulus's Sword	База из рецепта 1005	lineageweaponstex.homunkuluss_sword_t00_wp		
+6315	Homunkulus's Sword - Magic Paralyze	Предметы/SWORD/rhand/маг.	Удалить СА	84	Homunkulus's Sword	База из рецепта 1005	lineageweaponstex.homunkuluss_sword_t00_wp		
+6347	Berserker Blade - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	5286	Berserker Blade	База из рецепта 1005	lineageweaponstex.berserker_blade_t00_wp		
+6348	Berserker Blade - Critical Damage	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	5286	Berserker Blade	База из рецепта 1005	lineageweaponstex.berserker_blade_t00_wp		
+6349	Berserker Blade - Haste	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	5286	Berserker Blade	База из рецепта 1005	lineageweaponstex.berserker_blade_t00_wp		
 6354	Falchion - for Beginners	Предметы/SWORD/rhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 6354, 68; пара для сравнения 68	lineageweaponstex.falchion_t00_wp	68	
 6355	Mage Staff - for Beginners	Предметы/BIGBLUNT/lrhand/маг.	Сохранить отдельный ID			До выбора поведения сохранить оба: 6355, 176; пара для сравнения 176	lineageweaponstex.apprentices_staff_t00_wp	176	
-6356	Dark Elven Dagger - Rsk. Haste	Предметы/DAGGER/rhand/физ.	Удалить СА	232	Dark Elven Dagger	База из рецепта 1005	lineageweaponstex.darkelven_dagger_t00_wp	232	
-6357	Stiletto - Rsk. Haste	Предметы/DAGGER/rhand/физ.	Удалить СА	227	Stiletto	База из рецепта 1005	lineageweaponstex.stiletto_t00_wp	227	
-6358	Crystal Dagger - Critical Damage	Предметы/DAGGER/rhand/физ.	Удалить СА	228	Crystal Dagger	База из рецепта 1005	lineageweaponstex.crystal_dagger_t00_wp	228	
-6359	Demon Dagger - Critical Damage	Предметы/DAGGER/rhand/физ.	Удалить СА	234	Demon Dagger	База из рецепта 1005	lineageweaponstex.demons_sword_t00_wp	234	
+6356	Dark Elven Dagger - Rsk. Haste	Предметы/DAGGER/rhand/физ.	Удалить СА	232	Dark Elven Dagger	База из рецепта 1005	lineageweaponstex.darkelven_dagger_t00_wp		
+6357	Stiletto - Rsk. Haste	Предметы/DAGGER/rhand/физ.	Удалить СА	227	Stiletto	База из рецепта 1005	lineageweaponstex.stiletto_t00_wp		
+6358	Crystal Dagger - Critical Damage	Предметы/DAGGER/rhand/физ.	Удалить СА	228	Crystal Dagger	База из рецепта 1005	lineageweaponstex.crystal_dagger_t00_wp		
+6359	Demon Dagger - Critical Damage	Предметы/DAGGER/rhand/физ.	Удалить СА	234	Demon Dagger	База из рецепта 1005	lineageweaponstex.demons_sword_t00_wp		
 6364	Forgotten Blade	Предметы/SWORD/rhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 6364, 82; пара для сравнения 82	lineageweaponstex.forgotten_blade_t00_wp	82	
 6365	Basalt Battlehammer	Предметы/BLUNT/rhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 6365, 165; пара для сравнения 165	lineageweaponstex.basalt_battlehammer_t00_wp	165	
 6366	Imperial Staff	Предметы/BIGBLUNT/lrhand/маг.	Сохранить отдельный ID			До выбора поведения сохранить оба: 6366, 214; пара для сравнения 214	lineageweaponstex.imperial_staff_t00_wp	214	
@@ -902,54 +902,54 @@
 6372	Heaven's Divider	Предметы/BIGSWORD/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.heavens_divider_t00_wp	6372	
 6377	Imperial Crusader Shield	Предметы/Щит/lhand/	Оставить			Представитель текстуры	lineageweaponstex.imperial_crusader_shield_t00_sh|lineageweaponstex.imperial_crusader_shield_t01_sh	6377	
 6529	Baby Duck Rod	Предметы/FISHINGROD/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.fishing_rod_t00_wp	6529	
-6530	Albatross Rod	Предметы/FISHINGROD/lrhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 6530, 6529; пара для сравнения 6529	lineageweaponstex.fishing_rod_t00_wp	6529	
+6530	Albatross Rod	Предметы/FISHINGROD/lrhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 6530, 6529; пара для сравнения 6529	lineageweaponstex.fishing_rod_t00_wp	6530	
 6531	Pelican Rod	Предметы/FISHINGROD/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.fishing_rod_t01_wp	6531	
-6532	KingFisher Rod	Предметы/FISHINGROD/lrhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 6532, 6531; пара для сравнения 6531	lineageweaponstex.fishing_rod_t01_wp	6531	
+6532	KingFisher Rod	Предметы/FISHINGROD/lrhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 6532, 6531; пара для сравнения 6531	lineageweaponstex.fishing_rod_t01_wp	6532	
 6533	Cygnus Pole	Предметы/FISHINGROD/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.fishing_rod_t02_wp	6533	
-6534	Triton Pole	Предметы/FISHINGROD/lrhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 6534, 6533; пара для сравнения 6533	lineageweaponstex.fishing_rod_t02_wp	6533	
+6534	Triton Pole	Предметы/FISHINGROD/lrhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 6534, 6533; пара для сравнения 6533	lineageweaponstex.fishing_rod_t02_wp	6534	
 6579	Arcana Mace	Предметы/BLUNT/rhand/маг.	Оставить			Представитель текстуры	lineageweaponstex.arcana_mace_t00_wp	6579	
 6580	Tallum Blade*Dark Legion's Edge	Предметы/DUAL/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.tallum_blade_t00_wp|lineageweaponstex.dark_legions_edge_t00_wp	6580	
-6581	Forgotten Blade - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	6364	Forgotten Blade	База из рецепта 311262501	lineageweaponstex.forgotten_blade_t00_wp	82	
-6582	Forgotten Blade - Health	Предметы/SWORD/rhand/физ.	Удалить СА	6364	Forgotten Blade	База из рецепта 311262501	lineageweaponstex.forgotten_blade_t00_wp	82	
-6583	Forgotten Blade - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	6364	Forgotten Blade	База из рецепта 311262501	lineageweaponstex.forgotten_blade_t00_wp	82	
-6584	Basalt Battlehammer - HP Drain	Предметы/BLUNT/rhand/физ.	Удалить СА	6365	Basalt Battlehammer	База из рецепта 311262501	lineageweaponstex.basalt_battlehammer_t00_wp	165	
-6585	Basalt Battlehammer - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	6365	Basalt Battlehammer	База из рецепта 311262501	lineageweaponstex.basalt_battlehammer_t00_wp	165	
-6586	Basalt Battlehammer - HP Regeneration	Предметы/BLUNT/rhand/физ.	Удалить СА	6365	Basalt Battlehammer	База из рецепта 311262501	lineageweaponstex.basalt_battlehammer_t00_wp	165	
-6587	Imperial Staff - Empower	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	6366	Imperial Staff	База из рецепта 311262501	lineageweaponstex.imperial_staff_t00_wp	214	
-6588	Imperial Staff - MP Regeneration	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	6366	Imperial Staff	База из рецепта 311262501	lineageweaponstex.imperial_staff_t00_wp	214	
-6589	Imperial Staff - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	6366	Imperial Staff	База из рецепта 311262501	lineageweaponstex.imperial_staff_t00_wp	214	
-6590	Angel Slayer - Crt. Damage	Предметы/DAGGER/rhand/физ.	Удалить СА	6367	Angel Slayer	База из рецепта 311262501	lineageweaponstex.angel_slayer_t00_wp	6367	augmentation:5; items:17
-6591	Angel Slayer - HP Drain	Предметы/DAGGER/rhand/физ.	Удалить СА	6367	Angel Slayer	База из рецепта 311262501	lineageweaponstex.angel_slayer_t00_wp	6367	
-6592	Angel Slayer - Haste	Предметы/DAGGER/rhand/физ.	Удалить СА	6367	Angel Slayer	База из рецепта 311262501	lineageweaponstex.angel_slayer_t00_wp	6367	augmentation:1; items:1
-6593	Shining Bow - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	6368	Shining Bow	База из рецепта 311262501	lineageweaponstex.shining_bow_t00_wp	290	
-6594	Shining Bow - Focus	Предметы/BOW/lrhand/физ.	Удалить СА	6368	Shining Bow	База из рецепта 311262501	lineageweaponstex.shining_bow_t00_wp	290	
-6595	Shining Bow - Crt. Slow	Предметы/BOW/lrhand/физ.	Удалить СА	6368	Shining Bow	База из рецепта 311262501	lineageweaponstex.shining_bow_t00_wp	290	
-6596	Dragon Hunter Axe - HP Regeneration	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	6369	Dragon Hunter Axe	База из рецепта 311262501	lineageweaponstex.dragon_hunter_axe_t00_wp	306	
-6597	Dragon Hunter Axe - Health	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	6369	Dragon Hunter Axe	База из рецепта 311262501	lineageweaponstex.dragon_hunter_axe_t00_wp	306	
-6598	Dragon Hunter Axe - HP Drain	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	6369	Dragon Hunter Axe	База из рецепта 311262501	lineageweaponstex.dragon_hunter_axe_t00_wp	306	
-6599	Saint Spear - Health	Предметы/POLE/lrhand/физ.	Удалить СА	6370	Saint Spear	База из рецепта 311262501	lineageweaponstex.saint_spear_t00_wp	307	
-6600	Saint Spear - Guidance	Предметы/POLE/lrhand/физ.	Удалить СА	6370	Saint Spear	База из рецепта 311262501	lineageweaponstex.saint_spear_t00_wp	307	
-6601	Saint Spear - Haste	Предметы/POLE/lrhand/физ.	Удалить СА	6370	Saint Spear	База из рецепта 311262501	lineageweaponstex.saint_spear_t00_wp	307	
-6602	Demon Splinter - Focus	Предметы/DUALFIST/lrhand/физ.	Удалить СА	6371	Demon Splinter	База из рецепта 311262501	lineageweaponstex.demon_splinter_t00_wp|lineageweaponstex.demon_splinter_t00_wp	6371	
-6603	Demon Splinter - Health	Предметы/DUALFIST/lrhand/физ.	Удалить СА	6371	Demon Splinter	База из рецепта 311262501	lineageweaponstex.demon_splinter_t00_wp|lineageweaponstex.demon_splinter_t00_wp	6371	
-6604	Demon Splinter - Crt. Stun	Предметы/DUALFIST/lrhand/физ.	Удалить СА	6371	Demon Splinter	База из рецепта 311262501	lineageweaponstex.demon_splinter_t00_wp|lineageweaponstex.demon_splinter_t00_wp	6371	
-6605	Heavens Divider - Haste	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	6372	Heaven's Divider	База из рецепта 311262501	lineageweaponstex.heavens_divider_t00_wp	6372	
-6606	Heavens Divider - Health	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	6372	Heaven's Divider	База из рецепта 311262501	lineageweaponstex.heavens_divider_t00_wp	6372	
-6607	Heavens Divider - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	6372	Heaven's Divider	База из рецепта 311262501	lineageweaponstex.heavens_divider_t00_wp	6372	
-6608	Arcana Mace - Acumen	Предметы/BLUNT/rhand/маг.	Удалить СА	6579	Arcana Mace	База из рецепта 311262501	lineageweaponstex.arcana_mace_t00_wp	6579	
-6609	Arcana Mace - MP Regeneration	Предметы/BLUNT/rhand/маг.	Удалить СА	6579	Arcana Mace	База из рецепта 311262501	lineageweaponstex.arcana_mace_t00_wp	6579	
-6610	Arcana Mace - Mana Up	Предметы/BLUNT/rhand/маг.	Удалить СА	6579	Arcana Mace	База из рецепта 311262501	lineageweaponstex.arcana_mace_t00_wp	6579	
-6611	Infinity Blade	Предметы/SWORD/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.the_sword_of_hero_t00_wp	6611	
-6612	Infinity Cleaver	Предметы/BIGSWORD/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.the_two_handed_sword_of_hero_t00_wp	6612	
-6613	Infinity Axe	Предметы/BLUNT/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.the_axe_of_hero_t00_wp	6613	
-6614	Infinity Rod	Предметы/BLUNT/rhand/маг.	Оставить			Представитель текстуры	lineageweaponstex.the_mace_of_hero_t00_wp	6614	
-6615	Infinity Crusher	Предметы/BIGBLUNT/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.the_hammer_of_hero_t00_wp	6615	
-6616	Infinity Scepter	Предметы/BIGBLUNT/lrhand/маг.	Оставить			Представитель текстуры	lineageweaponstex.the_staff_of_hero_t00_wp	6616	
-6617	Infinity Stinger	Предметы/DAGGER/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.the_dagger_of_hero_t00_wp	6617	
-6618	Infinity Fang	Предметы/DUALFIST/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.the_fist_of_hero_t00_wp|lineageweaponstex.the_fist_of_hero_t00_wp	6618	
-6619	Infinity Bow	Предметы/BOW/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.the_bow_of_hero_t00_wp	6619	
-6620	Infinity Wing	Предметы/DUAL/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.the_dualsword_of_hero_t00_wp|lineageweaponstex.the_dualsword_of_hero_t00_wp	6620	
-6621	Infinity Spear	Предметы/POLE/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.the_pole_of_hero_t00_wp	6621	
+6581	Forgotten Blade - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	6364	Forgotten Blade	База из рецепта 311262501	lineageweaponstex.forgotten_blade_t00_wp		
+6582	Forgotten Blade - Health	Предметы/SWORD/rhand/физ.	Удалить СА	6364	Forgotten Blade	База из рецепта 311262501	lineageweaponstex.forgotten_blade_t00_wp		
+6583	Forgotten Blade - Focus	Предметы/SWORD/rhand/физ.	Удалить СА	6364	Forgotten Blade	База из рецепта 311262501	lineageweaponstex.forgotten_blade_t00_wp		
+6584	Basalt Battlehammer - HP Drain	Предметы/BLUNT/rhand/физ.	Удалить СА	6365	Basalt Battlehammer	База из рецепта 311262501	lineageweaponstex.basalt_battlehammer_t00_wp		
+6585	Basalt Battlehammer - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	6365	Basalt Battlehammer	База из рецепта 311262501	lineageweaponstex.basalt_battlehammer_t00_wp		
+6586	Basalt Battlehammer - HP Regeneration	Предметы/BLUNT/rhand/физ.	Удалить СА	6365	Basalt Battlehammer	База из рецепта 311262501	lineageweaponstex.basalt_battlehammer_t00_wp		
+6587	Imperial Staff - Empower	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	6366	Imperial Staff	База из рецепта 311262501	lineageweaponstex.imperial_staff_t00_wp		
+6588	Imperial Staff - MP Regeneration	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	6366	Imperial Staff	База из рецепта 311262501	lineageweaponstex.imperial_staff_t00_wp		
+6589	Imperial Staff - Magic Hold	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	6366	Imperial Staff	База из рецепта 311262501	lineageweaponstex.imperial_staff_t00_wp		
+6590	Angel Slayer - Crt. Damage	Предметы/DAGGER/rhand/физ.	Удалить СА	6367	Angel Slayer	База из рецепта 311262501	lineageweaponstex.angel_slayer_t00_wp		augmentation:5; items:17
+6591	Angel Slayer - HP Drain	Предметы/DAGGER/rhand/физ.	Удалить СА	6367	Angel Slayer	База из рецепта 311262501	lineageweaponstex.angel_slayer_t00_wp		
+6592	Angel Slayer - Haste	Предметы/DAGGER/rhand/физ.	Удалить СА	6367	Angel Slayer	База из рецепта 311262501	lineageweaponstex.angel_slayer_t00_wp		augmentation:1; items:1
+6593	Shining Bow - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	6368	Shining Bow	База из рецепта 311262501	lineageweaponstex.shining_bow_t00_wp		
+6594	Shining Bow - Focus	Предметы/BOW/lrhand/физ.	Удалить СА	6368	Shining Bow	База из рецепта 311262501	lineageweaponstex.shining_bow_t00_wp		
+6595	Shining Bow - Crt. Slow	Предметы/BOW/lrhand/физ.	Удалить СА	6368	Shining Bow	База из рецепта 311262501	lineageweaponstex.shining_bow_t00_wp		
+6596	Dragon Hunter Axe - HP Regeneration	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	6369	Dragon Hunter Axe	База из рецепта 311262501	lineageweaponstex.dragon_hunter_axe_t00_wp		
+6597	Dragon Hunter Axe - Health	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	6369	Dragon Hunter Axe	База из рецепта 311262501	lineageweaponstex.dragon_hunter_axe_t00_wp		
+6598	Dragon Hunter Axe - HP Drain	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	6369	Dragon Hunter Axe	База из рецепта 311262501	lineageweaponstex.dragon_hunter_axe_t00_wp		
+6599	Saint Spear - Health	Предметы/POLE/lrhand/физ.	Удалить СА	6370	Saint Spear	База из рецепта 311262501	lineageweaponstex.saint_spear_t00_wp		
+6600	Saint Spear - Guidance	Предметы/POLE/lrhand/физ.	Удалить СА	6370	Saint Spear	База из рецепта 311262501	lineageweaponstex.saint_spear_t00_wp		
+6601	Saint Spear - Haste	Предметы/POLE/lrhand/физ.	Удалить СА	6370	Saint Spear	База из рецепта 311262501	lineageweaponstex.saint_spear_t00_wp		
+6602	Demon Splinter - Focus	Предметы/DUALFIST/lrhand/физ.	Удалить СА	6371	Demon Splinter	База из рецепта 311262501	lineageweaponstex.demon_splinter_t00_wp|lineageweaponstex.demon_splinter_t00_wp		
+6603	Demon Splinter - Health	Предметы/DUALFIST/lrhand/физ.	Удалить СА	6371	Demon Splinter	База из рецепта 311262501	lineageweaponstex.demon_splinter_t00_wp|lineageweaponstex.demon_splinter_t00_wp		
+6604	Demon Splinter - Crt. Stun	Предметы/DUALFIST/lrhand/физ.	Удалить СА	6371	Demon Splinter	База из рецепта 311262501	lineageweaponstex.demon_splinter_t00_wp|lineageweaponstex.demon_splinter_t00_wp		
+6605	Heavens Divider - Haste	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	6372	Heaven's Divider	База из рецепта 311262501	lineageweaponstex.heavens_divider_t00_wp		
+6606	Heavens Divider - Health	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	6372	Heaven's Divider	База из рецепта 311262501	lineageweaponstex.heavens_divider_t00_wp		
+6607	Heavens Divider - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	6372	Heaven's Divider	База из рецепта 311262501	lineageweaponstex.heavens_divider_t00_wp		
+6608	Arcana Mace - Acumen	Предметы/BLUNT/rhand/маг.	Удалить СА	6579	Arcana Mace	База из рецепта 311262501	lineageweaponstex.arcana_mace_t00_wp		
+6609	Arcana Mace - MP Regeneration	Предметы/BLUNT/rhand/маг.	Удалить СА	6579	Arcana Mace	База из рецепта 311262501	lineageweaponstex.arcana_mace_t00_wp		
+6610	Arcana Mace - Mana Up	Предметы/BLUNT/rhand/маг.	Удалить СА	6579	Arcana Mace	База из рецепта 311262501	lineageweaponstex.arcana_mace_t00_wp		
+6611	Infinity Blade	Infinity	Оставить			Представитель текстуры	lineageweaponstex.the_sword_of_hero_t00_wp	6611	
+6612	Infinity Cleaver	Infinity	Оставить			Представитель текстуры	lineageweaponstex.the_two_handed_sword_of_hero_t00_wp	6612	
+6613	Infinity Axe	Infinity	Оставить			Представитель текстуры	lineageweaponstex.the_axe_of_hero_t00_wp	6613	
+6614	Infinity Rod	Infinity	Оставить			Представитель текстуры	lineageweaponstex.the_mace_of_hero_t00_wp	6614	
+6615	Infinity Crusher	Infinity	Оставить			Представитель текстуры	lineageweaponstex.the_hammer_of_hero_t00_wp	6615	
+6616	Infinity Scepter	Infinity	Оставить			Представитель текстуры	lineageweaponstex.the_staff_of_hero_t00_wp	6616	
+6617	Infinity Stinger	Infinity	Оставить			Представитель текстуры	lineageweaponstex.the_dagger_of_hero_t00_wp	6617	
+6618	Infinity Fang	Infinity	Оставить			Представитель текстуры	lineageweaponstex.the_fist_of_hero_t00_wp|lineageweaponstex.the_fist_of_hero_t00_wp	6618	
+6619	Infinity Bow	Infinity	Оставить			Представитель текстуры	lineageweaponstex.the_bow_of_hero_t00_wp	6619	
+6620	Infinity Wing	Infinity	Оставить			Представитель текстуры	lineageweaponstex.the_dualsword_of_hero_t00_wp|lineageweaponstex.the_dualsword_of_hero_t00_wp	6620	
+6621	Infinity Spear	Infinity	Оставить			Представитель текстуры	lineageweaponstex.the_pole_of_hero_t00_wp	6621	
 6678	Sealed Imperial Crusader Shield	Предметы/Щит/lhand/	Сохранить отдельный ID			Сохранить 6377; пара для сравнения 6377	lineageweaponstex.imperial_crusader_shield_t00_sh|lineageweaponstex.imperial_crusader_shield_t01_sh	6377	
 6715	Monster Only(Silenos Archer)	NPC-кандидат/BOW/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.bow_of_barka_silenos_archer_t00_wp	6715	
 6716	Monster Only(Silenos Shaman)	NPC-кандидат/BIGBLUNT/lrhand/маг.	Оставить			Представитель текстуры	lineageweaponstex.staff_of_barka_silenos_shaman_t00_wp	6716	
@@ -966,42 +966,42 @@
 6919	Monster Only (Shield of Ketra Orc)	NPC-кандидат/Щит/lhand/	Оставить			Представитель текстуры	lineageweaponstex.shield_of_ketraorc_t00_sh|lineageweaponstex.bone_shield_t01_sh	6919	
 7014	Monster Only (Shield of Dark Dragon)	NPC-кандидат/Щит/lhand/	Сохранить отдельный ID			До выбора поведения сохранить оба: 7014, 106; пара для сравнения 106	lineageweaponstex.dark_dragon_shield_t00_sh|lineageweaponstex.tower_shield_t01_sh	106	
 7015	Shield of Castle Pledge	Предметы/Щит/lhand/	Сохранить отдельный ID			Сохранить 6902; пара для сравнения 6902	lineageweaponstex.pledge_shield_t00_sh|lineageweaponstex.pledge_shield_t01_sh|lineageweaponstex.pledge_shield_t02_sh	6902	
-7058	Chrono Darbuka	Предметы/BIGBLUNT/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.chrono_darbuka_t00_wp	7058	
+7058	Chrono Darbuka	Event	Оставить			Представитель текстуры	lineageweaponstex.chrono_darbuka_t00_wp	7058	
 7560	Monster Only (Fishing Rod)	NPC-кандидат/FISHINGROD/lrhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 7560, 6529; пара для сравнения 6529	lineageweaponstex.fishing_rod_t00_wp	6529	
 7575	Draconic Bow	Предметы/BOW/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.draconic_bow_t00_wp	7575	
-7576	Draconic Bow - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	7575	Draconic Bow	База из рецепта 311262501	lineageweaponstex.draconic_bow_t00_wp	7575	
-7577	Draconic Bow - Focus	Предметы/BOW/lrhand/физ.	Удалить СА	7575	Draconic Bow	База из рецепта 311262501	lineageweaponstex.draconic_bow_t00_wp	7575	
-7578	Draconic Bow - Critical Slow	Предметы/BOW/lrhand/физ.	Удалить СА	7575	Draconic Bow	База из рецепта 311262501	lineageweaponstex.draconic_bow_t00_wp	7575	
-7701	Stick of Faith - Mana Up	Предметы/BLUNT/rhand/маг.	Удалить СА	193	Stick of Faith	База из рецепта 1005	lineageweaponstex.stick_of_faith_t00_wp	193	
-7702	Stick of Faith - Magic Hold	Предметы/BLUNT/rhand/маг.	Удалить СА	193	Stick of Faith	База из рецепта 1005	lineageweaponstex.stick_of_faith_t00_wp	193	
-7703	Stick of Faith - Magic Shield	Предметы/BLUNT/rhand/маг.	Удалить СА	193	Stick of Faith	База из рецепта 1005	lineageweaponstex.stick_of_faith_t00_wp	193	
-7704	Stick of Eternity - Empower	Предметы/BLUNT/rhand/маг.	Удалить СА	196	Stick of Eternity	База из рецепта 1005	lineageweaponstex.stick_of_eternity_t00_wp	196	
-7705	Stick of Eternity - Rsk., Evasion	Предметы/BLUNT/rhand/маг.	Удалить СА	196	Stick of Eternity	База из рецепта 1005	lineageweaponstex.stick_of_eternity_t00_wp	196	
-7706	Stick of Eternity - Blessed Body	Предметы/BLUNT/rhand/маг.	Удалить СА	196	Stick of Eternity	База из рецепта 1005	lineageweaponstex.stick_of_eternity_t00_wp	196	
-7707	Nirvana Axe - Magic Power	Предметы/BLUNT/rhand/маг.	Удалить СА	174	Nirvana Axe	База из рецепта 1005	lineageweaponstex.nirvana_axe_t00_wp	174	
-7708	Nirvana Axe - Magic Poison	Предметы/BLUNT/rhand/маг.	Удалить СА	174	Nirvana Axe	База из рецепта 1005	lineageweaponstex.nirvana_axe_t00_wp	174	
-7709	Nirvana Axe - Magic Weakness	Предметы/BLUNT/rhand/маг.	Удалить СА	174	Nirvana Axe	База из рецепта 1005	lineageweaponstex.nirvana_axe_t00_wp	174	
-7710	Club of Nature - Acumen	Предметы/BLUNT/rhand/маг.	Удалить СА	201	Club of Nature	База из рецепта 1005	lineageweaponstex.club_of_nature_t00_wp	201	
-7711	Club of Nature - Magic Mental Shield	Предметы/BLUNT/rhand/маг.	Удалить СА	201	Club of Nature	База из рецепта 1005	lineageweaponstex.club_of_nature_t00_wp	201	
-7712	Club of Nature - Magic Hold	Предметы/BLUNT/rhand/маг.	Удалить СА	201	Club of Nature	База из рецепта 1005	lineageweaponstex.club_of_nature_t00_wp	201	
-7713	Mace of The Underworld - Mana Up	Предметы/BLUNT/rhand/маг.	Удалить СА	202	Mace of The Underworld	База из рецепта 1005	lineageweaponstex.mace_of_underworld_t00_wp	202	
-7714	Mace of The Underworld - Magic Silence	Предметы/BLUNT/rhand/маг.	Удалить СА	202	Mace of The Underworld	База из рецепта 1005	lineageweaponstex.mace_of_underworld_t00_wp	202	
-7715	Mace of The Underworld - Conversion	Предметы/BLUNT/rhand/маг.	Удалить СА	202	Mace of The Underworld	База из рецепта 1005	lineageweaponstex.mace_of_underworld_t00_wp	202	
-7716	Inferno Staff - Acumen	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	198	Inferno Staff	База из рецепта 1005	lineageweaponstex.inferno_staff_t00_wp	198	
-7717	Inferno Staff - Magic Silence	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	198	Inferno Staff	База из рецепта 1005	lineageweaponstex.inferno_staff_t00_wp	198	
-7718	Inferno Staff - Magic Paralyze	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	198	Inferno Staff	База из рецепта 1005	lineageweaponstex.inferno_staff_t00_wp	198	
-7719	Poleaxe - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	95	Poleaxe	База из рецепта 1005	lineageweaponstex.poleaxe_t00_wp	95	
-7720	Poleaxe - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	95	Poleaxe	База из рецепта 1005	lineageweaponstex.poleaxe_t00_wp	95	
-7721	Poleaxe - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	95	Poleaxe	База из рецепта 1005	lineageweaponstex.poleaxe_t00_wp	95	
-7722	Sword of Valhalla - Acumen	Предметы/SWORD/rhand/маг.	Удалить СА	148	Sword of Valhalla	База из рецепта 1005	lineageweaponstex.sword_of_valhalla_t00_wp	148	
-7723	Sword of Valhalla - Magic Weakness	Предметы/SWORD/rhand/маг.	Удалить СА	148	Sword of Valhalla	База из рецепта 1005	lineageweaponstex.sword_of_valhalla_t00_wp	148	
-7724	Sword of Valhalla - Magic Regeneration	Предметы/SWORD/rhand/маг.	Удалить СА	148	Sword of Valhalla	База из рецепта 1005	lineageweaponstex.sword_of_valhalla_t00_wp	148	
-7810	Soulfire Dirk - Mana Up	Предметы/DAGGER/rhand/маг.	Удалить СА	242	Soulfire Dirk	База из рецепта 1005	lineageweaponstex.dagger_of_magicflame_t00_wp	242	
-7811	Soulfire Dirk - Magic Hold	Предметы/DAGGER/rhand/маг.	Удалить СА	242	Soulfire Dirk	База из рецепта 1005	lineageweaponstex.dagger_of_magicflame_t00_wp	242	
-7812	Soulfire Dirk - Magic Silence	Предметы/DAGGER/rhand/маг.	Удалить СА	242	Soulfire Dirk	База из рецепта 1005	lineageweaponstex.dagger_of_magicflame_t00_wp	242	
-7813	Hell Knife - Magic Regeneration	Предметы/DAGGER/rhand/маг.	Удалить СА	243	Hell Knife	База из рецепта 1005	lineageweaponstex.hell_knife_t00_wp	243	
-7814	Hell Knife - Mental Shield	Предметы/DAGGER/rhand/маг.	Удалить СА	243	Hell Knife	База из рецепта 1005	lineageweaponstex.hell_knife_t00_wp	243	
-7815	Hell Knife - Magic Weakness	Предметы/DAGGER/rhand/маг.	Удалить СА	243	Hell Knife	База из рецепта 1005	lineageweaponstex.hell_knife_t00_wp	243	
+7576	Draconic Bow - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	7575	Draconic Bow	База из рецепта 311262501	lineageweaponstex.draconic_bow_t00_wp		
+7577	Draconic Bow - Focus	Предметы/BOW/lrhand/физ.	Удалить СА	7575	Draconic Bow	База из рецепта 311262501	lineageweaponstex.draconic_bow_t00_wp		
+7578	Draconic Bow - Critical Slow	Предметы/BOW/lrhand/физ.	Удалить СА	7575	Draconic Bow	База из рецепта 311262501	lineageweaponstex.draconic_bow_t00_wp		
+7701	Stick of Faith - Mana Up	Предметы/BLUNT/rhand/маг.	Удалить СА	193	Stick of Faith	База из рецепта 1005	lineageweaponstex.stick_of_faith_t00_wp		
+7702	Stick of Faith - Magic Hold	Предметы/BLUNT/rhand/маг.	Удалить СА	193	Stick of Faith	База из рецепта 1005	lineageweaponstex.stick_of_faith_t00_wp		
+7703	Stick of Faith - Magic Shield	Предметы/BLUNT/rhand/маг.	Удалить СА	193	Stick of Faith	База из рецепта 1005	lineageweaponstex.stick_of_faith_t00_wp		
+7704	Stick of Eternity - Empower	Предметы/BLUNT/rhand/маг.	Удалить СА	196	Stick of Eternity	База из рецепта 1005	lineageweaponstex.stick_of_eternity_t00_wp		
+7705	Stick of Eternity - Rsk., Evasion	Предметы/BLUNT/rhand/маг.	Удалить СА	196	Stick of Eternity	База из рецепта 1005	lineageweaponstex.stick_of_eternity_t00_wp		
+7706	Stick of Eternity - Blessed Body	Предметы/BLUNT/rhand/маг.	Удалить СА	196	Stick of Eternity	База из рецепта 1005	lineageweaponstex.stick_of_eternity_t00_wp		
+7707	Nirvana Axe - Magic Power	Предметы/BLUNT/rhand/маг.	Удалить СА	174	Nirvana Axe	База из рецепта 1005	lineageweaponstex.nirvana_axe_t00_wp		
+7708	Nirvana Axe - Magic Poison	Предметы/BLUNT/rhand/маг.	Удалить СА	174	Nirvana Axe	База из рецепта 1005	lineageweaponstex.nirvana_axe_t00_wp		
+7709	Nirvana Axe - Magic Weakness	Предметы/BLUNT/rhand/маг.	Удалить СА	174	Nirvana Axe	База из рецепта 1005	lineageweaponstex.nirvana_axe_t00_wp		
+7710	Club of Nature - Acumen	Предметы/BLUNT/rhand/маг.	Удалить СА	201	Club of Nature	База из рецепта 1005	lineageweaponstex.club_of_nature_t00_wp		
+7711	Club of Nature - Magic Mental Shield	Предметы/BLUNT/rhand/маг.	Удалить СА	201	Club of Nature	База из рецепта 1005	lineageweaponstex.club_of_nature_t00_wp		
+7712	Club of Nature - Magic Hold	Предметы/BLUNT/rhand/маг.	Удалить СА	201	Club of Nature	База из рецепта 1005	lineageweaponstex.club_of_nature_t00_wp		
+7713	Mace of The Underworld - Mana Up	Предметы/BLUNT/rhand/маг.	Удалить СА	202	Mace of The Underworld	База из рецепта 1005	lineageweaponstex.mace_of_underworld_t00_wp		
+7714	Mace of The Underworld - Magic Silence	Предметы/BLUNT/rhand/маг.	Удалить СА	202	Mace of The Underworld	База из рецепта 1005	lineageweaponstex.mace_of_underworld_t00_wp		
+7715	Mace of The Underworld - Conversion	Предметы/BLUNT/rhand/маг.	Удалить СА	202	Mace of The Underworld	База из рецепта 1005	lineageweaponstex.mace_of_underworld_t00_wp		
+7716	Inferno Staff - Acumen	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	198	Inferno Staff	База из рецепта 1005	lineageweaponstex.inferno_staff_t00_wp		
+7717	Inferno Staff - Magic Silence	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	198	Inferno Staff	База из рецепта 1005	lineageweaponstex.inferno_staff_t00_wp		
+7718	Inferno Staff - Magic Paralyze	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	198	Inferno Staff	База из рецепта 1005	lineageweaponstex.inferno_staff_t00_wp		
+7719	Poleaxe - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	95	Poleaxe	База из рецепта 1005	lineageweaponstex.poleaxe_t00_wp		
+7720	Poleaxe - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	95	Poleaxe	База из рецепта 1005	lineageweaponstex.poleaxe_t00_wp		
+7721	Poleaxe - Wide Blow	Предметы/POLE/lrhand/физ.	Удалить СА	95	Poleaxe	База из рецепта 1005	lineageweaponstex.poleaxe_t00_wp		
+7722	Sword of Valhalla - Acumen	Предметы/SWORD/rhand/маг.	Удалить СА	148	Sword of Valhalla	База из рецепта 1005	lineageweaponstex.sword_of_valhalla_t00_wp		
+7723	Sword of Valhalla - Magic Weakness	Предметы/SWORD/rhand/маг.	Удалить СА	148	Sword of Valhalla	База из рецепта 1005	lineageweaponstex.sword_of_valhalla_t00_wp		
+7724	Sword of Valhalla - Magic Regeneration	Предметы/SWORD/rhand/маг.	Удалить СА	148	Sword of Valhalla	База из рецепта 1005	lineageweaponstex.sword_of_valhalla_t00_wp		
+7810	Soulfire Dirk - Mana Up	Предметы/DAGGER/rhand/маг.	Удалить СА	242	Soulfire Dirk	База из рецепта 1005	lineageweaponstex.dagger_of_magicflame_t00_wp		
+7811	Soulfire Dirk - Magic Hold	Предметы/DAGGER/rhand/маг.	Удалить СА	242	Soulfire Dirk	База из рецепта 1005	lineageweaponstex.dagger_of_magicflame_t00_wp		
+7812	Soulfire Dirk - Magic Silence	Предметы/DAGGER/rhand/маг.	Удалить СА	242	Soulfire Dirk	База из рецепта 1005	lineageweaponstex.dagger_of_magicflame_t00_wp		
+7813	Hell Knife - Magic Regeneration	Предметы/DAGGER/rhand/маг.	Удалить СА	243	Hell Knife	База из рецепта 1005	lineageweaponstex.hell_knife_t00_wp		
+7814	Hell Knife - Mental Shield	Предметы/DAGGER/rhand/маг.	Удалить СА	243	Hell Knife	База из рецепта 1005	lineageweaponstex.hell_knife_t00_wp		
+7815	Hell Knife - Magic Weakness	Предметы/DAGGER/rhand/маг.	Удалить СА	243	Hell Knife	База из рецепта 1005	lineageweaponstex.hell_knife_t00_wp		
 7816	Apprentice Adventurer's Staff	Предметы/BIGBLUNT/lrhand/маг.	Сохранить отдельный ID			Оставить 7816 до переноса правил Apprentice/Traveler с диапазона ID на явный признак; пара для сравнения 176	lineageweaponstex.apprentices_staff_t00_wp	176	
 7817	Apprentice Adventurer's Bone Club	Предметы/BLUNT/rhand/физ.	Сохранить отдельный ID			Оставить 7817 до переноса правил Apprentice/Traveler с диапазона ID на явный признак; пара для сравнения 4	lineageweaponstex.club_t00_wp	4	
 7818	Apprentice Adventurer's Knife	Предметы/DAGGER/rhand/физ.	Сохранить отдельный ID			Оставить 7818 до переноса правил Apprentice/Traveler с диапазона ID на явный признак; пара для сравнения 217	lineageweaponstex.shining_knife_t00_wp	217	
@@ -1018,7 +1018,7 @@
 7829	Traveler's Tomahawk	Предметы/BLUNT/rhand/физ.	Сохранить отдельный ID			Оставить 7829 до переноса правил Apprentice/Traveler с диапазона ID на явный признак; пара для сравнения 86	lineageweaponstex.tomahawk_t00_wp	86	
 7830	Traveler's Poniard Dagger	Предметы/DAGGER/rhand/физ.	Сохранить отдельный ID			Оставить 7830 до переноса правил Apprentice/Traveler с диапазона ID на явный признак; пара для сравнения 216	lineageweaponstex.dirk_t00_wp	216	
 7831	Traveler's Pike	Предметы/POLE/lrhand/физ.	Сохранить отдельный ID			Оставить 7831 до переноса правил Apprentice/Traveler с диапазона ID на явный признак; пара для сравнения 292	lineageweaponstex.pike_t00_wp	292	
-7834	Art of Battle Axe	NPC-кандидат/BLUNT/rhand/физ.	Объединить	175	Art of Battle Axe	Совпадают серверный шаблон без ID, модель и текстуры	lineageweaponstex.art_of_battle_axe_t00_wp	175	
+7834	Art of Battle Axe	NPC-кандидат/BLUNT/rhand/физ.	Объединить	175	Art of Battle Axe	Совпадают серверный шаблон без ID, модель и текстуры	lineageweaponstex.art_of_battle_axe_t00_wp		
 7880	Steel Sword	Предметы/BIGSWORD/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.iron_sword_t00_wp	7880	
 7881	Titan Sword	Предметы/BIGSWORD/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.giants_sword_t00_wp	7881	
 7882	Pa'agrian Sword	Предметы/BIGSWORD/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.sword_of_paagrio_t00_wp	7882	
@@ -1043,58 +1043,58 @@
 7901	Star Buster	Предметы/BIGBLUNT/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.star_buster_t00_wp	7901	
 7902	Doom Crusher	Предметы/BIGBLUNT/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.doom_crusher_t00_wp	7902	
 7903	Frintezza's Sword	NPC-кандидат/BIGSWORD/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.mon_follower_of_frintessa_calibur_t00_wp	7903	
-8102	Pa'agrian Sword - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7882	Pa'agrian Sword	База из рецепта 1005	lineageweaponstex.sword_of_paagrio_t00_wp	7882	
-8103	Pa'agrian Sword - Health	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7882	Pa'agrian Sword	База из рецепта 1005	lineageweaponstex.sword_of_paagrio_t00_wp	7882	
-8104	Pa'agrian Sword - Critical Drain	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7882	Pa'agrian Sword	База из рецепта 1005	lineageweaponstex.sword_of_paagrio_t00_wp	7882	
-8105	Guardian Sword - Critical Drain	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7883	Guardian Sword	База из рецепта 1005	lineageweaponstex.guardians_sword_t00_wp	7883	
-8106	Guardian Sword - Health	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7883	Guardian Sword	База из рецепта 1005	lineageweaponstex.guardians_sword_t00_wp	7883	
-8107	Guardian Sword - Critical Bleed	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7883	Guardian Sword	База из рецепта 1005	lineageweaponstex.guardians_sword_t00_wp	7883	
-8108	Infernal Master - Haste	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7884	Infernal Master	База из рецепта 311262510	lineageweaponstex.inferno_master_t00_wp	7884	
-8109	Infernal Master - Critical Damage	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7884	Infernal Master	База из рецепта 311262510	lineageweaponstex.inferno_master_t00_wp	7884	
-8110	Infernal Master - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7884	Infernal Master	База из рецепта 311262510	lineageweaponstex.inferno_master_t00_wp	7884	
-8111	Mysterious Sword - Acumen	Предметы/SWORD/rhand/маг.	Удалить СА	7887	Mysterious Sword	База из рецепта 1005	lineageweaponstex.mystery_sword_t00_wp	7887	
-8112	Mysterious Sword - Magic Power	Предметы/SWORD/rhand/маг.	Удалить СА	7887	Mysterious Sword	База из рецепта 1005	lineageweaponstex.mystery_sword_t00_wp	7887	
-8113	Mysterious Sword - Magic Weakness	Предметы/SWORD/rhand/маг.	Удалить СА	7887	Mysterious Sword	База из рецепта 1005	lineageweaponstex.mystery_sword_t00_wp	7887	
-8114	Ecliptic Sword - Empower	Предметы/SWORD/rhand/маг.	Удалить СА	7888	Ecliptic Sword	База из рецепта 1005	lineageweaponstex.sword_of_eclipse_t00_wp	7888	
-8115	Ecliptic Sword - Magic Power	Предметы/SWORD/rhand/маг.	Удалить СА	7888	Ecliptic Sword	База из рецепта 1005	lineageweaponstex.sword_of_eclipse_t00_wp	7888	
-8116	Ecliptic Sword - Magic Silence	Предметы/SWORD/rhand/маг.	Удалить СА	7888	Ecliptic Sword	База из рецепта 1005	lineageweaponstex.sword_of_eclipse_t00_wp	7888	
-8117	Wizard's Tear - Acumen	Предметы/SWORD/rhand/маг.	Удалить СА	7889	Wizard's Tear	База из рецепта 1005	lineageweaponstex.tears_of_wizard_t00_wp	7889	
-8118	Wizard's Tear - Magic Power	Предметы/SWORD/rhand/маг.	Удалить СА	7889	Wizard's Tear	База из рецепта 1005	lineageweaponstex.tears_of_wizard_t00_wp	7889	
-8119	Wizard's Tear - Conversion	Предметы/SWORD/rhand/маг.	Удалить СА	7889	Wizard's Tear	База из рецепта 1005	lineageweaponstex.tears_of_wizard_t00_wp	7889	
-8120	Dwarven Hammer - Health	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7897	Dwarven Hammer	База из рецепта 1005	lineageweaponstex.dwarven_hammer_t00_wp	7897	
-8121	Dwarven Hammer - Anger	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7897	Dwarven Hammer	База из рецепта 1005	lineageweaponstex.dwarven_hammer_t00_wp	7897	
-8122	Dwarven Hammer - Critical Bleed	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7897	Dwarven Hammer	База из рецепта 1005	lineageweaponstex.dwarven_hammer_t00_wp	7897	
-8123	Karik Horn - Focus	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7898	Karik Horn	База из рецепта 1005	lineageweaponstex.horn_of_karik_t00_wp	7898	
-8124	Karik Horn - Haste	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7898	Karik Horn	База из рецепта 1005	lineageweaponstex.horn_of_karik_t00_wp	7898	
-8125	Karik Horn - Critical Drain	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7898	Karik Horn	База из рецепта 1005	lineageweaponstex.horn_of_karik_t00_wp	7898	
-8126	Destroyer Hammer - Health	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7899	Destroyer Hammer	База из рецепта 311262510	lineageweaponstex.hammer_of_destroyer_t00_wp	7899	
-8127	Destroyer Hammer - Haste	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7899	Destroyer Hammer	База из рецепта 311262510	lineageweaponstex.hammer_of_destroyer_t00_wp	7899	
-8128	Destroyer Hammer - Critical Drain	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7899	Destroyer Hammer	База из рецепта 311262510	lineageweaponstex.hammer_of_destroyer_t00_wp	7899	
-8129	Ice Storm Hammer - Focus	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7900	Ice Storm Hammer	База из рецепта 1005	lineageweaponstex.ice_storm_hammer_t00_wp	7900	
-8130	Ice Storm Hammer - Anger	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7900	Ice Storm Hammer	База из рецепта 1005	lineageweaponstex.ice_storm_hammer_t00_wp	7900	
-8131	Ice Storm Hammer - Critical Bleed	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7900	Ice Storm Hammer	База из рецепта 1005	lineageweaponstex.ice_storm_hammer_t00_wp	7900	
-8132	Star Buster - Health	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7901	Star Buster	База из рецепта 1005	lineageweaponstex.star_buster_t00_wp	7901	
-8133	Star Buster - Haste	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7901	Star Buster	База из рецепта 1005	lineageweaponstex.star_buster_t00_wp	7901	
-8134	Star Buster - Rsk. Focus	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7901	Star Buster	База из рецепта 1005	lineageweaponstex.star_buster_t00_wp	7901	
-8135	Doom Crusher - Health	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7902	Doom Crusher	База из рецепта 311262510	lineageweaponstex.doom_crusher_t00_wp	7902	
-8136	Doom Crusher - Anger	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7902	Doom Crusher	База из рецепта 311262510	lineageweaponstex.doom_crusher_t00_wp	7902	
-8137	Doom Crusher - Rsk. Haste	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7902	Doom Crusher	База из рецепта 311262510	lineageweaponstex.doom_crusher_t00_wp	7902	
-8138	Ecliptic Axe - Conversion	Предметы/BLUNT/rhand/маг.	Удалить СА	7891	Ecliptic Axe	База из рецепта 1005	lineageweaponstex.eclipse_axe_t00_wp	7891	
-8139	Ecliptic Axe - Magic Power	Предметы/BLUNT/rhand/маг.	Удалить СА	7891	Ecliptic Axe	База из рецепта 1005	lineageweaponstex.eclipse_axe_t00_wp	7891	
-8140	Ecliptic Axe - Magic Hold	Предметы/BLUNT/rhand/маг.	Удалить СА	7891	Ecliptic Axe	База из рецепта 1005	lineageweaponstex.eclipse_axe_t00_wp	7891	
-8141	Spell Breaker - Acumen	Предметы/BLUNT/rhand/маг.	Удалить СА	7892	Spell Breaker	База из рецепта 1005	lineageweaponstex.spell_breaker_t00_wp	7892	
-8142	Spell Breaker - Magic Mental Shield	Предметы/BLUNT/rhand/маг.	Удалить СА	7892	Spell Breaker	База из рецепта 1005	lineageweaponstex.spell_breaker_t00_wp	7892	
-8143	Spell Breaker - Magic Hold	Предметы/BLUNT/rhand/маг.	Удалить СА	7892	Spell Breaker	База из рецепта 1005	lineageweaponstex.spell_breaker_t00_wp	7892	
-8144	Kaim Vanul's Bones - Mana Up	Предметы/BLUNT/rhand/маг.	Удалить СА	7893	Kaim Vanul's Bones	База из рецепта 1005	lineageweaponstex.bone_of_kaim_vanul_t00_wp	7893	
-8145	Kaim Vanul's Bones - Magic Silence	Предметы/BLUNT/rhand/маг.	Удалить СА	7893	Kaim Vanul's Bones	База из рецепта 1005	lineageweaponstex.bone_of_kaim_vanul_t00_wp	7893	
-8146	Kaim Vanul's Bones - Conversion	Предметы/BLUNT/rhand/маг.	Удалить СА	7893	Kaim Vanul's Bones	База из рецепта 1005	lineageweaponstex.bone_of_kaim_vanul_t00_wp	7893	
-8147	Spiritual Eye - Mana Up	Предметы/BLUNT/rhand/маг.	Удалить СА	7894	Spiritual Eye	База из рецепта 311262510	lineageweaponstex.eye_of_soul_t00_wp	7894	
-8148	Spiritual Eye - Magic Poison	Предметы/BLUNT/rhand/маг.	Удалить СА	7894	Spiritual Eye	База из рецепта 311262510	lineageweaponstex.eye_of_soul_t00_wp	7894	
-8149	Spiritual Eye - Acumen	Предметы/BLUNT/rhand/маг.	Удалить СА	7894	Spiritual Eye	База из рецепта 311262510	lineageweaponstex.eye_of_soul_t00_wp	7894	
-8150	Flaming Dragon Skull - Acumen	Предметы/BLUNT/rhand/маг.	Удалить СА	7895	Flaming Dragon Skull	База из рецепта 311262510	lineageweaponstex.dragon_flame_head_t00_wp	7895	
-8151	Flaming Dragon Skull - Magic Power	Предметы/BLUNT/rhand/маг.	Удалить СА	7895	Flaming Dragon Skull	База из рецепта 311262510	lineageweaponstex.dragon_flame_head_t00_wp	7895	
-8152	Flaming Dragon Skull - Magic Silence	Предметы/BLUNT/rhand/маг.	Удалить СА	7895	Flaming Dragon Skull	База из рецепта 311262510	lineageweaponstex.dragon_flame_head_t00_wp	7895	
-8190	Demonic Sword Zariche	Предметы/NONE/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.unique_zariche_t00_wp	8190	
+8102	Pa'agrian Sword - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7882	Pa'agrian Sword	База из рецепта 1005	lineageweaponstex.sword_of_paagrio_t00_wp		
+8103	Pa'agrian Sword - Health	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7882	Pa'agrian Sword	База из рецепта 1005	lineageweaponstex.sword_of_paagrio_t00_wp		
+8104	Pa'agrian Sword - Critical Drain	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7882	Pa'agrian Sword	База из рецепта 1005	lineageweaponstex.sword_of_paagrio_t00_wp		
+8105	Guardian Sword - Critical Drain	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7883	Guardian Sword	База из рецепта 1005	lineageweaponstex.guardians_sword_t00_wp		
+8106	Guardian Sword - Health	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7883	Guardian Sword	База из рецепта 1005	lineageweaponstex.guardians_sword_t00_wp		
+8107	Guardian Sword - Critical Bleed	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7883	Guardian Sword	База из рецепта 1005	lineageweaponstex.guardians_sword_t00_wp		
+8108	Infernal Master - Haste	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7884	Infernal Master	База из рецепта 311262510	lineageweaponstex.inferno_master_t00_wp		
+8109	Infernal Master - Critical Damage	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7884	Infernal Master	База из рецепта 311262510	lineageweaponstex.inferno_master_t00_wp		
+8110	Infernal Master - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	7884	Infernal Master	База из рецепта 311262510	lineageweaponstex.inferno_master_t00_wp		
+8111	Mysterious Sword - Acumen	Предметы/SWORD/rhand/маг.	Удалить СА	7887	Mysterious Sword	База из рецепта 1005	lineageweaponstex.mystery_sword_t00_wp		
+8112	Mysterious Sword - Magic Power	Предметы/SWORD/rhand/маг.	Удалить СА	7887	Mysterious Sword	База из рецепта 1005	lineageweaponstex.mystery_sword_t00_wp		
+8113	Mysterious Sword - Magic Weakness	Предметы/SWORD/rhand/маг.	Удалить СА	7887	Mysterious Sword	База из рецепта 1005	lineageweaponstex.mystery_sword_t00_wp		
+8114	Ecliptic Sword - Empower	Предметы/SWORD/rhand/маг.	Удалить СА	7888	Ecliptic Sword	База из рецепта 1005	lineageweaponstex.sword_of_eclipse_t00_wp		
+8115	Ecliptic Sword - Magic Power	Предметы/SWORD/rhand/маг.	Удалить СА	7888	Ecliptic Sword	База из рецепта 1005	lineageweaponstex.sword_of_eclipse_t00_wp		
+8116	Ecliptic Sword - Magic Silence	Предметы/SWORD/rhand/маг.	Удалить СА	7888	Ecliptic Sword	База из рецепта 1005	lineageweaponstex.sword_of_eclipse_t00_wp		
+8117	Wizard's Tear - Acumen	Предметы/SWORD/rhand/маг.	Удалить СА	7889	Wizard's Tear	База из рецепта 1005	lineageweaponstex.tears_of_wizard_t00_wp		
+8118	Wizard's Tear - Magic Power	Предметы/SWORD/rhand/маг.	Удалить СА	7889	Wizard's Tear	База из рецепта 1005	lineageweaponstex.tears_of_wizard_t00_wp		
+8119	Wizard's Tear - Conversion	Предметы/SWORD/rhand/маг.	Удалить СА	7889	Wizard's Tear	База из рецепта 1005	lineageweaponstex.tears_of_wizard_t00_wp		
+8120	Dwarven Hammer - Health	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7897	Dwarven Hammer	База из рецепта 1005	lineageweaponstex.dwarven_hammer_t00_wp		
+8121	Dwarven Hammer - Anger	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7897	Dwarven Hammer	База из рецепта 1005	lineageweaponstex.dwarven_hammer_t00_wp		
+8122	Dwarven Hammer - Critical Bleed	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7897	Dwarven Hammer	База из рецепта 1005	lineageweaponstex.dwarven_hammer_t00_wp		
+8123	Karik Horn - Focus	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7898	Karik Horn	База из рецепта 1005	lineageweaponstex.horn_of_karik_t00_wp		
+8124	Karik Horn - Haste	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7898	Karik Horn	База из рецепта 1005	lineageweaponstex.horn_of_karik_t00_wp		
+8125	Karik Horn - Critical Drain	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7898	Karik Horn	База из рецепта 1005	lineageweaponstex.horn_of_karik_t00_wp		
+8126	Destroyer Hammer - Health	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7899	Destroyer Hammer	База из рецепта 311262510	lineageweaponstex.hammer_of_destroyer_t00_wp		
+8127	Destroyer Hammer - Haste	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7899	Destroyer Hammer	База из рецепта 311262510	lineageweaponstex.hammer_of_destroyer_t00_wp		
+8128	Destroyer Hammer - Critical Drain	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7899	Destroyer Hammer	База из рецепта 311262510	lineageweaponstex.hammer_of_destroyer_t00_wp		
+8129	Ice Storm Hammer - Focus	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7900	Ice Storm Hammer	База из рецепта 1005	lineageweaponstex.ice_storm_hammer_t00_wp		
+8130	Ice Storm Hammer - Anger	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7900	Ice Storm Hammer	База из рецепта 1005	lineageweaponstex.ice_storm_hammer_t00_wp		
+8131	Ice Storm Hammer - Critical Bleed	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7900	Ice Storm Hammer	База из рецепта 1005	lineageweaponstex.ice_storm_hammer_t00_wp		
+8132	Star Buster - Health	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7901	Star Buster	База из рецепта 1005	lineageweaponstex.star_buster_t00_wp		
+8133	Star Buster - Haste	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7901	Star Buster	База из рецепта 1005	lineageweaponstex.star_buster_t00_wp		
+8134	Star Buster - Rsk. Focus	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7901	Star Buster	База из рецепта 1005	lineageweaponstex.star_buster_t00_wp		
+8135	Doom Crusher - Health	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7902	Doom Crusher	База из рецепта 311262510	lineageweaponstex.doom_crusher_t00_wp		
+8136	Doom Crusher - Anger	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7902	Doom Crusher	База из рецепта 311262510	lineageweaponstex.doom_crusher_t00_wp		
+8137	Doom Crusher - Rsk. Haste	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	7902	Doom Crusher	База из рецепта 311262510	lineageweaponstex.doom_crusher_t00_wp		
+8138	Ecliptic Axe - Conversion	Предметы/BLUNT/rhand/маг.	Удалить СА	7891	Ecliptic Axe	База из рецепта 1005	lineageweaponstex.eclipse_axe_t00_wp		
+8139	Ecliptic Axe - Magic Power	Предметы/BLUNT/rhand/маг.	Удалить СА	7891	Ecliptic Axe	База из рецепта 1005	lineageweaponstex.eclipse_axe_t00_wp		
+8140	Ecliptic Axe - Magic Hold	Предметы/BLUNT/rhand/маг.	Удалить СА	7891	Ecliptic Axe	База из рецепта 1005	lineageweaponstex.eclipse_axe_t00_wp		
+8141	Spell Breaker - Acumen	Предметы/BLUNT/rhand/маг.	Удалить СА	7892	Spell Breaker	База из рецепта 1005	lineageweaponstex.spell_breaker_t00_wp		
+8142	Spell Breaker - Magic Mental Shield	Предметы/BLUNT/rhand/маг.	Удалить СА	7892	Spell Breaker	База из рецепта 1005	lineageweaponstex.spell_breaker_t00_wp		
+8143	Spell Breaker - Magic Hold	Предметы/BLUNT/rhand/маг.	Удалить СА	7892	Spell Breaker	База из рецепта 1005	lineageweaponstex.spell_breaker_t00_wp		
+8144	Kaim Vanul's Bones - Mana Up	Предметы/BLUNT/rhand/маг.	Удалить СА	7893	Kaim Vanul's Bones	База из рецепта 1005	lineageweaponstex.bone_of_kaim_vanul_t00_wp		
+8145	Kaim Vanul's Bones - Magic Silence	Предметы/BLUNT/rhand/маг.	Удалить СА	7893	Kaim Vanul's Bones	База из рецепта 1005	lineageweaponstex.bone_of_kaim_vanul_t00_wp		
+8146	Kaim Vanul's Bones - Conversion	Предметы/BLUNT/rhand/маг.	Удалить СА	7893	Kaim Vanul's Bones	База из рецепта 1005	lineageweaponstex.bone_of_kaim_vanul_t00_wp		
+8147	Spiritual Eye - Mana Up	Предметы/BLUNT/rhand/маг.	Удалить СА	7894	Spiritual Eye	База из рецепта 311262510	lineageweaponstex.eye_of_soul_t00_wp		
+8148	Spiritual Eye - Magic Poison	Предметы/BLUNT/rhand/маг.	Удалить СА	7894	Spiritual Eye	База из рецепта 311262510	lineageweaponstex.eye_of_soul_t00_wp		
+8149	Spiritual Eye - Acumen	Предметы/BLUNT/rhand/маг.	Удалить СА	7894	Spiritual Eye	База из рецепта 311262510	lineageweaponstex.eye_of_soul_t00_wp		
+8150	Flaming Dragon Skull - Acumen	Предметы/BLUNT/rhand/маг.	Удалить СА	7895	Flaming Dragon Skull	База из рецепта 311262510	lineageweaponstex.dragon_flame_head_t00_wp		
+8151	Flaming Dragon Skull - Magic Power	Предметы/BLUNT/rhand/маг.	Удалить СА	7895	Flaming Dragon Skull	База из рецепта 311262510	lineageweaponstex.dragon_flame_head_t00_wp		
+8152	Flaming Dragon Skull - Magic Silence	Предметы/BLUNT/rhand/маг.	Удалить СА	7895	Flaming Dragon Skull	База из рецепта 311262510	lineageweaponstex.dragon_flame_head_t00_wp		
+8190	Demonic Sword Zariche	Event	Оставить			Представитель текстуры	lineageweaponstex.unique_zariche_t00_wp	8190	
 8203	Monster Only (Venom Sword)	NPC-кандидат/DUAL/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.mon_benom_sword_t00_wp|lineageweaponstex.mon_benom_sword_t00_wp	8203	
 8204	Monster Only (Follower of Frintezza Calibur)	NPC-кандидат/SWORD/rhand/физ.	Сохранить отдельный ID			Для первой фазы оставить 8204, для следующей 7903; пара для сравнения 7903	lineageweaponstex.mon_follower_of_frintessa_calibur_t00_wp	7903	
 8205	Monster Only (Heretic Priest Sickle)	NPC-кандидат/POLE/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.mon_heretic_priest_sickle_t00_wp	8205	
@@ -1115,7 +1115,7 @@
 8220	Monster Only (Apostle Grail Bow)	NPC-кандидат/BOW/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.mon_apostle_grail_bow_t00_wp	8220	
 8221	Monster Only (Apostle Grail Spear)	NPC-кандидат/POLE/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.mon_apostle_grail_spear_t00_wp	8221	
 8222	Monster Only (Follower of Frintezza Tran Calibur)	NPC-кандидат/SWORD/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.mon_follower_of_frintessa_tran_calibur_t00_wp	8222	
-8350	Chrono Maracas	Предметы/DUAL/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.chrono_maracas_t00_wp|lineageweaponstex.chrono_maracas_t00_wp	8350	
+8350	Chrono Maracas	Event	Оставить			Представитель текстуры	lineageweaponstex.chrono_maracas_t00_wp|lineageweaponstex.chrono_maracas_t00_wp	8350	
 8527	For Monsters Only (Strengthened Bow)	NPC-кандидат/BOW/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.strengthening_bow_t01_wp	8527	
 8528	For Monsters Only (Doom Hammer)	NPC-кандидат/BLUNT/rhand/маг.	Оставить			Представитель текстуры	lineageweaponstex.doom_hammer_t01_wp	8528	
 8529	For Monsters Only (Knife)	NPC-кандидат/DAGGER/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.knife_t01_wp	8529	
@@ -1123,22 +1123,22 @@
 8531	For Monsters Only (Bone Staff)	NPC-кандидат/BIGBLUNT/lrhand/маг.	Оставить			Представитель текстуры	lineageweaponstex.apprentices_staff_t01_wp	8531	
 8532	For Monsters Only (Spinebone Sword)	NPC-кандидат/SWORD/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.spinebone_sword_t01_wp	8532	
 8533	For Monsters Only (Crimson Sword)	NPC-кандидат/SWORD/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.crimson_sword_t01_wp	8533	
-8576	Apprentice's Staff (Event)	Предметы/BIGBLUNT/lrhand/маг.	Сохранить отдельный ID			Для событийной выдачи оставить 8576; торговый режим обычного 176 отличается; пара для сравнения 176	lineageweaponstex.apprentices_staff_t00_wp	176	
-8577	Bone Club (Event)	Предметы/BLUNT/rhand/физ.	Сохранить отдельный ID			Для событийной выдачи оставить 8577; торговый режим обычного 4 отличается; пара для сравнения 4	lineageweaponstex.club_t00_wp	4	
-8578	Shining Knife (Event)	Предметы/DAGGER/rhand/физ.	Сохранить отдельный ID			Для событийной выдачи оставить 8578; торговый режим обычного 217 отличается; пара для сравнения 217	lineageweaponstex.shining_knife_t00_wp	217	
-8579	Cestus (Event)	Предметы/DUALFIST/lrhand/физ.	Сохранить отдельный ID			Для событийной выдачи оставить 8579; торговый режим обычного 256 отличается; пара для сравнения 256	lineageweaponstex.vipers_canine_t00_wp|lineageweaponstex.vipers_canine_t00_wp	256	
-8580	Forest Bow (Event)	Предметы/BOW/lrhand/физ.	Сохранить отдельный ID			Для событийной выдачи оставить 8580; торговый режим обычного 272 отличается; пара для сравнения 272	lineageweaponstex.bow_of_forest_t00_wp	272	
-8581	Long Sword (Event)	Предметы/SWORD/rhand/физ.	Сохранить отдельный ID			Для событийной выдачи оставить 8581; торговый режим обычного 2 отличается; пара для сравнения 2	lineageweaponstex.long_sword_t00_wp	2	
-8582	Mace of Prayer (Event)	Предметы/BLUNT/rhand/маг.	Сохранить отдельный ID			Для событийной выдачи оставить 8582; торговый режим обычного 179 отличается; пара для сравнения 179	lineageweaponstex.mace_of_prayer_t00_wp	179	
-8583	Dark Elven Bow (Event)	Предметы/BOW/lrhand/физ.	Сохранить отдельный ID			Для событийной выдачи оставить 8583; торговый режим обычного 277 отличается; пара для сравнения 277	lineageweaponstex.dark_elven_bow_t00_wp	277	
-8584	Long Bow (Event)	Предметы/BOW/lrhand/физ.	Сохранить отдельный ID			Для событийной выдачи оставить 8584; торговый режим обычного 274 отличается; пара для сравнения 274	lineageweaponstex.strengthening_bow_t00_wp	274	
-8585	Staff of Mana (Event)	Предметы/BIGBLUNT/lrhand/маг.	Сохранить отдельный ID			Для событийной выдачи оставить 8585; торговый режим обычного 185 отличается; пара для сравнения 185	lineageweaponstex.staff_of_mana_t00_wp	185	
-8586	Bastard Sword (Event)	Предметы/SWORD/rhand/физ.	Сохранить отдельный ID			Для событийной выдачи оставить 8586; торговый режим обычного 69 отличается; пара для сравнения 69	lineageweaponstex.bastard_sword_t00_wp	69	
-8587	Divine Tomb (Event)	Предметы/ETC/rhand/маг.	Сохранить отдельный ID			Для событийной выдачи оставить 8587; торговый режим обычного 315 отличается; пара для сравнения 315	lineageweaponstex.divine_tome_t00_wp	315	
-8588	Single-Edged Jamadhr (Event)	Предметы/DUALFIST/lrhand/физ.	Сохранить отдельный ID			Для событийной выдачи оставить 8588; торговый режим обычного 258 отличается; пара для сравнения 258	lineageweaponstex.baghnakh_t00_wp|lineageweaponstex.baghnakh_t00_wp	258	
-8589	Tomahawk (Event)	Предметы/BLUNT/rhand/физ.	Сохранить отдельный ID			Для событийной выдачи оставить 8589; торговый режим обычного 86 отличается; пара для сравнения 86	lineageweaponstex.tomahawk_t00_wp	86	
-8590	Poniard Daggar (Event)	Предметы/DAGGER/rhand/физ.	Сохранить отдельный ID			Для событийной выдачи оставить 8590; торговый режим обычного 216 отличается; пара для сравнения 216	lineageweaponstex.dirk_t00_wp	216	
-8591	Pike (Event)	Предметы/POLE/lrhand/физ.	Сохранить отдельный ID			Для событийной выдачи оставить 8591; торговый режим обычного 292 отличается; пара для сравнения 292	lineageweaponstex.pike_t00_wp	292	
+8576	Apprentice's Staff (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.apprentices_staff_t00_wp		
+8577	Bone Club (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.club_t00_wp		
+8578	Shining Knife (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.shining_knife_t00_wp		
+8579	Cestus (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.vipers_canine_t00_wp|lineageweaponstex.vipers_canine_t00_wp		
+8580	Forest Bow (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.bow_of_forest_t00_wp		
+8581	Long Sword (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.long_sword_t00_wp		
+8582	Mace of Prayer (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.mace_of_prayer_t00_wp		
+8583	Dark Elven Bow (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.dark_elven_bow_t00_wp		
+8584	Long Bow (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.strengthening_bow_t00_wp		
+8585	Staff of Mana (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.staff_of_mana_t00_wp		
+8586	Bastard Sword (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.bastard_sword_t00_wp		
+8587	Divine Tomb (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.divine_tome_t00_wp		
+8588	Single-Edged Jamadhr (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.baghnakh_t00_wp|lineageweaponstex.baghnakh_t00_wp		
+8589	Tomahawk (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.tomahawk_t00_wp		
+8590	Poniard Daggar (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.dirk_t00_wp		
+8591	Pike (Event)	Event	Удалить купонное оружие			Удалить по требованию пользователя, без замены	lineageweaponstex.pike_t00_wp		
 8678	Sirra's Blade	Предметы/SWORD/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.sirr_blade_t00_wp	8678	
 8679	Sword of Ipos	Предметы/BIGSWORD/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.sword_of_ipos_t00_wp	8679	
 8680	Barakiel's Axe	Предметы/BLUNT/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.barakiel_axe_t00_wp	8680	
@@ -1150,41 +1150,41 @@
 8686	Themis' Tongue	Предметы/SWORD/rhand/маг.	Оставить			Представитель текстуры	lineageweaponstex.tongue_of_themis_t00_wp	8686	
 8687	Cabrio's Hand	Предметы/BLUNT/rhand/маг.	Оставить			Представитель текстуры	lineageweaponstex.hand_of_cabrio_t00_wp	8687	
 8688	Daimon Crystal	Предметы/BIGBLUNT/lrhand/маг.	Оставить			Представитель текстуры	lineageweaponstex.crystal_of_deamon_t00_wp	8688	
-8689	Blood Sword Akamanah	Предметы/FIST/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.aka_t00_wp|lineageweaponstex.manaf_t00_wp	8689	
-8763	Elrokian Trap	Предметы/BLUNT/rhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.seize_mace_t00_wp	8763	
-8788	Sirra's Blade - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	8678	Sirra's Blade	База из рецепта 311262510	lineageweaponstex.sirr_blade_t00_wp	8678	
-8789	Sirra's Blade - Health	Предметы/SWORD/rhand/физ.	Удалить СА	8678	Sirra's Blade	База из рецепта 311262510	lineageweaponstex.sirr_blade_t00_wp	8678	
-8790	Sirra's Blade - Critical Poison	Предметы/SWORD/rhand/физ.	Удалить СА	8678	Sirra's Blade	База из рецепта 311262510	lineageweaponstex.sirr_blade_t00_wp	8678	
-8791	Sword of Ipos - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	8679	Sword of Ipos	База из рецепта 311262510	lineageweaponstex.sword_of_ipos_t00_wp	8679	
-8792	Sword of Ipos - Haste	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	8679	Sword of Ipos	База из рецепта 311262510	lineageweaponstex.sword_of_ipos_t00_wp	8679	
-8793	Sword of Ipos - Health	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	8679	Sword of Ipos	База из рецепта 311262510	lineageweaponstex.sword_of_ipos_t00_wp	8679	
-8794	Barakiel's Axe - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	8680	Barakiel's Axe	База из рецепта 311262510	lineageweaponstex.barakiel_axe_t00_wp	8680	
-8795	Barakiel's Axe - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	8680	Barakiel's Axe	База из рецепта 311262510	lineageweaponstex.barakiel_axe_t00_wp	8680	
-8796	Barakiel's Axe - Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	8680	Barakiel's Axe	База из рецепта 311262510	lineageweaponstex.barakiel_axe_t00_wp	8680	
-8797	Behemoth's Tuning Fork - Focus	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	8681	Behemoth's Tuning Fork	База из рецепта 311262510	lineageweaponstex.tuning_fork_of_behemoth_t00_wp	8681	
-8798	Behemoth's Tuning Fork - Health	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	8681	Behemoth's Tuning Fork	База из рецепта 311262510	lineageweaponstex.tuning_fork_of_behemoth_t00_wp	8681	
-8799	Behemoth's Tuning Fork - Anger	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	8681	Behemoth's Tuning Fork	База из рецепта 311262510	lineageweaponstex.tuning_fork_of_behemoth_t00_wp	8681	
-8800	Naga Storm - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	8682	Naga Storm	База из рецепта 311262510	lineageweaponstex.naga_storm_t00_wp	8682	
-8801	Naga Storm - Critical Damage	Предметы/DAGGER/rhand/физ.	Удалить СА	8682	Naga Storm	База из рецепта 311262510	lineageweaponstex.naga_storm_t00_wp	8682	
-8802	Naga Storm - Back Blow	Предметы/DAGGER/rhand/физ.	Удалить СА	8682	Naga Storm	База из рецепта 311262510	lineageweaponstex.naga_storm_t00_wp	8682	
-8803	Tiphon's Spear - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	8683	Tiphon's Spear	База из рецепта 311262510	lineageweaponstex.tiphon_spear_t00_wp	8683	
-8804	Tiphon's Spear - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	8683	Tiphon's Spear	База из рецепта 311262510	lineageweaponstex.tiphon_spear_t00_wp	8683	
-8805	Tiphon's Spear - Wild Blow	Предметы/POLE/lrhand/физ.	Удалить СА	8683	Tiphon's Spear	База из рецепта 311262510	lineageweaponstex.tiphon_spear_t00_wp	8683	
-8806	Shyeed's Bow - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	8684	Shyeed's Bow	База из рецепта 311262510	lineageweaponstex.shyid_bow_t00_wp	8684	
-8807	Shyeed's Bow - Focus	Предметы/BOW/lrhand/физ.	Удалить СА	8684	Shyeed's Bow	База из рецепта 311262510	lineageweaponstex.shyid_bow_t00_wp	8684	
-8808	Shyeed's Bow - Quick Recovery	Предметы/BOW/lrhand/физ.	Удалить СА	8684	Shyeed's Bow	База из рецепта 311262510	lineageweaponstex.shyid_bow_t00_wp	8684	
-8809	Sobekk's Hurricane - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	8685	Sobekk's Hurricane	База из рецепта 311262510	lineageweaponstex.sobekk_hurricane_t00_wp|lineageweaponstex.sobekk_hurricane_t00_wp	8685	
-8810	Sobekk's Hurricane - Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	8685	Sobekk's Hurricane	База из рецепта 311262510	lineageweaponstex.sobekk_hurricane_t00_wp|lineageweaponstex.sobekk_hurricane_t00_wp	8685	
-8811	Sobekk's Hurricane - Critical Drain	Предметы/DUALFIST/lrhand/физ.	Удалить СА	8685	Sobekk's Hurricane	База из рецепта 311262510	lineageweaponstex.sobekk_hurricane_t00_wp|lineageweaponstex.sobekk_hurricane_t00_wp	8685	
-8812	Themis' Tongue - Mana Up	Предметы/SWORD/rhand/маг.	Удалить СА	8686	Themis' Tongue	База из рецепта 311262510	lineageweaponstex.tongue_of_themis_t00_wp	8686	
-8813	Themis' Tongue - Magic Mental Shield	Предметы/SWORD/rhand/маг.	Удалить СА	8686	Themis' Tongue	База из рецепта 311262510	lineageweaponstex.tongue_of_themis_t00_wp	8686	
-8814	Themis' Tongue - Magic Focus	Предметы/SWORD/rhand/маг.	Удалить СА	8686	Themis' Tongue	База из рецепта 311262510	lineageweaponstex.tongue_of_themis_t00_wp	8686	
-8815	Cabrio's Hand - Conversion	Предметы/BLUNT/rhand/маг.	Удалить СА	8687	Cabrio's Hand	База из рецепта 311262510	lineageweaponstex.hand_of_cabrio_t00_wp	8687	
-8816	Cabrio's Hand - Mana Up	Предметы/BLUNT/rhand/маг.	Удалить СА	8687	Cabrio's Hand	База из рецепта 311262510	lineageweaponstex.hand_of_cabrio_t00_wp	8687	
-8817	Cabrio's Hand - Magic Silence	Предметы/BLUNT/rhand/маг.	Удалить СА	8687	Cabrio's Hand	База из рецепта 311262510	lineageweaponstex.hand_of_cabrio_t00_wp	8687	
-8818	Daimon Crystal - Mana Up	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	8688	Daimon Crystal	База из рецепта 311262510	lineageweaponstex.crystal_of_deamon_t00_wp	8688	
-8819	Daimon Crystal - Acumen	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	8688	Daimon Crystal	База из рецепта 311262510	lineageweaponstex.crystal_of_deamon_t00_wp	8688	
-8820	Daimon Crystal - Magic Mental Shield	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	8688	Daimon Crystal	База из рецепта 311262510	lineageweaponstex.crystal_of_deamon_t00_wp	8688	
+8689	Blood Sword Akamanah	Event	Оставить			Представитель текстуры	lineageweaponstex.aka_t00_wp|lineageweaponstex.manaf_t00_wp	8689	
+8763	Elrokian Trap	Предметы/BLUNT/rhand/физ.	Удалить Elrokian Trap			Удалить по требованию пользователя, без замены	lineageweaponstex.seize_mace_t00_wp		
+8788	Sirra's Blade - Haste	Предметы/SWORD/rhand/физ.	Удалить СА	8678	Sirra's Blade	База из рецепта 311262510	lineageweaponstex.sirr_blade_t00_wp		
+8789	Sirra's Blade - Health	Предметы/SWORD/rhand/физ.	Удалить СА	8678	Sirra's Blade	База из рецепта 311262510	lineageweaponstex.sirr_blade_t00_wp		
+8790	Sirra's Blade - Critical Poison	Предметы/SWORD/rhand/физ.	Удалить СА	8678	Sirra's Blade	База из рецепта 311262510	lineageweaponstex.sirr_blade_t00_wp		
+8791	Sword of Ipos - Focus	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	8679	Sword of Ipos	База из рецепта 311262510	lineageweaponstex.sword_of_ipos_t00_wp		
+8792	Sword of Ipos - Haste	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	8679	Sword of Ipos	База из рецепта 311262510	lineageweaponstex.sword_of_ipos_t00_wp		
+8793	Sword of Ipos - Health	Предметы/BIGSWORD/lrhand/физ.	Удалить СА	8679	Sword of Ipos	База из рецепта 311262510	lineageweaponstex.sword_of_ipos_t00_wp		
+8794	Barakiel's Axe - Health	Предметы/BLUNT/rhand/физ.	Удалить СА	8680	Barakiel's Axe	База из рецепта 311262510	lineageweaponstex.barakiel_axe_t00_wp		
+8795	Barakiel's Axe - Haste	Предметы/BLUNT/rhand/физ.	Удалить СА	8680	Barakiel's Axe	База из рецепта 311262510	lineageweaponstex.barakiel_axe_t00_wp		
+8796	Barakiel's Axe - Focus	Предметы/BLUNT/rhand/физ.	Удалить СА	8680	Barakiel's Axe	База из рецепта 311262510	lineageweaponstex.barakiel_axe_t00_wp		
+8797	Behemoth's Tuning Fork - Focus	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	8681	Behemoth's Tuning Fork	База из рецепта 311262510	lineageweaponstex.tuning_fork_of_behemoth_t00_wp		
+8798	Behemoth's Tuning Fork - Health	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	8681	Behemoth's Tuning Fork	База из рецепта 311262510	lineageweaponstex.tuning_fork_of_behemoth_t00_wp		
+8799	Behemoth's Tuning Fork - Anger	Предметы/BIGBLUNT/lrhand/физ.	Удалить СА	8681	Behemoth's Tuning Fork	База из рецепта 311262510	lineageweaponstex.tuning_fork_of_behemoth_t00_wp		
+8800	Naga Storm - Focus	Предметы/DAGGER/rhand/физ.	Удалить СА	8682	Naga Storm	База из рецепта 311262510	lineageweaponstex.naga_storm_t00_wp		
+8801	Naga Storm - Critical Damage	Предметы/DAGGER/rhand/физ.	Удалить СА	8682	Naga Storm	База из рецепта 311262510	lineageweaponstex.naga_storm_t00_wp		
+8802	Naga Storm - Back Blow	Предметы/DAGGER/rhand/физ.	Удалить СА	8682	Naga Storm	База из рецепта 311262510	lineageweaponstex.naga_storm_t00_wp		
+8803	Tiphon's Spear - Critical Stun	Предметы/POLE/lrhand/физ.	Удалить СА	8683	Tiphon's Spear	База из рецепта 311262510	lineageweaponstex.tiphon_spear_t00_wp		
+8804	Tiphon's Spear - Towering Blow	Предметы/POLE/lrhand/физ.	Удалить СА	8683	Tiphon's Spear	База из рецепта 311262510	lineageweaponstex.tiphon_spear_t00_wp		
+8805	Tiphon's Spear - Wild Blow	Предметы/POLE/lrhand/физ.	Удалить СА	8683	Tiphon's Spear	База из рецепта 311262510	lineageweaponstex.tiphon_spear_t00_wp		
+8806	Shyeed's Bow - Cheap Shot	Предметы/BOW/lrhand/физ.	Удалить СА	8684	Shyeed's Bow	База из рецепта 311262510	lineageweaponstex.shyid_bow_t00_wp		
+8807	Shyeed's Bow - Focus	Предметы/BOW/lrhand/физ.	Удалить СА	8684	Shyeed's Bow	База из рецепта 311262510	lineageweaponstex.shyid_bow_t00_wp		
+8808	Shyeed's Bow - Quick Recovery	Предметы/BOW/lrhand/физ.	Удалить СА	8684	Shyeed's Bow	База из рецепта 311262510	lineageweaponstex.shyid_bow_t00_wp		
+8809	Sobekk's Hurricane - Rsk. Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	8685	Sobekk's Hurricane	База из рецепта 311262510	lineageweaponstex.sobekk_hurricane_t00_wp|lineageweaponstex.sobekk_hurricane_t00_wp		
+8810	Sobekk's Hurricane - Haste	Предметы/DUALFIST/lrhand/физ.	Удалить СА	8685	Sobekk's Hurricane	База из рецепта 311262510	lineageweaponstex.sobekk_hurricane_t00_wp|lineageweaponstex.sobekk_hurricane_t00_wp		
+8811	Sobekk's Hurricane - Critical Drain	Предметы/DUALFIST/lrhand/физ.	Удалить СА	8685	Sobekk's Hurricane	База из рецепта 311262510	lineageweaponstex.sobekk_hurricane_t00_wp|lineageweaponstex.sobekk_hurricane_t00_wp		
+8812	Themis' Tongue - Mana Up	Предметы/SWORD/rhand/маг.	Удалить СА	8686	Themis' Tongue	База из рецепта 311262510	lineageweaponstex.tongue_of_themis_t00_wp		
+8813	Themis' Tongue - Magic Mental Shield	Предметы/SWORD/rhand/маг.	Удалить СА	8686	Themis' Tongue	База из рецепта 311262510	lineageweaponstex.tongue_of_themis_t00_wp		
+8814	Themis' Tongue - Magic Focus	Предметы/SWORD/rhand/маг.	Удалить СА	8686	Themis' Tongue	База из рецепта 311262510	lineageweaponstex.tongue_of_themis_t00_wp		
+8815	Cabrio's Hand - Conversion	Предметы/BLUNT/rhand/маг.	Удалить СА	8687	Cabrio's Hand	База из рецепта 311262510	lineageweaponstex.hand_of_cabrio_t00_wp		
+8816	Cabrio's Hand - Mana Up	Предметы/BLUNT/rhand/маг.	Удалить СА	8687	Cabrio's Hand	База из рецепта 311262510	lineageweaponstex.hand_of_cabrio_t00_wp		
+8817	Cabrio's Hand - Magic Silence	Предметы/BLUNT/rhand/маг.	Удалить СА	8687	Cabrio's Hand	База из рецепта 311262510	lineageweaponstex.hand_of_cabrio_t00_wp		
+8818	Daimon Crystal - Mana Up	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	8688	Daimon Crystal	База из рецепта 311262510	lineageweaponstex.crystal_of_deamon_t00_wp		
+8819	Daimon Crystal - Acumen	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	8688	Daimon Crystal	База из рецепта 311262510	lineageweaponstex.crystal_of_deamon_t00_wp		
+8820	Daimon Crystal - Magic Mental Shield	Предметы/BIGBLUNT/lrhand/маг.	Удалить СА	8688	Daimon Crystal	База из рецепта 311262510	lineageweaponstex.crystal_of_deamon_t00_wp		
 8821	Shadow Item: Two Handed Sword	Предметы/BIGSWORD/lrhand/физ.	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены	lineageweaponstex.twohanded_sword_t00_wp		
 8822	Shadow Item: Crimson Sword	Предметы/SWORD/rhand/физ.	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены	lineageweaponstex.crimson_sword_t00_wp		
 8823	Shadow Item: Spiked Club	Предметы/BLUNT/rhand/физ.	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены	lineageweaponstex.spike_club_t00_wp		
@@ -1310,7 +1310,7 @@
 9129	Shadow Item: Shield of Nightmare	Предметы/Щит/lhand/	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены	lineageweaponstex.shield_of_nightmare_t00_sh|lineageweaponstex.shield_of_nightmare_t01_sh		
 9136	Sword of Valakas (1-Handed)	NPC-кандидат/SWORD/rhand/физ.	Оставить			Представитель текстуры	lineagemonsterstex3.evilate_t00	9136	
 9137	Sword of Valakas (2-Handed)	NPC-кандидат/BIGSWORD/lrhand/физ.	Сохранить отдельный ID			До выбора поведения сохранить оба: 9137, 9136; пара для сравнения 9136	lineagemonsterstex3.evilate_t00	9136	
-9140	Salvation Bow	Предметы/BOW/lrhand/физ.	Оставить			Представитель текстуры	lineageweaponstex.krono_bow_t00_wp	9140	
+9140	Salvation Bow	Event	Оставить			Представитель текстуры	lineageweaponstex.krono_bow_t00_wp	9140	
 9141	Redemption Bow - Event Use	Предметы/BOW/lrhand/физ.	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены	lineageweaponstex.krono_bow_t00_wp		
 9376	Dynasty Rapier	Прочее/Не определён//физ.	Удалить из клиента			Серверного шаблона нет	ct1lineageweaponstex.dynasty_rapier_wp		
 9377	Dynasty Rapier	Прочее/Не определён//физ.	Удалить из клиента			Серверного шаблона нет	ct1lineageweaponstex.dynasty_rapier_wp		

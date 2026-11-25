@@ -148,8 +148,8 @@
 	</item>
 	<item id="2507" type="Weapon" name="Lizardspear">
 		<set name="default_action" val="equip" />
-		<set name="weapon_type" val="BOW" />
-		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
 		<set name="random_damage" val="5" />
 		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -160,6 +160,9 @@
 		<set name="price" val="409000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="5" />
 			<set stat="mAtk" val="5" />

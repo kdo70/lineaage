@@ -15,6 +15,7 @@ public class ListContainer
 	private final int _id;
 	
 	private boolean _applyTaxes;
+	private boolean _adminOnly;
 	private boolean _maintainEnchantment;
 	
 	protected List<Entry> _entries = new ArrayList<>();
@@ -30,6 +31,16 @@ public class ListContainer
 		return _entries;
 	}
 	
+	public final boolean isAdminOnly()
+	{
+		return _adminOnly;
+	}
+
+	public final void setAdminOnly(boolean adminOnly)
+	{
+		_adminOnly = adminOnly;
+	}
+
 	public final int getId()
 	{
 		return _id;

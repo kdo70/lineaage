@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.sf.l2j.Config;
+import net.sf.l2j.gameserver.data.xml.AdminData;
 import net.sf.l2j.gameserver.enums.FloodProtector;
 import net.sf.l2j.gameserver.model.Augmentation;
 import net.sf.l2j.gameserver.model.actor.Player;
@@ -54,7 +55,7 @@ public class MultiSellChoose extends L2GameClientPacket
 		}
 		
 		final PreparedListContainer list = player.getMultiSell();
-		if (list == null || list.getId() != _listId)
+		if (list == null || list.getId() != _listId || (list.isAdminOnly() && !AdminData.getInstance().hasAccess("admin_buy", player.getAccessLevel())))
 		{
 			player.setMultiSell(null);
 			return;
@@ -66,7 +67,7 @@ public class MultiSellChoose extends L2GameClientPacket
 			return;
 		}
 		
-		final Folk folk = player.getCurrentFolk();
+		final Folk folk = list.isAdminOnly() ? null : player.getCurrentFolk();
 		if ((folk != null && !list.isNpcAllowed(folk.getNpcId())) || (folk == null && list.isNpcOnly()))
 		{
 			player.setMultiSell(null);

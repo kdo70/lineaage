@@ -39,7 +39,6 @@ public class FirstClassChange extends Quest
 	private static final int MARK_OF_FAITH = 1201;
 	
 	// Reward Item
-	private static final int D_GRADE_COUPON = 8869;
 	
 	// Classes
 	private static final Map<String, int[]> CLASSES = new HashMap<>();
@@ -271,7 +270,6 @@ public class FirstClassChange extends Quest
 		});
 	}
 	
-	// Also used by ShadowWeapon script.
 	protected static final int[] FIRST_CLASS_NPCS =
 	{
 		30026,
@@ -337,7 +335,6 @@ public class FirstClassChange extends Quest
 						suffix = "-" + array[6];
 						
 						takeItems(player, array[7], 1);
-						giveItems(player, D_GRADE_COUPON, 15);
 						playSound(player, SOUND_FANFARE);
 						
 						player.setClassId(array[0]);

@@ -52,6 +52,7 @@ public class MultisellData implements IXmlReader
 		{
 			final NamedNodeMap attrs = listNode.getAttributes();
 			
+			list.setAdminOnly(parseBoolean(attrs, "adminOnly", false));
 			list.setApplyTaxes(parseBoolean(attrs, "applyTaxes", false));
 			list.setMaintainEnchantment(parseBoolean(attrs, "maintainEnchantment", false));
 			
@@ -89,7 +90,7 @@ public class MultisellData implements IXmlReader
 	public void separateAndSend(String listName, Player player, Npc npc, boolean inventoryOnly)
 	{
 		final ListContainer template = _entries.get(listName.hashCode());
-		if (template == null)
+		if (template == null || (template.isAdminOnly() && !AdminData.getInstance().hasAccess("admin_buy", player.getAccessLevel())))
 			return;
 		
 		if ((npc != null && !template.isNpcAllowed(npc.getNpcId())) || (npc == null && template.isNpcOnly()))

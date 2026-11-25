@@ -24,6 +24,7 @@ public class PreparedListContainer extends ListContainer
 		
 		setMaintainEnchantment(template.getMaintainEnchantment());
 		setApplyTaxes(false);
+		setAdminOnly(template.isAdminOnly());
 		
 		_npcsAllowed = template._npcsAllowed;
 		

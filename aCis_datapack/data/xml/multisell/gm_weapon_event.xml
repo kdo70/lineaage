@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list adminOnly="true">
+    <item>
+        <production id="4202" count="1" />
+    </item>
+    <item>
+        <production id="5133" count="1" />
+    </item>
+    <item>
+        <production id="5817" count="1" />
+    </item>
+    <item>
+        <production id="7058" count="1" />
+    </item>
+    <item>
+        <production id="8190" count="1" />
+    </item>
+    <item>
+        <production id="8350" count="1" />
+    </item>
+    <item>
+        <production id="8689" count="1" />
+    </item>
+    <item>
+        <production id="9140" count="1" />
+    </item>
+</list>

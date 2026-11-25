@@ -1046,6 +1046,9 @@
 		<set name="price" val="967000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="78" />
 			<set stat="mAtk" val="39" />
@@ -1068,6 +1071,9 @@
 		<set name="price" val="967000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="78" />
 			<set stat="mAtk" val="39" />
@@ -1090,6 +1096,9 @@
 		<set name="price" val="6130000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="156" />
 			<set stat="mAtk" val="83" />
@@ -1112,6 +1121,9 @@
 		<set name="price" val="6130000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="156" />
 			<set stat="mAtk" val="83" />
@@ -1134,6 +1146,9 @@
 		<set name="price" val="967000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="78" />
 			<set stat="mAtk" val="39" />
@@ -1156,6 +1171,9 @@
 		<set name="price" val="967000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="78" />
 			<set stat="mAtk" val="39" />
@@ -1178,6 +1196,9 @@
 		<set name="price" val="6130000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="156" />
 			<set stat="mAtk" val="83" />
@@ -1200,6 +1221,9 @@
 		<set name="price" val="6130000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="156" />
 			<set stat="mAtk" val="83" />
@@ -1216,6 +1240,9 @@
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1320" />
 		<set name="price" val="78400" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />

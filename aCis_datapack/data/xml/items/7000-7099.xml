@@ -132,6 +132,9 @@
 		<set name="material" val="DAMASCUS" />
 		<set name="weight" val="4800" />
 		<set name="price" val="845000" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />

@@ -92,22 +92,6 @@ public class Merchant extends Folk
 			
 			MultisellData.getInstance().separateAndSend(st.nextToken(), player, this, false);
 		}
-		else if (actualCommand.equalsIgnoreCase("Multisell_Shadow"))
-		{
-			final NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
-			
-			if (player.getStatus().getLevel() < 40)
-				html.setFile("data/html/common/shadow_item-lowlevel.htm");
-			else if (player.getStatus().getLevel() < 46)
-				html.setFile("data/html/common/shadow_item_mi_c.htm");
-			else if (player.getStatus().getLevel() < 52)
-				html.setFile("data/html/common/shadow_item_hi_c.htm");
-			else
-				html.setFile("data/html/common/shadow_item_b.htm");
-			
-			html.replace("%objectId%", getObjectId());
-			player.sendPacket(html);
-		}
 		else if (actualCommand.equalsIgnoreCase("Exc_Multisell"))
 		{
 			if (st.countTokens() < 1)

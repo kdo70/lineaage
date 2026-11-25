@@ -119,6 +119,9 @@
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="1" />
 		<set name="reuse_delay" val="1500" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="16" />
 			<set stat="mAtk" val="6" />
@@ -140,6 +143,9 @@
 		<set name="price" val="12500" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="11" />
 			<set stat="mAtk" val="12" />
@@ -160,6 +166,9 @@
 		<set name="price" val="136000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="24" />
 			<set stat="mAtk" val="17" />
@@ -179,6 +188,9 @@
 		<set name="price" val="136000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="24" />
 			<set stat="mAtk" val="17" />
@@ -202,6 +214,9 @@
 		<set name="price" val="4780000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="141" />
 			<set stat="mAtk" val="104" />
@@ -226,6 +241,9 @@
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="1" />
 		<set name="reuse_delay" val="1500" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="16" />
 			<set stat="mAtk" val="6" />
@@ -240,6 +258,9 @@
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1430" />
 		<set name="price" val="39" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
@@ -261,6 +282,9 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant4_skill" val="3045-14" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="236" />
 			<set stat="mAtk" val="99" />
@@ -284,6 +308,9 @@
 		<set name="price" val="1800000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="pAtk" val="112" />
 			<set stat="mAtk" val="54" />

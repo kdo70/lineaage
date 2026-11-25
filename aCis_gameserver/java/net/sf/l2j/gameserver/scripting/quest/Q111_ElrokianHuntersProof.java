@@ -91,8 +91,6 @@ public class Q111_ElrokianHuntersProof extends Quest
 		else if (event.equalsIgnoreCase("32116-007.htm"))
 		{
 			takeItems(player, PRACTICE_TRAP, 1);
-			giveItems(player, 8763, 1);
-			giveItems(player, 8764, 100);
 			rewardItems(player, 57, 1022636);
 			playSound(player, SOUND_FINISH);
 			st.exitQuest(false);

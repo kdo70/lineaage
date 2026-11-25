@@ -36,6 +36,9 @@
 		<set name="weight" val="1560" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="325" />
@@ -52,6 +55,9 @@
 		<set name="weight" val="1560" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="379" />
@@ -68,6 +74,9 @@
 		<set name="weight" val="1920" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<sub stat="accCombat" val="3" />
@@ -85,6 +94,9 @@
 		<set name="weight" val="2080" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="325" />
@@ -101,6 +113,9 @@
 		<set name="weight" val="1560" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="325" />
@@ -117,6 +132,9 @@
 		<set name="weight" val="1560" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<sub stat="accCombat" val="3" />
@@ -134,6 +152,9 @@
 		<set name="weight" val="1560" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="379" />
@@ -144,6 +165,9 @@
 		<set name="bodypart" val="lhand" />
 		<set name="material" val="DAMASCUS" />
 		<set name="weight" val="4800" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
@@ -161,6 +185,9 @@
 		<set name="weight" val="1560" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="379" />
@@ -177,6 +204,9 @@
 		<set name="weight" val="1570" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="4" />
 			<add stat="accCombat" val="4" />
@@ -194,6 +224,9 @@
 		<set name="weight" val="1570" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="4" />
 			<add stat="accCombat" val="4" />
@@ -211,6 +244,9 @@
 		<set name="weight" val="1920" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<sub stat="accCombat" val="3" />
@@ -228,6 +264,9 @@
 		<set name="weight" val="2090" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="325" />
@@ -244,6 +283,9 @@
 		<set name="weight" val="1350" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="4" />
 			<add stat="accCombat" val="4" />
@@ -261,6 +303,9 @@
 		<set name="weight" val="1560" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="379" />
@@ -277,6 +322,9 @@
 		<set name="weight" val="1570" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="4" />
 			<add stat="accCombat" val="4" />
@@ -294,6 +342,9 @@
 		<set name="weight" val="1560" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="379" />
@@ -312,6 +363,9 @@
 		<set name="spiritshots" val="1" />
 		<set name="mp_consume" val="1" />
 		<set name="reuse_delay" val="1500" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="12" />
 			<sub stat="accCombat" val="3" />
@@ -329,6 +383,9 @@
 		<set name="weight" val="1920" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<sub stat="accCombat" val="3" />
@@ -346,6 +403,9 @@
 		<set name="weight" val="1560" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
 		<for>
 			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="379" />

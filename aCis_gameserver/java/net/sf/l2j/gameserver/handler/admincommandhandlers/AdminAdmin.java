@@ -15,6 +15,7 @@ import net.sf.l2j.gameserver.data.manager.SpawnManager;
 import net.sf.l2j.gameserver.data.xml.AdminData;
 import net.sf.l2j.gameserver.data.xml.BoatData;
 import net.sf.l2j.gameserver.data.xml.RestartPointData;
+import net.sf.l2j.gameserver.data.xml.MultisellData;
 import net.sf.l2j.gameserver.data.xml.WalkerRouteData;
 import net.sf.l2j.gameserver.enums.TeleportMode;
 import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
@@ -91,7 +92,15 @@ public class AdminAdmin implements IAdminCommandHandler
 				
 				try
 				{
-					final NpcBuyList list = BuyListManager.getInstance().getBuyList(Integer.parseInt(st.nextToken()));
+					final String listName = st.nextToken();
+					if (listName.startsWith("gm_weapon_"))
+					{
+						MultisellData.getInstance().separateAndSend(listName, player, null, false);
+						sendFile(player, "gmshop/Weapons.htm");
+						return;
+					}
+
+					final NpcBuyList list = BuyListManager.getInstance().getBuyList(Integer.parseInt(listName));
 					if (list == null)
 					{
 						player.sendMessage("Invalid buylist id.");
