@@ -658,129 +658,130 @@
 8818	Daimon Crystal - Mana Up	Удалить СА		8688	Сохранить 8688	item_skill	3	0	0	0	0	
 8819	Daimon Crystal - Acumen	Удалить СА		8688	Сохранить 8688	item_skill	3	0	0	0	0	
 8820	Daimon Crystal - Magic Mental Shield	Удалить СА		8688	Сохранить 8688	item_skill, oncast_chance, oncast_skill	3	0	0	0	0	
-8821	Shadow Item: Two Handed Sword	Кандидат на объединение		124	Для временной выдачи оставить 8821; постоянный вариант 124 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8822	Shadow Item: Crimson Sword	Кандидат на объединение		127	Для временной выдачи оставить 8822; постоянный вариант 127 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8823	Shadow Item: Spiked Club	Кандидат на объединение		157	Для временной выдачи оставить 8823; постоянный вариант 157 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8824	Shadow Item: Staff of Magic	Кандидат на объединение		186	Для временной выдачи оставить 8824; постоянный вариант 186 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8825	Shadow Item: Kukuri	Кандидат на объединение		223	Для временной выдачи оставить 8825; постоянный вариант 223 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8826	Shadow Item: Dagger of Mana	Кандидат на объединение		238	Для временной выдачи оставить 8826; постоянный вариант 238 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8827	Shadow Item: Triple-Edged Jamadhr	Кандидат на объединение		260	Для временной выдачи оставить 8827; постоянный вариант 260 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8828	Shadow Item: Gastraphetes	Кандидат на объединение		278	Для временной выдачи оставить 8828; постоянный вариант 278 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8829	Shadow Item: War Hammer	Кандидат на объединение		293	Для временной выдачи оставить 8829; постоянный вариант 293 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8830	Shadow Item: Katana	Кандидат на объединение		74	Для временной выдачи оставить 8830; постоянный вариант 74 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8831	Shadow Item: Bec de Corbin	Кандидат на объединение		94	Для временной выдачи оставить 8831; постоянный вариант 94 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8832	Shadow Item: Cursed Staff	Кандидат на объединение		195	Для временной выдачи оставить 8832; постоянный вариант 195 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8833	Shadow Item: Stiletto	Кандидат на объединение		227	Для временной выдачи оставить 8833; постоянный вариант 227 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8834	Shadow Item: Soulfire Dirk	Кандидат на объединение		242	Для временной выдачи оставить 8834; постоянный вариант 242 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8835	Shadow Item: Elemental Bow	Кандидат на объединение		282	Для временной выдачи оставить 8835; постоянный вариант 282 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8836	Shadow Item: Dwarven War Hammer	Кандидат на объединение		2502	Для временной выдачи оставить 8836; постоянный вариант 2502 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8837	Shadow Item: Sword of Revolution	Кандидат на объединение		2558	Для временной выдачи оставить 8837; постоянный вариант 2558 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8838	Shadow Item: Knuckle Duster	Кандидат на объединение		4233	Для временной выдачи оставить 8838; постоянный вариант 4233 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8839	Shadow Item: Sword of Delusion	Кандидат на объединение		76	Для временной выдачи оставить 8839; постоянный вариант 76 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8840	Shadow Item: Poleaxe	Кандидат на объединение		95	Для временной выдачи оставить 8840; постоянный вариант 95 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8841	Shadow Item: Stick of Eternity	Кандидат на объединение		196	Для временной выдачи оставить 8841; постоянный вариант 196 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8842	Shadow Item: Inferno Staff	Кандидат на объединение		198	Для временной выдачи оставить 8842; постоянный вариант 198 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8843	Shadow Item: Pa'agrian Hammer	Кандидат на объединение		199	Для временной выдачи оставить 8843; постоянный вариант 199 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8844	Shadow Item: Dark Screamer	Кандидат на объединение		233	Для временной выдачи оставить 8844; постоянный вариант 233 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8845	Shadow Item: Akat Long Bow	Кандидат на объединение		283	Для временной выдачи оставить 8845; постоянный вариант 283 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8846	Shadow Item: Pa'agrian Sword	Кандидат на объединение		7882	Для временной выдачи оставить 8846; постоянный вариант 7882 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8847	Shadow Item: Fisted Blade	Кандидат на объединение		265	Для временной выдачи оставить 8847; постоянный вариант 265 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8848	Shadow Item: Stormbringer	Кандидат на объединение		2561	Для временной выдачи оставить 8848; постоянный вариант 2561 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8849	Shadow Item: Great Sword	Кандидат на объединение		78	Для временной выдачи оставить 8849; постоянный вариант 78 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8850	Shadow Item: Heavy War Axe	Кандидат на объединение		91	Для временной выдачи оставить 8850; постоянный вариант 91 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8851	Shadow Item: Sprite's Staff	Кандидат на объединение		92	Для временной выдачи оставить 8851; постоянный вариант 92 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8852	Shadow Item: Keshanberk	Кандидат на объединение		142	Для временной выдачи оставить 8852; постоянный вариант 142 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8853	Shadow Item: Sword of Valhalla	Кандидат на объединение		148	Для временной выдачи оставить 8853; постоянный вариант 148 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8854	Shadow Item: Kris	Кандидат на объединение		229	Для временной выдачи оставить 8854; постоянный вариант 229 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8855	Shadow Item: Arthro Nail	Кандидат на объединение		267	Для временной выдачи оставить 8855; постоянный вариант 267 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8856	Shadow Item: Dark Elven Long Bow	Кандидат на объединение		284	Для временной выдачи оставить 8856; постоянный вариант 284 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8857	Shadow Item: Swords of Delusion	Кандидат на объединение		2617	Для временной выдачи оставить 8857; постоянный вариант 2617 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8858	Shadow Item: Great Axe	Кандидат на объединение		300	Для временной выдачи оставить 8858; постоянный вариант 300 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8859	Shadow Item: Tallum Blade	Кандидат на объединение	да	80	Для временной выдачи оставить 8859; постоянный вариант 80 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8860	Shadow Item: Halberd	Кандидат на объединение	да	98	Для временной выдачи оставить 8860; постоянный вариант 98 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8861	Shadow Item: Dasparion's Staff	Кандидат на объединение	да	212	Для временной выдачи оставить 8861; постоянный вариант 212 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8862	Shadow Item: Bloody Orchid	Кандидат на объединение	да	235	Для временной выдачи оставить 8862; постоянный вариант 235 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8863	Shadow Item: Blood Tornado	Кандидат на объединение	да	269	Для временной выдачи оставить 8863; постоянный вариант 269 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8864	Shadow Item: Carnage Bow	Кандидат на объединение	да	288	Для временной выдачи оставить 8864; постоянный вариант 288 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8865	Shadow Item: Dual Keshanberk	Кандидат на объединение	да	5233	Для временной выдачи оставить 8865; постоянный вариант 5233 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8866	Shadow Item: Meteor Shower	Кандидат на объединение	да	2504	Для временной выдачи оставить 8866; постоянный вариант 2504 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8867	Shadow Item: Inferno Master	Кандидат на объединение	да	7884	Для временной выдачи оставить 8867; постоянный вариант 7884 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8926	Shadow Item: Sword of Delusion	Кандидат на объединение	да	76	Для временной выдачи оставить 8926; постоянный вариант 76 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8927	Shadow Item: Poleaxe	Кандидат на объединение	да	95	Для временной выдачи оставить 8927; постоянный вариант 95 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8928	Shadow Item: Stick of Eternity	Кандидат на объединение	да	196	Для временной выдачи оставить 8928; постоянный вариант 196 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8929	Shadow Item: Inferno Staff	Кандидат на объединение	да	198	Для временной выдачи оставить 8929; постоянный вариант 198 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8930	Shadow Item: Pa'agrian Hammer	Кандидат на объединение	да	199	Для временной выдачи оставить 8930; постоянный вариант 199 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8931	Shadow Item: Dark Screamer	Кандидат на объединение	да	233	Для временной выдачи оставить 8931; постоянный вариант 233 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8932	Shadow Item: Akat Long Bow	Кандидат на объединение	да	283	Для временной выдачи оставить 8932; постоянный вариант 283 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8933	Shadow Item: Pa'agrian Sword	Кандидат на объединение	да	7882	Для временной выдачи оставить 8933; постоянный вариант 7882 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8934	Shadow Item: Fisted Blade	Кандидат на объединение	да	265	Для временной выдачи оставить 8934; постоянный вариант 265 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8937	Shadow Item: Stormbringer	Кандидат на объединение	да	2561	Для временной выдачи оставить 8937; постоянный вариант 2561 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8972	Shadow Item: Long Spear	Кандидат на объединение	да	16	Для временной выдачи оставить 8972; постоянный вариант 16 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
-8973	Shadow Item: Falchion	Кандидат на объединение	да	68	Для временной выдачи оставить 8973; постоянный вариант 68 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
-8974	Shadow Item: Iron Hammer	Кандидат на объединение	да	87	Для временной выдачи оставить 8974; постоянный вариант 87 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
-8975	Shadow Item: Voodoo Doll	Кандидат на объединение	да	100	Для временной выдачи оставить 8975; постоянный вариант 100 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
-8976	Shadow Item: Buzdygan	Кандидат на объединение	да	155	Для временной выдачи оставить 8976; постоянный вариант 155 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
-8977	Shadow Item: Mage Staff	Кандидат на объединение	да	176	Для временной выдачи оставить 8977; постоянный вариант 176 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8978	Shadow Item: Sword Breaker	Кандидат на объединение	да	219	Для временной выдачи оставить 8978; постоянный вариант 219 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
-8979	Shadow Item: Viper's Fang	Кандидат на объединение	да	256	Для временной выдачи оставить 8979; постоянный вариант 256 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8980	Shadow Item: Composition Bow	Кандидат на объединение	да	273	Для временной выдачи оставить 8980; постоянный вариант 273 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
-8981	Shadow Item: Crucifix of Blessing	Кандидат на объединение	да	311	Для временной выдачи оставить 8981; постоянный вариант 311 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, weight	3	0	0	0	0	
-8982	Shadow Item: Two Handed Sword	Кандидат на объединение	да	124	Для временной выдачи оставить 8982; постоянный вариант 124 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8983	Shadow Item: Crimson Sword	Кандидат на объединение	да	127	Для временной выдачи оставить 8983; постоянный вариант 127 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8984	Shadow Item: Spiked Club	Кандидат на объединение	да	157	Для временной выдачи оставить 8984; постоянный вариант 157 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8985	Shadow Item: Staff of Magic	Кандидат на объединение	да	186	Для временной выдачи оставить 8985; постоянный вариант 186 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8986	Shadow Item: Kukuri	Кандидат на объединение	да	223	Для временной выдачи оставить 8986; постоянный вариант 223 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8987	Shadow Item: Dagger of Mana	Кандидат на объединение	да	238	Для временной выдачи оставить 8987; постоянный вариант 238 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8988	Shadow Item: Triple-Edged Jamadhr	Кандидат на объединение	да	260	Для временной выдачи оставить 8988; постоянный вариант 260 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8989	Shadow Item: Gastraphetes	Кандидат на объединение	да	278	Для временной выдачи оставить 8989; постоянный вариант 278 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8990	Shadow Item: War Hammer	Кандидат на объединение	да	293	Для временной выдачи оставить 8990; постоянный вариант 293 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8991	Shadow Item: Sword of Delusion	Кандидат на объединение	да	76	Для временной выдачи оставить 8991; постоянный вариант 76 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8992	Shadow Item: Poleaxe	Кандидат на объединение	да	95	Для временной выдачи оставить 8992; постоянный вариант 95 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8993	Shadow Item: Stick of Eternity	Кандидат на объединение	да	196	Для временной выдачи оставить 8993; постоянный вариант 196 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8994	Shadow Item: Inferno Staff	Кандидат на объединение	да	198	Для временной выдачи оставить 8994; постоянный вариант 198 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8995	Shadow Item: Pa'agrian Hammer	Кандидат на объединение	да	199	Для временной выдачи оставить 8995; постоянный вариант 199 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8996	Shadow Item: Dark Screamer	Кандидат на объединение	да	233	Для временной выдачи оставить 8996; постоянный вариант 233 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8997	Shadow Item: Akat Long Bow	Кандидат на объединение	да	283	Для временной выдачи оставить 8997; постоянный вариант 283 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8998	Shadow Item: Pa'agrian Sword	Кандидат на объединение	да	7882	Для временной выдачи оставить 8998; постоянный вариант 7882 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-8999	Shadow Item: Fisted Blade	Кандидат на объединение	да	265	Для временной выдачи оставить 8999; постоянный вариант 265 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9000	Shadow Item: Stormbringer*Stormbringer	Кандидат на объединение	да	2561	Для временной выдачи оставить 9000; постоянный вариант 2561 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9001	Shadow Item: Great Sword	Кандидат на объединение	да	78	Для временной выдачи оставить 9001; постоянный вариант 78 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9002	Shadow Item: Heavy War Axe	Кандидат на объединение	да	91	Для временной выдачи оставить 9002; постоянный вариант 91 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9003	Shadow Item: Sprite's Staff	Кандидат на объединение	да	92	Для временной выдачи оставить 9003; постоянный вариант 92 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9004	Shadow Item: Keshanberk	Кандидат на объединение	да	142	Для временной выдачи оставить 9004; постоянный вариант 142 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9005	Shadow Item: Sword of Valhalla	Кандидат на объединение	да	148	Для временной выдачи оставить 9005; постоянный вариант 148 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9006	Shadow Item: Kris	Кандидат на объединение	да	229	Для временной выдачи оставить 9006; постоянный вариант 229 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9007	Shadow Item: Arthro Nail	Кандидат на объединение	да	267	Для временной выдачи оставить 9007; постоянный вариант 267 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9008	Shadow Item: Dark Elven Long Bow	Кандидат на объединение	да	284	Для временной выдачи оставить 9008; постоянный вариант 284 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9009	Shadow Item: Sword of Delusion*Sword of Delusion	Кандидат на объединение	да	2617	Для временной выдачи оставить 9009; постоянный вариант 2617 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9010	Shadow Item: Great Axe	Кандидат на объединение	да	300	Для временной выдачи оставить 9010; постоянный вариант 300 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9011	Shadow Item: Tallum Blade	Кандидат на объединение	да	80	Для временной выдачи оставить 9011; постоянный вариант 80 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9012	Shadow Item: Halberd	Кандидат на объединение	да	98	Для временной выдачи оставить 9012; постоянный вариант 98 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9013	Shadow Item: Dasparion's Staff	Кандидат на объединение	да	212	Для временной выдачи оставить 9013; постоянный вариант 212 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9014	Shadow Item: Bloody Orchid	Кандидат на объединение	да	235	Для временной выдачи оставить 9014; постоянный вариант 235 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9015	Shadow Item: Blood Tornado	Кандидат на объединение	да	269	Для временной выдачи оставить 9015; постоянный вариант 269 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9016	Shadow Item: Carnage Bow	Кандидат на объединение	да	288	Для временной выдачи оставить 9016; постоянный вариант 288 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9017	Shadow Item: Keshanberk*Keshanberk	Кандидат на объединение	да	5233	Для временной выдачи оставить 9017; постоянный вариант 5233 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9018	Shadow Item: Meteor Shower	Кандидат на объединение	да	2504	Для временной выдачи оставить 9018; постоянный вариант 2504 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9019	Shadow Item: Inferno Master	Кандидат на объединение	да	7884	Для временной выдачи оставить 9019; постоянный вариант 7884 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9020	Shadow Item: Keshanberk*Damascus	Кандидат на объединение	да	5705	Для временной выдачи оставить 9020; постоянный вариант 5705 не воспроизводит срок	crystal_count, duration, enchant4_skill, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9021	Shadow Item: Dragon Slayer	Кандидат на объединение	да	81	Для временной выдачи оставить 9021; постоянный вариант 81 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9022	Shadow Item: Sword of Miracles	Кандидат на объединение	да	151	Для временной выдачи оставить 9022; постоянный вариант 151 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9023	Shadow Item: Elysian	Кандидат на объединение	да	164	Для временной выдачи оставить 9023; постоянный вариант 164 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9024	Shadow Item: Branch of the Mother Tree	Кандидат на объединение	да	213	Для временной выдачи оставить 9024; постоянный вариант 213 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9025	Shadow Item: Soul Separator	Кандидат на объединение	да	236	Для временной выдачи оставить 9025; постоянный вариант 236 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9026	Shadow Item: Dragon Grinder	Кандидат на объединение	да	270	Для временной выдачи оставить 9026; постоянный вариант 270 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9027	Shadow Item: Soul Bow	Кандидат на объединение	да	289	Для временной выдачи оставить 9027; постоянный вариант 289 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9028	Shadow Item: Tallum Glaive	Кандидат на объединение	да	305	Для временной выдачи оставить 9028; постоянный вариант 305 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9029	Shadow Item: Dark Legion	Кандидат на объединение	да	2500	Для временной выдачи оставить 9029; постоянный вариант 2500 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.mAtk, stat.pAtk, weight	3	0	0	0	0	
-9036	Shadow Item: Bone Shield	Кандидат на объединение		625	Для временной выдачи оставить 9036; постоянный вариант 625 не воспроизводит срок	duration, is_dropable, is_sellable, is_tradable, price, stat.sDef, weight	3	0	0	0	0	
-9044	Shadow Item: Hoplon	Кандидат на объединение		628	Для временной выдачи оставить 9044; постоянный вариант 628 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.sDef, weight	3	0	0	0	0	
-9056	Shadow Item: Composite Shield	Кандидат на объединение		107	Для временной выдачи оставить 9056; постоянный вариант 107 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.sDef, weight	3	0	0	0	0	
-9070	Shadow Item: Zubei's Shield	Кандидат на объединение		633	Для временной выдачи оставить 9070; постоянный вариант 633 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.sDef, weight	3	0	0	0	0	
-9084	Shadow Item: Dark Crystal Shield	Кандидат на объединение		641	Для временной выдачи оставить 9084; постоянный вариант 641 не воспроизводит срок	crystal_count, duration, is_dropable, is_sellable, is_tradable, price, stat.sDef, weight	3	0	0	0	0	
-9129	Shadow Item: Shield of Nightmare	Кандидат на объединение		634	Для временной выдачи оставить 9129; постоянный вариант 634 не воспроизводит срок	crystal_count, crystal_type, duration, is_sellable, is_tradable, material, price, stat.sDef, weight	3	0	0	0	0	
+8821	Shadow Item: Two Handed Sword	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8822	Shadow Item: Crimson Sword	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8823	Shadow Item: Spiked Club	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8824	Shadow Item: Staff of Magic	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8825	Shadow Item: Kukuri	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8826	Shadow Item: Dagger of Mana	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8827	Shadow Item: Triple-Edged Jamadhr	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8828	Shadow Item: Gastraphetes	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8829	Shadow Item: War Hammer	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8830	Shadow Item: Katana	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8831	Shadow Item: Bec de Corbin	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8832	Shadow Item: Cursed Staff	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8833	Shadow Item: Stiletto	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8834	Shadow Item: Soulfire Dirk	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8835	Shadow Item: Elemental Bow	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8836	Shadow Item: Dwarven War Hammer	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8837	Shadow Item: Sword of Revolution	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8838	Shadow Item: Knuckle Duster	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8839	Shadow Item: Sword of Delusion	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8840	Shadow Item: Poleaxe	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8841	Shadow Item: Stick of Eternity	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8842	Shadow Item: Inferno Staff	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8843	Shadow Item: Pa'agrian Hammer	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8844	Shadow Item: Dark Screamer	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8845	Shadow Item: Akat Long Bow	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8846	Shadow Item: Pa'agrian Sword	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8847	Shadow Item: Fisted Blade	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8848	Shadow Item: Stormbringer	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8849	Shadow Item: Great Sword	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8850	Shadow Item: Heavy War Axe	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8851	Shadow Item: Sprite's Staff	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8852	Shadow Item: Keshanberk	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8853	Shadow Item: Sword of Valhalla	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8854	Shadow Item: Kris	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8855	Shadow Item: Arthro Nail	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8856	Shadow Item: Dark Elven Long Bow	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8857	Shadow Item: Swords of Delusion	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8858	Shadow Item: Great Axe	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8859	Shadow Item: Tallum Blade	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8860	Shadow Item: Halberd	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8861	Shadow Item: Dasparion's Staff	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8862	Shadow Item: Bloody Orchid	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8863	Shadow Item: Blood Tornado	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8864	Shadow Item: Carnage Bow	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8865	Shadow Item: Dual Keshanberk	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8866	Shadow Item: Meteor Shower	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8867	Shadow Item: Inferno Master	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8926	Shadow Item: Sword of Delusion	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8927	Shadow Item: Poleaxe	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8928	Shadow Item: Stick of Eternity	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8929	Shadow Item: Inferno Staff	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8930	Shadow Item: Pa'agrian Hammer	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8931	Shadow Item: Dark Screamer	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8932	Shadow Item: Akat Long Bow	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8933	Shadow Item: Pa'agrian Sword	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8934	Shadow Item: Fisted Blade	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8935	Test Rapier	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8937	Shadow Item: Stormbringer	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8972	Shadow Item: Long Spear	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8973	Shadow Item: Falchion	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8974	Shadow Item: Iron Hammer	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8975	Shadow Item: Voodoo Doll	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8976	Shadow Item: Buzdygan	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8977	Shadow Item: Mage Staff	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8978	Shadow Item: Sword Breaker	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8979	Shadow Item: Viper's Fang	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8980	Shadow Item: Composition Bow	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8981	Shadow Item: Crucifix of Blessing	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8982	Shadow Item: Two Handed Sword	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8983	Shadow Item: Crimson Sword	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8984	Shadow Item: Spiked Club	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8985	Shadow Item: Staff of Magic	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8986	Shadow Item: Kukuri	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8987	Shadow Item: Dagger of Mana	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8988	Shadow Item: Triple-Edged Jamadhr	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8989	Shadow Item: Gastraphetes	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8990	Shadow Item: War Hammer	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8991	Shadow Item: Sword of Delusion	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8992	Shadow Item: Poleaxe	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8993	Shadow Item: Stick of Eternity	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8994	Shadow Item: Inferno Staff	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8995	Shadow Item: Pa'agrian Hammer	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8996	Shadow Item: Dark Screamer	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8997	Shadow Item: Akat Long Bow	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8998	Shadow Item: Pa'agrian Sword	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+8999	Shadow Item: Fisted Blade	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9000	Shadow Item: Stormbringer*Stormbringer	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9001	Shadow Item: Great Sword	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9002	Shadow Item: Heavy War Axe	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9003	Shadow Item: Sprite's Staff	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9004	Shadow Item: Keshanberk	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9005	Shadow Item: Sword of Valhalla	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9006	Shadow Item: Kris	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9007	Shadow Item: Arthro Nail	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9008	Shadow Item: Dark Elven Long Bow	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9009	Shadow Item: Sword of Delusion*Sword of Delusion	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9010	Shadow Item: Great Axe	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9011	Shadow Item: Tallum Blade	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9012	Shadow Item: Halberd	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9013	Shadow Item: Dasparion's Staff	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9014	Shadow Item: Bloody Orchid	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9015	Shadow Item: Blood Tornado	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9016	Shadow Item: Carnage Bow	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9017	Shadow Item: Keshanberk*Keshanberk	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9018	Shadow Item: Meteor Shower	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9019	Shadow Item: Inferno Master	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9020	Shadow Item: Keshanberk*Damascus	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9021	Shadow Item: Dragon Slayer	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9022	Shadow Item: Sword of Miracles	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9023	Shadow Item: Elysian	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9024	Shadow Item: Branch of the Mother Tree	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9025	Shadow Item: Soul Separator	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9026	Shadow Item: Dragon Grinder	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9027	Shadow Item: Soul Bow	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9028	Shadow Item: Tallum Glaive	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9029	Shadow Item: Dark Legion	Удалить теневой предмет	да		Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9036	Shadow Item: Bone Shield	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9044	Shadow Item: Hoplon	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9056	Shadow Item: Composite Shield	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9070	Shadow Item: Zubei's Shield	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9084	Shadow Item: Dark Crystal Shield	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
+9129	Shadow Item: Shield of Nightmare	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
 9137	Sword of Valakas (2-Handed)	Кандидат на объединение		9136	До выбора поведения сохранить оба: 9137, 9136	bodypart, crystal_type, damage_range, material, soulshots, spiritshots, stat.mAtk, stat.pAtk, stat.pAtkSpd, weapon_type, weight	3	0	0	0	0	
-9141	Redemption Bow - Event Use	Кандидат на объединение		9140	До выбора поведения сохранить оба: 9141, 9140	duration, equip_reuse_delay, item_skill, weight	3	0	0	0	0	
+9141	Redemption Bow - Event Use	Удалить теневой предмет			Удалить с сервера, из клиента и источников выдачи без предмета-замены		3	0	0	0	0	
 9376		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
 9377		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
 9378		Удалить из клиента	да		Серверного шаблона нет		3	0	0	0	0	
