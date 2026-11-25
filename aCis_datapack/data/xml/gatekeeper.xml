@@ -162,32 +162,32 @@
 <list>
 	<layout width="450" rowHeight="22" headerHeight="22" tabHeight="22" tabColumns="6" maxPages="10" pageHeight="390" ellipsis="...">
 		<table id="areas" overhead="100">
-			<column id="name" header="Location" width="150" maxChars="0" align="left" />
-			<column id="capital" header="Capital" width="90" maxChars="0" align="left" />
-			<column id="price" header="Price" width="90" maxChars="0" align="left" />
-			<column id="item" header="Item" width="80" maxChars="0" align="left" />
-			<column id="lvl" header="Level" width="40" maxChars="0" align="left" />
+			<column id="name" header="Локация" width="150" maxChars="0" align="left" />
+			<column id="capital" header="Столица" width="90" maxChars="0" align="left" />
+			<column id="price" header="Цена" width="90" maxChars="0" align="left" />
+			<column id="item" header="Валюта" width="80" maxChars="0" align="left" />
+			<column id="lvl" header="Ур." width="40" maxChars="0" align="left" />
 		</table>
 		<table id="mixed" overhead="100">
-			<column id="name" header="Location" width="150" maxChars="0" align="left" />
-			<column id="point" header="Point" width="90" maxChars="0" align="left" />
-			<column id="price" header="Price" width="90" maxChars="0" align="left" />
-			<column id="item" header="Item" width="80" maxChars="0" align="left" />
-			<column id="lvl" header="Level" width="40" maxChars="0" align="left" />
+			<column id="name" header="Локация" width="150" maxChars="0" align="left" />
+			<column id="point" header="Точка" width="90" maxChars="0" align="left" />
+			<column id="price" header="Цена" width="90" maxChars="0" align="left" />
+			<column id="item" header="Валюта" width="80" maxChars="0" align="left" />
+			<column id="lvl" header="Ур." width="40" maxChars="0" align="left" />
 		</table>
 		<table id="points" overhead="100">
-			<column id="name" header="Location" width="150" maxChars="0" align="left" />
-			<column id="point" header="Point" width="90" maxChars="0" align="left" />
-			<column id="price" header="Price" width="90" maxChars="0" align="left" />
-			<column id="item" header="Item" width="80" maxChars="0" align="left" />
-			<column id="lvl" header="Level" width="40" maxChars="0" align="left" />
+			<column id="name" header="Локация" width="150" maxChars="0" align="left" />
+			<column id="point" header="Точка" width="90" maxChars="0" align="left" />
+			<column id="price" header="Цена" width="90" maxChars="0" align="left" />
+			<column id="item" header="Валюта" width="80" maxChars="0" align="left" />
+			<column id="lvl" header="Ур." width="40" maxChars="0" align="left" />
 		</table>
 		<table id="popular" overhead="100">
-			<column id="name" header="Location" width="150" maxChars="0" align="left" />
-			<column id="point" header="Point" width="90" maxChars="0" align="left" />
-			<column id="price" header="Price" width="90" maxChars="0" align="left" />
-			<column id="item" header="Item" width="80" maxChars="0" align="left" />
-			<column id="lvl" header="Level" width="40" maxChars="0" align="left" />
+			<column id="name" header="Локация" width="150" maxChars="0" align="left" />
+			<column id="point" header="Точка" width="90" maxChars="0" align="left" />
+			<column id="price" header="Цена" width="90" maxChars="0" align="left" />
+			<column id="item" header="Валюта" width="80" maxChars="0" align="left" />
+			<column id="lvl" header="Ур." width="40" maxChars="0" align="left" />
 		</table>
 	</layout>
 
