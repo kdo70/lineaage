@@ -70,6 +70,7 @@ public class BuyListManager implements IXmlReader
 			final int buyListId = parseInteger(attrs, "id");
 			final NpcBuyList buyList = new NpcBuyList(buyListId);
 			buyList.setNpcId(parseInteger(attrs, "npcId"));
+			buyList.setGmWeapon(parseBoolean(attrs, "gmWeapon", false));
 			forEach(buyListNode, "product", productNode -> buyList.addProduct(new Product(buyListId, parseAttributes(productNode))));
 			_buyLists.put(buyListId, buyList);
 		}));

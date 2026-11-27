@@ -3,6 +3,7 @@ package net.sf.l2j.gameserver.network.clientpackets;
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.data.cache.HtmCache;
 import net.sf.l2j.gameserver.data.manager.BuyListManager;
+import net.sf.l2j.gameserver.data.xml.AdminData;
 import net.sf.l2j.gameserver.model.WorldObject;
 import net.sf.l2j.gameserver.model.actor.Npc;
 import net.sf.l2j.gameserver.model.actor.Player;
@@ -60,7 +61,7 @@ public final class RequestBuyItem extends L2GameClientPacket
 		
 		// We retrieve the buylist.
 		final NpcBuyList buyList = BuyListManager.getInstance().getBuyList(_listId);
-		if (buyList == null)
+		if (buyList == null || (buyList.isGmWeapon() && !AdminData.getInstance().hasAccess("admin_buy", player.getAccessLevel())))
 			return;
 		
 		double castleTaxRate = 0;

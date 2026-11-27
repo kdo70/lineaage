@@ -197,204 +197,44 @@
 	</item>
 	<!--Bastard Sword*Crimson Sword  -->
 	<!-- for Saber*Sword of Revolution -->
-	<item>
-		<production id="2523" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2529" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Crimson Sword -->
-	<item>
-		<production id="2551" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2529" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Elven Sword -->
-	<item>
-		<production id="2552" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2529" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Sword -->
-	<item>
-		<production id="2555" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2529" count="1"/>
-	</item>
 	<!--Bastard Sword*Elven Sword  -->
 	<!-- for Saber*Sword of Revolution -->
-	<item>
-		<production id="2523" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2530" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Crimson Sword -->
-	<item>
-		<production id="2551" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2530" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Elven Sword -->
-	<item>
-		<production id="2552" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2530" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Sword -->
-	<item>
-		<production id="2555" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2530" count="1"/>
-	</item>
 	<!--Spinebone Sword*Crimson Sword  -->
 	<!-- for Saber*Sword of Revolution -->
-	<item>
-		<production id="2523" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2536" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Crimson Sword -->
-	<item>
-		<production id="2551" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2536" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Elven Sword -->
-	<item>
-		<production id="2552" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2536" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Sword -->
-	<item>
-		<production id="2555" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2536" count="1"/>
-	</item>
 	<!--Spinebone Sword*Elven Sword  -->
 	<!-- for Saber*Sword of Revolution -->
-	<item>
-		<production id="2523" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2537" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Crimson Sword -->
-	<item>
-		<production id="2551" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2537" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Elven Sword -->
-	<item>
-		<production id="2552" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2537" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Sword -->
-	<item>
-		<production id="2555" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2537" count="1"/>
-	</item>
 	<!--Artisan's Sword*Crimson Sword  -->
 	<!-- for Saber*Sword of Revolution -->
-	<item>
-		<production id="2523" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2542" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Crimson Sword -->
-	<item>
-		<production id="2551" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2542" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Elven Sword -->
-	<item>
-		<production id="2552" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2542" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Sword -->
-	<item>
-		<production id="2555" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2542" count="1"/>
-	</item>
 	<!--Artisan's Sword*Elven Sword  -->
 	<!-- for Saber*Sword of Revolution -->
-	<item>
-		<production id="2523" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2543" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Crimson Sword -->
-	<item>
-		<production id="2551" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2543" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Elven Sword -->
-	<item>
-		<production id="2552" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2543" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Sword -->
-	<item>
-		<production id="2555" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2543" count="1"/>
-	</item>
 	<!--Knight's Sword*Crimson Sword  -->
 	<!-- for Saber*Sword of Revolution -->
-	<item>
-		<production id="2523" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2547" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Crimson Sword -->
-	<item>
-		<production id="2551" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2547" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Elven Sword -->
-	<item>
-		<production id="2552" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2547" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Sword -->
-	<item>
-		<production id="2555" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2547" count="1"/>
-	</item>
 	<!--Knight's Sword*Elven Sword  -->
 	<!-- for Saber*Sword of Revolution -->
-	<item>
-		<production id="2523" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2548" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Crimson Sword -->
-	<item>
-		<production id="2551" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2548" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Elven Sword -->
-	<item>
-		<production id="2552" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2548" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Sword -->
-	<item>
-		<production id="2555" count="1"/>
-		<ingredient id="5575" count="360000"/>
-		<ingredient id="2548" count="1"/>
-	</item>
 	<!--Morning Star  -->
 	<!-- for Bonebreaker -->
 	<item>
@@ -543,592 +383,112 @@
 	</item>
 	<!--Saber*Crimson Sword  -->
 	<!-- for Bastard Sword*Crimson Sword -->
-	<item>
-		<production id="2529" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2521" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Elven Sword -->
-	<item>
-		<production id="2530" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2521" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Crimson Sword -->
-	<item>
-		<production id="2536" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2521" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Sword -->
-	<item>
-		<production id="2537" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2521" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Crimson Sword -->
-	<item>
-		<production id="2542" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2521" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Sword -->
-	<item>
-		<production id="2543" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2521" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Crimson Sword -->
-	<item>
-		<production id="2547" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2521" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Sword -->
-	<item>
-		<production id="2548" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2521" count="1"/>
-	</item>
 	<!--Saber*Elven Sword  -->
 	<!-- for Bastard Sword*Crimson Sword -->
-	<item>
-		<production id="2529" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2522" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Elven Sword -->
-	<item>
-		<production id="2530" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2522" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Crimson Sword -->
-	<item>
-		<production id="2536" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2522" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Sword -->
-	<item>
-		<production id="2537" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2522" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Crimson Sword -->
-	<item>
-		<production id="2542" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2522" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Sword -->
-	<item>
-		<production id="2543" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2522" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Crimson Sword -->
-	<item>
-		<production id="2547" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2522" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Sword -->
-	<item>
-		<production id="2548" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2522" count="1"/>
-	</item>
 	<!--Bastard Sword*Bastard Sword  -->
 	<!-- for Bastard Sword*Crimson Sword -->
-	<item>
-		<production id="2529" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2525" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Elven Sword -->
-	<item>
-		<production id="2530" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2525" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Crimson Sword -->
-	<item>
-		<production id="2536" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2525" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Sword -->
-	<item>
-		<production id="2537" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2525" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Crimson Sword -->
-	<item>
-		<production id="2542" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2525" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Sword -->
-	<item>
-		<production id="2543" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2525" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Crimson Sword -->
-	<item>
-		<production id="2547" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2525" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Sword -->
-	<item>
-		<production id="2548" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2525" count="1"/>
-	</item>
 	<!--Bastard Sword*Spinebone Sword  -->
 	<!-- for Bastard Sword*Crimson Sword -->
-	<item>
-		<production id="2529" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2526" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Elven Sword -->
-	<item>
-		<production id="2530" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2526" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Crimson Sword -->
-	<item>
-		<production id="2536" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2526" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Sword -->
-	<item>
-		<production id="2537" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2526" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Crimson Sword -->
-	<item>
-		<production id="2542" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2526" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Sword -->
-	<item>
-		<production id="2543" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2526" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Crimson Sword -->
-	<item>
-		<production id="2547" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2526" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Sword -->
-	<item>
-		<production id="2548" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2526" count="1"/>
-	</item>
 	<!--Bastard Sword*Artisan's Sword  -->
 	<!-- for Bastard Sword*Crimson Sword -->
-	<item>
-		<production id="2529" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2527" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Elven Sword -->
-	<item>
-		<production id="2530" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2527" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Crimson Sword -->
-	<item>
-		<production id="2536" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2527" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Sword -->
-	<item>
-		<production id="2537" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2527" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Crimson Sword -->
-	<item>
-		<production id="2542" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2527" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Sword -->
-	<item>
-		<production id="2543" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2527" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Crimson Sword -->
-	<item>
-		<production id="2547" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2527" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Sword -->
-	<item>
-		<production id="2548" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2527" count="1"/>
-	</item>
 	<!--Bastard Sword*Knight's Sword  -->
 	<!-- for Bastard Sword*Crimson Sword -->
-	<item>
-		<production id="2529" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2528" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Elven Sword -->
-	<item>
-		<production id="2530" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2528" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Crimson Sword -->
-	<item>
-		<production id="2536" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2528" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Sword -->
-	<item>
-		<production id="2537" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2528" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Crimson Sword -->
-	<item>
-		<production id="2542" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2528" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Sword -->
-	<item>
-		<production id="2543" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2528" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Crimson Sword -->
-	<item>
-		<production id="2547" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2528" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Sword -->
-	<item>
-		<production id="2548" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2528" count="1"/>
-	</item>
 	<!--Spinebone Sword*Spinebone Sword  -->
 	<!-- for Bastard Sword*Crimson Sword -->
-	<item>
-		<production id="2529" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2533" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Elven Sword -->
-	<item>
-		<production id="2530" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2533" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Crimson Sword -->
-	<item>
-		<production id="2536" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2533" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Sword -->
-	<item>
-		<production id="2537" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2533" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Crimson Sword -->
-	<item>
-		<production id="2542" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2533" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Sword -->
-	<item>
-		<production id="2543" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2533" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Crimson Sword -->
-	<item>
-		<production id="2547" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2533" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Sword -->
-	<item>
-		<production id="2548" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2533" count="1"/>
-	</item>
 	<!--Spinebone Sword*Artisan's Sword  -->
 	<!-- for Bastard Sword*Crimson Sword -->
-	<item>
-		<production id="2529" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2534" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Elven Sword -->
-	<item>
-		<production id="2530" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2534" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Crimson Sword -->
-	<item>
-		<production id="2536" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2534" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Sword -->
-	<item>
-		<production id="2537" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2534" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Crimson Sword -->
-	<item>
-		<production id="2542" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2534" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Sword -->
-	<item>
-		<production id="2543" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2534" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Crimson Sword -->
-	<item>
-		<production id="2547" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2534" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Sword -->
-	<item>
-		<production id="2548" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2534" count="1"/>
-	</item>
 	<!--Spinebone Sword*Knight's Sword  -->
 	<!-- for Bastard Sword*Crimson Sword -->
-	<item>
-		<production id="2529" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2535" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Elven Sword -->
-	<item>
-		<production id="2530" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2535" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Crimson Sword -->
-	<item>
-		<production id="2536" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2535" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Sword -->
-	<item>
-		<production id="2537" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2535" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Crimson Sword -->
-	<item>
-		<production id="2542" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2535" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Sword -->
-	<item>
-		<production id="2543" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2535" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Crimson Sword -->
-	<item>
-		<production id="2547" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2535" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Sword -->
-	<item>
-		<production id="2548" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2535" count="1"/>
-	</item>
 	<!--Artisan's Sword*Artisan's Sword  -->
 	<!-- for Bastard Sword*Crimson Sword -->
-	<item>
-		<production id="2529" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2540" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Elven Sword -->
-	<item>
-		<production id="2530" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2540" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Crimson Sword -->
-	<item>
-		<production id="2536" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2540" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Sword -->
-	<item>
-		<production id="2537" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2540" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Crimson Sword -->
-	<item>
-		<production id="2542" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2540" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Sword -->
-	<item>
-		<production id="2543" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2540" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Crimson Sword -->
-	<item>
-		<production id="2547" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2540" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Sword -->
-	<item>
-		<production id="2548" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2540" count="1"/>
-	</item>
 	<!--Artisan's Sword*Knight's Sword  -->
 	<!-- for Bastard Sword*Crimson Sword -->
-	<item>
-		<production id="2529" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2541" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Elven Sword -->
-	<item>
-		<production id="2530" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2541" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Crimson Sword -->
-	<item>
-		<production id="2536" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2541" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Sword -->
-	<item>
-		<production id="2537" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2541" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Crimson Sword -->
-	<item>
-		<production id="2542" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2541" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Sword -->
-	<item>
-		<production id="2543" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2541" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Crimson Sword -->
-	<item>
-		<production id="2547" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2541" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Sword -->
-	<item>
-		<production id="2548" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2541" count="1"/>
-	</item>
 	<!--Knight's Sword*Knight's Sword  -->
 	<!-- for Bastard Sword*Crimson Sword -->
-	<item>
-		<production id="2529" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2546" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Elven Sword -->
-	<item>
-		<production id="2530" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2546" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Crimson Sword -->
-	<item>
-		<production id="2536" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2546" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Sword -->
-	<item>
-		<production id="2537" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2546" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Crimson Sword -->
-	<item>
-		<production id="2542" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2546" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Sword -->
-	<item>
-		<production id="2543" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2546" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Crimson Sword -->
-	<item>
-		<production id="2547" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2546" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Sword -->
-	<item>
-		<production id="2548" count="1"/>
-		<ingredient id="5575" count="312000"/>
-		<ingredient id="2546" count="1"/>
-	</item>
 	<!--Titan Sword  -->
 	<!-- for Claymore -->
 	<item>
@@ -1177,296 +537,56 @@
 	</item>
 	<!--Saber*Bastard Sword  -->
 	<!-- for Saber*Crimson Sword -->
-	<item>
-		<production id="2521" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2517" count="1"/>
-	</item>
 	<!-- for Saber*Elven Sword -->
-	<item>
-		<production id="2522" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2517" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Bastard Sword -->
-	<item>
-		<production id="2525" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2517" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Spinebone Sword -->
-	<item>
-		<production id="2526" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2517" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Artisan's Sword -->
-	<item>
-		<production id="2527" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2517" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Knight's Sword -->
-	<item>
-		<production id="2528" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2517" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Spinebone Sword -->
-	<item>
-		<production id="2533" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2517" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Artisan's Sword -->
-	<item>
-		<production id="2534" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2517" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Knight's Sword -->
-	<item>
-		<production id="2535" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2517" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Artisan's Sword -->
-	<item>
-		<production id="2540" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2517" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Knight's Sword -->
-	<item>
-		<production id="2541" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2517" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Knight's Sword -->
-	<item>
-		<production id="2546" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2517" count="1"/>
-	</item>
 	<!--Saber*Spinebone Sword  -->
 	<!-- for Saber*Crimson Sword -->
-	<item>
-		<production id="2521" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2518" count="1"/>
-	</item>
 	<!-- for Saber*Elven Sword -->
-	<item>
-		<production id="2522" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2518" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Bastard Sword -->
-	<item>
-		<production id="2525" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2518" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Spinebone Sword -->
-	<item>
-		<production id="2526" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2518" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Artisan's Sword -->
-	<item>
-		<production id="2527" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2518" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Knight's Sword -->
-	<item>
-		<production id="2528" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2518" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Spinebone Sword -->
-	<item>
-		<production id="2533" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2518" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Artisan's Sword -->
-	<item>
-		<production id="2534" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2518" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Knight's Sword -->
-	<item>
-		<production id="2535" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2518" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Artisan's Sword -->
-	<item>
-		<production id="2540" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2518" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Knight's Sword -->
-	<item>
-		<production id="2541" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2518" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Knight's Sword -->
-	<item>
-		<production id="2546" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2518" count="1"/>
-	</item>
 	<!--Saber*Artisan's Sword  -->
 	<!-- for Saber*Crimson Sword -->
-	<item>
-		<production id="2521" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2519" count="1"/>
-	</item>
 	<!-- for Saber*Elven Sword -->
-	<item>
-		<production id="2522" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2519" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Bastard Sword -->
-	<item>
-		<production id="2525" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2519" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Spinebone Sword -->
-	<item>
-		<production id="2526" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2519" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Artisan's Sword -->
-	<item>
-		<production id="2527" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2519" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Knight's Sword -->
-	<item>
-		<production id="2528" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2519" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Spinebone Sword -->
-	<item>
-		<production id="2533" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2519" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Artisan's Sword -->
-	<item>
-		<production id="2534" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2519" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Knight's Sword -->
-	<item>
-		<production id="2535" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2519" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Artisan's Sword -->
-	<item>
-		<production id="2540" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2519" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Knight's Sword -->
-	<item>
-		<production id="2541" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2519" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Knight's Sword -->
-	<item>
-		<production id="2546" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2519" count="1"/>
-	</item>
 	<!--Saber*Knight's Sword  -->
 	<!-- for Saber*Crimson Sword -->
-	<item>
-		<production id="2521" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2520" count="1"/>
-	</item>
 	<!-- for Saber*Elven Sword -->
-	<item>
-		<production id="2522" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2520" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Bastard Sword -->
-	<item>
-		<production id="2525" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2520" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Spinebone Sword -->
-	<item>
-		<production id="2526" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2520" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Artisan's Sword -->
-	<item>
-		<production id="2527" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2520" count="1"/>
-	</item>
 	<!-- for Bastard Sword*Knight's Sword -->
-	<item>
-		<production id="2528" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2520" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Spinebone Sword -->
-	<item>
-		<production id="2533" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2520" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Artisan's Sword -->
-	<item>
-		<production id="2534" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2520" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Knight's Sword -->
-	<item>
-		<production id="2535" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2520" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Artisan's Sword -->
-	<item>
-		<production id="2540" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2520" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Knight's Sword -->
-	<item>
-		<production id="2541" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2520" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Knight's Sword -->
-	<item>
-		<production id="2546" count="1"/>
-		<ingredient id="5575" count="408000"/>
-		<ingredient id="2520" count="1"/>
-	</item>
 	<!--Crimson Sword  -->
 	<!-- for Sword of Revolution -->
 	<item>
@@ -1663,29 +783,9 @@
 	</item>
 	<!--Saber*Saber  -->
 	<!-- for Saber*Bastard Sword -->
-	<item>
-		<production id="2517" count="1"/>
-		<ingredient id="5575" count="219600"/>
-		<ingredient id="2516" count="1"/>
-	</item>
 	<!-- for Saber*Spinebone Sword -->
-	<item>
-		<production id="2518" count="1"/>
-		<ingredient id="5575" count="219600"/>
-		<ingredient id="2516" count="1"/>
-	</item>
 	<!-- for Saber*Artisan's Sword -->
-	<item>
-		<production id="2519" count="1"/>
-		<ingredient id="5575" count="219600"/>
-		<ingredient id="2516" count="1"/>
-	</item>
 	<!-- for Saber*Knight's Sword -->
-	<item>
-		<production id="2520" count="1"/>
-		<ingredient id="5575" count="219600"/>
-		<ingredient id="2516" count="1"/>
-	</item>
 	<!--Bastard Sword  -->
 	<!-- for Crimson Sword -->
 	<item>
@@ -2154,273 +1254,53 @@
 	</item>
 	<!--Stormbringer*Shamshir  -->
 	<!-- for Shamshir*Shamshir -->
-	<item>
-		<production id="2572" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2562" count="1"/>
-	</item>
 	<!-- for Shamshir*Katana -->
-	<item>
-		<production id="2573" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2562" count="1"/>
-	</item>
 	<!-- for Shamshir*Spirit Sword -->
-	<item>
-		<production id="2574" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2562" count="1"/>
-	</item>
 	<!-- for Shamshir*Raid Sword -->
-	<item>
-		<production id="2575" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2562" count="1"/>
-	</item>
 	<!-- for Katana*Katana -->
-	<item>
-		<production id="2582" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2562" count="1"/>
-	</item>
 	<!-- for Katana*Spirit Sword -->
-	<item>
-		<production id="2583" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2562" count="1"/>
-	</item>
 	<!-- for Katana*Raid Sword -->
-	<item>
-		<production id="2584" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2562" count="1"/>
-	</item>
 	<!-- for Spirit Sword*Spirit Sword -->
-	<item>
-		<production id="2591" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2562" count="1"/>
-	</item>
 	<!-- for Spirit Sword*Raid Sword -->
-	<item>
-		<production id="2592" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2562" count="1"/>
-	</item>
 	<!-- for Raid Sword*Raid Sword -->
-	<item>
-		<production id="2599" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2562" count="1"/>
-	</item>
 	<!--Stormbringer*Katana  -->
 	<!-- for Shamshir*Shamshir -->
-	<item>
-		<production id="2572" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2563" count="1"/>
-	</item>
 	<!-- for Shamshir*Katana -->
-	<item>
-		<production id="2573" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2563" count="1"/>
-	</item>
 	<!-- for Shamshir*Spirit Sword -->
-	<item>
-		<production id="2574" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2563" count="1"/>
-	</item>
 	<!-- for Shamshir*Raid Sword -->
-	<item>
-		<production id="2575" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2563" count="1"/>
-	</item>
 	<!-- for Katana*Katana -->
-	<item>
-		<production id="2582" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2563" count="1"/>
-	</item>
 	<!-- for Katana*Spirit Sword -->
-	<item>
-		<production id="2583" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2563" count="1"/>
-	</item>
 	<!-- for Katana*Raid Sword -->
-	<item>
-		<production id="2584" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2563" count="1"/>
-	</item>
 	<!-- for Spirit Sword*Spirit Sword -->
-	<item>
-		<production id="2591" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2563" count="1"/>
-	</item>
 	<!-- for Spirit Sword*Raid Sword -->
-	<item>
-		<production id="2592" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2563" count="1"/>
-	</item>
 	<!-- for Raid Sword*Raid Sword -->
-	<item>
-		<production id="2599" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2563" count="1"/>
-	</item>
 	<!--Stormbringer*Spirit Sword  -->
 	<!-- for Shamshir*Shamshir -->
-	<item>
-		<production id="2572" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2564" count="1"/>
-	</item>
 	<!-- for Shamshir*Katana -->
-	<item>
-		<production id="2573" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2564" count="1"/>
-	</item>
 	<!-- for Shamshir*Spirit Sword -->
-	<item>
-		<production id="2574" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2564" count="1"/>
-	</item>
 	<!-- for Shamshir*Raid Sword -->
-	<item>
-		<production id="2575" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2564" count="1"/>
-	</item>
 	<!-- for Katana*Katana -->
-	<item>
-		<production id="2582" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2564" count="1"/>
-	</item>
 	<!-- for Katana*Spirit Sword -->
-	<item>
-		<production id="2583" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2564" count="1"/>
-	</item>
 	<!-- for Katana*Raid Sword -->
-	<item>
-		<production id="2584" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2564" count="1"/>
-	</item>
 	<!-- for Spirit Sword*Spirit Sword -->
-	<item>
-		<production id="2591" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2564" count="1"/>
-	</item>
 	<!-- for Spirit Sword*Raid Sword -->
-	<item>
-		<production id="2592" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2564" count="1"/>
-	</item>
 	<!-- for Raid Sword*Raid Sword -->
-	<item>
-		<production id="2599" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2564" count="1"/>
-	</item>
 	<!--Stormbringer*Raid Sword  -->
 	<!-- for Shamshir*Shamshir -->
-	<item>
-		<production id="2572" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2565" count="1"/>
-	</item>
 	<!-- for Shamshir*Katana -->
-	<item>
-		<production id="2573" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2565" count="1"/>
-	</item>
 	<!-- for Shamshir*Spirit Sword -->
-	<item>
-		<production id="2574" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2565" count="1"/>
-	</item>
 	<!-- for Shamshir*Raid Sword -->
-	<item>
-		<production id="2575" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2565" count="1"/>
-	</item>
 	<!-- for Katana*Katana -->
-	<item>
-		<production id="2582" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2565" count="1"/>
-	</item>
 	<!-- for Katana*Spirit Sword -->
-	<item>
-		<production id="2583" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2565" count="1"/>
-	</item>
 	<!-- for Katana*Raid Sword -->
-	<item>
-		<production id="2584" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2565" count="1"/>
-	</item>
 	<!-- for Spirit Sword*Spirit Sword -->
-	<item>
-		<production id="2591" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2565" count="1"/>
-	</item>
 	<!-- for Spirit Sword*Raid Sword -->
-	<item>
-		<production id="2592" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2565" count="1"/>
-	</item>
 	<!-- for Raid Sword*Raid Sword -->
-	<item>
-		<production id="2599" count="1"/>
-		<ingredient id="5575" count="1020000"/>
-		<ingredient id="2565" count="1"/>
-	</item>
 	<!--Stormbringer*Stormbringer  -->
 	<!-- for Stormbringer*Shamshir -->
-	<item>
-		<production id="2562" count="1"/>
-		<ingredient id="5575" count="600000"/>
-		<ingredient id="2561" count="1"/>
-	</item>
 	<!-- for Stormbringer*Katana -->
-	<item>
-		<production id="2563" count="1"/>
-		<ingredient id="5575" count="600000"/>
-		<ingredient id="2561" count="1"/>
-	</item>
 	<!-- for Stormbringer*Spirit Sword -->
-	<item>
-		<production id="2564" count="1"/>
-		<ingredient id="5575" count="600000"/>
-		<ingredient id="2561" count="1"/>
-	</item>
 	<!-- for Stormbringer*Raid Sword -->
-	<item>
-		<production id="2565" count="1"/>
-		<ingredient id="5575" count="600000"/>
-		<ingredient id="2561" count="1"/>
-	</item>
 	<!--Caliburs  -->
 	<!-- for Samurai Longsword -->
 	<item>
@@ -2839,11 +1719,6 @@
 	</item>
 	<!--Sword of Revolution*Elven Long Sword  -->
 	<!-- for Elven Long Sword*Elven Long Sword -->
-	<item>
-		<production id="2560" count="1"/>
-		<ingredient id="5575" count="576000"/>
-		<ingredient id="2559" count="1"/>
-	</item>
 	<!--Shamshir  -->
 	<!-- for Caliburs -->
 	<item>
@@ -3153,25 +2028,10 @@
 	</item>
 	<!--Crimson Sword*Elven Long Sword  -->
 	<!-- for Sword of Revolution*Elven Long Sword -->
-	<item>
-		<production id="2559" count="1"/>
-		<ingredient id="5575" count="564000"/>
-		<ingredient id="2554" count="1"/>
-	</item>
 	<!--Elven Sword*Elven Long Sword  -->
 	<!-- for Sword of Revolution*Elven Long Sword -->
-	<item>
-		<production id="2559" count="1"/>
-		<ingredient id="5575" count="564000"/>
-		<ingredient id="2557" count="1"/>
-	</item>
 	<!--Sword of Revolution*Sword of Revolution  -->
 	<!-- for Sword of Revolution*Elven Long Sword -->
-	<item>
-		<production id="2559" count="1"/>
-		<ingredient id="5575" count="564000"/>
-		<ingredient id="2558" count="1"/>
-	</item>
 	<!--Knuckle Duster  -->
 	<!-- for Fist Blade -->
 	<item>
@@ -3181,118 +2041,28 @@
 	</item>
 	<!--Bastard Sword*Elven Long Sword  -->
 	<!-- for Crimson Sword*Elven Long Sword -->
-	<item>
-		<production id="2554" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2532" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Long Sword -->
-	<item>
-		<production id="2557" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2532" count="1"/>
-	</item>
 	<!-- for Sword of Revolution*Sword of Revolution -->
-	<item>
-		<production id="2558" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2532" count="1"/>
-	</item>
 	<!--Spinebone Sword*Elven Long Sword  -->
 	<!-- for Crimson Sword*Elven Long Sword -->
-	<item>
-		<production id="2554" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2539" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Long Sword -->
-	<item>
-		<production id="2557" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2539" count="1"/>
-	</item>
 	<!-- for Sword of Revolution*Sword of Revolution -->
-	<item>
-		<production id="2558" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2539" count="1"/>
-	</item>
 	<!--Artisan's Sword*Elven Long Sword  -->
 	<!-- for Crimson Sword*Elven Long Sword -->
-	<item>
-		<production id="2554" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2545" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Long Sword -->
-	<item>
-		<production id="2557" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2545" count="1"/>
-	</item>
 	<!-- for Sword of Revolution*Sword of Revolution -->
-	<item>
-		<production id="2558" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2545" count="1"/>
-	</item>
 	<!--Knight's Sword*Elven Long Sword  -->
 	<!-- for Crimson Sword*Elven Long Sword -->
-	<item>
-		<production id="2554" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2550" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Long Sword -->
-	<item>
-		<production id="2557" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2550" count="1"/>
-	</item>
 	<!-- for Sword of Revolution*Sword of Revolution -->
-	<item>
-		<production id="2558" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2550" count="1"/>
-	</item>
 	<!--Crimson Sword*Sword of Revolution  -->
 	<!-- for Crimson Sword*Elven Long Sword -->
-	<item>
-		<production id="2554" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2553" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Long Sword -->
-	<item>
-		<production id="2557" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2553" count="1"/>
-	</item>
 	<!-- for Sword of Revolution*Sword of Revolution -->
-	<item>
-		<production id="2558" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2553" count="1"/>
-	</item>
 	<!--Elven Sword*Sword of Revolution  -->
 	<!-- for Crimson Sword*Elven Long Sword -->
-	<item>
-		<production id="2554" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2556" count="1"/>
-	</item>
 	<!-- for Elven Sword*Elven Long Sword -->
-	<item>
-		<production id="2557" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2556" count="1"/>
-	</item>
 	<!-- for Sword of Revolution*Sword of Revolution -->
-	<item>
-		<production id="2558" count="1"/>
-		<ingredient id="5575" count="480000"/>
-		<ingredient id="2556" count="1"/>
-	</item>
 	<!--Stormbringer  -->
 	<!-- for Shamshir -->
 	<item>
@@ -3456,41 +2226,11 @@
 	</item>
 	<!--Saber*Elven Long Sword  -->
 	<!-- for Bastard Sword*Elven Long Sword -->
-	<item>
-		<production id="2532" count="1"/>
-		<ingredient id="5575" count="216000"/>
-		<ingredient id="2524" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Long Sword -->
-	<item>
-		<production id="2539" count="1"/>
-		<ingredient id="5575" count="216000"/>
-		<ingredient id="2524" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Long Sword -->
-	<item>
-		<production id="2545" count="1"/>
-		<ingredient id="5575" count="216000"/>
-		<ingredient id="2524" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Long Sword -->
-	<item>
-		<production id="2550" count="1"/>
-		<ingredient id="5575" count="216000"/>
-		<ingredient id="2524" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Sword of Revolution -->
-	<item>
-		<production id="2553" count="1"/>
-		<ingredient id="5575" count="216000"/>
-		<ingredient id="2524" count="1"/>
-	</item>
 	<!-- for Elven Sword*Sword of Revolution -->
-	<item>
-		<production id="2556" count="1"/>
-		<ingredient id="5575" count="216000"/>
-		<ingredient id="2524" count="1"/>
-	</item>
 	<!--Mysterious Sword  -->
 	<!-- for Shamshir -->
 	<item>
@@ -3518,250 +2258,50 @@
 	</item>
 	<!--Bastard Sword*Sword of Revolution  -->
 	<!-- for Bastard Sword*Elven Long Sword -->
-	<item>
-		<production id="2532" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2531" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Long Sword -->
-	<item>
-		<production id="2539" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2531" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Long Sword -->
-	<item>
-		<production id="2545" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2531" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Long Sword -->
-	<item>
-		<production id="2550" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2531" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Sword of Revolution -->
-	<item>
-		<production id="2553" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2531" count="1"/>
-	</item>
 	<!-- for Elven Sword*Sword of Revolution -->
-	<item>
-		<production id="2556" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2531" count="1"/>
-	</item>
 	<!--Spinebone Sword*Sword of Revolution  -->
 	<!-- for Bastard Sword*Elven Long Sword -->
-	<item>
-		<production id="2532" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2538" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Long Sword -->
-	<item>
-		<production id="2539" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2538" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Long Sword -->
-	<item>
-		<production id="2545" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2538" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Long Sword -->
-	<item>
-		<production id="2550" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2538" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Sword of Revolution -->
-	<item>
-		<production id="2553" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2538" count="1"/>
-	</item>
 	<!-- for Elven Sword*Sword of Revolution -->
-	<item>
-		<production id="2556" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2538" count="1"/>
-	</item>
 	<!--Artisan's Sword*Sword of Revolution  -->
 	<!-- for Bastard Sword*Elven Long Sword -->
-	<item>
-		<production id="2532" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2544" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Long Sword -->
-	<item>
-		<production id="2539" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2544" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Long Sword -->
-	<item>
-		<production id="2545" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2544" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Long Sword -->
-	<item>
-		<production id="2550" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2544" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Sword of Revolution -->
-	<item>
-		<production id="2553" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2544" count="1"/>
-	</item>
 	<!-- for Elven Sword*Sword of Revolution -->
-	<item>
-		<production id="2556" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2544" count="1"/>
-	</item>
 	<!--Knight's Sword*Sword of Revolution  -->
 	<!-- for Bastard Sword*Elven Long Sword -->
-	<item>
-		<production id="2532" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2549" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Elven Long Sword -->
-	<item>
-		<production id="2539" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2549" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Elven Long Sword -->
-	<item>
-		<production id="2545" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2549" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Elven Long Sword -->
-	<item>
-		<production id="2550" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2549" count="1"/>
-	</item>
 	<!-- for Crimson Sword*Sword of Revolution -->
-	<item>
-		<production id="2553" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2549" count="1"/>
-	</item>
 	<!-- for Elven Sword*Sword of Revolution -->
-	<item>
-		<production id="2556" count="1"/>
-		<ingredient id="5575" count="420000"/>
-		<ingredient id="2549" count="1"/>
-	</item>
 	<!--Saber*Sword of Revolution  -->
 	<!-- for Bastard Sword*Sword of Revolution -->
-	<item>
-		<production id="2531" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2523" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Sword of Revolution -->
-	<item>
-		<production id="2538" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2523" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Sword of Revolution -->
-	<item>
-		<production id="2544" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2523" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Sword of Revolution -->
-	<item>
-		<production id="2549" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2523" count="1"/>
-	</item>
 	<!--Crimson Sword*Crimson Sword  -->
 	<!-- for Bastard Sword*Sword of Revolution -->
-	<item>
-		<production id="2531" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2551" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Sword of Revolution -->
-	<item>
-		<production id="2538" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2551" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Sword of Revolution -->
-	<item>
-		<production id="2544" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2551" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Sword of Revolution -->
-	<item>
-		<production id="2549" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2551" count="1"/>
-	</item>
 	<!--Crimson Sword*Elven Sword  -->
 	<!-- for Bastard Sword*Sword of Revolution -->
-	<item>
-		<production id="2531" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2552" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Sword of Revolution -->
-	<item>
-		<production id="2538" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2552" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Sword of Revolution -->
-	<item>
-		<production id="2544" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2552" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Sword of Revolution -->
-	<item>
-		<production id="2549" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2552" count="1"/>
-	</item>
 	<!--Elven Sword*Elven Sword  -->
 	<!-- for Bastard Sword*Sword of Revolution -->
-	<item>
-		<production id="2531" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2555" count="1"/>
-	</item>
 	<!-- for Spinebone Sword*Sword of Revolution -->
-	<item>
-		<production id="2538" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2555" count="1"/>
-	</item>
 	<!-- for Artisan's Sword*Sword of Revolution -->
-	<item>
-		<production id="2544" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2555" count="1"/>
-	</item>
 	<!-- for Knight's Sword*Sword of Revolution -->
-	<item>
-		<production id="2549" count="1"/>
-		<ingredient id="5575" count="192000"/>
-		<ingredient id="2555" count="1"/>
-	</item>
 </list>

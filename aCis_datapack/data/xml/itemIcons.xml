@@ -2398,69 +2398,20 @@
 	<item id="2514" icon="etc_spell_shot_gold_i00" />
 	<item id="2515" icon="etc_pouch_yellow_i00" />
 	<item id="2525" icon="weapon_dual_sword_i00" />
-	<item id="2526" icon="weapon_dual_sword_i00" />
-	<item id="2527" icon="weapon_dual_sword_i00" />
-	<item id="2528" icon="weapon_dual_sword_i00" />
-	<item id="2530" icon="weapon_dual_sword_i00" />
-	<item id="2531" icon="weapon_dual_sword_i00" />
-	<item id="2532" icon="weapon_dual_sword_i00" />
 	<item id="2533" icon="weapon_dual_sword_i00" />
-	<item id="2534" icon="weapon_dual_sword_i00" />
-	<item id="2535" icon="weapon_dual_sword_i00" />
-	<item id="2537" icon="weapon_dual_sword_i00" />
-	<item id="2538" icon="weapon_dual_sword_i00" />
-	<item id="2539" icon="weapon_dual_sword_i00" />
 	<item id="2540" icon="weapon_dual_sword_i00" />
-	<item id="2541" icon="weapon_dual_sword_i00" />
-	<item id="2543" icon="weapon_dual_sword_i00" />
-	<item id="2544" icon="weapon_dual_sword_i00" />
-	<item id="2545" icon="weapon_dual_sword_i00" />
 	<item id="2546" icon="weapon_dual_sword_i00" />
-	<item id="2548" icon="weapon_dual_sword_i00" />
-	<item id="2549" icon="weapon_dual_sword_i00" />
-	<item id="2550" icon="weapon_dual_sword_i00" />
-	<item id="2555" icon="weapon_dual_sword_i006" />
-	<item id="2556" icon="weapon_dual_sword_i006" />
-	<item id="2557" icon="weapon_dual_sword_i006" />
-	<item id="2558" icon="weapon_dual_sword_i00F" />
-	<item id="2559" icon="weapon_dual_sword_i00F" />
+	<item id="2555" icon="weapon_dual_sword_i00" />
+	<item id="2558" icon="weapon_dual_sword_i00" />
 	<item id="2560" icon="weapon_dual_sword_i00" />
-	<item id="2561" icon="weapon_dual_sword_i008" />
-	<item id="2564" icon="weapon_dual_sword_i008" />
-	<item id="2565" icon="weapon_dual_sword_i008" />
-	<item id="2566" icon="weapon_dual_sword_i008" />
-	<item id="2567" icon="weapon_dual_sword_i008" />
-	<item id="2569" icon="weapon_dual_sword_i008" />
-	<item id="2570" icon="weapon_dual_sword_i008" />
-	<item id="2571" icon="weapon_dual_sword_i008" />
+	<item id="2561" icon="weapon_dual_sword_i00" />
 	<item id="2591" icon="weapon_dual_sword_i00" />
-	<item id="2592" icon="weapon_dual_sword_i00" />
-	<item id="2593" icon="weapon_dual_sword_i00" />
-	<item id="2594" icon="weapon_dual_sword_i00" />
-	<item id="2596" icon="weapon_dual_sword_i00" />
-	<item id="2597" icon="weapon_dual_sword_i00" />
-	<item id="2598" icon="weapon_dual_sword_i00" />
-	<item id="2599" icon="weapon_dual_sword_i004" />
-	<item id="2600" icon="weapon_dual_sword_i004" />
-	<item id="2601" icon="weapon_dual_sword_i004" />
-	<item id="2603" icon="weapon_dual_sword_i004" />
-	<item id="2604" icon="weapon_dual_sword_i004" />
-	<item id="2605" icon="weapon_dual_sword_i004" />
-	<item id="2606" icon="weapon_dual_sword_i000" />
-	<item id="2607" icon="weapon_dual_sword_i000" />
-	<item id="2609" icon="weapon_dual_sword_i000" />
-	<item id="2610" icon="weapon_dual_sword_i000" />
-	<item id="2611" icon="weapon_dual_sword_i000" />
+	<item id="2599" icon="weapon_dual_sword_i00" />
+	<item id="2606" icon="weapon_dual_sword_i00" />
 	<item id="2612" icon="weapon_dual_sword_i00" />
-	<item id="2614" icon="weapon_dual_sword_i00" />
-	<item id="2615" icon="weapon_dual_sword_i00" />
-	<item id="2616" icon="weapon_dual_sword_i00" />
-	<item id="2621" icon="weapon_dual_sword_i00D" />
-	<item id="2622" icon="weapon_dual_sword_i00D" />
-	<item id="2623" icon="weapon_dual_sword_i00D" />
+	<item id="2621" icon="weapon_dual_sword_i00" />
 	<item id="2624" icon="weapon_dual_sword_i00" />
-	<item id="2625" icon="weapon_dual_sword_i00" />
-	<item id="2626" icon="weapon_dual_sword_i00B" />
+	<item id="2626" icon="weapon_dual_sword_i00" />
 	<item id="2627" icon="etc_jewel_silver_i00" />
 	<item id="2628" icon="etc_scroll_gray_i00" />
 	<item id="2629" icon="etc_eyeball_i00" />
@@ -4828,7 +4779,7 @@
 	<item id="5230" icon="etc_recipe_violet_i00" />
 	<item id="5231" icon="etc_recipe_blue_i00" />
 	<item id="5232" icon="etc_piece_of_cloth_white_i00" />
-	<item id="5233" icon="weapon_dual_sword_i002" />
+	<item id="5233" icon="weapon_dual_sword_i00" />
 	<item id="5234" icon="etc_potion_gold_i00" />
 	<item id="5235" icon="etc_lesser_potion_purple_i00" />
 	<item id="5236" icon="etc_lesser_potion_purple_i00" />
@@ -5245,8 +5196,7 @@
 	<item id="5701" icon="etc_codran_seed_i00" />
 	<item id="5702" icon="etc_codran_seed_i00" />
 	<item id="5703" icon="etc_charm_of_luck_i00" />
-	<item id="5705" icon="weapon_dual_sword_i002" />
-	<item id="5706" icon="weapon_dual_sword_i00B" />
+	<item id="5706" icon="weapon_dual_sword_i00" />
 	<item id="5707" icon="etc_ssq_scroll_i00" />
 	<item id="5708" icon="etc_permit_card_i00" />
 	<item id="5709" icon="armor_t64_g_i02" />
@@ -6102,7 +6052,6 @@
 	<item id="6577" icon="etc_blessed_scrl_of_ench_wp_s_i05" />
 	<item id="6578" icon="etc_blessed_scrl_of_ench_am_s_i05" />
 	<item id="6579" icon="weapon_arcana_mace_i00" />
-	<item id="6580" icon="weapon_dual_sword_i008" />
 	<item id="6611" icon="weapon_the_sword_of_hero_i00" />
 	<item id="6612" icon="weapon_the_two_handed_sword_of_hero_i00" />
 	<item id="6613" icon="weapon_the_axe_of_hero_i00" />
@@ -8219,7 +8168,6 @@
 	<item id="8924" icon="etc_ticket_red_i00" />
 	<item id="8925" icon="etc_ticket_blue_i00" />
 	<item id="8936" icon="accessory_santas_antler_i00" />
-	<item id="8938" icon="weapon_dual_sword_i008" />
 	<item id="8939" icon="etc_leash_i00" />
 	<item id="8940" icon="etc_jewel_green_i00" />
 	<item id="8941" icon="etc_jewel_gold_i00" />
@@ -8427,4 +8375,24 @@
 	<item id="9208" icon="accessary_mask_of_chaotic_i00" />
 
 	<!-- Raid boss book. It sits past the last id the client knows, so it survives a regeneration of this file - the extractor only ever writes what the client holds. -->
+	<item id="2516" icon="weapon_dual_sword_i00" />
+	<item id="2551" icon="weapon_dual_sword_i00" />
+	<item id="2572" icon="weapon_dual_sword_i00" />
+	<item id="2582" icon="weapon_dual_sword_i00" />
+	<item id="2617" icon="weapon_dual_sword_i00" />
+	<item id="9210" icon="weapon_dual_sword_i00" />
+	<item id="9211" icon="weapon_dual_sword_i00" />
+	<item id="9212" icon="weapon_dual_sword_i00" />
+	<item id="9213" icon="weapon_dual_sword_i00" />
+	<item id="9214" icon="weapon_dual_sword_i00" />
+	<item id="9215" icon="weapon_dual_sword_i00" />
+	<item id="9216" icon="weapon_dual_sword_i00" />
+	<item id="9217" icon="weapon_dual_sword_i00" />
+	<item id="9218" icon="weapon_dual_sword_i00" />
+	<item id="9219" icon="weapon_dual_sword_i00" />
+	<item id="9220" icon="weapon_dual_sword_i00" />
+	<item id="9221" icon="weapon_dual_sword_i00" />
+	<item id="9222" icon="weapon_dual_sword_i00" />
+	<item id="9223" icon="weapon_dual_sword_i00" />
+	<item id="9224" icon="weapon_dual_sword_i00" />
 </list>

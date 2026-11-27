@@ -15,7 +15,6 @@ import net.sf.l2j.gameserver.data.manager.SpawnManager;
 import net.sf.l2j.gameserver.data.xml.AdminData;
 import net.sf.l2j.gameserver.data.xml.BoatData;
 import net.sf.l2j.gameserver.data.xml.RestartPointData;
-import net.sf.l2j.gameserver.data.xml.MultisellData;
 import net.sf.l2j.gameserver.data.xml.WalkerRouteData;
 import net.sf.l2j.gameserver.enums.TeleportMode;
 import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
@@ -96,19 +95,12 @@ public class AdminAdmin implements IAdminCommandHandler
 					if (listName.equals("all"))
 					{
 						if (st.countTokens() != 1)
-							player.sendMessage("Usage: //buy all gm_weapon_list");
+							player.sendMessage("Usage: //buy all weaponBuyListId");
 						else
-							AdminWeaponGrant.give(player, st.nextToken());
+							AdminWeaponGrant.give(player, Integer.parseInt(st.nextToken()));
 						sendFile(player, "gmshop/Weapons.htm");
 						return;
 					}
-					if (listName.startsWith("gm_weapon_"))
-					{
-						MultisellData.getInstance().separateAndSend(listName, player, null, false);
-						sendFile(player, "gmshop/Weapons.htm");
-						return;
-					}
-
 					final NpcBuyList list = BuyListManager.getInstance().getBuyList(Integer.parseInt(listName));
 					if (list == null)
 					{

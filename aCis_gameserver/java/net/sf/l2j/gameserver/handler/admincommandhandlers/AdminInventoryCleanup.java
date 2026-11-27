@@ -1,14 +1,21 @@
 package net.sf.l2j.gameserver.handler.admincommandhandlers;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
+import net.sf.l2j.commons.pool.ConnectionPool;
+
+import net.sf.l2j.gameserver.enums.actors.OperateType;
 import net.sf.l2j.gameserver.data.manager.CursedWeaponManager;
 import net.sf.l2j.gameserver.enums.items.EtcItemType;
 import net.sf.l2j.gameserver.enums.items.ItemType;
 import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.actor.Player;
+import net.sf.l2j.gameserver.model.actor.Summon;
 import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
 import net.sf.l2j.gameserver.model.item.kind.Item;
 import net.sf.l2j.gameserver.network.serverpackets.ItemList;
@@ -81,10 +88,19 @@ final class AdminInventoryCleanup
 				admin.sendMessage("Inventory owner is offline or target changed. Reopen inventory cleanup.");
 				return;
 			}
-			if (owner.isProcessingTransaction() || owner.isOperating() || owner.isFishing())
+			if (category != Category.all && (owner.isProcessingTransaction() || owner.isOperating() || owner.isFishing()))
 			{
 				admin.sendMessage("Stop trading, shopping, crafting or fishing before clearing this inventory.");
 				return;
+			}
+			if (category == Category.all)
+			{
+				owner.cancelActiveTrade();
+				owner.cancelActiveEnchant();
+				if (owner.isOperating())
+					owner.setOperateType(OperateType.NONE);
+				if (owner.isFishing())
+					owner.getFishingStance().end(false);
 			}
 			int removed = 0;
 			int skipped = 0;
@@ -95,18 +111,26 @@ final class AdminInventoryCleanup
 					continue;
 				synchronized (item)
 				{
-					if (owner.isProcessingTransaction() || owner.isOperating() || owner.isFishing())
+					if (category != Category.all && (owner.isProcessingTransaction() || owner.isOperating() || owner.isFishing()))
 					{
 						admin.sendMessage("Inventory cleanup stopped: the owner is busy.");
 						break;
 					}
-					if (item.isSummonItem() || CursedWeaponManager.getInstance().isCursed(item.getItemId()) || item.getOwnerId() != ownerId || owner.getInventory().getItemByObjectId(item.getObjectId()) != item)
+					if (item.getOwnerId() != ownerId || owner.getInventory().getItemByObjectId(item.getObjectId()) != item
+						|| (category != Category.all && (item.isSummonItem() || CursedWeaponManager.getInstance().isCursed(item.getItemId()))))
 					{
 						skipped++;
 						continue;
 					}
 					final int count = item.getCount();
-					if (count > 0 && owner.destroyItem(item, count, false))
+					if (category == Category.all)
+					{
+						if (item.isSummonItem())
+							releasePet(owner, item.getObjectId());
+						if (owner.getCursedWeaponEquippedId() == item.getItemId())
+							CursedWeaponManager.getInstance().getCursedWeapon(item.getItemId()).endOfLife();
+					}
+					if (owner.getInventory().getItemByObjectId(item.getObjectId()) == null || owner.destroyItem(item, count, false))
 					{
 						removed++;
 						amount += count;
@@ -131,18 +155,48 @@ final class AdminInventoryCleanup
 		}
 	}
 
-	private static void show(Player admin, Player owner)
+	private static void releasePet(Player owner, int objectId)
 	{
-		final StringBuilder content = new StringBuilder("<html><title>Inventory cleanup</title><body><center>");
-		content.append("<button value=\"Item\" action=\"bypass -h admin_item\" width=75 height=21 back=\"L2UI_ch3.Btn1_normalOn\" fore=\"L2UI_ch3.Btn1_normal\"><br>Inventory: <font color=\"LEVEL\">").append(owner.getName()).append("</font><br>Deletes full stacks, including equipped items.<br>All includes adena and quest items.<br>Pet collars and cursed weapons are skipped.<br><table width=270>");
-		for (Category category : Category.values())
+		if (owner.isMounted() && owner.getMountObjectId() == objectId)
+			owner.dismount();
+
+		final Summon summon = owner.getSummon();
+		if (summon != null && summon.getControlItemId() == objectId)
+			summon.unSummon(owner);
+
+		try (Connection con = ConnectionPool.getConnection();
+			PreparedStatement statement = con.prepareStatement("DELETE FROM pets WHERE item_obj_id=?"))
 		{
-			final long count = owner.getInventory().getItems().stream().filter(item -> matches(category, item)).count();
-			content.append("<tr><td><button value=\"").append(category._label).append("\" action=\"bypass -h admin_item clear ").append(owner.getObjectId()).append(' ').append(category.name()).append("\" width=150 height=21 back=\"L2UI_ch3.Btn1_normalOn\" fore=\"L2UI_ch3.Btn1_normal\"></td><td>").append(count).append(" stacks</td></tr>");
+			statement.setInt(1, objectId);
+			statement.executeUpdate();
 		}
-		content.append("</table></center></body></html>");
+		catch (SQLException e)
+		{
+			IAdminCommandHandler.LOGGER.error("Couldn't delete pet record for item {}.", objectId, e);
+		}
+	}
+
+	static void show(Player admin, Player owner)
+	{
+		final StringBuilder buttons = new StringBuilder("<table width=240 cellpadding=0 cellspacing=0>");
+		final Category[] categories = Category.values();
+		for (int i = 0; i < categories.length; i++)
+		{
+			if (i % 2 == 0)
+				buttons.append("<tr>");
+			final Category category = categories[i];
+			buttons.append("<td width=120 height=25 align=center><button value=\"").append(category._label)
+				.append("\" action=\"bypass -h admin_item clear ").append(owner.getObjectId()).append(' ').append(category.name())
+				.append("\" width=112 height=20 back=\"sek.cbui94\" fore=\"sek.cbui92\"></td>");
+			if (i % 2 == 1)
+				buttons.append("</tr>");
+		}
+		buttons.append("</table>");
+
 		final NpcHtmlMessage html = new NpcHtmlMessage(0);
-		html.setHtml(content.toString());
+		html.setFile("data/html/admin/itemcreation.htm");
+		html.replace("%inventoryOwner%", owner.getName());
+		html.replace("%inventoryButtons%", buttons.toString());
 		admin.sendPacket(html);
 	}
 }

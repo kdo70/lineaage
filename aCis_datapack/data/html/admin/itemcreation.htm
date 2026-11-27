@@ -1,37 +1,34 @@
-<html><title>Items</title><body>
-	<table width=270>
-		<tr>
-			<td width=45><button value="Main" action="bypass -h admin_admin" width=45 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
-			<td width=180 align=center>Item Creation Menu</td>
-			<td width=45><button value="Back" action="bypass -h admin_admin" width=45 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
-		</tr>
-	</table><br>
-	Amount and radius are optional (1 and 0 by default). The radius is calculated using your position, and will reward all players around you (except you).<br>
-	<center>
-		<table width=270>
-			<tr>
-				<td></td>
-				<td>Id:</td>
-				<td>Amount:</td>
-				<td>Radius:</td>
-			</tr><tr>
-				<td><button value="Create Item" action="bypass -h admin_item $id $amount $radius" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
-				<td><edit var="id" width=75></td>
-				<td><edit var="amount" width=80 type=number></td>
-				<td><edit var="radius" width=40 type=number></td>
-			</tr><tr>
-				<td><button value="Create Coin" action="bypass -h admin_item coin $cb $amount $radius" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
-				<td><combobox width=75 height=17 var=cb list=Adena;Ancient;Festival;></td>
-				<td></td>
-				<td></td>
-			</tr>
-		</table><br>
-		<br>
-		<button value="Create Set" action="bypass -h admin_item set" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal">
-		<br><br>Inventory cleanup<br>
-		<table width=270><tr>
-		<td><button value="My inventory" action="bypass -h admin_item inventory self" width=125 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
-		<td><button value="Target inventory" action="bypass -h admin_item inventory target" width=125 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
-		</tr></table>
-	</center>
-</body></html>
+<html><title>Items</title><body><center>
+<table width=240 cellpadding=0 cellspacing=0>
+<tr><td width=42><button value="Main" action="bypass -h admin_admin" width=40 height=16 back="sek.cbui94" fore="sek.cbui92"></td><td width=156 align=center><font color="LEVEL">Create items</font></td><td width=42></td></tr>
+</table>
+<br1>
+<table width=240 cellpadding=0 cellspacing=0>
+<tr><td width=78 height=22 align=center>Item ID</td><td width=60 align=center>Amount</td><td width=52 align=center>Radius</td><td width=50></td></tr>
+<tr>
+<td align=center><edit var="id" width=62 type=number></td>
+<td align=center><edit var="amount" width=46 type=number></td>
+<td align=center><edit var="radius" width=36 type=number></td>
+<td align=center><button value="Create" action="bypass -h admin_item $id $amount $radius" width=48 height=20 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+</table>
+<br1>
+<table width=240 cellpadding=0 cellspacing=0>
+<tr>
+<td width=78 align=center><combobox width=65 height=17 var=cb list=Adena;Ancient;Festival;></td>
+<td width=81 align=center><button value="Create Coin" action="bypass -h admin_item coin $cb $amount $radius" width=76 height=20 back="sek.cbui94" fore="sek.cbui92"></td>
+<td width=81 align=center><button value="Create Set" action="bypass -h admin_item set" width=76 height=20 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+</table>
+<br1>
+<font color="AAAAAA">Defaults: amount 1, radius 0</font><br><br1>
+<font color="LEVEL">Clear inventory</font><br1>Owner: %inventoryOwner%<br><br1>
+<table width=240 cellpadding=0 cellspacing=0>
+<tr>
+<td width=120 align=center><button value="My items" action="bypass -h admin_item inventory self" width=112 height=20 back="sek.cbui94" fore="sek.cbui92"></td>
+<td width=120 align=center><button value="Target items" action="bypass -h admin_item inventory target" width=112 height=20 back="sek.cbui94" fore="sek.cbui92"></td>
+</tr>
+</table>
+<br1>
+%inventoryButtons%
+</center></body></html>

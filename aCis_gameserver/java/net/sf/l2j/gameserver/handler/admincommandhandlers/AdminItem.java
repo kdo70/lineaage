@@ -52,7 +52,7 @@ public class AdminItem implements IAdminCommandHandler
 		{
 			if (!st.hasMoreTokens())
 			{
-				sendFile(player, "itemcreation.htm");
+				AdminInventoryCleanup.show(player, player);
 				return;
 			}
 			
@@ -65,7 +65,7 @@ public class AdminItem implements IAdminCommandHandler
 				
 				createItem(player, targetPlayer, id, count, radius);
 				
-				sendFile(player, "itemcreation.htm");
+				AdminInventoryCleanup.show(player, player);
 			}
 			else
 			{
@@ -96,7 +96,7 @@ public class AdminItem implements IAdminCommandHandler
 						{
 							player.sendMessage("Usage: //item coin name [amount] [radius]");
 						}
-						sendFile(player, "itemcreation.htm");
+						AdminInventoryCleanup.show(player, player);
 						break;
 					
 					case "set":

@@ -13,6 +13,7 @@ public class NpcBuyList extends LinkedHashMap<Integer, Product>
 	private final int _listId;
 	
 	private int _npcId;
+	private boolean _gmWeapon;
 	
 	public NpcBuyList(int listId)
 	{
@@ -39,6 +40,16 @@ public class NpcBuyList extends LinkedHashMap<Integer, Product>
 		put(product.getItemId(), product);
 	}
 	
+	public boolean isGmWeapon()
+	{
+		return _gmWeapon;
+	}
+
+	public void setGmWeapon(boolean gmWeapon)
+	{
+		_gmWeapon = gmWeapon;
+	}
+
 	public boolean isNpcAllowed(int npcId)
 	{
 		return _npcId == npcId;

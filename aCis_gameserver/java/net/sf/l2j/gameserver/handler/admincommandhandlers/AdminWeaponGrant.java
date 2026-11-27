@@ -6,14 +6,13 @@ import java.util.List;
 import java.util.Map;
 
 import net.sf.l2j.gameserver.data.xml.AdminData;
-import net.sf.l2j.gameserver.data.xml.MultisellData;
+import net.sf.l2j.gameserver.data.manager.BuyListManager;
 import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
 import net.sf.l2j.gameserver.model.actor.Player;
+import net.sf.l2j.gameserver.model.buylist.NpcBuyList;
 import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
+import net.sf.l2j.gameserver.model.item.kind.Item;
 import net.sf.l2j.gameserver.model.item.kind.Weapon;
-import net.sf.l2j.gameserver.model.multisell.Entry;
-import net.sf.l2j.gameserver.model.multisell.Ingredient;
-import net.sf.l2j.gameserver.model.multisell.ListContainer;
 import net.sf.l2j.gameserver.network.serverpackets.ItemList;
 
 final class AdminWeaponGrant
@@ -54,12 +53,12 @@ final class AdminWeaponGrant
 		return new Plan(slots, weight, count);
 	}
 
-	static void give(Player player, String name)
+	static void give(Player player, int listId)
 	{
 		if (!AdminData.getInstance().hasAccess("admin_buy", player.getAccessLevel()))
 			return;
-		final ListContainer list = name.startsWith("gm_weapon_") ? MultisellData.getInstance().getList(name) : null;
-		if (list == null || !list.isAdminOnly() || list.isNpcOnly())
+		final NpcBuyList list = BuyListManager.getInstance().getBuyList(listId);
+		if (list == null || !list.isGmWeapon() || list.isEmpty())
 		{
 			player.sendMessage("Only GM weapon lists can be granted with All.");
 			return;
@@ -70,18 +69,10 @@ final class AdminWeaponGrant
 			return;
 		}
 		final List<Product> products = new ArrayList<>();
-		for (Entry entry : list.getEntries())
+		for (var product : list.values())
 		{
-			for (Ingredient product : entry.getProducts())
-			{
-				if (product.getTemplate() == null)
-				{
-					player.sendMessage("The list contains an invalid item. No items were granted.");
-					return;
-				}
-				final int enchant = product.getTemplate() instanceof Weapon ? 16 : product.getEnchantLevel();
-				products.add(new Product(product.getItemId(), product.getItemCount(), enchant, product.isStackable(), product.getWeight()));
-			}
+			final Item item = product.getItem();
+			products.add(new Product(item.getItemId(), 1, item instanceof Weapon ? 16 : 0, item.isStackable(), item.getWeight()));
 		}
 		final Map<Integer, Integer> existing = new HashMap<>();
 		for (ItemInstance item : player.getInventory().getItems())
@@ -110,12 +101,12 @@ final class AdminWeaponGrant
 			for (int i = 0; i < instances; i++)
 			{
 				final int amount = product.stackable() ? product.count() : 1;
-				// Match multisell delivery: create inventory items without pickup/equip side effects.
+				// Create inventory items without pickup/equip side effects.
 				final ItemInstance item = player.getInventory().addItem(product.id(), amount);
 				if (item == null)
 				{
 					player.sendMessage("Grant interrupted; received " + granted + " items. Check server logs before retrying.");
-					IAdminCommandHandler.LOGGER.warn("Admin {} grant {} interrupted after {} items", player.getName(), name, granted);
+					IAdminCommandHandler.LOGGER.warn("Admin {} grant {} interrupted after {} items", player.getName(), listId, granted);
 					player.sendPacket(new ItemList(player, false));
 					return;
 				}
@@ -125,7 +116,7 @@ final class AdminWeaponGrant
 			}
 		}
 		player.sendPacket(new ItemList(player, false));
-		player.sendMessage("Received " + granted + " items from all " + list.getEntries().size() + " entries of " + name + ".");
-		IAdminCommandHandler.LOGGER.info("Admin {} granted {} items from {} to own inventory", player.getName(), granted, name);
+		player.sendMessage("Received " + granted + " items from all " + list.size() + " entries of " + listId + ".");
+		IAdminCommandHandler.LOGGER.info("Admin {} granted {} items from {} to own inventory", player.getName(), granted, listId);
 	}
 }
