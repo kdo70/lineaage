@@ -10,5 +10,10 @@ CREATE TABLE IF NOT EXISTS `items` (
   `custom_type2` INT NOT NULL DEFAULT 0,
   `mana_left` INT NOT NULL DEFAULT -1,
   `time` BIGINT NOT NULL DEFAULT 0,
+  `equipment_skills` VARCHAR(219) NOT NULL DEFAULT '',
+  `equipment_name_color` INT NOT NULL DEFAULT -1,
+  `instance_title` VARCHAR(32) CHARACTER SET utf8mb4 NOT NULL DEFAULT '',
+  `first_owner_name` VARCHAR(35) CHARACTER SET utf8mb4 NOT NULL DEFAULT '',
+  `first_owned_at` BIGINT NOT NULL DEFAULT 0,
   PRIMARY KEY (`object_id`)
 );

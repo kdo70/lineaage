@@ -2,6 +2,7 @@ package net.sf.l2j.gameserver.taskmanager;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -21,7 +22,7 @@ public class ItemInstanceTaskManager implements Runnable
 {
 	private static final CLogger LOGGER = new CLogger(ItemInstanceTaskManager.class.getName());
 	
-	private static final String INSERT_ITEM = "INSERT INTO items (owner_id,object_id,item_id,count,enchant_level,loc,loc_data,custom_type1,custom_type2,mana_left,time) VALUES (?,?,?,?,?,?,?,?,?,?,?) ON DUPLICATE KEY UPDATE owner_id=VALUES(owner_id),count=VALUES(count),loc=VALUES(loc),loc_data=VALUES(loc_data),enchant_level=VALUES(enchant_level),custom_type1=VALUES(custom_type1),custom_type2=VALUES(custom_type2),mana_left=VALUES(mana_left),time=VALUES(time)";
+	private static final String INSERT_ITEM = "INSERT INTO items (owner_id,object_id,item_id,count,enchant_level,loc,loc_data,custom_type1,custom_type2,mana_left,time,equipment_skills,equipment_name_color,instance_title,first_owner_name,first_owned_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) ON DUPLICATE KEY UPDATE owner_id=VALUES(owner_id),count=VALUES(count),loc=VALUES(loc),loc_data=VALUES(loc_data),enchant_level=VALUES(enchant_level),custom_type1=VALUES(custom_type1),custom_type2=VALUES(custom_type2),mana_left=VALUES(mana_left),time=VALUES(time),equipment_skills=VALUES(equipment_skills),equipment_name_color=VALUES(equipment_name_color),instance_title=VALUES(instance_title),first_owner_name=VALUES(first_owner_name),first_owned_at=VALUES(first_owned_at)";
 	private static final String DELETE_ITEM = "DELETE FROM items WHERE object_id=?";
 	
 	private static final String DELETE_PET_ITEM = "DELETE FROM pets WHERE item_obj_id=?";
@@ -40,8 +41,7 @@ public class ItemInstanceTaskManager implements Runnable
 	@Override
 	public final void run()
 	{
-		// Run the database process, and clear the Set.
-		updateItems(_items);
+		save();
 	}
 	
 	/**
@@ -77,7 +77,7 @@ public class ItemInstanceTaskManager implements Runnable
 	 * Clear the {@link Set} afterwards.
 	 * @param items : The {@link Set} of {@link ItemInstance}s to affect.
 	 */
-	public void updateItems(Set<ItemInstance> items)
+	public synchronized void updateItems(Set<ItemInstance> items)
 	{
 		if (items.isEmpty())
 			return;
@@ -133,6 +133,11 @@ public class ItemInstanceTaskManager implements Runnable
 				ps1.setInt(8, item.getCustomType1());
 				ps1.setInt(9, item.getCustomType2());
 				ps1.setInt(10, item.getManaLeft());
+				ps1.setString(12, item.serializeEquipmentSkills());
+				ps1.setInt(13, item.getEquipmentNameColor());
+				ps1.setString(14, item.getInstanceTitle());
+				ps1.setString(15, item.getFirstOwnership().name());
+				ps1.setLong(16, item.getFirstOwnership().timestamp());
 				ps1.setLong(11, item.getTime());
 				ps1.addBatch();
 				
@@ -176,6 +181,7 @@ public class ItemInstanceTaskManager implements Runnable
 		catch (Exception e)
 		{
 			LOGGER.error("Couldn't manage items.", e);
+			_items.addAll(items);
 		}
 		
 		// Release all items.
@@ -185,9 +191,11 @@ public class ItemInstanceTaskManager implements Runnable
 	/**
 	 * Manually trigger the task. Used by shutdown process.
 	 */
-	public void save()
+	public synchronized void save()
 	{
-		updateItems(_items);
+		final Set<ItemInstance> pending = new HashSet<>(_items);
+		_items.removeAll(pending);
+		updateItems(pending);
 	}
 	
 	public static final ItemInstanceTaskManager getInstance()

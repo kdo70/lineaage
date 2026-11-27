@@ -32,12 +32,7 @@ public class AdminEnchant implements IAdminCommandHandler
 		{
 			try
 			{
-				final Paperdoll paperdoll = Paperdoll.getEnumByName(st.nextToken());
-				if (paperdoll == Paperdoll.NULL)
-				{
-					player.sendMessage("Unknown paperdoll slot.");
-					return;
-				}
+				final String selection = st.nextToken();
 				
 				final int enchant = Integer.parseInt(st.nextToken());
 				if (enchant < 0 || enchant > 65535)
@@ -48,10 +43,17 @@ public class AdminEnchant implements IAdminCommandHandler
 				
 				final Player targetPlayer = getTargetPlayer(player, true);
 				
-				final ItemInstance item = targetPlayer.getInventory().getItemFrom(paperdoll);
-				if (item == null)
+				final ItemInstance item;
+				if (selection.chars().allMatch(Character::isDigit))
+					item = targetPlayer.getInventory().getItemByObjectId(Integer.parseInt(selection));
+				else
 				{
-					player.sendMessage(targetPlayer.getName() + " doesn't wear any item in " + paperdoll + " slot.");
+					final Paperdoll paperdoll = Paperdoll.getEnumByName(selection);
+					item = paperdoll == Paperdoll.NULL ? null : targetPlayer.getInventory().getItemFrom(paperdoll);
+				}
+				if (item == null || !item.isEquipable())
+				{
+					player.sendMessage("No equipment found for that slot or object ID in " + targetPlayer.getName() + "'s inventory.");
 					return;
 				}
 				
@@ -65,7 +67,7 @@ public class AdminEnchant implements IAdminCommandHandler
 					return;
 				}
 				
-				item.setEnchantLevel(enchant, player);
+				item.setEnchantLevel(enchant, targetPlayer);
 				
 				// If item is equipped, verify the skill obtention/drop (+4 duals, +6 armorset).
 				if (item.isEquipped())
@@ -155,7 +157,7 @@ public class AdminEnchant implements IAdminCommandHandler
 		}
 		else
 		{
-			player.sendMessage("Usage: //enchant slot enchant");
+			player.sendMessage("Usage: //enchant <slot or object ID> <enchant level>");
 			player.sendMessage("Slots: under|lear|rear|neck|lfinger|rfinger|head|rhand|lhand");
 			player.sendMessage("Slots: gloves|chest|legs|feet|cloak|face|hair|hairall");
 		}

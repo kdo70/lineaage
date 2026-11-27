@@ -132,6 +132,8 @@ public final class Say2 extends L2GameClientPacket
 		}
 		
 		_text = _text.replaceAll("\\\\n", "");
+		if (_text.contains(net.sf.l2j.gameserver.data.EquipmentItemInfo.TAG))
+			return;
 		
 		final IChatHandler handler = ChatHandler.getInstance().getHandler(type);
 		if (handler == null)

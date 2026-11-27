@@ -218,6 +218,7 @@ public class EnterWorld extends L2GameClientPacket
 		player.getQuestList().getQuests(Quest::isTriggeredOnEnterWorld).forEach(q -> q.onEnterWorld(player));
 		
 		player.sendPacket(new QuestList(player));
+		player.refreshEquipmentSkills();
 		player.sendPacket(new SkillList(player));
 		player.sendPacket(new FriendList(player));
 		player.sendPacket(new UserInfo(player));

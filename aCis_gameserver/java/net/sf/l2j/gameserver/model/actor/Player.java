@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -261,6 +262,8 @@ public final class Player extends Playable
 	
 	private GameClient _client;
 	private final Map<Integer, String> _chars = new HashMap<>();
+	private final Map<Integer, L2Skill> _equipmentGrantedSkills = new HashMap<>();
+	private final Map<Integer, L2Skill> _equipmentReplacedSkills = new HashMap<>();
 	
 	private final String _accountName;
 	private long _deleteTimer;
@@ -4557,6 +4560,58 @@ public final class Player extends Playable
 	 * @param updateShortcuts : If true, we refresh all shortcuts associated to that skill (should be only called when skill upgrades, either manually or by trainer).
 	 * @return true if the skill has been successfully added.
 	 */
+	public void refreshEquipmentSkills()
+	{
+		synchronized (getInventory())
+		{
+			final Map<Integer, L2Skill> desired = new HashMap<>();
+			for (ItemInstance item : getInventory().getPaperdollItems())
+			{
+				for (L2Skill skill : item.getEquipmentSkills())
+					desired.merge(skill.getId(), skill, (first, second) -> first.getLevel() >= second.getLevel() ? first : second);
+			}
+
+			boolean changed = false;
+			final Set<Integer> ids = new HashSet<>(_equipmentGrantedSkills.keySet());
+			ids.addAll(desired.keySet());
+			for (int id : ids)
+			{
+				final L2Skill previous = _equipmentGrantedSkills.get(id);
+				final L2Skill current = getSkill(id);
+				final L2Skill original = previous != null && current == previous ? _equipmentReplacedSkills.get(id) : current;
+				final L2Skill itemSkill = desired.get(id);
+				if (itemSkill != null && (original == null || itemSkill.getLevel() > original.getLevel()))
+				{
+					_equipmentGrantedSkills.put(id, itemSkill);
+					_equipmentReplacedSkills.put(id, original);
+					if (addSkill(itemSkill, false))
+					{
+						changed = true;
+						if (itemSkill.isActive() && itemSkill.getEquipDelay() > 0 && !_reuseTimeStamps.containsKey(itemSkill.getReuseHashCode()))
+						{
+							addTimeStamp(itemSkill, itemSkill.getEquipDelay());
+							disableSkill(itemSkill, itemSkill.getEquipDelay());
+							sendPacket(new net.sf.l2j.gameserver.network.serverpackets.SkillCoolTime(this));
+						}
+					}
+					continue;
+				}
+
+				_equipmentGrantedSkills.remove(id);
+				_equipmentReplacedSkills.remove(id);
+				if (previous == null || current != previous)
+					continue;
+
+				removeSkill(id, false);
+				if (original != null)
+					addSkill(original, false);
+				changed = true;
+			}
+			if (changed)
+				sendPacket(new SkillList(this));
+		}
+	}
+
 	public boolean addSkill(L2Skill newSkill, boolean store, boolean updateShortcuts)
 	{
 		// New skill is null, abort.
@@ -5882,6 +5937,8 @@ public final class Player extends Playable
 			if (_summon instanceof Servitor)
 				_summon.unSummon(this);
 			
+			_equipmentGrantedSkills.clear();
+			_equipmentReplacedSkills.clear();
 			for (final L2Skill skill : getSkills().values())
 				removeSkill(skill.getId(), false);
 			
@@ -5901,6 +5958,7 @@ public final class Player extends Playable
 			
 			// Prevents some issues when changing between subclases that shares skills
 			getDisabledSkills().clear();
+			refreshEquipmentSkills();
 			
 			restoreEffects();
 			updateEffectIcons();

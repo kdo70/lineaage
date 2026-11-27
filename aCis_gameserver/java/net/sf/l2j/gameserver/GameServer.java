@@ -22,6 +22,7 @@ import net.sf.l2j.commons.util.SysUtil;
 
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.communitybbs.CommunityBoard;
+import net.sf.l2j.gameserver.data.EquipmentItemInfo;
 import net.sf.l2j.gameserver.data.SkillTable;
 import net.sf.l2j.gameserver.data.cache.CrestCache;
 import net.sf.l2j.gameserver.data.cache.HtmCache;
@@ -139,6 +140,7 @@ public class GameServer
 		
 		StringUtil.printSection("Poolers");
 		ConnectionPool.init();
+		EquipmentItemInfo.ensureSchema();
 		ThreadPool.init();
 		
 		StringUtil.printSection("IdFactory");

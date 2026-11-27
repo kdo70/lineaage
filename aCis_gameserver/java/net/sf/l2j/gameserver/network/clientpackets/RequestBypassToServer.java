@@ -10,6 +10,7 @@ import net.sf.l2j.gameserver.communitybbs.CommunityBoard;
 import net.sf.l2j.gameserver.data.manager.HeroManager;
 import net.sf.l2j.gameserver.data.xml.AdminData;
 import net.sf.l2j.gameserver.enums.FloodProtector;
+import net.sf.l2j.gameserver.data.EquipmentItemInfo;
 import net.sf.l2j.gameserver.handler.AdminCommandHandler;
 import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
 import net.sf.l2j.gameserver.model.World;
@@ -48,7 +49,9 @@ public final class RequestBypassToServer extends L2GameClientPacket
 		if (player == null)
 			return;
 		
-		if (_command.startsWith("ls_remove "))
+		if (_command.startsWith(EquipmentItemInfo.BYPASS))
+			EquipmentItemInfo.request(player, _command.substring(EquipmentItemInfo.BYPASS.length()));
+		else if (_command.startsWith("ls_remove "))
 			LifeStoneWindow.remove(player, _command);
 		else if (_command.startsWith("ls_page "))
 			LifeStoneWindow.page(player, _command);

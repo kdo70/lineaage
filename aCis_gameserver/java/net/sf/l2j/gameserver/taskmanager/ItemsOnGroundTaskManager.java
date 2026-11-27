@@ -26,9 +26,9 @@ public final class ItemsOnGroundTaskManager implements Runnable
 {
 	private static final CLogger LOGGER = new CLogger(ItemsOnGroundTaskManager.class.getName());
 	
-	private static final String LOAD_ITEMS = "SELECT object_id,item_id,count,enchant_level,x,y,z,time FROM items_on_ground";
+	private static final String LOAD_ITEMS = "SELECT object_id,item_id,count,enchant_level,x,y,z,time,equipment_skills,equipment_name_color,instance_title,first_owner_name,first_owned_at FROM items_on_ground";
 	private static final String TRUNCATE_ITEMS = "TRUNCATE items_on_ground";
-	private static final String SAVE_ITEMS = "INSERT INTO items_on_ground(object_id,item_id,count,enchant_level,x,y,z,time) VALUES(?,?,?,?,?,?,?,?)";
+	private static final String SAVE_ITEMS = "INSERT INTO items_on_ground(object_id,item_id,count,enchant_level,x,y,z,time,equipment_skills,equipment_name_color,instance_title,first_owner_name,first_owned_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)";
 	
 	private final Map<ItemInstance, Long> _items = new ConcurrentHashMap<>();
 	
@@ -50,6 +50,8 @@ public final class ItemsOnGroundTaskManager implements Runnable
 			{
 				// Create new item and spawn it in the world.
 				final ItemInstance item = new ItemInstance(rs.getInt(1), rs.getInt(2), rs.getInt(3), rs.getInt(4));
+				item.restoreEquipmentData(rs.getString(9), rs.getInt(10));
+				item.restoreItemProfile(rs.getString(11), rs.getString(12), rs.getLong(13));
 				item.spawnMe(rs.getInt(5), rs.getInt(6), rs.getInt(7));
 				
 				// If item is on a Castle ground, verify if it's an allowed ticket. If yes, add it to associated castle.
@@ -184,6 +186,11 @@ public final class ItemsOnGroundTaskManager implements Runnable
 				final long left = entry.getValue();
 				st.setLong(8, (left == 0) ? 0 : left - time);
 				
+				st.setString(9, item.serializeEquipmentSkills());
+				st.setInt(10, item.getEquipmentNameColor());
+				st.setString(11, item.getInstanceTitle());
+				st.setString(12, item.getFirstOwnership().name());
+				st.setLong(13, item.getFirstOwnership().timestamp());
 				st.addBatch();
 			}
 			st.executeBatch();

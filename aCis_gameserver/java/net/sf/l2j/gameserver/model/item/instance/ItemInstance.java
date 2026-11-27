@@ -4,12 +4,14 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ScheduledFuture;
 
 import net.sf.l2j.commons.pool.ConnectionPool;
 import net.sf.l2j.commons.pool.ThreadPool;
 
+import net.sf.l2j.gameserver.data.SkillTable;
 import net.sf.l2j.gameserver.data.manager.CastleManager;
 import net.sf.l2j.gameserver.data.xml.ItemData;
 import net.sf.l2j.gameserver.enums.items.EtcItemType;
@@ -39,6 +41,7 @@ import net.sf.l2j.gameserver.network.serverpackets.GetItem;
 import net.sf.l2j.gameserver.network.serverpackets.SpawnItem;
 import net.sf.l2j.gameserver.scripting.Quest;
 import net.sf.l2j.gameserver.scripting.QuestState;
+import net.sf.l2j.gameserver.skills.L2Skill;
 import net.sf.l2j.gameserver.skills.basefuncs.Func;
 import net.sf.l2j.gameserver.taskmanager.ItemInstanceTaskManager;
 import net.sf.l2j.gameserver.taskmanager.ItemsOnGroundTaskManager;
@@ -70,6 +73,15 @@ public final class ItemInstance extends WorldObject implements Runnable, Compara
 	private long _time;
 	
 	private Augmentation _augmentation;
+	private volatile List<L2Skill> _equipmentSkills = List.of();
+	private volatile int _equipmentNameColor = -1;
+	private volatile String _instanceTitle = "";
+	private volatile FirstOwnership _firstOwnership = new FirstOwnership("", 0);
+
+	public record FirstOwnership(String name, long timestamp)
+	{
+	}
+	public static final int MAX_EQUIPMENT_SKILLS = 10;
 	
 	private boolean _destroyProtected;
 	
@@ -119,10 +131,131 @@ public final class ItemInstance extends WorldObject implements Runnable, Compara
 		_locationSlot = rs.getInt("loc_data");
 		_manaLeft = rs.getInt("mana_left");
 		_time = rs.getLong("time");
+		restoreEquipmentData(rs.getString("equipment_skills"), rs.getInt("equipment_name_color"));
+		restoreItemProfile(rs.getString("instance_title"), rs.getString("first_owner_name"), rs.getLong("first_owned_at") == 0 ? -1 : rs.getLong("first_owned_at"));
 		
 		setName(_item.getName());
 	}
 	
+	public String getInstanceTitle()
+	{
+		return _instanceTitle;
+	}
+
+	public boolean setInstanceTitle(String title)
+	{
+		if (title.length() > 32 || title.codePoints().anyMatch(Character::isISOControl))
+			return false;
+		_instanceTitle = title;
+		ItemInstanceTaskManager.getInstance().add(this);
+		return true;
+	}
+
+	public FirstOwnership getFirstOwnership()
+	{
+		return _firstOwnership;
+	}
+
+	public void restoreItemProfile(String title, String creator, long timestamp)
+	{
+		_instanceTitle = title;
+		_firstOwnership = new FirstOwnership(creator, timestamp);
+	}
+
+	public List<L2Skill> getEquipmentSkills()
+	{
+		return _equipmentSkills;
+	}
+
+	public int getEquipmentNameColor()
+	{
+		return _equipmentNameColor;
+	}
+
+	public String serializeEquipmentSkills()
+	{
+		final StringBuilder result = new StringBuilder();
+		for (L2Skill skill : _equipmentSkills)
+		{
+			if (result.length() > 0)
+				result.append(',');
+			result.append(skill.getId()).append('-').append(skill.getLevel());
+		}
+		return result.toString();
+	}
+
+	public void restoreEquipmentData(String skills, int color)
+	{
+		if (!isEquipable())
+			return;
+
+		_equipmentNameColor = color >= 0 && color <= 0xFFFFFF ? color : -1;
+		final List<L2Skill> restored = new ArrayList<>();
+		for (String pair : skills.split(",", MAX_EQUIPMENT_SKILLS + 1))
+		{
+			final String[] fields = pair.split("-", 2);
+			if (fields.length != 2)
+				continue;
+			try
+			{
+				final int id = Integer.parseInt(fields[0]);
+				final int level = Integer.parseInt(fields[1]);
+				final L2Skill skill = findEquipmentSkill(id, level);
+				if (skill != null && restored.stream().noneMatch(existing -> existing.getId() == id))
+					restored.add(skill);
+			}
+			catch (NumberFormatException ignored)
+			{
+				// Ignore malformed database entries.
+			}
+			if (restored.size() == MAX_EQUIPMENT_SKILLS)
+				break;
+		}
+		_equipmentSkills = List.copyOf(restored);
+	}
+
+	public synchronized boolean setEquipmentSkill(int id, int level)
+	{
+		if (!isEquipable() || id <= 0 || level < 0)
+			return false;
+
+		final L2Skill skill = level == 0 ? null : findEquipmentSkill(id, level);
+		if (level > 0 && skill == null)
+			return false;
+
+		final List<L2Skill> skills = new ArrayList<>(_equipmentSkills);
+		final boolean hadSkill = skills.removeIf(existing -> existing.getId() == id);
+		if (level == 0 && !hadSkill)
+			return false;
+		if (level > 0)
+		{
+			if (skills.size() == MAX_EQUIPMENT_SKILLS)
+				return false;
+			skills.add(skill);
+		}
+		_equipmentSkills = List.copyOf(skills);
+		ItemInstanceTaskManager.getInstance().add(this);
+		return true;
+	}
+
+	public void setEquipmentNameColor(int color)
+	{
+		if (!isEquipable() || color < -1 || color > 0xFFFFFF)
+			throw new IllegalArgumentException("Invalid equipment color");
+
+		_equipmentNameColor = color;
+		ItemInstanceTaskManager.getInstance().add(this);
+	}
+
+	private static L2Skill findEquipmentSkill(int id, int level)
+	{
+		if (id <= 0 || level <= 0)
+			return null;
+
+		final L2Skill skill = SkillTable.getInstance().getInfo(id, level);
+		return skill != null && skill.getId() == id && skill.getLevel() == level ? skill : null;
+	}
+
 	@Override
 	public int compareTo(ItemInstance item)
 	{
@@ -219,6 +352,13 @@ public final class ItemInstance extends WorldObject implements Runnable, Compara
 	 * Sets the ownerID of the item
 	 * @param ownerId : int designating the ID of the owner
 	 */
+	public synchronized void assignOwner(int ownerId, Playable owner)
+	{
+		if (_firstOwnership.timestamp() == 0 && owner instanceof Player player)
+			_firstOwnership = new FirstOwnership(player.getName(), System.currentTimeMillis());
+		setOwnerId(ownerId);
+	}
+
 	public void setOwnerId(int ownerId)
 	{
 		if (ownerId == _ownerId)

@@ -379,6 +379,8 @@ public class PcInventory extends Inventory
 			_adena = item;
 		else if (item.getItemId() == ANCIENT_ADENA_ID && !item.equals(_ancientAdena))
 			_ancientAdena = item;
+		else if (item.isEquipable() || !item.getInstanceTitle().isEmpty() || item.getFirstOwnership().timestamp() > 0)
+			net.sf.l2j.gameserver.data.EquipmentItemInfo.send(getOwner(), item);
 		
 		return item;
 	}
@@ -394,6 +396,8 @@ public class PcInventory extends Inventory
 			_adena = item;
 		else if (item.getItemId() == ANCIENT_ADENA_ID && !item.equals(_ancientAdena))
 			_ancientAdena = item;
+		else if (item.isEquipable() || !item.getInstanceTitle().isEmpty() || item.getFirstOwnership().timestamp() > 0)
+			net.sf.l2j.gameserver.data.EquipmentItemInfo.send(getOwner(), item);
 		
 		return item;
 	}

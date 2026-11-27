@@ -52,7 +52,8 @@
 	<aCar name="admin_undying" accessLevel="7" params="" desc="Toggle your immortal state - leave you at 1 HP."/>
 
 	<!-- ENCHANT -->
-	<aCar name="admin_enchant" accessLevel="7" params="slot enchant" desc="Enchant your target's item slot."/>
+	<aCar name="admin_enchant" accessLevel="7" params="slotOrObjectId enchant" desc="Enchant your target's equipment."/>
+	<aCar name="admin_equipment" accessLevel="7" desc="Edit equipment skills and name color."/>
 
 	<!-- FIND -->
 	<aCar name="admin_find" accessLevel="7" params="[account|dualbox|ip|item|npc|player]" desc="Find chosen entity based on account/name/ip."/>

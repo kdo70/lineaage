@@ -85,6 +85,7 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> imple
 	private String _accountName;
 	private SessionKey _sessionId;
 	private Player _player;
+	private volatile boolean _equipmentInfoRequested;
 	private boolean _isDetached;
 	@SuppressWarnings("unused")
 	private boolean _isAuthedGG;
@@ -303,7 +304,18 @@ public final class GameClient extends MMOClient<MMOConnection<GameClient>> imple
 	
 	public void setPlayer(Player player)
 	{
+		_equipmentInfoRequested = false;
 		_player = player;
+	}
+
+	public boolean hasRequestedEquipmentInfo()
+	{
+		return _equipmentInfoRequested;
+	}
+
+	public void enableEquipmentInfo()
+	{
+		_equipmentInfoRequested = true;
 	}
 	
 	public ReentrantLock getActiveCharLock()

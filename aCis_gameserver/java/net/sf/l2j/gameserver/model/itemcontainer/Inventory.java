@@ -427,6 +427,8 @@ public abstract class Inventory extends ItemContainer
 				for (OnEquipListener listener : _paperdollListeners)
 					listener.onEquip(slot, item, getOwner());
 			}
+			if (getOwner() instanceof Player player && player.isOnline())
+				player.refreshEquipmentSkills();
 		}
 		return old;
 	}

@@ -206,7 +206,7 @@ public abstract class ItemContainer
 		}
 		
 		// If item hasn't be found in inventory, set ownership and location.
-		item.setOwnerId(getOwnerId());
+		item.assignOwner(getOwnerId(), getOwner());
 		item.setLocation(getBaseLocation());
 		
 		// Add item in inventory.
@@ -238,7 +238,7 @@ public abstract class ItemContainer
 			for (int i = 0; i < count; i++)
 			{
 				item = ItemInstance.create(itemId, template.isStackable() ? count : 1);
-				item.setOwnerId(getOwnerId());
+				item.assignOwner(getOwnerId(), getOwner());
 				item.setLocation(getBaseLocation());
 				
 				// Add item in inventory
