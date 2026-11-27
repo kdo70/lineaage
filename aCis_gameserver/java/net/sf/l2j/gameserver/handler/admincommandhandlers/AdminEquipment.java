@@ -107,6 +107,7 @@ public class AdminEquipment implements IAdminCommandHandler
 		}
 		final String nameQuery = query.toLowerCase(Locale.ROOT);
 		final List<ItemInstance> items = owner.getInventory().getItems().stream()
+			.filter(ItemInstance::isEquipable)
 			.filter(item -> query.isEmpty() || item.getItem().getName().toLowerCase(Locale.ROOT).contains(nameQuery)
 				|| query.equals(Integer.toString(item.getItemId())) || query.equals(Integer.toString(item.getObjectId())))
 			.sorted(Comparator.comparing(ItemInstance::isEquipped).reversed().thenComparingInt(ItemInstance::getObjectId)).toList();
@@ -131,7 +132,7 @@ public class AdminEquipment implements IAdminCommandHandler
 			link(html, "admin_equipment page " + (page + 1) + pageSuffix, "Next");
 		html.append("</td></tr></table>");
 		if (items.isEmpty())
-			html.append(query.isEmpty() ? "Inventory is empty." : "No matching items.");
+			html.append(query.isEmpty() ? "No equippable items." : "No matching items.");
 
 		html.append("<table width=268>");
 		for (ItemInstance item : items.subList(page * PAGE_SIZE, Math.min(items.size(), (page + 1) * PAGE_SIZE)))
