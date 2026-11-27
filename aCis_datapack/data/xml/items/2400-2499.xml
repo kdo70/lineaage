@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <list>
 	<item id="2400" type="Armor" name="Tallum Tunic">
 		<set name="default_action" val="equip" />
@@ -1235,7 +1235,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="142" />
+			<set stat="sDef" val="154" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -1265,7 +1265,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="166" />
+			<set stat="sDef" val="203" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -1280,7 +1280,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="174" />
+			<set stat="sDef" val="203" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -1315,24 +1315,24 @@
 		</for>
 	</item>
 	<item id="2499" type="Weapon" name="Elven Long Sword">
+		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="3" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="attack_range" val="40" />
+		<set name="random_damage" val="10" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
-		<set name="random_damage" val="10" />
-		<set name="attack_range" val="40" />
-		<set name="damage_range" val="0;0;40;120" />
 		<set name="crystal_count" val="3272" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1440" />
 		<set name="price" val="1800000" />
-		<set name="soulshots" val="3" />
-		<set name="spiritshots" val="3" />
 		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="379" />
+			<set stat="rCrit" val="8" />
+			<set stat="mAtk" val="54" />
+			<set stat="pAtk" val="92" />
 			<enchant val="0" stat="pAtk" />
 			<enchant val="0" stat="mAtk" />
 		</for>

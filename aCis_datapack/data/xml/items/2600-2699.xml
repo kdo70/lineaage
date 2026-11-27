@@ -1,145 +1,145 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <list>
 	<item id="2606" type="Weapon" name="Caliburs*Caliburs">
+		<set name="spiritshots" val="1" />
+		<set name="soulshots" val="1" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="attack_range" val="40" />
+		<set name="random_damage" val="10" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
-		<set name="random_damage" val="10" />
-		<set name="attack_range" val="40" />
-		<set name="damage_range" val="0;0;44;120" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2140" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="1" />
-		<set name="spiritshots" val="1" />
 		<set name="enchant4_skill" val="3042-11" />
 		<for>
-			<set stat="pAtk" val="213" />
-			<set stat="mAtk" val="91" />
-			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="325" />
+			<set stat="rCrit" val="8" />
+			<set stat="mAtk" val="99" />
+			<set stat="pAtk" val="236" />
 			<enchant val="0" stat="pAtk" />
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
 	<item id="2612" type="Weapon" name="Sword of Limit*Sword of Limit">
+		<set name="spiritshots" val="1" />
+		<set name="soulshots" val="1" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="attack_range" val="40" />
+		<set name="random_damage" val="10" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
-		<set name="random_damage" val="10" />
-		<set name="attack_range" val="40" />
-		<set name="damage_range" val="0;0;44;120" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2140" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="1" />
-		<set name="spiritshots" val="1" />
 		<set name="enchant4_skill" val="3042-11" />
 		<for>
-			<set stat="pAtk" val="213" />
-			<set stat="mAtk" val="91" />
-			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="325" />
+			<set stat="rCrit" val="8" />
+			<set stat="mAtk" val="99" />
+			<set stat="pAtk" val="236" />
 			<enchant val="0" stat="pAtk" />
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
 	<item id="2617" type="Weapon" name="Sword of Delusion*Sword of Delusion">
+		<set name="spiritshots" val="1" />
+		<set name="soulshots" val="1" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="attack_range" val="40" />
+		<set name="random_damage" val="10" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
-		<set name="random_damage" val="10" />
-		<set name="attack_range" val="40" />
-		<set name="damage_range" val="0;0;44;120" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2150" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="1" />
-		<set name="spiritshots" val="1" />
 		<set name="enchant4_skill" val="3046-11" />
 		<for>
-			<set stat="pAtk" val="213" />
-			<set stat="mAtk" val="91" />
-			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="325" />
+			<set stat="rCrit" val="8" />
+			<set stat="mAtk" val="99" />
+			<set stat="pAtk" val="236" />
 			<enchant val="0" stat="pAtk" />
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
 	<item id="2621" type="Weapon" name="Sword of Nightmare*Sword of Nightmare">
+		<set name="spiritshots" val="1" />
+		<set name="soulshots" val="1" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="attack_range" val="40" />
+		<set name="random_damage" val="10" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
-		<set name="random_damage" val="10" />
-		<set name="attack_range" val="40" />
-		<set name="damage_range" val="0;0;44;120" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2130" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="1" />
-		<set name="spiritshots" val="1" />
 		<set name="enchant4_skill" val="3044-11" />
 		<for>
-			<set stat="pAtk" val="213" />
-			<set stat="mAtk" val="91" />
-			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="325" />
+			<set stat="rCrit" val="8" />
+			<set stat="mAtk" val="99" />
+			<set stat="pAtk" val="236" />
 			<enchant val="0" stat="pAtk" />
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
 	<item id="2624" type="Weapon" name="Tsurugi*Tsurugi">
+		<set name="spiritshots" val="1" />
+		<set name="soulshots" val="1" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="attack_range" val="40" />
+		<set name="random_damage" val="10" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
-		<set name="random_damage" val="10" />
-		<set name="attack_range" val="40" />
-		<set name="damage_range" val="0;0;44;120" />
 		<set name="crystal_count" val="1157" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2120" />
 		<set name="price" val="8680000" />
-		<set name="soulshots" val="1" />
-		<set name="spiritshots" val="1" />
 		<set name="enchant4_skill" val="3044-11" />
 		<for>
-			<set stat="pAtk" val="213" />
-			<set stat="mAtk" val="91" />
-			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="325" />
+			<set stat="rCrit" val="8" />
+			<set stat="mAtk" val="99" />
+			<set stat="pAtk" val="236" />
 			<enchant val="0" stat="pAtk" />
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
 	<item id="2626" type="Weapon" name="Samurai Long Sword*Samurai Long Sword">
+		<set name="spiritshots" val="1" />
+		<set name="soulshots" val="1" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="attack_range" val="40" />
+		<set name="random_damage" val="10" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
-		<set name="random_damage" val="10" />
-		<set name="attack_range" val="40" />
-		<set name="damage_range" val="0;0;44;120" />
 		<set name="crystal_count" val="1746" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2080" />
 		<set name="price" val="13100000" />
-		<set name="soulshots" val="1" />
-		<set name="spiritshots" val="1" />
 		<set name="enchant4_skill" val="3045-14" />
 		<for>
-			<set stat="pAtk" val="236" />
-			<set stat="mAtk" val="99" />
-			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="325" />
+			<set stat="rCrit" val="8" />
+			<set stat="mAtk" val="99" />
+			<set stat="pAtk" val="236" />
 			<enchant val="0" stat="pAtk" />
 			<enchant val="0" stat="mAtk" />
 		</for>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <list>
 	<item id="4200" type="EtcItem" name="Spellbook: Restore Life">
 		<set name="material" val="PAPER" />
@@ -334,25 +334,25 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="4233" type="Weapon" name="Knuckle Duster">
+		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="3" />
+		<set name="damage_range" val="0;0;46;90" />
+		<set name="attack_range" val="40" />
+		<set name="random_damage" val="5" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
-		<set name="random_damage" val="5" />
-		<set name="attack_range" val="40" />
-		<set name="damage_range" val="0;0;32;120" />
 		<set name="crystal_count" val="1148" />
 		<set name="crystal_type" val="C" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1490" />
 		<set name="price" val="2870000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
 		<for>
-			<set stat="pAtk" val="148" />
-			<set stat="mAtk" val="68" />
-			<set stat="rCrit" val="4" />
-			<add stat="accCombat" val="4" />
 			<set stat="pAtkSpd" val="325" />
+			<set stat="rCrit" val="4" />
+			<set stat="mAtk" val="83" />
+			<set stat="pAtk" val="190" />
+			<add stat="accCombat" val="4" />
 			<enchant val="0" stat="pAtk" />
 			<enchant val="0" stat="mAtk" />
 		</for>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <list>
 	<item id="6500" type="EtcItem" name="Big Blue Treasure Chest">
 		<set name="default_action" val="capsule" />
@@ -757,26 +757,26 @@
 		<set name="item_skill" val="2208-1" />
 	</item>
 	<item id="6579" type="Weapon" name="Arcana Mace">
+		<set name="spiritshots" val="1" />
+		<set name="soulshots" val="1" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="attack_range" val="40" />
+		<set name="random_damage" val="20" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
-		<set name="random_damage" val="20" />
-		<set name="attack_range" val="40" />
-		<set name="damage_range" val="0;0;40;120" />
 		<set name="crystal_count" val="2440" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1300" />
 		<set name="price" val="48800000" />
-		<set name="soulshots" val="1" />
-		<set name="spiritshots" val="1" />
 		<for>
-			<set stat="pAtk" val="225" />
-			<set stat="mAtk" val="175" />
-			<set stat="rCrit" val="4" />
-			<add stat="accCombat" val="4" />
 			<set stat="pAtkSpd" val="379" />
+			<set stat="rCrit" val="4" />
+			<set stat="mAtk" val="121" />
+			<set stat="pAtk" val="251" />
+			<add stat="accCombat" val="4" />
 			<enchant val="0" stat="pAtk" />
 			<enchant val="0" stat="mAtk" />
 		</for>

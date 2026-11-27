@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <list>
 	<item id="2300" type="EtcItem" name="Recipe: Scythe">
 		<set name="default_action" val="recipe" />
@@ -613,48 +613,48 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="2368" type="Weapon" name="Training Gloves">
+		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="2" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="attack_range" val="40" />
+		<set name="random_damage" val="5" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
-		<set name="random_damage" val="5" />
-		<set name="attack_range" val="40" />
-		<set name="damage_range" val="0;0;32;120" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="1580" />
 		<set name="price" val="138" />
-		<set name="soulshots" val="1" />
-		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<for>
-			<set stat="pAtk" val="7" />
-			<set stat="mAtk" val="5" />
-			<set stat="rCrit" val="4" />
-			<add stat="accCombat" val="4" />
 			<set stat="pAtkSpd" val="325" />
+			<set stat="rCrit" val="4" />
+			<set stat="mAtk" val="17" />
+			<set stat="pAtk" val="29" />
+			<add stat="accCombat" val="4" />
 		</for>
 	</item>
 	<item id="2369" type="Weapon" name="Squire's Sword">
+		<set name="spiritshots" val="2" />
+		<set name="soulshots" val="2" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="attack_range" val="40" />
+		<set name="random_damage" val="10" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
-		<set name="random_damage" val="10" />
-		<set name="attack_range" val="40" />
-		<set name="damage_range" val="0;0;40;120" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1600" />
 		<set name="price" val="138" />
-		<set name="soulshots" val="1" />
-		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<for>
-			<set stat="pAtk" val="6" />
-			<set stat="mAtk" val="5" />
-			<set stat="rCrit" val="8" />
 			<set stat="pAtkSpd" val="379" />
+			<set stat="rCrit" val="8" />
+			<set stat="mAtk" val="21" />
+			<set stat="pAtk" val="31" />
 		</for>
 	</item>
 	<item id="2370" type="Weapon" name="Guild Member's Club">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <list>
 	<item id="1300" type="Weapon" name="Apprentice's Rod">
 		<set name="default_action" val="equip" />
@@ -445,7 +445,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="71" />
+			<set stat="sDef" val="90" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -490,7 +490,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="71" />
+			<set stat="sDef" val="90" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -886,26 +886,26 @@
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
 	<item id="1376" type="Weapon" name="Guard Spear">
+		<set name="spiritshots" val="3" />
+		<set name="soulshots" val="3" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="attack_range" val="80" />
+		<set name="random_damage" val="10" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
-		<set name="random_damage" val="10" />
-		<set name="attack_range" val="80" />
-		<set name="damage_range" val="0;0;66;120" />
 		<set name="crystal_count" val="743" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="300" />
 		<set name="price" val="409000" />
-		<set name="soulshots" val="2" />
-		<set name="spiritshots" val="2" />
 		<set name="item_skill" val="3599-1" />
 		<for>
-			<set stat="pAtk" val="50" />
-			<set stat="mAtk" val="26" />
-			<set stat="rCrit" val="8" />
-			<sub stat="accCombat" val="3" />
 			<set stat="pAtkSpd" val="325" />
+			<set stat="rCrit" val="8" />
+			<set stat="mAtk" val="54" />
+			<set stat="pAtk" val="92" />
+			<sub stat="accCombat" val="3" />
 			<enchant val="0" stat="pAtk" />
 			<enchant val="0" stat="mAtk" />
 		</for>

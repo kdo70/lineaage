@@ -1,0 +1,1868 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id="11013" type="Armor" name="Leather Shield">
+		<set name="crystal_count" val="187" />
+		<set name="crystal_type" val="D" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1430" />
+		<set name="price" val="39" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="154" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11014" type="Armor" name="Leather Shield">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1430" />
+		<set name="price" val="39" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11015" type="Armor" name="Leather Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1430" />
+		<set name="price" val="39" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11016" type="Armor" name="Leather Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1430" />
+		<set name="price" val="39" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11017" type="Armor" name="Leather Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1430" />
+		<set name="price" val="39" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11018" type="Armor" name="Small Shield">
+		<set name="crystal_count" val="187" />
+		<set name="crystal_type" val="D" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1420" />
+		<set name="price" val="638" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="154" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11019" type="Armor" name="Small Shield">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1420" />
+		<set name="price" val="638" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11020" type="Armor" name="Small Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1420" />
+		<set name="price" val="638" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11021" type="Armor" name="Small Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1420" />
+		<set name="price" val="638" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11022" type="Armor" name="Small Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1420" />
+		<set name="price" val="638" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11023" type="Armor" name="Buckler">
+		<set name="crystal_count" val="187" />
+		<set name="crystal_type" val="D" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1410" />
+		<set name="price" val="2780" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="154" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11024" type="Armor" name="Buckler">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1410" />
+		<set name="price" val="2780" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11025" type="Armor" name="Buckler">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1410" />
+		<set name="price" val="2780" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11026" type="Armor" name="Buckler">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1410" />
+		<set name="price" val="2780" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11027" type="Armor" name="Buckler">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1410" />
+		<set name="price" val="2780" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11028" type="Armor" name="Round Shield">
+		<set name="crystal_count" val="187" />
+		<set name="crystal_type" val="D" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1390" />
+		<set name="price" val="7110" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="154" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11029" type="Armor" name="Round Shield">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1390" />
+		<set name="price" val="7110" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11030" type="Armor" name="Round Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1390" />
+		<set name="price" val="7110" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11031" type="Armor" name="Round Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1390" />
+		<set name="price" val="7110" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11032" type="Armor" name="Round Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1390" />
+		<set name="price" val="7110" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11033" type="Armor" name="Tower Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1240" />
+		<set name="price" val="258000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11034" type="Armor" name="Tower Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1240" />
+		<set name="price" val="258000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11035" type="Armor" name="Tower Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1240" />
+		<set name="price" val="258000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11036" type="Armor" name="Implosion Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="4800" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11037" type="Armor" name="Implosion Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="4800" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11038" type="Armor" name="Dark Dragon Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="4800" />
+		<set name="price" val="845000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11039" type="Armor" name="Dark Dragon Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="4800" />
+		<set name="price" val="845000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11040" type="Armor" name="Composite Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1230" />
+		<set name="price" val="258000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11041" type="Armor" name="Composite Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1230" />
+		<set name="price" val="258000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11042" type="Armor" name="Composite Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1230" />
+		<set name="price" val="258000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11043" type="Armor" name="Masterpiece Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="5600" />
+		<set name="price" val="845000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11044" type="Armor" name="Masterpiece Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="5600" />
+		<set name="price" val="845000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11045" type="Armor" name="Shield of Solar Eclipse">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="4800" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11046" type="Armor" name="Shield of Solar Eclipse">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="4800" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11047" type="Armor" name="Doom Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1200" />
+		<set name="price" val="845000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11048" type="Armor" name="Doom Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1200" />
+		<set name="price" val="845000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11049" type="Armor" name="Shield of Pledge">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="4800" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11050" type="Armor" name="Shield of Pledge">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="4800" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11051" type="Armor" name="Bone Shield">
+		<set name="crystal_count" val="187" />
+		<set name="crystal_type" val="D" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1380" />
+		<set name="price" val="12900" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="154" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11052" type="Armor" name="Bone Shield">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1380" />
+		<set name="price" val="12900" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11053" type="Armor" name="Bone Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1380" />
+		<set name="price" val="12900" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11054" type="Armor" name="Bone Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1380" />
+		<set name="price" val="12900" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11055" type="Armor" name="Bone Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1380" />
+		<set name="price" val="12900" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11056" type="Armor" name="Bronze Shield">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1370" />
+		<set name="price" val="21900" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11057" type="Armor" name="Bronze Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1370" />
+		<set name="price" val="21900" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11058" type="Armor" name="Bronze Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1370" />
+		<set name="price" val="21900" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11059" type="Armor" name="Bronze Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1370" />
+		<set name="price" val="21900" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11060" type="Armor" name="Aspis">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1350" />
+		<set name="price" val="35000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11061" type="Armor" name="Aspis">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1350" />
+		<set name="price" val="35000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11062" type="Armor" name="Aspis">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1350" />
+		<set name="price" val="35000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11063" type="Armor" name="Aspis">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1350" />
+		<set name="price" val="35000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11064" type="Armor" name="Hoplon">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1340" />
+		<set name="price" val="53300" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11065" type="Armor" name="Hoplon">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1340" />
+		<set name="price" val="53300" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11066" type="Armor" name="Hoplon">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1340" />
+		<set name="price" val="53300" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11067" type="Armor" name="Hoplon">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1340" />
+		<set name="price" val="53300" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11068" type="Armor" name="Kite Shield">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1320" />
+		<set name="price" val="78400" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11069" type="Armor" name="Kite Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1320" />
+		<set name="price" val="78400" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11070" type="Armor" name="Kite Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1320" />
+		<set name="price" val="78400" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11071" type="Armor" name="Kite Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1320" />
+		<set name="price" val="78400" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11072" type="Armor" name="Square Shield">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1310" />
+		<set name="price" val="103000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11073" type="Armor" name="Square Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1310" />
+		<set name="price" val="103000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11074" type="Armor" name="Square Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1310" />
+		<set name="price" val="103000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11075" type="Armor" name="Square Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1310" />
+		<set name="price" val="103000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11076" type="Armor" name="Eldarake">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1290" />
+		<set name="price" val="133000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11077" type="Armor" name="Eldarake">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1290" />
+		<set name="price" val="133000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11078" type="Armor" name="Eldarake">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1290" />
+		<set name="price" val="133000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11079" type="Armor" name="Knight's Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1260" />
+		<set name="price" val="169000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11080" type="Armor" name="Knight's Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1260" />
+		<set name="price" val="169000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11081" type="Armor" name="Knight's Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1260" />
+		<set name="price" val="169000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11082" type="Armor" name="Zubei's Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="1210" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11083" type="Armor" name="Zubei's Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="1210" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11084" type="Armor" name="Glorious Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="800" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11085" type="Armor" name="Glorious Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="800" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11086" type="Armor" name="Dark Crystal Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="1190" />
+		<set name="price" val="1220000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11087" type="Armor" name="Elven Vagian Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="560" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11088" type="Armor" name="Elven Vagian Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="560" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11089" type="Armor" name="Hell Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="640" />
+		<set name="price" val="845000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11090" type="Armor" name="Hell Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="640" />
+		<set name="price" val="845000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11091" type="Armor" name="Shield of Silence">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="640" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11092" type="Armor" name="Shield of Silence">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="640" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11093" type="Armor" name="Sage's Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="560" />
+		<set name="price" val="845000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11094" type="Armor" name="Sage's Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="560" />
+		<set name="price" val="845000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11095" type="Armor" name="Avadon Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1210" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11096" type="Armor" name="Avadon Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1210" />
+		<set name="price" val="545000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11097" type="Armor" name="Skeleton Buckler">
+		<set name="crystal_count" val="187" />
+		<set name="crystal_type" val="D" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1400" />
+		<set name="price" val="3440" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="154" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11098" type="Armor" name="Skeleton Buckler">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1400" />
+		<set name="price" val="3440" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11099" type="Armor" name="Skeleton Buckler">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1400" />
+		<set name="price" val="3440" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11100" type="Armor" name="Skeleton Buckler">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1400" />
+		<set name="price" val="3440" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11101" type="Armor" name="Skeleton Buckler">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1400" />
+		<set name="price" val="3440" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11102" type="Armor" name="Shield of Grace">
+		<set name="crystal_count" val="187" />
+		<set name="crystal_type" val="D" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="300" />
+		<set name="price" val="1090000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="154" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11103" type="Armor" name="Shield of Grace">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="300" />
+		<set name="price" val="1090000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11104" type="Armor" name="Shield of Grace">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="300" />
+		<set name="price" val="1090000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11105" type="Armor" name="Shield of Grace">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="300" />
+		<set name="price" val="1090000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11106" type="Armor" name="Shield of Grace">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="MITHRIL" />
+		<set name="weight" val="300" />
+		<set name="price" val="1090000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11107" type="Armor" name="Otherworldly Shield">
+		<set name="crystal_count" val="187" />
+		<set name="crystal_type" val="D" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="350" />
+		<set name="price" val="1430000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="154" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11108" type="Armor" name="Otherworldly Shield">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="350" />
+		<set name="price" val="1430000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11109" type="Armor" name="Otherworldly Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="350" />
+		<set name="price" val="1430000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11110" type="Armor" name="Otherworldly Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="350" />
+		<set name="price" val="1430000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11111" type="Armor" name="Otherworldly Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="350" />
+		<set name="price" val="1430000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11112" type="Armor" name="Brigandine Shield">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1320" />
+		<set name="price" val="78400" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11113" type="Armor" name="Brigandine Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1320" />
+		<set name="price" val="78400" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11114" type="Armor" name="Brigandine Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1320" />
+		<set name="price" val="78400" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11115" type="Armor" name="Brigandine Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1320" />
+		<set name="price" val="78400" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11116" type="Armor" name="Plate Shield">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1310" />
+		<set name="price" val="103000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11117" type="Armor" name="Plate Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1310" />
+		<set name="price" val="103000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11118" type="Armor" name="Plate Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1310" />
+		<set name="price" val="103000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11119" type="Armor" name="Plate Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1310" />
+		<set name="price" val="103000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11120" type="Armor" name="Chain Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1280" />
+		<set name="price" val="133000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11121" type="Armor" name="Chain Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1280" />
+		<set name="price" val="133000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11122" type="Armor" name="Chain Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1280" />
+		<set name="price" val="133000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11123" type="Armor" name="Dwarven Chain Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1280" />
+		<set name="price" val="156000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11124" type="Armor" name="Dwarven Chain Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1280" />
+		<set name="price" val="156000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11125" type="Armor" name="Dwarven Chain Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1280" />
+		<set name="price" val="156000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11126" type="Armor" name="Full Plate Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1220" />
+		<set name="price" val="375000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11127" type="Armor" name="Full Plate Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1220" />
+		<set name="price" val="375000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11128" type="Armor" name="Full Plate Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1220" />
+		<set name="price" val="375000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11129" type="Armor" name="Shield of Nightmare">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1180" />
+		<set name="price" val="1850000" />
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11130" type="Armor" name="Pledge Shield">
+		<set name="crystal_count" val="187" />
+		<set name="crystal_type" val="D" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1380" />
+		<set name="price" val="12900" />
+		<cond msgId="1518">
+			<player clanHall="-1" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="154" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11131" type="Armor" name="Pledge Shield">
+		<set name="crystal_count" val="150" />
+		<set name="crystal_type" val="C" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1380" />
+		<set name="price" val="12900" />
+		<cond msgId="1518">
+			<player clanHall="-1" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="203" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11132" type="Armor" name="Pledge Shield">
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="B" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1380" />
+		<set name="price" val="12900" />
+		<cond msgId="1518">
+			<player clanHall="-1" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="230" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11133" type="Armor" name="Pledge Shield">
+		<set name="crystal_count" val="148" />
+		<set name="crystal_type" val="A" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1380" />
+		<set name="price" val="12900" />
+		<cond msgId="1518">
+			<player clanHall="-1" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="256" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="11134" type="Armor" name="Pledge Shield">
+		<set name="crystal_count" val="188" />
+		<set name="crystal_type" val="S" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1380" />
+		<set name="price" val="12900" />
+		<cond msgId="1518">
+			<player clanHall="-1" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+</list>

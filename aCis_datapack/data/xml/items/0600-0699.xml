@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <list>
 	<item id="600" type="Armor" name="Avadon Boots">
 		<set name="default_action" val="equip" />
@@ -347,7 +347,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="101" />
+			<set stat="sDef" val="154" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -362,7 +362,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="114" />
+			<set stat="sDef" val="154" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -377,7 +377,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="128" />
+			<set stat="sDef" val="154" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -392,7 +392,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="142" />
+			<set stat="sDef" val="154" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -422,7 +422,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="166" />
+			<set stat="sDef" val="203" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -437,7 +437,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="178" />
+			<set stat="sDef" val="203" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -452,7 +452,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="216" />
+			<set stat="sDef" val="230" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -528,7 +528,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="216" />
+			<set stat="sDef" val="230" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -573,7 +573,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="243" />
+			<set stat="sDef" val="256" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -588,7 +588,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="216" />
+			<set stat="sDef" val="230" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -648,7 +648,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="216" />
+			<set stat="sDef" val="230" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
@@ -1053,7 +1053,7 @@
 		<for>
 			<sub stat="rEvas" val="8" />
 			<set stat="rShld" val="20" />
-			<set stat="sDef" val="216" />
+			<set stat="sDef" val="230" />
 			<enchant val="0" stat="sDef" />
 		</for>
 	</item>
