@@ -430,6 +430,17 @@ public class GlobalGatekeeper extends Quest
 		try
 		{
 			final int price = point.getCalculatedPrice(player);
+			if (price > 0)
+			{
+				final int priceId = point.getPriceId();
+				final var currency = player.getInventory().getItemByItemId(priceId);
+				if (currency == null || currency.getCount() < price)
+				{
+					player.sendPacket(priceId == 57 ? SystemMessageId.YOU_NOT_ENOUGH_ADENA : SystemMessageId.NOT_ENOUGH_ITEMS);
+					return false;
+				}
+			}
+
 			final int delay = GatekeeperData.getInstance().getTeleportDelay();
 			if (delay <= 0)
 			{
