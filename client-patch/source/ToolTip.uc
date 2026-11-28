@@ -262,6 +262,11 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 		RequestEquipmentInfo(Item.ServerID);
 
 		eItemType = EItemType(Item.ItemType);
+		if (eItemType == ITEM_WEAPON && Item.RefineryOp1 == 0 && Item.RefineryOp2 == 0)
+		{
+			Item.RefineryOp1 = int(GetItemProfileField(Item.ServerID, "a"));
+			Item.RefineryOp2 = int(GetItemProfileField(Item.ServerID, "b"));
+		}
 		if (eItemType == ITEM_WEAPON && (Item.RefineryOp1 != 0 || Item.RefineryOp2 != 0))
 			Item.IconName = class'TooltipAugmentIcons'.static.Resolve(Item.ClassID, Item.IconName);
 		eEtcItemType = EEtcItemType(Item.ItemSubType);
@@ -353,14 +358,7 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 
 			//SimpleTooltip을 가격까지 보여준다.
 			m_Tooltip.SimpleLineCount = 2;
-
-			//읽어주기 스트링
-			if (Item.Price>0)
-			{
-				m_Tooltip.SimpleLineCount = 3;
-				AddTooltipItemOption(0, "(" $ ConvertNumToText(strAdena) $ ")", false, true, false);
-				SetTooltipItemColor(AdenaColor.R, AdenaColor.G, AdenaColor.B, 0);
-			}
+			AddItemTooltipDivider();
 		}
 
 		//InventoryPrice2 타입
@@ -395,39 +393,7 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 
 			//SimpleTooltip을 가격까지 보여준다.
 			m_Tooltip.SimpleLineCount = 2;
-
-			//읽어주기 스트링
-			if (Item.Price>0)
-			{
-				m_Tooltip.SimpleLineCount = 3;
-
-				//"("
-				StartItem();
-				m_Info.eType = DIT_TEXT;
-				m_Info.nOffSetY = 6;
-				m_Info.bLineBreak = true;
-				m_Info.t_bDrawOneLine = true;
-				m_Info.t_color = AdenaColor;
-				m_Info.t_strText = "(";
-				EndItem();
-
-				//"1개당"
-				StartItem();
-				m_Info.eType = DIT_TEXT;
-				m_Info.nOffSetY = 6;
-				m_Info.t_bDrawOneLine = true;
-				m_Info.t_color = AdenaColor;
-				m_Info.t_ID = 468;
-				EndItem();
-
-				StartItem();
-				m_Info.eType = DIT_TEXT;
-				m_Info.nOffSetY = 6;
-				m_Info.t_bDrawOneLine = true;
-				m_Info.t_color = AdenaColor;
-				m_Info.t_strText = " " $ ConvertNumToText(strAdena) $ ")";
-				EndItem();
-			}
+			AddItemTooltipDivider();
 		}
 
 		//InventoryPrice2PrivateShop 타입

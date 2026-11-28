@@ -2,6 +2,7 @@ package net.sf.l2j.gameserver.network.serverpackets;
 
 import java.util.Set;
 
+import net.sf.l2j.gameserver.data.EquipmentItemInfo;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
 import net.sf.l2j.gameserver.model.item.kind.Item;
@@ -25,6 +26,11 @@ public class WarehouseWithdrawList extends L2GameServerPacket
 		_whType = type;
 		_playerAdena = player.getAdena();
 		_items = player.getActiveWarehouse().getItems();
+		for (ItemInstance item : _items)
+		{
+			if (item.isEquipable())
+				EquipmentItemInfo.send(player, item);
+		}
 	}
 	
 	@Override

@@ -79,6 +79,7 @@ public final class AddTradeItem extends L2GameClientPacket
 		player.sendPacket(new TradeUpdate(tradeItem, item.getCount() - tradeItem.getCount()));
 		player.sendPacket(new TradeItemUpdate(tradeList, player));
 		
-		tradeList.getPartner().sendPacket(new TradeOtherAdd(tradeItem, _count));
+		net.sf.l2j.gameserver.data.EquipmentItemInfo.send(partner, item);
+		partner.sendPacket(new TradeOtherAdd(tradeItem, _count));
 	}
 }

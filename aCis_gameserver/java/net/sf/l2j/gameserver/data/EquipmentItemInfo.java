@@ -81,7 +81,7 @@ public final class EquipmentItemInfo
 			player.sendPacket(new CreatureSay(0, SayType.ALL, "", TAG + "reset"));
 			for (ItemInstance item : player.getInventory().getItems())
 			{
-				if (item.getEquipmentNameColor() >= 0 || !item.getEquipmentSkills().isEmpty() || !item.getInstanceTitle().isEmpty() || item.getFirstOwnership().timestamp() > 0)
+				if (item.isAugmented() || item.getEquipmentNameColor() >= 0 || !item.getEquipmentSkills().isEmpty() || !item.getInstanceTitle().isEmpty() || item.getFirstOwnership().timestamp() > 0)
 					send(player, item);
 			}
 			return;
@@ -102,7 +102,7 @@ public final class EquipmentItemInfo
 
 	public static void send(Player player, ItemInstance item)
 	{
-		final var client = player.getClient();
+		final var client = player == null ? null : player.getClient();
 		if (client == null || !client.hasRequestedEquipmentInfo())
 			return;
 
@@ -117,6 +117,12 @@ public final class EquipmentItemInfo
 		}
 		if (!types.isEmpty())
 			row.append(",k").append(types);
+		final var augmentation = item.getAugmentation();
+		if (augmentation != null)
+		{
+			final int id = augmentation.getId();
+			row.append(",a").append(id & 0xffff).append(",b").append(id >>> 16);
+		}
 		final String title = item.getInstanceTitle();
 		if (!title.isEmpty())
 			row.append(",t").append(encode(title));

@@ -1,20 +1,30 @@
 package net.sf.l2j.gameserver.network.serverpackets;
 
+import java.util.List;
+
+import net.sf.l2j.gameserver.data.EquipmentItemInfo;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.trade.TradeItem;
-import net.sf.l2j.gameserver.model.trade.TradeList;
 
 public class PrivateStoreListSell extends L2GameServerPacket
 {
 	private final int _objectId;
 	private final int _playerAdena;
-	private final TradeList _items;
+	private final List<TradeItem> _items;
+	private final boolean _packaged;
 	
 	public PrivateStoreListSell(Player player, Player storePlayer)
 	{
 		_objectId = storePlayer.getObjectId();
 		_playerAdena = player.getAdena();
-		_items = storePlayer.getSellList();
+		_packaged = storePlayer.getSellList().isPackaged();
+		_items = List.copyOf(storePlayer.getSellList());
+		for (TradeItem entry : _items)
+		{
+			final var item = storePlayer.getInventory().getItemByObjectId(entry.getObjectId());
+			if (item != null && item.isEquipable())
+				EquipmentItemInfo.send(player, item);
+		}
 	}
 	
 	@Override
@@ -22,7 +32,7 @@ public class PrivateStoreListSell extends L2GameServerPacket
 	{
 		writeC(0x9b);
 		writeD(_objectId);
-		writeD(_items.isPackaged() ? 1 : 0);
+		writeD(_packaged ? 1 : 0);
 		writeD(_playerAdena);
 		writeD(_items.size());
 		

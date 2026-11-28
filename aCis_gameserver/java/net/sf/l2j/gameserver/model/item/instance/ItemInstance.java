@@ -663,7 +663,7 @@ public final class ItemInstance extends WorldObject implements Runnable, Compara
 	 */
 	public boolean isTradable()
 	{
-		return !isAugmented() && _item.isTradable();
+		return (!isAugmented() || isWeapon()) && _item.isTradable();
 	}
 	
 	/**
@@ -671,7 +671,7 @@ public final class ItemInstance extends WorldObject implements Runnable, Compara
 	 */
 	public boolean isSellable()
 	{
-		return !isAugmented() && _item.isSellable();
+		return (!isAugmented() || isWeapon()) && _item.isSellable();
 	}
 	
 	/**
@@ -680,7 +680,7 @@ public final class ItemInstance extends WorldObject implements Runnable, Compara
 	 */
 	public boolean isDepositable(boolean isPrivateWarehouse)
 	{
-		return !(isEquipped() || !_item.isDepositable()) && (isPrivateWarehouse || (isTradable() && !isShadowItem()));
+		return !(isEquipped() || !_item.isDepositable()) && (isPrivateWarehouse || (!isAugmented() && isTradable() && !isShadowItem()));
 	}
 	
 	/**
@@ -765,6 +765,7 @@ public final class ItemInstance extends WorldObject implements Runnable, Compara
 			return false;
 		
 		_augmentation = augmentation;
+		net.sf.l2j.gameserver.data.EquipmentItemInfo.send(player, this);
 		
 		// List this item as database-friendly.
 		ItemInstanceTaskManager.getInstance().add(this);
@@ -785,6 +786,7 @@ public final class ItemInstance extends WorldObject implements Runnable, Compara
 			return;
 		
 		_augmentation = null;
+		net.sf.l2j.gameserver.data.EquipmentItemInfo.send(player, this);
 		
 		// List this item as database-friendly.
 		ItemInstanceTaskManager.getInstance().add(this);
