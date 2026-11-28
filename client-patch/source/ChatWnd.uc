@@ -537,7 +537,7 @@ function HandleIMEStatusChange()
 		texture = "L2UI.ChatWnd.IME_th";
 		break;
 	default:
-		texture = "Default.BlackTexture";
+		texture = "L2UI.ChatWnd.IME_en";
 		break;
 	};
 
