@@ -451,10 +451,10 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 			bLargeWidth = true;
 
 			//Physical Damage
-			AddWeaponTooltipStat(Chr(1060) $ Chr(1080) $ Chr(1079) $ Chr(46) $ Chr(1040) $ Chr(1090) $ Chr(1082) $ Chr(46), String(GetPhysicalDamage(Item.WeaponType, Item.SlotBitType, Item.CrystalType, Item.Enchanted, Item.PhysicalDamage)));
+			AddWeaponTooltipAttack(Chr(1060) $ Chr(1080) $ Chr(1079) $ Chr(46) $ Chr(1040) $ Chr(1090) $ Chr(1082) $ Chr(46), Item.PhysicalDamage, GetPhysicalDamage(Item.WeaponType, Item.SlotBitType, Item.CrystalType, Item.Enchanted, Item.PhysicalDamage));
 
 			//Masical Damage
-			AddWeaponTooltipStat(Chr(1052) $ Chr(1072) $ Chr(1075) $ Chr(46) $ Chr(1040) $ Chr(1090) $ Chr(1082) $ Chr(46), String(GetMagicalDamage(Item.WeaponType, Item.SlotBitType, Item.CrystalType, Item.Enchanted, Item.MagicalDamage)));
+			AddWeaponTooltipAttack(Chr(1052) $ Chr(1072) $ Chr(1075) $ Chr(46) $ Chr(1040) $ Chr(1090) $ Chr(1082) $ Chr(46), Item.MagicalDamage, GetMagicalDamage(Item.WeaponType, Item.SlotBitType, Item.CrystalType, Item.Enchanted, Item.MagicalDamage));
 
 			//Attack Speed
 			AddWeaponTooltipStat(Chr(1057) $ Chr(1082) $ Chr(1086) $ Chr(1088) $ Chr(46) $ Chr(1040) $ Chr(1090) $ Chr(1082) $ Chr(46), GetAttackSpeedString(Item.AttackSpeed));
@@ -462,17 +462,17 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 			//SoulShot Count
 			if (Item.SoulshotCount>0)
 			{
-				AddWeaponTooltipStat(Chr(1056) $ Chr(1072) $ Chr(1089) $ Chr(1093) $ Chr(1086) $ Chr(1076) $ Chr(32) $ Chr(1047) $ Chr(1072) $ Chr(1088) $ Chr(1103) $ Chr(1076) $ Chr(1086) $ Chr(1074) $ Chr(32) $ Chr(1044) $ Chr(1091) $ Chr(1096) $ Chr(1080), "X " $ Item.SoulshotCount);
+				AddWeaponTooltipStat(Chr(1056) $ Chr(1072) $ Chr(1089) $ Chr(1093) $ Chr(1086) $ Chr(1076) $ Chr(32) $ Chr(1047) $ Chr(1072) $ Chr(1088) $ Chr(1103) $ Chr(1076) $ Chr(1086) $ Chr(1074) $ Chr(32) $ Chr(1044) $ Chr(1091) $ Chr(1096) $ Chr(1080), "X" $ FormatTooltipNumber(Item.SoulshotCount));
 			}
 
 			//SpiritShot Count
 			if (Item.SpiritShotCount>0)
 			{
-				AddWeaponTooltipStat(Chr(1056) $ Chr(1072) $ Chr(1089) $ Chr(1093) $ Chr(1086) $ Chr(1076) $ Chr(32) $ Chr(1047) $ Chr(1072) $ Chr(1088) $ Chr(1103) $ Chr(1076) $ Chr(1086) $ Chr(1074) $ Chr(32) $ Chr(1044) $ Chr(1091) $ Chr(1093) $ Chr(1072), "X " $ Item.SpiritshotCount);
+				AddWeaponTooltipStat(Chr(1056) $ Chr(1072) $ Chr(1089) $ Chr(1093) $ Chr(1086) $ Chr(1076) $ Chr(32) $ Chr(1047) $ Chr(1072) $ Chr(1088) $ Chr(1103) $ Chr(1076) $ Chr(1086) $ Chr(1074) $ Chr(32) $ Chr(1044) $ Chr(1091) $ Chr(1093) $ Chr(1072), "X" $ FormatTooltipNumber(Item.SpiritshotCount));
 			}
 
 			//Weight
-			AddTooltipItemOption(52, String(Item.Weight), true, true, false);
+			AddTooltipItemOption(52, FormatTooltipNumber(Item.Weight), true, true, false);
 
 			//MP Consume
 			if (Item.MpConsume != 0)
@@ -491,7 +491,7 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 			if (Item.SlotBitType == 256 || Item.SlotBitType == 128)	//SBT_LHAND or SBT_RHAND
 			{
 				//Shield Defense
-				AddTooltipItemOption(95, String(GetShieldDefense(Item.CrystalType, Item.Enchanted, Item.ShieldDefense)), true, true, false);
+				AddTooltipItemOption(95, FormatTooltipNumber(GetShieldDefense(Item.CrystalType, Item.Enchanted, Item.ShieldDefense)), true, true, false);
 
 				//Shield Defense Rate
 				AddTooltipItemOption(317, String(Item.ShieldDefenseRate), true, true, false);
@@ -500,7 +500,7 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 				AddTooltipItemOption(97, String(Item.AvoidModify), true, true, false);
 
 				//Weight
-				AddTooltipItemOption(52, String(Item.Weight), true, true, false);
+				AddTooltipItemOption(52, FormatTooltipNumber(Item.Weight), true, true, false);
 			}
 
 			// Magical Armor
@@ -514,10 +514,10 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 				AddTooltipItemOption(388, String(Item.MpBonus), true, true, false);
 
 				//Physical Defense
-				AddTooltipItemOption(95, String(GetPhysicalDefense(Item.CrystalType, Item.Enchanted, Item.PhysicalDefense)), true, true, false);
+				AddTooltipItemOption(95, FormatTooltipNumber(GetPhysicalDefense(Item.CrystalType, Item.Enchanted, Item.PhysicalDefense)), true, true, false);
 
 				//Weight
-				AddTooltipItemOption(52, String(Item.Weight), true, true, false);
+				AddTooltipItemOption(52, FormatTooltipNumber(Item.Weight), true, true, false);
 			}
 
 			// Physical Armor
@@ -528,10 +528,10 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 					AddTooltipItemOption(0, SlotString, false, true, false);
 
 				//Physical Defense
-				AddTooltipItemOption(95, String(GetPhysicalDefense(Item.CrystalType, Item.Enchanted, Item.PhysicalDefense)), true, true, false);
+				AddTooltipItemOption(95, FormatTooltipNumber(GetPhysicalDefense(Item.CrystalType, Item.Enchanted, Item.PhysicalDefense)), true, true, false);
 
 				//Weight
-				AddTooltipItemOption(52, String(Item.Weight), true, true, false);
+				AddTooltipItemOption(52, FormatTooltipNumber(Item.Weight), true, true, false);
 			}
 
 		break;
@@ -545,10 +545,10 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 				AddTooltipItemOption(0, SlotString, false, true, false);
 
 			//Masical Defense
-			AddTooltipItemOption(99, String(GetMagicalDefense(Item.CrystalType, Item.Enchanted, Item.MagicalDefense)), true, true, false);
+			AddTooltipItemOption(99, FormatTooltipNumber(GetMagicalDefense(Item.CrystalType, Item.Enchanted, Item.MagicalDefense)), true, true, false);
 
 			//Weight
-			AddTooltipItemOption(52, String(Item.Weight), true, true, false);
+			AddTooltipItemOption(52, FormatTooltipNumber(Item.Weight), true, true, false);
 		break;
 
 		// 4. QUEST
@@ -600,7 +600,7 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 				AddTooltipItemOption(744, String(Item.Damaged*100), true, true, false);
 			}
 			//Weight
-			AddTooltipItemOption(52, String(Item.Weight), true, true, false);
+			AddTooltipItemOption(52, FormatTooltipNumber(Item.Weight), true, true, false);
 		break;
 
 		}
@@ -1261,7 +1261,7 @@ function ReturnTooltip_NTT_RECIPE(string param, ETooltipSourceType eSourceType, 
 		}
 
 		//Weight
-		AddTooltipItemOption(52, String(Item.Weight), true, true, false);
+		AddTooltipItemOption(52, FormatTooltipNumber(Item.Weight), true, true, false);
 
 		//설명
 		if (Len(Item.Description)>0)
@@ -1732,7 +1732,55 @@ function ReturnTooltip_NTT_MANOR(string param, string TooltipType, ETooltipSourc
 	ReturnTooltipInfo(m_Tooltip);
 }
 
+function string FormatTooltipNumber(int Value)
+{
+	local string Digits, Groups;
+	local int FirstDigit;
+
+	Digits = String(Value);
+	if (Value < 0)
+		FirstDigit = 1;
+	while (Len(Digits) - FirstDigit > 3)
+	{
+		Groups = " " $ Right(Digits, 3) $ Groups;
+		Digits = Left(Digits, Len(Digits) - 3);
+	}
+	return Digits $ Groups;
+}
+
+
 //"XXX : YYYY" 형태의 TooltipItem을 편하게 추가해 준다.
+function AddWeaponTooltipAttack(string Title, int BaseDamage, int TotalDamage)
+{
+	AddWeaponTooltipStat(Title, FormatTooltipNumber(TotalDamage));
+	if (TotalDamage <= BaseDamage)
+		return;
+
+	StartItem();
+	m_Info.eType = DIT_TEXT;
+	m_Info.nOffSetY = 6;
+	m_Info.t_bDrawOneLine = true;
+	m_Info.t_color.R = 163;
+	m_Info.t_color.G = 163;
+	m_Info.t_color.B = 163;
+	m_Info.t_color.A = 255;
+	m_Info.t_strText = " (" $ FormatTooltipNumber(BaseDamage);
+	EndItem();
+
+	m_Info.t_color.R = 128;
+	m_Info.t_color.G = 201;
+	m_Info.t_color.B = 148;
+	m_Info.t_strText = " +" $ FormatTooltipNumber(TotalDamage - BaseDamage);
+	EndItem();
+
+	m_Info.t_color.R = 163;
+	m_Info.t_color.G = 163;
+	m_Info.t_color.B = 163;
+	m_Info.t_strText = ")";
+	EndItem();
+}
+
+
 function AddWeaponTooltipStat(string Title, string Value)
 {
 	local int titleIndex;
@@ -1990,7 +2038,7 @@ function AddTooltipItemEnchant(ItemInfo Item)
 		m_Info.t_color.G = 155;
 		m_Info.t_color.B = 121;
 		m_Info.t_color.A = 255;
-		m_Info.t_strText = "+" $ Item.Enchanted $ " ";
+		m_Info.t_strText = "+" $ FormatTooltipNumber(Item.Enchanted) $ " ";
 		EndItem();
 	}
 }
