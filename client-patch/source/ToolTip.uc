@@ -679,6 +679,9 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 			EndItem();
 		}
 
+		if (DrawEquipmentSkills(Item.ServerID))
+			bLargeWidth = true;
+
 		if (eItemType == ITEM_WEAPON && (Item.RefineryOp1 != 0 || Item.RefineryOp2 != 0))
 		{
 			//빈공간
@@ -750,8 +753,6 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 
 		}
 
-		if (DrawEquipmentSkills(Item.ServerID))
-			bLargeWidth = true;
 
 		/////////////////////////////////////////////////////////////////////////////////////////
 		// 셋트 아이템 정보
@@ -2176,7 +2177,7 @@ function bool DrawEquipmentSkills(int ServerID)
 			drawn = true;
 		}
 		else
-			AddTooltipItemBlank(3);
+			AddItemTooltipDivider();
 		title = class'UIDATA_SKILL'.static.GetName(id, level);
 		skillType = EquipmentSkillType(Mid(types, i - 2, 1), id, level);
 		icon = class'UIDATA_SKILL'.static.GetIconName(id, level);
@@ -2218,7 +2219,6 @@ function bool DrawEquipmentSkills(int ServerID)
 			EndItem();
 			SetTooltipItemColor(176, 155, 121, 0);
 		}
-		AddItemTooltipDivider();
 		if (description != "")
 		{
 			StartItem();
