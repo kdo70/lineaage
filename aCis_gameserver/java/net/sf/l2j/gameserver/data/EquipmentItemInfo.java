@@ -5,9 +5,11 @@ import java.time.Instant;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.HexFormat;
+import java.util.StringJoiner;
 
 import net.sf.l2j.commons.pool.ConnectionPool;
 
+import net.sf.l2j.gameserver.data.xml.ItemData;
 import net.sf.l2j.gameserver.enums.SayType;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
@@ -44,6 +46,27 @@ public final class EquipmentItemInfo
 					+ " ADD COLUMN IF NOT EXISTS instance_title VARCHAR(32) CHARACTER SET utf8mb4 NOT NULL DEFAULT '',"
 					+ " ADD COLUMN IF NOT EXISTS first_owner_name VARCHAR(35) CHARACTER SET utf8mb4 NOT NULL DEFAULT '',"
 					+ " ADD COLUMN IF NOT EXISTS first_owned_at BIGINT NOT NULL DEFAULT 0");
+			}
+		}
+	}
+
+	public static void clearNonEquipableOwnership() throws SQLException
+	{
+		final StringJoiner ids = new StringJoiner(",");
+		for (var item : ItemData.getInstance().getTemplates())
+		{
+			if (item != null && !ItemInstance.isEquipable(item))
+				ids.add(Integer.toString(item.getItemId()));
+		}
+		if (ids.length() == 0)
+			return;
+
+		try (var connection = ConnectionPool.getConnection(); var statement = connection.createStatement())
+		{
+			for (String table : new String[] { "items", "items_on_ground" })
+			{
+				statement.executeUpdate("UPDATE " + table + " SET first_owner_name='', first_owned_at=0"
+					+ " WHERE (first_owner_name<>'' OR first_owned_at<>0) AND item_id IN (" + ids + ")");
 			}
 		}
 	}

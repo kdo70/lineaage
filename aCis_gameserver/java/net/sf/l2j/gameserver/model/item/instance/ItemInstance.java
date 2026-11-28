@@ -159,7 +159,8 @@ public final class ItemInstance extends WorldObject implements Runnable, Compara
 	public void restoreItemProfile(String title, String creator, long timestamp)
 	{
 		_instanceTitle = title;
-		_firstOwnership = new FirstOwnership(creator, timestamp);
+		if (isEquipable())
+			_firstOwnership = new FirstOwnership(creator, timestamp);
 	}
 
 	public List<L2Skill> getEquipmentSkills()
@@ -354,7 +355,7 @@ public final class ItemInstance extends WorldObject implements Runnable, Compara
 	 */
 	public synchronized void assignOwner(int ownerId, Playable owner)
 	{
-		if (_firstOwnership.timestamp() == 0 && owner instanceof Player player)
+		if (_firstOwnership.timestamp() == 0 && isEquipable() && owner instanceof Player player)
 			_firstOwnership = new FirstOwnership(player.getName(), System.currentTimeMillis());
 		setOwnerId(ownerId);
 	}
@@ -464,7 +465,12 @@ public final class ItemInstance extends WorldObject implements Runnable, Compara
 	 */
 	public boolean isEquipable()
 	{
-		return !(_item.getBodyPart() == 0 || _item.getItemType() == EtcItemType.ARROW || _item.getItemType() == EtcItemType.LURE);
+		return isEquipable(_item);
+	}
+
+	public static boolean isEquipable(Item item)
+	{
+		return !(item.getBodyPart() == 0 || item.getItemType() == EtcItemType.ARROW || item.getItemType() == EtcItemType.LURE);
 	}
 	
 	/**

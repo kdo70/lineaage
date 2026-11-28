@@ -165,6 +165,7 @@ public class GameServer
 		
 		StringUtil.printSection("Items");
 		ItemData.getInstance();
+		EquipmentItemInfo.clearNonEquipableOwnership();
 		SummonItemData.getInstance();
 		HennaData.getInstance();
 		BuyListManager.getInstance();
