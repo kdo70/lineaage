@@ -23,6 +23,7 @@ public class GameServerInfo
 	
 	private int _ageLimit;
 	private int _maxPlayers;
+	private volatile int _activityFlags;
 	
 	public GameServerInfo(int id, byte[] hexId, GameServerThread gst)
 	{
@@ -162,6 +163,16 @@ public class GameServerInfo
 		_ageLimit = ageLimit;
 	}
 	
+	public int getActivityFlags()
+	{
+		return _activityFlags;
+	}
+
+	public void setActivityFlags(int activityFlags)
+	{
+		_activityFlags = activityFlags;
+	}
+
 	public void setDown()
 	{
 		setAuthed(false);

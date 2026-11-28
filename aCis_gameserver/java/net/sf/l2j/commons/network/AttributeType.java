@@ -9,7 +9,8 @@ public enum AttributeType
 	AGE_LIMIT(4),
 	TEST_SERVER(5),
 	PVP_SERVER(6),
-	MAX_PLAYERS(7);
+	MAX_PLAYERS(7),
+	SERVER_LIST_ACTIVITY(8);
 	
 	private final int _id;
 	

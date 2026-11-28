@@ -66,7 +66,7 @@ public final class ServerList extends L2LoginServerPacket
 			writeH(server.maxPlayers());
 			writeC(server.type() == ServerType.DOWN ? 0x00 : 0x01);
 			
-			int bits = 0;
+			int bits = server.activityFlags();
 			if (server.isTestServer())
 				bits |= 0x04;
 			

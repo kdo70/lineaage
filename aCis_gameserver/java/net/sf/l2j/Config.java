@@ -491,6 +491,7 @@ public final class Config
 	/** serverList & Test */
 	public static boolean SERVER_LIST_BRACKET;
 	public static boolean SERVER_LIST_CLOCK;
+	public static boolean SERVER_LIST_ACTIVITY_24_HOURS;
 	public static int SERVER_LIST_AGE;
 	public static boolean SERVER_LIST_TESTSERVER;
 	public static boolean SERVER_LIST_PVPSERVER;
@@ -1070,6 +1071,7 @@ public final class Config
 		
 		SERVER_LIST_BRACKET = server.getProperty("ServerListBrackets", false);
 		SERVER_LIST_CLOCK = server.getProperty("ServerListClock", false);
+		SERVER_LIST_ACTIVITY_24_HOURS = server.getProperty("ServerListActivity24Hours", true);
 		SERVER_GMONLY = server.getProperty("ServerGMOnly", false);
 		SERVER_LIST_AGE = server.getProperty("ServerListAgeLimit", 0);
 		SERVER_LIST_TESTSERVER = server.getProperty("TestServer", false);

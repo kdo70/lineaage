@@ -12,15 +12,19 @@ import java.security.KeyFactory;
 import java.security.interfaces.RSAPublicKey;
 import java.security.spec.RSAKeyGenParameterSpec;
 import java.security.spec.RSAPublicKeySpec;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.TimeUnit;
 
 import net.sf.l2j.commons.logging.CLogger;
 import net.sf.l2j.commons.network.AttributeType;
 import net.sf.l2j.commons.network.ServerType;
+import net.sf.l2j.commons.pool.ConnectionPool;
+import net.sf.l2j.commons.pool.ThreadPool;
 import net.sf.l2j.commons.random.Rnd;
 
 import net.sf.l2j.Config;
@@ -55,6 +59,11 @@ public class LoginServerThread extends Thread
 	
 	private final Map<String, GameClient> _clients = new ConcurrentHashMap<>();
 	
+	private record ActivityConnection(OutputStream output, NewCrypt cipher)
+	{
+	}
+
+	private volatile ActivityConnection _activityConnection;
 	private int _serverId;
 	private String _serverName;
 	
@@ -91,6 +100,7 @@ public class LoginServerThread extends Thread
 	@Override
 	public void run()
 	{
+		ThreadPool.scheduleAtFixedRate(this::publishServerListActivity, 1000, 30_000);
 		while (!isInterrupted())
 		{
 			try
@@ -195,7 +205,9 @@ public class LoginServerThread extends Thread
 							ss.addAttribute(AttributeType.AGE_LIMIT, Config.SERVER_LIST_AGE);
 							ss.addAttribute(AttributeType.TEST_SERVER, Config.SERVER_LIST_TESTSERVER);
 							ss.addAttribute(AttributeType.PVP_SERVER, Config.SERVER_LIST_PVPSERVER);
+							ss.addAttribute(AttributeType.SERVER_LIST_ACTIVITY, getServerListActivity());
 							sendPacket(ss);
+							_activityConnection = new ActivityConnection(_out, _blowfish);
 							
 							final Collection<Player> players = World.getInstance().getPlayers();
 							if (!players.isEmpty())
@@ -251,6 +263,7 @@ public class LoginServerThread extends Thread
 			}
 			finally
 			{
+				_activityConnection = null;
 				try
 				{
 					_loginSocket.close();
@@ -345,23 +358,71 @@ public class LoginServerThread extends Thread
 		return array;
 	}
 	
-	private void sendPacket(GameServerBasePacket sl) throws IOException
+	private int getServerListActivity()
 	{
-		byte[] data = sl.getContent();
-		NewCrypt.appendChecksum(data);
-		
-		data = _blowfish.crypt(data);
-		
-		int len = data.length + 2;
-		synchronized (_out) // avoids tow threads writing in the mean time
+		final boolean daily = Config.SERVER_LIST_ACTIVITY_24_HOURS;
+		try (var connection = ConnectionPool.getConnection();
+			var statement = connection.prepareStatement(daily ? "SELECT COUNT(*) FROM characters WHERE online = 1 OR lastAccess >= ?" : "SELECT COUNT(*) FROM characters WHERE online = 1"))
 		{
-			_out.write(len & 0xff);
-			_out.write(len >> 8 & 0xff);
-			_out.write(data);
-			_out.flush();
+			if (daily)
+				statement.setLong(1, System.currentTimeMillis() - TimeUnit.HOURS.toMillis(24));
+
+			try (var result = statement.executeQuery())
+			{
+				result.next();
+				return (daily ? 0x200 : 0x100) | ((int) Math.min(result.getLong(1), 0x1fffff) << 10);
+			}
+		}
+		catch (SQLException e)
+		{
+			LOGGER.warn("Could not count server list activity.", e);
+			return 0;
 		}
 	}
-	
+
+	private void publishServerListActivity()
+	{
+		final ActivityConnection connection = _activityConnection;
+		if (connection == null)
+			return;
+
+		final int activity = getServerListActivity();
+		if (activity == 0 || connection != _activityConnection)
+			return;
+
+		final ServerStatus status = new ServerStatus();
+		status.addAttribute(AttributeType.SERVER_LIST_ACTIVITY, activity);
+		try
+		{
+			sendPacket(status, connection.output(), connection.cipher());
+		}
+		catch (IOException e)
+		{
+			// The next registration sends a fresh count.
+		}
+	}
+
+	private void sendPacket(GameServerBasePacket sl) throws IOException
+	{
+		sendPacket(sl, _out, _blowfish);
+	}
+
+	private static void sendPacket(GameServerBasePacket packet, OutputStream output, NewCrypt cipher) throws IOException
+	{
+		byte[] data = packet.getContent();
+		NewCrypt.appendChecksum(data);
+
+		synchronized (output)
+		{
+			data = cipher.crypt(data);
+			final int length = data.length + 2;
+			output.write(length & 0xff);
+			output.write(length >> 8 & 0xff);
+			output.write(data);
+			output.flush();
+		}
+	}
+
 	public void setMaxPlayer(int maxPlayers)
 	{
 		sendServerStatus(AttributeType.MAX_PLAYERS, maxPlayers);
