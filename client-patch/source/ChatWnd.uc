@@ -18,6 +18,15 @@ struct ChatFilterInfo
 };
 
 //Global Setting
+const FpsSampleTimer = 1;
+
+var bool bFpsSampling;
+var bool bShowClock;
+var bool bStatusDisplayInGame;
+var int LastFps;
+var bool bHaveFpsSample;
+var int FpsFrameCount;
+
 var int	m_NoUnionCommanderMessage;
 
 var array<ChatFilterInfo>	m_filterInfo;
@@ -340,6 +349,7 @@ function HandleTabClick( string strID )
 
 function OnEnterState( name a_PrevStateName )
 {
+	RestoreStatusDisplay();
 	if( a_PrevStateName == 'LoadingState' )			// 게임 중에 다른 스테이트(스페셜카메라 등)으로 갔다가 다시 들어오는 경우는 Clear()를 불러주면 안되기때문에
 	{
 		Clear();
@@ -995,4 +1005,99 @@ function EChatType GetChatTypeByTabIndex(int Index)
 		break;
 	}
 	return Type;
+}
+
+function RestoreStatusDisplay()
+{
+	local int ShowFps;
+	local int ShowClock;
+
+	bStatusDisplayInGame = true;
+	GetINIBool("Video", "ShowFPS", ShowFps, "fps-counter.ini");
+	GetINIBool("Video", "ShowClock", ShowClock, "fps-counter.ini");
+	SetStatusDisplay(ShowFps != 0, ShowClock != 0);
+}
+
+function SetStatusDisplay(bool ShowFps, bool ShowClock)
+{
+	local bool HadTimer;
+
+	if (!bStatusDisplayInGame)
+		return;
+
+	HadTimer = bFpsSampling || bShowClock;
+	if (ShowFps && !bFpsSampling)
+	{
+		bHaveFpsSample = false;
+		LastFps = -1;
+		FpsFrameCount = 0;
+	}
+
+	bFpsSampling = ShowFps;
+	bShowClock = ShowClock;
+
+	if (ShowFps || ShowClock)
+	{
+		UpdateStatusDisplay();
+		class'UIAPI_WINDOW'.static.ShowWindow("FpsCounterWnd");
+		if (!HadTimer)
+			class'UIAPI_WINDOW'.static.SetUITimer("ChatWnd", FpsSampleTimer, 1000);
+	}
+	else
+	{
+		if (HadTimer)
+			class'UIAPI_WINDOW'.static.KillUITimer("ChatWnd", FpsSampleTimer);
+		class'UIAPI_WINDOW'.static.HideWindow("FpsCounterWnd");
+	}
+}
+
+function UpdateStatusDisplay()
+{
+	local string DisplayText;
+
+	if (bFpsSampling)
+	{
+		if (LastFps < 0)
+			DisplayText = "FPS: ...";
+		else
+			DisplayText = "FPS: " $ LastFps;
+	}
+
+	if (bShowClock)
+	{
+		if (bFpsSampling)
+			DisplayText = DisplayText $ "  |  ";
+		DisplayText = DisplayText $ GetTimeString();
+	}
+
+	class'UIAPI_TEXTBOX'.static.SetText("FpsCounterWnd.FpsValue", DisplayText);
+}
+
+function OnExitState(name NextState)
+{
+	SetStatusDisplay(false, false);
+	bStatusDisplayInGame = false;
+}
+
+function OnTick()
+{
+	if (bFpsSampling)
+		++FpsFrameCount;
+}
+
+function OnTimer(int TimerID)
+{
+	if (TimerID != FpsSampleTimer || (!bFpsSampling && !bShowClock))
+		return;
+
+	if (bFpsSampling)
+	{
+		if (bHaveFpsSample)
+			LastFps = FpsFrameCount;
+
+		bHaveFpsSample = true;
+		FpsFrameCount = 0;
+	}
+
+	UpdateStatusDisplay();
 }
