@@ -250,16 +250,20 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 	local int ClassID;
 
 	//아데나읽어주기
+	local int weaponIconIndex;
 	local string strAdena;
 	local string strAdenaComma;
 	local color	 AdenaColor;
 
+	weaponIconIndex = -1;
 	if (eSourceType == NTST_ITEM)
 	{
 		ParamToItemInfo(param, Item);
 		RequestEquipmentInfo(Item.ServerID);
 
 		eItemType = EItemType(Item.ItemType);
+		if (eItemType == ITEM_WEAPON && (Item.RefineryOp1 != 0 || Item.RefineryOp2 != 0))
+			Item.IconName = class'TooltipAugmentIcons'.static.Resolve(Item.ClassID, Item.IconName);
 		eEtcItemType = EEtcItemType(Item.ItemSubType);
 
 		//아이템 이름 취득
@@ -275,6 +279,36 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 
 		//Grade Mark
 		AddTooltipItemGrade(Item);
+		if (eItemType == ITEM_WEAPON)
+		{
+			strTmp = GetWeaponTypeString(Item.WeaponType);
+			SlotString = GetSlotTypeString(Item.ItemType, Item.SlotBitType, Item.ArmorType);
+			StartItem();
+			m_Info.eType = DIT_TEXT;
+			m_Info.bLineBreak = true;
+			m_Info.t_bDrawOneLine = true;
+			m_Info.t_strText = SlotString;
+			if (strTmp != "")
+				m_Info.t_strText = strTmp $ " / " $ SlotString;
+			EndItem();
+			SetTooltipItemColor(176, 155, 121, 0);
+
+			if (Item.IconName != "")
+			{
+				weaponIconIndex = m_Tooltip.DrawList.Length;
+				StartItem();
+				m_Info.eType = DIT_TEXTURE;
+				m_Info.bLineBreak = true;
+				m_Info.nOffSetY = -28;
+				m_Info.u_strTexture = Item.IconName;
+				m_Info.u_nTextureWidth = 32;
+				m_Info.u_nTextureHeight = 32;
+				m_Info.u_nTextureUWidth = 32;
+				m_Info.u_nTextureUHeight = 32;
+				EndItem();
+			}
+			AddItemTooltipDivider();
+		}
 
 		//아이템 갯수
 		if (TooltipType != "InventoryPrice1HideEnchantStackable")
@@ -416,39 +450,25 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 		case ITEM_WEAPON:
 			bLargeWidth = true;
 
-			//Slot Type
-			strTmp = GetWeaponTypeString(Item.WeaponType);
-			if (Len(strTmp)>0)
-			{
-				AddTooltipItemOption(0, strTmp $ " / " $ SlotString, false, true, false);
-			}
-
-			//빈공간
-			AddTooltipItemBlank(12);
-
-			//"[무기 제원]"
-			AddTooltipItemOption(0, "<" $ Chr(1061) $ Chr(1072) $ Chr(1088) $ Chr(1072) $ Chr(1082) $ Chr(1090) $ Chr(1077) $ Chr(1088) $ Chr(1080) $ Chr(1089) $ Chr(1090) $ Chr(1080) $ Chr(1082) $ Chr(1080) $ Chr(32) $ Chr(1086) $ Chr(1088) $ Chr(1091) $ Chr(1078) $ Chr(1080) $ Chr(1103) $ ">", false, true, false);
-			SetTooltipItemColor(255, 255, 255, 0);
-
 			//Physical Damage
-			AddTooltipItemOption(94, String(GetPhysicalDamage(Item.WeaponType, Item.SlotBitType, Item.CrystalType, Item.Enchanted, Item.PhysicalDamage)), true, true, false);
+			AddWeaponTooltipStat(Chr(1060) $ Chr(1080) $ Chr(1079) $ Chr(46) $ Chr(1040) $ Chr(1090) $ Chr(1082) $ Chr(46), String(GetPhysicalDamage(Item.WeaponType, Item.SlotBitType, Item.CrystalType, Item.Enchanted, Item.PhysicalDamage)));
 
 			//Masical Damage
-			AddTooltipItemOption(98, String(GetMagicalDamage(Item.WeaponType, Item.SlotBitType, Item.CrystalType, Item.Enchanted, Item.MagicalDamage)), true, true, false);
+			AddWeaponTooltipStat(Chr(1052) $ Chr(1072) $ Chr(1075) $ Chr(46) $ Chr(1040) $ Chr(1090) $ Chr(1082) $ Chr(46), String(GetMagicalDamage(Item.WeaponType, Item.SlotBitType, Item.CrystalType, Item.Enchanted, Item.MagicalDamage)));
 
 			//Attack Speed
-			AddTooltipItemOption(111, GetAttackSpeedString(Item.AttackSpeed), true, true, false);
+			AddWeaponTooltipStat(Chr(1057) $ Chr(1082) $ Chr(1086) $ Chr(1088) $ Chr(46) $ Chr(1040) $ Chr(1090) $ Chr(1082) $ Chr(46), GetAttackSpeedString(Item.AttackSpeed));
 
 			//SoulShot Count
 			if (Item.SoulshotCount>0)
 			{
-				AddTooltipItemOption(404, "X " $ Item.SoulshotCount, true, true, false);
+				AddWeaponTooltipStat(Chr(1056) $ Chr(1072) $ Chr(1089) $ Chr(1093) $ Chr(1086) $ Chr(1076) $ Chr(32) $ Chr(1047) $ Chr(1072) $ Chr(1088) $ Chr(1103) $ Chr(1076) $ Chr(1086) $ Chr(1074) $ Chr(32) $ Chr(1044) $ Chr(1091) $ Chr(1096) $ Chr(1080), "X " $ Item.SoulshotCount);
 			}
 
 			//SpiritShot Count
 			if (Item.SpiritShotCount>0)
 			{
-				AddTooltipItemOption(496, "X " $ Item.SpiritshotCount, true, true, false);
+				AddWeaponTooltipStat(Chr(1056) $ Chr(1072) $ Chr(1089) $ Chr(1093) $ Chr(1086) $ Chr(1076) $ Chr(32) $ Chr(1047) $ Chr(1072) $ Chr(1088) $ Chr(1103) $ Chr(1076) $ Chr(1086) $ Chr(1074) $ Chr(32) $ Chr(1044) $ Chr(1091) $ Chr(1093) $ Chr(1072), "X " $ Item.SpiritshotCount);
 			}
 
 			//Weight
@@ -461,83 +481,6 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 			}
 
 			//제련효과
-			if (Item.RefineryOp1 != 0 || Item.RefineryOp2 != 0)
-			{
-				//빈공간
-				AddTooltipItemBlank(12);
-
-				//"[제련효과]"
-				AddTooltipItemOption(1490, "", true, false, false);
-				SetTooltipItemColor(255, 255, 255, 0);
-
-				//컬러값 취득
-				if (Item.RefineryOp2 != 0)
-				{
-					Quality = class'UIDATA_REFINERYOPTION'.static.GetQuality( Item.RefineryOp2 );
-					GetRefineryColor(Quality, ColorR, ColorG, ColorB);
-				}
-
-				if (Item.RefineryOp1 != 0)
-				{
-					strDesc1 = "";
-					strDesc2 = "";
-					strDesc3 = "";
-					if (class'UIDATA_REFINERYOPTION'.static.GetOptionDescription( Item.RefineryOp1, strDesc1, strDesc2, strDesc3 ))
-					{
-						if (Len(strDesc1)>0)
-						{
-							AddTooltipItemOption(0, strDesc1, false, true, false);
-							SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
-						}
-						if (Len(strDesc2)>0)
-						{
-							AddTooltipItemOption(0, strDesc2, false, true, false);
-							SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
-						}
-						if (Len(strDesc3)>0)
-						{
-							AddTooltipItemOption(0, strDesc3, false, true, false);
-							SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
-						}
-					}
-				}
-
-				if (Item.RefineryOp2 != 0)
-				{
-					strDesc1 = "";
-					strDesc2 = "";
-					strDesc3 = "";
-					if (class'UIDATA_REFINERYOPTION'.static.GetOptionDescription( Item.RefineryOp2, strDesc1, strDesc2, strDesc3 ))
-					{
-						if (Len(strDesc1)>0)
-						{
-							AddTooltipItemOption(0, strDesc1, false, true, false);
-							SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
-
-						}
-						if (Len(strDesc2)>0)
-						{
-							AddTooltipItemOption(0, strDesc2, false, true, false);
-							SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
-						}
-						if (Len(strDesc3)>0)
-						{
-							AddTooltipItemOption(0, strDesc3, false, true, false);
-							SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
-						}
-					}
-				}
-
-				//"교환/드롭 불가"
-				AddTooltipItemOption(1491, "", true, false, false);
-				SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
-
-				//빈공간
-				if (Len(Item.Description)>0)
-				{
-					AddTooltipItemBlank(12);
-				}
-			}
 		break;
 
 		// 2. ARMOR
@@ -723,13 +666,10 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 		if (Len(Item.Description)>0)
 		{
 			bLargeWidth = true;
-			AddTooltipItemBlank(12);
-			AddTooltipItemOption(0, "<" $ Chr(1054) $ Chr(1087) $ Chr(1080) $ Chr(1089) $ Chr(1072) $ Chr(1085) $ Chr(1080) $ Chr(1077) $ Chr(32) $ Chr(1087) $ Chr(1088) $ Chr(1077) $ Chr(1076) $ Chr(1084) $ Chr(1077) $ Chr(1090) $ Chr(1072) $ ">", false, true, false);
-			SetTooltipItemColor(163, 163, 163, 0);
+			AddItemTooltipDivider();
 
 			StartItem();
 			m_Info.eType = DIT_TEXT;
-			m_Info.nOffSetY = 6;
 			m_Info.bLineBreak = true;
 			m_Info.t_color.R = 178;
 			m_Info.t_color.G = 190;
@@ -737,6 +677,77 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 			m_Info.t_color.A = 255;
 			m_Info.t_strText = Item.Description;
 			EndItem();
+		}
+
+		if (eItemType == ITEM_WEAPON && (Item.RefineryOp1 != 0 || Item.RefineryOp2 != 0))
+		{
+			//빈공간
+
+			//"[제련효과]"
+			AddItemSectionHeading(Chr(1069) $ Chr(1092) $ Chr(1092) $ Chr(1077) $ Chr(1082) $ Chr(1090) $ Chr(32) $ Chr(1079) $ Chr(1072) $ Chr(1095) $ Chr(1072) $ Chr(1088) $ Chr(1086) $ Chr(1074) $ Chr(1072) $ Chr(1085) $ Chr(1080) $ Chr(1103), "L2UI_CH3.QuestWnd.QuestWndInfoIcon_2");
+
+			//컬러값 취득
+			if (Item.RefineryOp2 != 0)
+			{
+				Quality = class'UIDATA_REFINERYOPTION'.static.GetQuality( Item.RefineryOp2 );
+				GetRefineryColor(Quality, ColorR, ColorG, ColorB);
+			}
+
+			if (Item.RefineryOp1 != 0)
+			{
+				strDesc1 = "";
+				strDesc2 = "";
+				strDesc3 = "";
+				if (class'UIDATA_REFINERYOPTION'.static.GetOptionDescription( Item.RefineryOp1, strDesc1, strDesc2, strDesc3 ))
+				{
+					if (Len(strDesc1)>0)
+					{
+						AddTooltipItemOption(0, strDesc1, false, true, false);
+						SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
+					}
+					if (Len(strDesc2)>0)
+					{
+						AddTooltipItemOption(0, strDesc2, false, true, false);
+						SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
+					}
+					if (Len(strDesc3)>0)
+					{
+						AddTooltipItemOption(0, strDesc3, false, true, false);
+						SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
+					}
+				}
+			}
+
+			if (Item.RefineryOp2 != 0)
+			{
+				strDesc1 = "";
+				strDesc2 = "";
+				strDesc3 = "";
+				if (class'UIDATA_REFINERYOPTION'.static.GetOptionDescription( Item.RefineryOp2, strDesc1, strDesc2, strDesc3 ))
+				{
+					if (Len(strDesc1)>0)
+					{
+						AddTooltipItemOption(0, strDesc1, false, true, false);
+						SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
+
+					}
+					if (Len(strDesc2)>0)
+					{
+						AddTooltipItemOption(0, strDesc2, false, true, false);
+						SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
+					}
+					if (Len(strDesc3)>0)
+					{
+						AddTooltipItemOption(0, strDesc3, false, true, false);
+						SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
+					}
+				}
+			}
+
+			//"교환/드롭 불가"
+			AddTooltipItemOption(1491, "", true, false, false);
+			SetTooltipItemColor(ColorR, ColorG, ColorB, 0);
+
 		}
 
 		if (DrawEquipmentSkills(Item.ServerID))
@@ -837,6 +848,7 @@ function ReturnTooltip_NTT_ITEM(string param, String TooltipType, ETooltipSource
 	if (bLargeWidth)
 		m_Tooltip.MinimumWidth = TOOLTIP_MINIMUM_WIDTH;
 
+	FitItemTooltipDecoration(weaponIconIndex);
 	ReturnTooltipInfo(m_Tooltip);
 }
 
@@ -1720,6 +1732,15 @@ function ReturnTooltip_NTT_MANOR(string param, string TooltipType, ETooltipSourc
 }
 
 //"XXX : YYYY" 형태의 TooltipItem을 편하게 추가해 준다.
+function AddWeaponTooltipStat(string Title, string Value)
+{
+	local int titleIndex;
+
+	titleIndex = m_Tooltip.DrawList.Length;
+	AddTooltipItemOption(0, Value, true, true, false);
+	m_Tooltip.DrawList[titleIndex].t_strText = Title;
+}
+
 function AddTooltipItemOption(int TitleID, string Content, bool bTitle, bool bContent, bool IamFirst)
 {
 	if (bTitle)
@@ -1836,6 +1857,115 @@ function SetTooltipItemColor(int R, int G, int B, int Offset)
 }
 
 //빈공간의 TooltipItem을 추가한다.
+function FitItemTooltipDecoration(int WeaponIconIndex)
+{
+	local int i, rowWidth, maxWidth, width, height, headerWidth;
+	local string caption;
+	local DrawItemInfo item;
+
+	maxWidth = Max(m_Tooltip.MinimumWidth, 140);
+	for (i = 0; i < m_Tooltip.DrawList.Length; i++)
+	{
+		item = m_Tooltip.DrawList[i];
+		if (i == WeaponIconIndex)
+			headerWidth = maxWidth;
+		if (item.bLineBreak)
+			rowWidth = 0;
+
+		if (item.eType == DIT_TEXTURE && (item.u_strTexture == "L2UI_CH3.InventoryWnd.inventory_tab2" || item.u_strTexture == "L2UI.Tooltip.Tool08"))
+		{
+			rowWidth = item.u_nTextureWidth;
+		}
+		else if (item.eType == DIT_TEXTURE)
+		{
+			rowWidth += item.nOffSetX + item.u_nTextureWidth;
+		}
+		else if (item.eType == DIT_TEXT && item.t_bDrawOneLine)
+		{
+			caption = item.t_strText;
+			if (item.t_ID != 0)
+				caption = GetSystemString(item.t_ID);
+			GetTextSize(caption, width, height);
+			rowWidth += item.nOffSetX + width;
+		}
+		maxWidth = Max(maxWidth, rowWidth);
+	}
+	if (WeaponIconIndex >= 0)
+	{
+		maxWidth = Max(maxWidth, headerWidth + 36);
+		m_Tooltip.DrawList[WeaponIconIndex].nOffSetX = maxWidth - 32;
+	}
+	for (i = 0; i < m_Tooltip.DrawList.Length; i++)
+	{
+		item = m_Tooltip.DrawList[i];
+		if (i == WeaponIconIndex)
+			headerWidth = maxWidth;
+		if (item.eType != DIT_TEXTURE)
+			continue;
+		if (item.u_strTexture == "L2UI_CH3.InventoryWnd.inventory_tab2")
+		{
+			m_Tooltip.DrawList[i].u_nTextureWidth = maxWidth;
+			m_Tooltip.DrawList[i + 1].nOffSetX = 3 - maxWidth;
+		}
+		else if (item.u_strTexture == "L2UI.Tooltip.Tool08")
+			m_Tooltip.DrawList[i].u_nTextureWidth = maxWidth;
+	}
+}
+
+function AddItemTooltipDivider(optional bool Flush)
+{
+	if (!Flush)
+		AddTooltipItemBlank(2);
+	StartItem();
+	m_Info.eType = DIT_TEXTURE;
+	m_Info.bLineBreak = true;
+	m_Info.u_strTexture = "L2UI.Tooltip.Tool08";
+	m_Info.u_nTextureWidth = 140;
+	m_Info.u_nTextureHeight = 1;
+	m_Info.u_nTextureUWidth = 8;
+	m_Info.u_nTextureUHeight = 1;
+	EndItem();
+	if (!Flush)
+		AddTooltipItemBlank(2);
+}
+
+function AddItemSectionHeading(string Title, string Icon)
+{
+	AddTooltipItemBlank(3);
+	AddItemTooltipDivider(true);
+
+	StartItem();
+	m_Info.eType = DIT_TEXTURE;
+	m_Info.bLineBreak = true;
+	m_Info.u_strTexture = "L2UI_CH3.InventoryWnd.inventory_tab2";
+	m_Info.u_nTextureWidth = 140;
+	m_Info.u_nTextureHeight = 16;
+	m_Info.u_nTextureUWidth = 1;
+	m_Info.u_nTextureUHeight = 1;
+	EndItem();
+
+	StartItem();
+	m_Info.eType = DIT_TEXTURE;
+	m_Info.nOffSetX = -137;
+	m_Info.nOffSetY = 1;
+	m_Info.u_strTexture = Icon;
+	m_Info.u_nTextureWidth = 16;
+	m_Info.u_nTextureHeight = 16;
+	m_Info.u_nTextureUWidth = 16;
+	m_Info.u_nTextureUHeight = 16;
+	EndItem();
+
+	StartItem();
+	m_Info.eType = DIT_TEXT;
+	m_Info.t_bDrawOneLine = true;
+	m_Info.nOffSetY = 2;
+	m_Info.t_strText = Title;
+	EndItem();
+	SetTooltipItemColor(190, 185, 173, 0);
+	AddItemTooltipDivider(true);
+}
+
+
 function AddTooltipItemBlank(int Height)
 {
 	StartItem();
@@ -1980,11 +2110,25 @@ function bool DrawFirstOwnership(int ServerID)
 	if (creator == "" || date == "")
 		return false;
 
-	AddTooltipItemBlank(4);
-	AddTooltipItemOption(0, (Chr(1055) $ Chr(1077) $ Chr(1088) $ Chr(1074) $ Chr(1099) $ Chr(1081) $ Chr(32) $ Chr(1074) $ Chr(1083) $ Chr(1072) $ Chr(1076) $ Chr(1077) $ Chr(1083) $ Chr(1077) $ Chr(1094)) $ ": " $ creator, false, true, false);
+	AddItemSectionHeading(Chr(1057) $ Chr(1074) $ Chr(1077) $ Chr(1076) $ Chr(1077) $ Chr(1085) $ Chr(1080) $ Chr(1103) $ Chr(32) $ Chr(1086) $ Chr(32) $ Chr(1074) $ Chr(1083) $ Chr(1072) $ Chr(1076) $ Chr(1077) $ Chr(1083) $ Chr(1100) $ Chr(1094) $ Chr(1077), "L2UI_CH3.QuestWnd.QuestWndInfoIcon_1");
+	AddTooltipItemOption(0, (Chr(1055) $ Chr(1077) $ Chr(1088) $ Chr(1074) $ Chr(1099) $ Chr(1081) $ Chr(32) $ Chr(1074) $ Chr(1083) $ Chr(1072) $ Chr(1076) $ Chr(1077) $ Chr(1083) $ Chr(1077) $ Chr(1094)) $ ": ", false, true, false);
 	SetTooltipItemColor(163, 163, 163, 0);
-	AddTooltipItemOption(0, (Chr(1044) $ Chr(1072) $ Chr(1090) $ Chr(1072) $ Chr(32) $ Chr(1087) $ Chr(1086) $ Chr(1083) $ Chr(1091) $ Chr(1095) $ Chr(1077) $ Chr(1085) $ Chr(1080) $ Chr(1103)) $ ": " $ date, false, true, false);
+	StartItem();
+	m_Info.eType = DIT_TEXT;
+	m_Info.t_bDrawOneLine = true;
+	m_Info.nOffSetY = 6;
+	m_Info.t_strText = creator;
+	EndItem();
+	SetTooltipItemColor(176, 155, 121, 0);
+	AddTooltipItemOption(0, (Chr(1044) $ Chr(1072) $ Chr(1090) $ Chr(1072)) $ ": ", false, true, false);
 	SetTooltipItemColor(163, 163, 163, 0);
+	StartItem();
+	m_Info.eType = DIT_TEXT;
+	m_Info.t_bDrawOneLine = true;
+	m_Info.nOffSetY = 6;
+	m_Info.t_strText = date;
+	EndItem();
+	SetTooltipItemColor(176, 155, 121, 0);
 	return true;
 }
 
@@ -2027,14 +2171,12 @@ function bool DrawEquipmentSkills(int ServerID)
 			continue;
 		if (!drawn)
 		{
-			AddTooltipItemBlank(12);
-			AddTooltipItemOption(0, "<" $ Chr(1059) $ Chr(1084) $ Chr(1077) $ Chr(1085) $ Chr(1080) $ Chr(1103) $  " "  $ Chr(1101) $ Chr(1082) $ Chr(1080) $ Chr(1087) $ Chr(1080) $ Chr(1088) $ Chr(1086) $ Chr(1074) $ Chr(1082) $ Chr(1080) $ ">", false, true, false);
-			SetTooltipItemColor(163, 163, 163, 0);
-			AddTooltipItemBlank(12);
+			AddItemSectionHeading(Chr(1069) $ Chr(1092) $ Chr(1092) $ Chr(1077) $ Chr(1082) $ Chr(1090) $ Chr(32) $ Chr(1084) $ Chr(1086) $ Chr(1076) $ Chr(1080) $ Chr(1092) $ Chr(1080) $ Chr(1082) $ Chr(1072) $ Chr(1094) $ Chr(1080) $ Chr(1080), "L2UI_CH3.QuestWnd.QuestWndInfoIcon_3");
+			AddTooltipItemBlank(2);
 			drawn = true;
 		}
 		else
-			AddTooltipItemBlank(16);
+			AddTooltipItemBlank(3);
 		title = class'UIDATA_SKILL'.static.GetName(id, level);
 		skillType = EquipmentSkillType(Mid(types, i - 2, 1), id, level);
 		icon = class'UIDATA_SKILL'.static.GetIconName(id, level);
@@ -2057,7 +2199,14 @@ function bool DrawEquipmentSkills(int ServerID)
 		m_Info.eType = DIT_TEXT;
 		m_Info.bLineBreak = icon == "";
 		m_Info.t_bDrawOneLine = true;
-		m_Info.t_strText = " " $ title $ " Lv. " $ String(level);
+		m_Info.t_strText = " " $ title;
+		EndItem();
+		SetTooltipItemColor(190, 186, 177, 0);
+
+		StartItem();
+		m_Info.eType = DIT_TEXT;
+		m_Info.t_bDrawOneLine = true;
+		m_Info.t_strText = " Lv. " $ String(level);
 		EndItem();
 		SetTooltipItemColor(176, 155, 121, 0);
 		if (skillType != "")
@@ -2065,21 +2214,11 @@ function bool DrawEquipmentSkills(int ServerID)
 			StartItem();
 			m_Info.eType = DIT_TEXT;
 			m_Info.t_bDrawOneLine = true;
-			m_Info.t_strText = " " $ Chr(8212) $ " " $ skillType;
+			m_Info.t_strText = " - " $ skillType;
 			EndItem();
-			SetTooltipItemColor(163, 163, 163, 0);
+			SetTooltipItemColor(176, 155, 121, 0);
 		}
-		StartItem();
-		m_Info.eType = DIT_TEXTURE;
-		m_Info.bLineBreak = true;
-		m_Info.nOffSetY = 3;
-		m_Info.u_strTexture = "L2UI.SquareWhite";
-		m_Info.u_nTextureWidth = 140;
-		m_Info.u_nTextureHeight = 1;
-		m_Info.u_nTextureUWidth = 1;
-		m_Info.u_nTextureUHeight = 1;
-		EndItem();
-		AddTooltipItemBlank(4);
+		AddItemTooltipDivider();
 		if (description != "")
 		{
 			StartItem();
@@ -2087,11 +2226,9 @@ function bool DrawEquipmentSkills(int ServerID)
 			m_Info.bLineBreak = true;
 			m_Info.t_strText = description;
 			EndItem();
-			SetTooltipItemColor(163, 163, 163, 0);
+			SetTooltipItemColor(178, 190, 207, 0);
 		}
 	}
-	if (drawn)
-		AddTooltipItemBlank(6);
 	return drawn;
 }
 
