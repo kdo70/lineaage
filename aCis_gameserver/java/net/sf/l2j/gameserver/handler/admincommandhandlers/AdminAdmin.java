@@ -98,7 +98,6 @@ public class AdminAdmin implements IAdminCommandHandler
 							player.sendMessage("Usage: //buy all weaponBuyListId");
 						else
 							AdminWeaponGrant.give(player, Integer.parseInt(st.nextToken()));
-						sendFile(player, "gmshop/Weapons.htm");
 						return;
 					}
 					final NpcBuyList list = BuyListManager.getInstance().getBuyList(Integer.parseInt(listName));
